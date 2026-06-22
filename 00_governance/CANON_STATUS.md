@@ -10,8 +10,12 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 
 ## Locked spellings
 
-- **Friedmandostorp** — canonical settlement spelling (with an "o"). The "Friedmandostorp"
-  (e) variant is RETIRED and must not be reintroduced.
+- **Friedmandostorp** — canonical settlement spelling (with an "o" in the middle syllable:
+  "...mand**o**storp"). The variant **"Friedmandestorp"** (an "e" in that syllable) is
+  RETIRED and must not be reintroduced — most recently resurfaced in a 2026-06-22
+  repository-restructuring brief and corrected back to the locked spelling.
+- **Jackal Peoples** — canonical faction-layer name. The variant **"Jackal Tribes"** is
+  RETIRED for the same reason (2026-06-22 brief).
 - **Tallai / Talla** — both forms attested in source canon; treated as the same person
   pending confirmation of a single preferred form. See Open Questions.
 - **Sisekong / Tishekong** — RETIRED as transcription errors. The correct names are
