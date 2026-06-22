@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visual Archive — UMADA</title>
+<meta name="description" content="The realized plates and animatic — the visual source of truth for UMADA.">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script src="../assets/js/data-loader.js" defer></script>
+<script src="../assets/js/accessibility.js" defer></script>
+<script src="../assets/js/nav.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="site-header__top">
+    <p class="site-title"><a href="../index.html">UMADA</a></p>
+    <p class="site-tagline">A world being remembered.</p>
+  </div>
+  <nav class="primary-nav" aria-label="Primary"><details><summary>Browse the archive (20 sections)</summary><div class="nav-groups"><div class="nav-group"><h2>Orient</h2><ul><li><a href="start-here.html">Start Here</a></li></ul></div><div class="nav-group"><h2>Canon</h2><ul><li><a href="foundational-strata.html">Foundational Strata</a></li><li><a href="civilizational-ledger.html">Civilizational Ledger</a></li><li><a href="founding-myths.html">Founding Myths</a></li><li><a href="timeline.html">Timeline</a></li></ul></div><div class="nav-group"><h2>World</h2><ul><li><a href="characters.html">Characters</a></li><li><a href="places.html">Places</a></li><li><a href="kingdoms-factions.html">Kingdoms & Factions</a></li></ul></div><div class="nav-group"><h2>Language</h2><ul><li><a href="language-signage.html">Language & Signage</a></li><li><a href="nago-symbology.html">Nago Symbology</a></li></ul></div><div class="nav-group"><h2>Access</h2><ul><li><a href="accessibility.html">Accessibility</a></li></ul></div><div class="nav-group"><h2>Visual</h2><ul><li><a href="visual-archive.html">Visual Archive</a></li><li><a href="visual-canon.html">Visual Canon</a></li><li><a href="atlas.html">Atlas</a></li></ul></div><div class="nav-group"><h2>Production</h2><ul><li><a href="episode-releases.html">Episode Releases</a></li><li><a href="research-archive.html">Research Archive</a></li><li><a href="creator-archive.html">Creator Archive</a></li></ul></div><div class="nav-group"><h2>Fan</h2><ul><li><a href="faraday-box.html">Faraday Box</a></li><li><a href="fan-explorer.html">Fan Explorer</a></li><li><a href="fan-archive.html">Fan Archive</a></li></ul></div></div></details></nav>
+</header>
+<main id="main">
+
+<p class="meta-line">Visual</p>
+<h1>Visual Archive</h1>
+<p class="lede">The realized plates and animatic below are the <strong>visual source of
+truth</strong> for UMADA. Where any document in this archive disagrees with what's shown
+here, what's shown here wins. The documentation view of these same artifacts — provenance,
+canon implications, open questions — lives in <a href="visual-canon.html">Visual
+Canon</a>.</p>
+
+<div id="present-artifacts" aria-live="polite"></div>
+
+<h2>Awaiting fragment</h2>
+<p>Named in source material, not yet physically present. Indexed only — contents are not
+described or guessed at.</p>
+<ul id="awaiting-artifacts" aria-live="polite"></ul>
+
+<div class="cross-refs">Source: <code>data/visual_artifacts.json</code>, <code>01_canon/VISUAL_CANON_REGISTRY.md</code>.</div>
+
+<script type="module">
+  const { loadJSON, el, statusTag, renderError } = window.Umada;
+  const present = document.getElementById("present-artifacts");
+  const awaiting = document.getElementById("awaiting-artifacts");
+  loadJSON("../data/visual_artifacts.json").then((data) => {
+    data.present.forEach((a) => {
+      const figure = el("figure", {});
+      if (a.file.endsWith(".mp4")) {
+        figure.appendChild(el("video", { src: "../" + a.file, controls: "", preload: "none" }));
+      } else {
+        figure.appendChild(el("img", { src: "../" + a.file, alt: a.alt_text, loading: "lazy" }));
+      }
+      const caption = el("figcaption", {});
+      caption.appendChild(el("strong", { text: a.title_on_plate || a.artifact_id }));
+      caption.appendChild(document.createElement("br"));
+      caption.appendChild(document.createTextNode(a.tactile_notes));
+      figure.appendChild(caption);
+      if (a.open_questions && a.open_questions.length) {
+        const oq = el("p", { class: "meta-line" }, [document.createTextNode("Open: " + a.open_questions.join(" "))]);
+        figure.appendChild(oq);
+      }
+      present.appendChild(figure);
+    });
+    data.awaiting_fragment.forEach((a) => {
+      awaiting.appendChild(el("li", {}, [document.createTextNode(a.artifact_id + " — "), statusTag(a.status)]));
+    });
+  }).catch(() => { renderError(present, "../data/visual_artifacts.json"); });
+</script>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Canon status legend:
+      <span class="status-tag" data-status="LOCKED">LOCKED</span>
+      <span class="status-tag" data-status="PROBABLE">PROBABLE</span>
+      <span class="status-tag" data-status="EMERGING">EMERGING</span>
+      <span class="status-tag" data-status="OPEN QUESTION">OPEN QUESTION</span>
+      <span class="status-tag" data-status="RETIRED">RETIRED</span>
+      <span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span>
+    </p>
+    <p>Fans contribute signal, not automatic canon — see the <a href="../sections/faraday-box.html">Faraday Box</a>.</p>
+    <p>Governed by <code>00_governance/CANON_STATUS.md</code> and <code>00_governance/NO_FABRICATION_RULE.md</code>.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Language & Signage — UMADA</title>
+<meta name="description" content="Nago signage as public infrastructure: sign types, the public sign template, and the ten signs in full.">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script src="../assets/js/data-loader.js" defer></script>
+<script src="../assets/js/accessibility.js" defer></script>
+<script src="../assets/js/nav.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="site-header__top">
+    <p class="site-title"><a href="../index.html">UMADA</a></p>
+    <p class="site-tagline">A world being remembered.</p>
+  </div>
+  <nav class="primary-nav" aria-label="Primary"><details><summary>Browse the archive (20 sections)</summary><div class="nav-groups"><div class="nav-group"><h2>Orient</h2><ul><li><a href="start-here.html">Start Here</a></li></ul></div><div class="nav-group"><h2>Canon</h2><ul><li><a href="foundational-strata.html">Foundational Strata</a></li><li><a href="civilizational-ledger.html">Civilizational Ledger</a></li><li><a href="founding-myths.html">Founding Myths</a></li><li><a href="timeline.html">Timeline</a></li></ul></div><div class="nav-group"><h2>World</h2><ul><li><a href="characters.html">Characters</a></li><li><a href="places.html">Places</a></li><li><a href="kingdoms-factions.html">Kingdoms & Factions</a></li></ul></div><div class="nav-group"><h2>Language</h2><ul><li><a href="language-signage.html">Language & Signage</a></li><li><a href="nago-symbology.html">Nago Symbology</a></li></ul></div><div class="nav-group"><h2>Access</h2><ul><li><a href="accessibility.html">Accessibility</a></li></ul></div><div class="nav-group"><h2>Visual</h2><ul><li><a href="visual-archive.html">Visual Archive</a></li><li><a href="visual-canon.html">Visual Canon</a></li><li><a href="atlas.html">Atlas</a></li></ul></div><div class="nav-group"><h2>Production</h2><ul><li><a href="episode-releases.html">Episode Releases</a></li><li><a href="research-archive.html">Research Archive</a></li><li><a href="creator-archive.html">Creator Archive</a></li></ul></div><div class="nav-group"><h2>Fan</h2><ul><li><a href="faraday-box.html">Faraday Box</a></li><li><a href="fan-explorer.html">Fan Explorer</a></li><li><a href="fan-archive.html">Fan Archive</a></li></ul></div></div></details></nav>
+</header>
+<main id="main">
+
+<p class="meta-line">Language</p>
+<h1>Language &amp; Signage</h1>
+<p class="lede">Nago signage is public infrastructure — it appears in markets, bread stops,
+clinics, water points, rescue routes, towers, archives, schools, transit corridors, Dead
+Glass zones, Tisetan, and Umada.</p>
+
+<h2>Sign types</h2>
+<dl>
+  <dt>Market signs</dt><dd>Bread, Water, Safe, Danger, Carry, Home</dd>
+  <dt>Rescue signs</dt><dd>Extraction, Stabilization, Care, Transport, Witness, Do not leave</dd>
+  <dt>Archive signs</dt><dd>Record, False record, Hidden record, Witness, Body before record</dd>
+  <dt>Tower signs</dt><dd>Listen, Relay, Signal, Return signal, Storm</dd>
+  <dt>Accessibility signs</dt><dd>Tactile route, Low-vision route, Quiet path, Rest point, Spoken information, Human assistance, Chimera support</dd>
+</dl>
+
+<h2>Public sign template</h2>
+<p>Each public sign includes: a Nago mark, a plain-language label, a tactile raised mark, a
+directional arrow if needed, a screen-reader equivalent, local-language equivalents, a
+warning if high-risk, and a provenance note.</p>
+
+<h2>The rule</h2>
+<ul>
+  <li>No sign may rely only on color.</li>
+  <li>No sign may require perfect vision.</li>
+  <li>No sign may require literacy alone.</li>
+  <li>No sign may require hearing alone.</li>
+  <li>Nago is multimodal by default.</li>
+</ul>
+
+<h2>The ten signs, in full</h2>
+<p>Every Nago sign in this archive carries gesture, visual mark, tactile form,
+screen-reader label, and accessibility notes — never just a picture. The eight marked
+"core" are locked to the realized plate; Witness and Relay are canonical but non-core.</p>
+<ul id="signs-list" class="card-grid" aria-live="polite"></ul>
+<div class="cross-refs">Sources: <code>07_languages/NAGO_SIGNAGE_GUIDE.md</code>, <code>data/nago_signs.json</code>. See also <a href="nago-symbology.html">Nago Symbology</a> for the function/motif family system these signs belong to.</div>
+
+<script type="module">
+  const { loadJSON, el, statusTag, renderError } = window.Umada;
+  const container = document.getElementById("signs-list");
+  loadJSON("../data/nago_signs.json").then((signs) => {
+    signs.forEach((s) => {
+      const rows = [
+        ["Function family", s.function_family],
+        ["Motif family", s.motif_family || "—"],
+        ["Gesture", s.gesture],
+        ["Visual mark", s.visual_mark],
+        ["Tactile form", s.tactile_form],
+        ["Context", s.context],
+        ["Screen-reader label", s.screen_reader_label],
+        ["No-color-only note", s.no_color_only_note],
+        ["Low-vision support", s.low_vision_support],
+        ["Provenance / care", s.provenance_care_note],
+      ];
+      const dl = el("dl", {});
+      rows.forEach(([k, v]) => { dl.appendChild(el("dt", { text: k })); dl.appendChild(el("dd", { text: v })); });
+      const card = el("li", { class: "card" }, [
+        el("h3", {}, [document.createTextNode((s.core_survival_sign ? "★ " : "") + s.name + " ")]),
+        el("div", { class: "tag-row" }, [statusTag(s.status), s.core_survival_sign ? statusTag("CORE SURVIVAL SIGN") : null]),
+        dl,
+      ]);
+      if (s.open_questions && s.open_questions.length) {
+        card.appendChild(el("p", {}, [el("strong", { text: "Open: " }), document.createTextNode(s.open_questions.join(" "))]));
+      }
+      container.appendChild(card);
+    });
+  }).catch(() => renderError(container, "../data/nago_signs.json"));
+</script>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Canon status legend:
+      <span class="status-tag" data-status="LOCKED">LOCKED</span>
+      <span class="status-tag" data-status="PROBABLE">PROBABLE</span>
+      <span class="status-tag" data-status="EMERGING">EMERGING</span>
+      <span class="status-tag" data-status="OPEN QUESTION">OPEN QUESTION</span>
+      <span class="status-tag" data-status="RETIRED">RETIRED</span>
+      <span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span>
+    </p>
+    <p>Fans contribute signal, not automatic canon — see the <a href="../sections/faraday-box.html">Faraday Box</a>.</p>
+    <p>Governed by <code>00_governance/CANON_STATUS.md</code> and <code>00_governance/NO_FABRICATION_RULE.md</code>.</p>
+  </div>
+</footer>
+</body>
+</html>

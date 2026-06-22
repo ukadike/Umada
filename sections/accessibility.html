@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility — UMADA</title>
+<meta name="description" content="Accessibility as infrastructure: the site-wide and Nago-specific accessibility baseline.">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script src="../assets/js/data-loader.js" defer></script>
+<script src="../assets/js/accessibility.js" defer></script>
+<script src="../assets/js/nav.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="site-header__top">
+    <p class="site-title"><a href="../index.html">UMADA</a></p>
+    <p class="site-tagline">A world being remembered.</p>
+  </div>
+  <nav class="primary-nav" aria-label="Primary"><details><summary>Browse the archive (20 sections)</summary><div class="nav-groups"><div class="nav-group"><h2>Orient</h2><ul><li><a href="start-here.html">Start Here</a></li></ul></div><div class="nav-group"><h2>Canon</h2><ul><li><a href="foundational-strata.html">Foundational Strata</a></li><li><a href="civilizational-ledger.html">Civilizational Ledger</a></li><li><a href="founding-myths.html">Founding Myths</a></li><li><a href="timeline.html">Timeline</a></li></ul></div><div class="nav-group"><h2>World</h2><ul><li><a href="characters.html">Characters</a></li><li><a href="places.html">Places</a></li><li><a href="kingdoms-factions.html">Kingdoms & Factions</a></li></ul></div><div class="nav-group"><h2>Language</h2><ul><li><a href="language-signage.html">Language & Signage</a></li><li><a href="nago-symbology.html">Nago Symbology</a></li></ul></div><div class="nav-group"><h2>Access</h2><ul><li><a href="accessibility.html">Accessibility</a></li></ul></div><div class="nav-group"><h2>Visual</h2><ul><li><a href="visual-archive.html">Visual Archive</a></li><li><a href="visual-canon.html">Visual Canon</a></li><li><a href="atlas.html">Atlas</a></li></ul></div><div class="nav-group"><h2>Production</h2><ul><li><a href="episode-releases.html">Episode Releases</a></li><li><a href="research-archive.html">Research Archive</a></li><li><a href="creator-archive.html">Creator Archive</a></li></ul></div><div class="nav-group"><h2>Fan</h2><ul><li><a href="faraday-box.html">Faraday Box</a></li><li><a href="fan-explorer.html">Fan Explorer</a></li><li><a href="fan-archive.html">Fan Archive</a></li></ul></div></div></details></nav>
+</header>
+<main id="main">
+
+<p class="meta-line">Access</p>
+<h1>Accessibility</h1>
+<p class="lede">Accessibility is infrastructure here, not an add-on pass. It applies to
+this site and to every Nago sign, image, and video referenced from it.</p>
+
+<h2>Site-wide baseline</h2>
+<ul>
+  <li>Alt text on every meaningful image; empty alt on purely decorative images.</li>
+  <li>Screen-reader labels on every interactive control and every Nago mark.</li>
+  <li>Full keyboard access — no mouse-only or hover-only interaction.</li>
+  <li>No meaning conveyed by color alone.</li>
+  <li>No meaning conveyed by hover alone.</li>
+  <li>Respects <code>prefers-reduced-motion</code>; no autoplaying motion that can't be paused or disabled.</li>
+  <li>Plain-language summaries available alongside dense or archival text.</li>
+  <li>Sufficient contrast under the presentation palette (graphite ink on paper meets at least WCAG AA for body text).</li>
+  <li>Captions/transcript for video once a transcript fragment exists; until then, tagged accordingly rather than given an invented transcript.</li>
+</ul>
+
+<h2>Nago-specific baseline</h2>
+<p>Every Nago sign entry requires, at minimum: name and canon status, gesture description,
+plain-language meaning, visual mark description, tactile form description, screen-reader
+label, use context, accessibility notes, provenance/care note, and open questions if any.
+See every entry in <a href="language-signage.html">Language &amp; Signage</a> for this
+applied in full.</p>
+
+<h2>Rules carried from the Signage Guide and the No-Generic-Glyphs rule</h2>
+<ul>
+  <li>No sign may rely only on color.</li>
+  <li>No sign may require perfect vision.</li>
+  <li>No sign may require literacy alone.</li>
+  <li>No sign may require hearing alone.</li>
+  <li>Nago is multimodal by default: gesture, flat visual mark, raised tactile mark, verbal description, screen-reader label, public signage icon, map symbol, episode graphic.</li>
+  <li>Tactile marks avoid thin details, use clear edges and high-contrast relief, support fingertip scanning, and pair with redundant text labels.</li>
+  <li>Designed for low vision and blind users from the beginning, not as a retrofit.</li>
+</ul>
+
+<div class="cross-refs">Source: <code>00_governance/ACCESSIBILITY_BASELINE.md</code>, <code>00_governance/NAGO_NO_GENERIC_GLYPHS_RULE.md</code>.</div>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Canon status legend:
+      <span class="status-tag" data-status="LOCKED">LOCKED</span>
+      <span class="status-tag" data-status="PROBABLE">PROBABLE</span>
+      <span class="status-tag" data-status="EMERGING">EMERGING</span>
+      <span class="status-tag" data-status="OPEN QUESTION">OPEN QUESTION</span>
+      <span class="status-tag" data-status="RETIRED">RETIRED</span>
+      <span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span>
+    </p>
+    <p>Fans contribute signal, not automatic canon — see the <a href="../sections/faraday-box.html">Faraday Box</a>.</p>
+    <p>Governed by <code>00_governance/CANON_STATUS.md</code> and <code>00_governance/NO_FABRICATION_RULE.md</code>.</p>
+  </div>
+</footer>
+</body>
+</html>

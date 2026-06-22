@@ -46,12 +46,14 @@ the steward's role and operating rules.
 This repository is being built in three phases — see `CLAUDE_CODE_MASTER_PROMPT.md` in
 the originating ship package for the full spec:
 
-- **Phase A — Spine** (this commit): repo skeleton, governance, canon, and structured
+- **Phase A — Spine** (done): repo skeleton, governance, canon, and structured
   data, seeded from the source package with nothing invented.
-- **Phase B — Site:** the public-facing sections, in the monochrome graphite
-  presentation palette.
+- **Phase B — Site** (done): `index.html` and 20 public sections in `sections/`,
+  built on a framework-free static shell (`assets/css/main.css`,
+  `assets/js/{data-loader,nav,accessibility}.js`) that renders straight from
+  `data/*.json` — no build step required to run the site.
 - **Phase C — Ingestion:** archive-recovery logs and deeper processing of the artifacts
-  already present in `assets/`.
+  already present in `assets/`. Not yet started.
 
 ## Canonical facts, locked hard
 

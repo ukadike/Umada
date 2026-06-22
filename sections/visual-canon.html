@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visual Canon — UMADA</title>
+<meta name="description" content="The canon registry for UMADA's realized visual artifacts.">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script src="../assets/js/data-loader.js" defer></script>
+<script src="../assets/js/accessibility.js" defer></script>
+<script src="../assets/js/nav.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="site-header__top">
+    <p class="site-title"><a href="../index.html">UMADA</a></p>
+    <p class="site-tagline">A world being remembered.</p>
+  </div>
+  <nav class="primary-nav" aria-label="Primary"><details><summary>Browse the archive (20 sections)</summary><div class="nav-groups"><div class="nav-group"><h2>Orient</h2><ul><li><a href="start-here.html">Start Here</a></li></ul></div><div class="nav-group"><h2>Canon</h2><ul><li><a href="foundational-strata.html">Foundational Strata</a></li><li><a href="civilizational-ledger.html">Civilizational Ledger</a></li><li><a href="founding-myths.html">Founding Myths</a></li><li><a href="timeline.html">Timeline</a></li></ul></div><div class="nav-group"><h2>World</h2><ul><li><a href="characters.html">Characters</a></li><li><a href="places.html">Places</a></li><li><a href="kingdoms-factions.html">Kingdoms & Factions</a></li></ul></div><div class="nav-group"><h2>Language</h2><ul><li><a href="language-signage.html">Language & Signage</a></li><li><a href="nago-symbology.html">Nago Symbology</a></li></ul></div><div class="nav-group"><h2>Access</h2><ul><li><a href="accessibility.html">Accessibility</a></li></ul></div><div class="nav-group"><h2>Visual</h2><ul><li><a href="visual-archive.html">Visual Archive</a></li><li><a href="visual-canon.html">Visual Canon</a></li><li><a href="atlas.html">Atlas</a></li></ul></div><div class="nav-group"><h2>Production</h2><ul><li><a href="episode-releases.html">Episode Releases</a></li><li><a href="research-archive.html">Research Archive</a></li><li><a href="creator-archive.html">Creator Archive</a></li></ul></div><div class="nav-group"><h2>Fan</h2><ul><li><a href="faraday-box.html">Faraday Box</a></li><li><a href="fan-explorer.html">Fan Explorer</a></li><li><a href="fan-archive.html">Fan Archive</a></li></ul></div></div></details></nav>
+</header>
+<main id="main">
+
+<p class="meta-line">Visual</p>
+<h1>Visual Canon</h1>
+<p class="lede">The registry view of the realized plates and animatic: provenance, canon
+implications, episode usage, and open questions for each. To see the artifacts themselves,
+go to the <a href="visual-archive.html">Visual Archive</a>.</p>
+
+<p>Each artifact entry contains: artifact ID, status, provenance, canon implications,
+episode usage, alt text, tactile notes, and open questions. Where any document disagrees
+with a plate, the plate wins and the document is corrected — never the reverse.</p>
+
+<div id="registry" aria-live="polite"></div>
+
+<h2>Referenced but not present</h2>
+<p>Eleven artifacts are named in source material and tagged
+<span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span> — Ada,
+Tallai, Q, and Quartz character dossiers; Friedmandostorp Bread Stop Board; Nago Origin
+Gestures Board; Cape Lab Blast Board; ADA-1 Emergence Board; Rescue Doctrine Board; Super
+Hurricane Cindy Board; Black Stars Tower Board. Their full list is on the
+<a href="visual-archive.html">Visual Archive</a>.</p>
+
+<div class="cross-refs">Source: <code>01_canon/VISUAL_CANON_REGISTRY.md</code>, <code>data/visual_artifacts.json</code>.</div>
+
+<script type="module">
+  const { loadJSON, el, statusTag, renderError } = window.Umada;
+  const registry = document.getElementById("registry");
+  loadJSON("../data/visual_artifacts.json").then((data) => {
+    data.present.forEach((a) => {
+      const rows = [
+        ["Provenance", a.provenance],
+        ["Canon implications", a.canon_implications],
+        ["Episode usage", a.episode_usage],
+        ["Tactile notes", a.tactile_notes],
+      ];
+      const dl = el("dl", {});
+      rows.forEach(([k, v]) => { dl.appendChild(el("dt", { text: k })); dl.appendChild(el("dd", { text: v })); });
+      const block = el("div", { class: "card" }, [
+        el("h3", { text: a.title_on_plate || a.artifact_id }),
+        statusTag(a.status),
+        dl,
+      ]);
+      if (a.open_questions && a.open_questions.length) {
+        block.appendChild(el("p", {}, [el("strong", { text: "Open: " }), document.createTextNode(a.open_questions.join(" "))]));
+      }
+      registry.appendChild(block);
+    });
+  }).catch(() => renderError(registry, "../data/visual_artifacts.json"));
+</script>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Canon status legend:
+      <span class="status-tag" data-status="LOCKED">LOCKED</span>
+      <span class="status-tag" data-status="PROBABLE">PROBABLE</span>
+      <span class="status-tag" data-status="EMERGING">EMERGING</span>
+      <span class="status-tag" data-status="OPEN QUESTION">OPEN QUESTION</span>
+      <span class="status-tag" data-status="RETIRED">RETIRED</span>
+      <span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span>
+    </p>
+    <p>Fans contribute signal, not automatic canon — see the <a href="../sections/faraday-box.html">Faraday Box</a>.</p>
+    <p>Governed by <code>00_governance/CANON_STATUS.md</code> and <code>00_governance/NO_FABRICATION_RULE.md</code>.</p>
+  </div>
+</footer>
+</body>
+</html>
