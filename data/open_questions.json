@@ -31,8 +31,12 @@
     "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name."
   ],
   "production_and_accessibility": [
-    "Animatic transcript and captions not yet present.",
-    "Character dossiers (Ada, Tallai, Q, Quartz) and six visual boards not yet present — see data/visual_artifacts.json awaiting_fragment."
+    "Animatic on-screen captions transcribed 2026-06-22 (see data/visual_artifacts.json caption_transcript); audio track (yellowbirdbeats score, any dialogue) still has no transcript — no speech-to-text tooling was available.",
+    "Character dossiers (Ada, Tallai, Q, Quartz) and six visual boards not yet present — see data/visual_artifacts.json awaiting_fragment.",
+    "Who or what is \"Kassey\" relative to Adanna \"Ada\" Venter — same person under a second name, a relative, or someone else? Burned across Ada's military record in the rescue animatic without explanation.",
+    "What does \"Care Shooter\" mean as Ada's credited role in the rescue animatic?",
+    "What is the \"FFF\" mark etched near the figures in the rescue animatic's rubble-rescue panel?",
+    "What is past \"OFF T—\" on Ada's credit line in the rescue animatic? Clipped by the source file's native frame edge; not recoverable without a higher-resolution export."
   ],
   "resolved": [
     "Does the full v1 + v1.2 site/section scaffolding already exist in the working repo? Resolved at pre-flight: repo contained only .gitattributes; this build is that scaffolding."

@@ -52,8 +52,12 @@ the originating ship package for the full spec:
   built on a framework-free static shell (`assets/css/main.css`,
   `assets/js/{data-loader,nav,accessibility}.js`) that renders straight from
   `data/*.json` — no build step required to run the site.
-- **Phase C — Ingestion:** archive-recovery logs and deeper processing of the artifacts
-  already present in `assets/`. Not yet started.
+- **Phase C — Ingestion** (in progress): archive-recovery logs
+  (`15_archive_recovery/README.md`, `20_visual_canon_registry/README.md`) and deeper
+  processing of the artifacts already present in `assets/`. First pass complete: full
+  on-screen caption transcript recovered from the rescue animatic (see
+  `01_canon/VISUAL_CANON_REGISTRY.md`), surfacing a new locked date (March 19, 2226),
+  Ada's full credited name and role, and a new open question about the name "Kassey."
 
 ## Canonical facts, locked hard
 

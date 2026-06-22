@@ -113,19 +113,73 @@ of the present artifacts also lives in `data/visual_artifacts.json`.
 ### UMADA_Friedmandostorp_Rescue_Animatic
 
 - **status:** PRESENT
-- **provenance:** `assets/video/UMADA_Friedmandostorp_Rescue_Animatic.mp4` (ISO Media /
-  MP4, ~2.2 MB). Score credited to yellowbirdbeats.
-- **description:** Cape Wipeout / Friedmandostorp rescue animatic.
-- **canon implications:** Reference source confirming the Friedmandostorp spelling and
-  setting used across this repository.
+- **provenance:** `assets/video/UMADA_Friedmandostorp_Rescue_Animatic.mp4` (H.264/AAC,
+  720×1080, 24fps, 48.58s, ~2.2 MB). Score credited to yellowbirdbeats.
+- **description:** Cape Wipeout / Friedmandostorp rescue animatic. Recovered by frame
+  extraction (ffmpeg, 2fps sampling, plus targeted high-resolution crops of held frames)
+  during the Phase C ingestion pass on 2026-06-22, since no transcript existed. The
+  animatic carries burned-in captions, comic-panel imagery, and at least one document/
+  credit card — all directly legible and transcribed below. **This transcript covers
+  on-screen text only.** The audio track (the yellowbirdbeats score, and any dialogue it
+  may carry) has not been reviewed: no speech-to-text tooling was available in this
+  environment, and per the no-fabrication rule, audio content is not guessed at. An audio
+  transcript remains AWAITING FRAGMENT.
+- **on-screen caption sequence** (approximate timestamps, ±1s, from manual frame review):
+  1. 0:00–0:05 — Title card: "UMADA" / "Friedmandostorp" / "March 19, 2226," over four
+     small comic-panel thumbnails; one thumbnail bears the name "Kassey."
+  2. 0:05–0:10 — "The town is in shards."
+  3. 0:10–0:12 — "The town is blown open."
+  4. 0:12–0:15 — "Corrugated roofs. Cement dust. Clay. Sewage. Bread in the road."
+  5. 0:15–0:21 — "A face first. Then the damage."
+  6. 0:21–0:26 — "Not dead. Not yet." A mark resembling the letters "FFF" is scratched/
+     etched near the figures in this panel — unexplained, not interpreted here.
+  7. 0:26–0:30 — "And one name burning under all of it." Panel shows a torn military
+     record stamped "CLEARANCE DENIED," legible fragments "...VENTER" and "...STED KIA"
+     (most likely "LISTED KIA"), a descriptor line "[C]HIMERA SURVIVOR. SCIENTIST.
+     EMPATH." (leading letter clipped by the frame edge), and the name "Kassey" burned
+     across the document in a different, glowing script from the typed record.
+  8. 0:30–0:33 — "The road comes broken: paperwork, fire, betrayal — and Kassey."
+  9. 0:33–0:37 — "The record says dead. The body says no." (image: a cloaked figure
+     cradling another body)
+  10. 0:37–0:45 — "Talla calls. Q questions the risk. Quartz moves to carry her." A
+      credit-style line is visible at the very bottom edge of frame: `ADANNA "ADA"
+      VENTER — CARE SHOOTER, OFF T—`, clipped by the right edge of the source video
+      frame itself (confirmed at native 720px width — the rest of this line is not
+      recoverable from this file).
+  11. 0:45–0:49 (end) — Title card: "ADA-1" / "Trust body over record."
+- **canon implications:**
+  - LOCKED (direct, unambiguous read): the Friedmandostorp blast/rescue dates to
+    **March 19, 2226**.
+  - LOCKED (direct, unambiguous read): Ada's full credited name is **Adanna "Ada"
+    Venter**, role-credited **Care Shooter**.
+  - LOCKED: restates ADA-1's first ethic in-world as "Trust body over record," matching
+    the already-locked "Trust Body Before Record."
+  - PROBABLE (juxtaposition, not an explicit label): a military record for "Adanna K.
+    [Venter]," stamped CLEARANCE DENIED and KIA, appears in the same panel as the
+    descriptor "Chimera Survivor. Scientist. Empath." and the separate name "Kassey"
+    burned across it — these are recorded as they appear, not resolved into a single
+    claim about who Kassey is relative to Adanna.
+  - Confirms the Friedmandostorp spelling and setting (carried over from the prior,
+    thinner entry).
 - **episode usage:** Referenced from the Visual Archive section and the Cape Wipeout,
   Pt. 1 episode-release entry.
 - **alt text:** "Animatic video depicting the Friedmandostorp rescue sequence from Cape
-  Wipeout, Pt. 1, scored by yellowbirdbeats."
-- **tactile notes:** Not applicable to video; a plain-language summary and transcript are
-  AWAITING FRAGMENT.
-- **open questions:** No transcript or caption track is present yet — required before this
-  asset meets the accessibility baseline for public release.
+  Wipeout, Pt. 1, scored by yellowbirdbeats, with burned-in captions dated March 19,
+  2226."
+- **tactile notes:** Not applicable to video; a plain-language summary is the caption
+  sequence above. An audio transcript/caption track for the score and any dialogue
+  remains AWAITING FRAGMENT.
+- **open questions:**
+  1. Who or what is "Kassey," relative to Adanna "Ada" Venter — the same person under a
+     second name, a relative, or someone else entirely? The animatic burns the name
+     across Adanna's record without explaining the connection.
+  2. What does "Care Shooter" mean as a credited role — camera/documentation work tied to
+     the frame narrative's reporter device, or something else?
+  3. What is the "FFF" mark in the rubble-rescue panel?
+  4. What is past "OFF T—" on Ada's credit line? Clipped by the source file's frame edge;
+     not recoverable without a higher-resolution source export.
+  5. No transcript exists yet for the audio track (score and any dialogue) — required
+     before this asset fully meets the accessibility baseline for public release.
 
 ---
 

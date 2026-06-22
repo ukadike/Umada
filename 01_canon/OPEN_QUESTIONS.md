@@ -82,12 +82,32 @@ smallest of these get asked to Kemi one at a time.
 
 ## Production / accessibility
 
-22. **Animatic transcript and captions.** `UMADA_Friedmandostorp_Rescue_Animatic.mp4` has
-    no transcript or caption track yet, which the accessibility baseline requires before
+22. **Animatic transcript and captions — partially resolved.** On-screen captions and
+    document/credit text in `UMADA_Friedmandostorp_Rescue_Animatic.mp4` were transcribed
+    2026-06-22 by manual frame review (see `01_canon/VISUAL_CANON_REGISTRY.md` and
+    `data/visual_artifacts.json`'s `caption_transcript`). The audio track (the
+    yellowbirdbeats score, and any dialogue it may carry) still has no transcript — no
+    speech-to-text tooling was available, and per the no-fabrication rule its content is
+    not guessed at. Still required before this asset meets the accessibility baseline for
     public release.
 23. **Character dossiers (Ada, Tallai, Q, Quartz) and six visual boards** are referenced
     across the source package but not physically present — see
     `01_canon/VISUAL_CANON_REGISTRY.md` for the full `AWAITING FRAGMENT` list.
+24. **Who or what is "Kassey"?** The rescue animatic burns the name "Kassey" across a torn
+    military record for "Adanna K. [Venter]" — stamped CLEARANCE DENIED, marked KIA,
+    tagged "Chimera Survivor. Scientist. Empath." — in the same panel that introduces Ada
+    by her full credited name, Adanna "Ada" Venter. Same person under a second name, a
+    relative, or someone else entirely is not stated; recorded as an unresolved
+    juxtaposition, not a claim.
+25. **What does "Care Shooter" mean?** Ada's credited role on the rescue animatic's credit
+    line. Camera/documentation work tied to the frame narrative's reporter device, or
+    something else, is not stated.
+26. **What is the "FFF" mark?** Etched near the figures in the rescue animatic's
+    rubble-rescue panel (0:21–0:26); unexplained.
+27. **What is past "OFF T—" on Ada's credit line?** The line `ADANNA "ADA" VENTER — CARE
+    SHOOTER, OFF T—` is clipped by the right edge of the source video frame itself
+    (confirmed at native 720px width); not recoverable without a higher-resolution source
+    export.
 
 ## Resolved (kept here for the audit trail)
 

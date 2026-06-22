@@ -55,6 +55,19 @@ described or guessed at.</p>
       caption.appendChild(document.createElement("br"));
       caption.appendChild(document.createTextNode(a.tactile_notes));
       figure.appendChild(caption);
+      if (a.caption_transcript && a.caption_transcript.length) {
+        const details = el("details", { class: "transcript" });
+        details.appendChild(el("summary", { text: "On-screen caption transcript" }));
+        if (a.transcript_note) {
+          details.appendChild(el("p", { class: "meta-line", text: a.transcript_note }));
+        }
+        const ol = el("ol");
+        a.caption_transcript.forEach((c) => {
+          ol.appendChild(el("li", {}, [el("strong", { text: c.time + " — " }), document.createTextNode(c.text)]));
+        });
+        details.appendChild(ol);
+        figure.appendChild(details);
+      }
       if (a.open_questions && a.open_questions.length) {
         const oq = el("p", { class: "meta-line" }, [document.createTextNode("Open: " + a.open_questions.join(" "))]);
         figure.appendChild(oq);
