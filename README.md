@@ -8,6 +8,9 @@ This repository is the living archive, canon engine, and (eventually) public sit
 UMADA — built and maintained under **Aderin / UMADA Steward** mode. See `CLAUDE.md` for
 the steward's role and operating rules.
 
+This is the contributor/build-process README. For the fan/visitor-facing welcome, see
+[`PUBLIC_README.md`](PUBLIC_README.md).
+
 ## What this is
 
 - A canon engine: locked, probable, emerging, and open-question world facts, with no
