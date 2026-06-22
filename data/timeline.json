@@ -1,0 +1,19 @@
+[
+  { "era": 0, "title": "Ancient Memory", "status": "PROBABLE", "summary": "Ancient civilizations, myth, damaged archives, oral memory, sacred geometry." },
+  { "era": 1, "title": "The Hidden Archive", "status": "PROBABLE", "summary": "Alien presence as fragmented evidence and suppressed record." },
+  { "era": 2, "title": "S-Vector", "status": "PROBABLE", "summary": "Biology, technology, memory, adaptation, consciousness." },
+  { "era": 3, "title": "Chimera Research", "status": "LOCKED / EMERGING", "summary": "Institutional experimentation creates/encounters chimeras." },
+  { "era": 4, "title": "The Garden", "status": "LOCKED", "summary": "Coexistence and care before catastrophe; Tallai explores." },
+  { "era": 5, "title": "Cape Wipeout", "status": "LOCKED", "summary": "March 19, 2226 near Cape Agulhas; MIC destroys facility." },
+  { "era": 6, "title": "The Breach", "status": "EMERGING", "summary": "Containment fails; Atlantic becomes carrier." },
+  { "era": 7, "title": "Super Hurricane Cindy", "status": "EMERGING", "summary": "Cindy carries breach through water, air, and storm." },
+  { "era": 8, "title": "Angel Dust", "status": "EMERGING", "summary": "Chimeran Flu evolves into prolonged instability." },
+  { "era": 9, "title": "Emergency Cybernetics", "status": "EMERGING", "summary": "Repair, survival, and accessibility before status." },
+  { "era": 10, "title": "Dead Glass", "status": "LOCKED / EMERGING", "summary": "Network, infrastructure, information collapse." },
+  { "era": 11, "title": "The Relays", "status": "EMERGING", "summary": "Hand Relay and community signals expand." },
+  { "era": 12, "title": "Nago Standardization", "status": "EMERGING", "summary": "Survival signs become civic/accessibility infrastructure." },
+  { "era": 13, "title": "The Tower", "status": "EMERGING", "summary": "Black Stars Tower hears first." },
+  { "era": 14, "title": "Tisetan Rising", "status": "EMERGING", "summary": "Tisetan rises over the wound as signal/access/archive city." },
+  { "era": 15, "title": "The Kingdom Age", "status": "EMERGING", "summary": "Lion Kingdom, Jackal Peoples, Black Stars, Phoenix Rising, Cybernetic Houses, Pure Human Communities." },
+  { "era": 16, "title": "Umada", "status": "EMERGING", "summary": "Place and idea: care, memory, access, witness, repair." }
+]

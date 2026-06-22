@@ -1,0 +1,54 @@
+{
+  "status_legend": ["LOCKED", "PROBABLE", "EMERGING", "OPEN QUESTION", "RETIRED"],
+  "locked": [
+    "Cape Wipeout, Pt. 1 is the canonical public title.",
+    "Southern Cape // Friedmandostorp Corridor is the corrected geography (near Cape Agulhas; African coastal).",
+    "Rescue Cluster 7-South is a care-based survivor cluster.",
+    "Ada is field commander / scapegoat.",
+    "Ada is listed KIA before final blast confirmation.",
+    "Talla/Tallai is a chimera care specialist.",
+    "Talla/Tallai is known at the bread stop before the blast.",
+    "Bread Sign is an early Nago market sign.",
+    "Q detects. Quartz carries.",
+    "Quartz is load-bearer / rescue anchor.",
+    "ADA-1 begins with body-over-record logic.",
+    "Black Stars Tower hears first.",
+    "Super Hurricane Cindy carried the breach through water, air, and storm.",
+    "Monsters become care infrastructure.",
+    "Canonical settlement spelling is Friedmandostorp (with an 'o').",
+    "The world is southern-African coastal, near Cape Agulhas — never Arctic.",
+    "UMADA opens through a future reporter / time traveler carrying an Omoluabi device.",
+    "Omoluabi is not the story; it is the device that lets the story be witnessed.",
+    "The future council dispute concerns leadership of Umada and Tisetan.",
+    "Sisekong/Tishekong are transcription errors for Umada and Tisetan.",
+    "Opening beat: tick, tick, tick, tick — BOOM.",
+    "Nago is the visual operating system of Umada.",
+    "Nago begins as survival vocabulary before grammar.",
+    "Core survival signs (locked to the realized plate, eight): Bread, Water, Safe, Danger, Carry, Home, Help, Rest."
+  ],
+  "friedmandostorp": [
+    "Colorful harbor settlement, weather-rich.",
+    "Southern Cape corridor (near Cape Agulhas); African coastal, never Arctic.",
+    "Bread culture with Nigerian-diaspora Agege-bread influence.",
+    "Origin location of the Bread Sign and Proto-Nago exchange."
+  ],
+  "ada1_ethics": [
+    "Trust Body Before Record.",
+    "Trust Witness Before Narrative.",
+    "Trust Survival Before Authority."
+  ],
+  "rescue_doctrine_steps": ["Extraction", "Stabilization", "Care", "Analysis", "Transport", "Witness"],
+  "nago_axes": {
+    "function_families": ["Survival", "Care", "Signal", "Movement", "Civic", "Memory", "Environment"],
+    "motif_families": ["Wound", "Relay", "Archive", "Storm", "Visitor"]
+  },
+  "emerging": [
+    "Cindy as carrier event from Cape breach to Angel Dust.",
+    "Nago Sign as survival vocabulary before grammar.",
+    "Hand Relay as later civic communication infrastructure.",
+    "Faraday Box as protected audience signal system.",
+    "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars as faction layer.",
+    "Tisetan as future city/capital/signal center."
+  ],
+  "poetry_note": "Poetry is a first-class canon source. Preserve original lines verbatim; extract canon separately."
+}

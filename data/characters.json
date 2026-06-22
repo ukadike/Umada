@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Ada",
+    "status": "LOCKED (role) / AWAITING FRAGMENT (full dossier)",
+    "known_facts": [
+      "Field commander / scapegoat.",
+      "Listed KIA before final blast confirmation.",
+      "One of four Cape Wipeout survivors (with Tallai/Talla, Q, and Quartz).",
+      "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago."
+    ],
+    "dossier_artifact": "Ada Character Dossier",
+    "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "Tallai / Talla",
+    "status": "LOCKED (role) / OPEN QUESTION (preferred single spelling) / AWAITING FRAGMENT (full dossier)",
+    "known_facts": [
+      "Chimera care specialist.",
+      "Known at the bread stop in Friedmandostorp before the blast.",
+      "Explores the Garden (Era 4).",
+      "One of four Cape Wipeout survivors.",
+      "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago."
+    ],
+    "open_question": "Both 'Tallai' and 'Talla' are attested across source documents. Whether this is a nickname/full-name pair or a spelling that should converge on one form is open — see 01_canon/OPEN_QUESTIONS.md.",
+    "dossier_artifact": "Tallai Character Dossier",
+    "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "Q",
+    "status": "LOCKED (role) / AWAITING FRAGMENT (full dossier)",
+    "known_facts": [
+      "Detects — scout/sensing role (\"Q detects. Quartz carries.\").",
+      "One of four Cape Wipeout survivors.",
+      "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago."
+    ],
+    "dossier_artifact": "Q Character Dossier",
+    "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "Quartz",
+    "status": "LOCKED (role) / AWAITING FRAGMENT (full dossier)",
+    "known_facts": [
+      "Carries — load-bearer / rescue anchor (\"Q detects. Quartz carries.\").",
+      "One of four Cape Wipeout survivors.",
+      "Not named in the refined Nago plate's in-world Honor & Origin line, which credits Tallai, Ada, Q, and \"the people\" — see open question in 01_canon/OPEN_QUESTIONS.md."
+    ],
+    "dossier_artifact": "Quartz Character Dossier",
+    "dossier_status": "AWAITING FRAGMENT"
+  }
+]

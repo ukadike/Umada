@@ -1,0 +1,148 @@
+{
+  "title": "Nago — Symbology of Umada",
+  "status": "EMERGING / HIGH PRIORITY",
+  "real_world_provenance_note": "\"Nago\" draws on Nagô / Yoruba heritage. Within UMADA it is a fictional, evolving survival-and-care sign system — not a depiction of any real sign language or sacred script. Every rooted term is treated with provenance and care. Fan and collaborator contributions inherit this commitment. This is separate from the in-world Honor & Origin account.",
+  "core_thesis": "Nago begins before grammar. Need comes first. The earliest known signs are survival signs, exchanged in markets, bread stops, rescue routes, damaged streets, and mixed human/chimera communities. Nago later becomes civic infrastructure, accessibility infrastructure, memory infrastructure, relay infrastructure, public signage, tactile navigation, fan participation language, and the visual identity for Umada. Nago is not generic fantasy writing — it is a system of care, warning, witness, and orientation.",
+  "design_principles": [
+    "Accessible to all",
+    "Easy to learn",
+    "Easy to feel",
+    "Easy to see",
+    "Easy to remember",
+    "Easy to share"
+  ],
+  "axes": {
+    "note": "Two axes. Do not merge.",
+    "function_families": {
+      "label": "Function families (signage axis)",
+      "purpose": "Organizes signage by what a sign is for. Governs signage, wayfinding, and the website's Language & Signage section.",
+      "families": [
+        {
+          "name": "Survival",
+          "tagline": "to live",
+          "seed_signs": ["Bread", "Water", "Shelter", "Safe", "Danger", "Carry", "Home"]
+        },
+        {
+          "name": "Care",
+          "tagline": "to heal and protect",
+          "seed_signs": ["Heal", "Feed", "Rest", "Hold", "Protect", "Stabilize", "Do not leave", "Help"]
+        },
+        {
+          "name": "Signal",
+          "tagline": "to listen and connect",
+          "seed_signs": ["Listen", "Relay", "Tower", "Signal", "Storm", "Containment", "Return signal"]
+        },
+        {
+          "name": "Movement",
+          "tagline": "to travel and return",
+          "seed_signs": ["Go", "Return", "Gather", "Cross", "Carry", "Follow", "Wait"]
+        },
+        {
+          "name": "Civic",
+          "tagline": "to build together",
+          "seed_signs": ["Council", "Shared resource", "Archive", "School", "Clinic", "Water point", "Safe route", "Public witness"]
+        },
+        {
+          "name": "Memory",
+          "tagline": "to remember and learn",
+          "renamed_from": "Witness",
+          "rename_note": "Recorded as a rename, not a deletion. Witness's signs are folded under Memory.",
+          "seed_signs": ["Witness", "Record", "Remember", "Hidden record", "False record", "Body before record"]
+        },
+        {
+          "name": "Environment",
+          "tagline": "to honor the world",
+          "status": "EMERGING",
+          "seed_signs": [],
+          "note": "AWAITING design. No canon existed to seed signs from; none invented. Seed with care-of-place / land / water / weather marks when fragments arrive."
+        }
+      ]
+    },
+    "motif_families": {
+      "label": "Motif families (narrative axis)",
+      "purpose": "Visual-narrative motifs used for title cards, dossier boards, the Visual Archive, and brand iconography — not public signage categories.",
+      "families": [
+        {
+          "name": "Wound",
+          "marks": "Broken circle, fracture, scar, split line.",
+          "meanings": ["danger", "breach", "loss", "false record", "damage", "warning"]
+        },
+        {
+          "name": "Relay",
+          "marks": "Double line, nested ring, repeated arc.",
+          "meanings": ["signal", "communication", "hand relay", "return message", "tower"]
+        },
+        {
+          "name": "Archive",
+          "marks": "Circle, dot, frame, tablet, witness mark.",
+          "meanings": ["memory", "record", "testimony", "preserved fragment", "canon"]
+        },
+        {
+          "name": "Storm",
+          "marks": "Wave, spiral, pressure contour, concentric disturbance.",
+          "meanings": ["Cindy", "storm", "viral spread", "atmospheric signal", "carrier event"]
+        },
+        {
+          "name": "Visitor",
+          "marks": "Threshold, crossing mark, half-mask, obscured dot.",
+          "meanings": ["time traveler", "observer", "hidden witness", "arrival", "not from here"]
+        }
+      ]
+    }
+  },
+  "visual_grammar": {
+    "source": "PLATE_NAGO_SYMBOLOGY_OF_UMADA.png",
+    "construction_note": "All Nago symbols are built on curves, balance, and human connection. Rooted in the Golden Rectangle and ancient geometry — for legibility and memory, not mystification.",
+    "primitives": [
+      { "name": "Circle", "meaning": "memory / continuity / shared memory" },
+      { "name": "Open Circle", "meaning": "open access / shared" },
+      { "name": "Broken Circle", "meaning": "lost / interrupted memory / broken record" },
+      { "name": "Three Rings", "meaning": "relay / signal" },
+      { "name": "Hand + Ring", "meaning": "witness / presence" }
+    ],
+    "open_question": "Exact vector/CSS-level shape construction against the Golden Rectangle is visible on the plate but not yet formally specified for the site to render precisely."
+  },
+  "tactile_system": {
+    "requirement": "Every Nago sign must exist as: gesture, flat visual mark, raised tactile mark, verbal description, screen-reader label, public signage icon, map symbol, episode graphic.",
+    "rules": [
+      "Avoid thin details; use clear edges and high-contrast relief.",
+      "Support fingertip scanning.",
+      "Use redundant text labels.",
+      "Never rely on color alone.",
+      "Design for low vision and blind users from the beginning."
+    ],
+    "plate_callouts": [
+      "Raised lines — easy to feel.",
+      "Contrasted shapes — easy to distinguish.",
+      "Consistent geometry — always readable.",
+      "Built for all — children, elders, and all abilities."
+    ]
+  },
+  "accessibility_requirements": [
+    "alt text",
+    "plain-language meaning",
+    "tactile description",
+    "context of use",
+    "risk of confusion",
+    "cultural/provenance note",
+    "whether usable by humans, chimeras, cyborgs, or all"
+  ],
+  "in_world_honor_and_origin": "Nago was born from the hands of survivors. It was shaped in markets, shelters, and ruins. It was carried by Tallai, Ada, Q, and the people. It belongs to everyone.",
+  "how_to_read_nago": ["Look.", "Feel.", "Make the gesture.", "Remember the meaning.", "Share it forward."],
+  "promise_of_nago": [
+    "We will be understood.",
+    "We will be included.",
+    "We will remember.",
+    "We will build Umada.",
+    "Nago is care. Nago is us. Nago is Umada."
+  ],
+  "made_with_what_we_had": ["Charcoal", "Ash", "Chalk", "Blood", "Paint", "Soot", "Mud", "Cut marks", "Burn marks", "Anything — if it could mark, it became Nago."],
+  "fanbase_use": "Fans may create relay marks. Fan marks are not canon automatically. They are audience signals. They enter the Faraday Box.",
+  "tiny_questions": [
+    "What shape feels most like Bread? — ANSWERED by the plate: arch/dome with three vertical strokes.",
+    "Is Bread a hand mark, a bowl mark, or a mouth mark? — ANSWERED by the plate: the gesture is fingers to mouth; the visual mark is an arch/dome (loaf) shape.",
+    "Does Danger use triangle, broken circle, or sharp line? — PARTIALLY ANSWERED: the plate's Danger mark reads as a sharp crossed/X form; exact construction not yet vectorized.",
+    "Is Witness an eye, a dot, a hand, or a ring? — ANSWERED by the plate's Visual Grammar: Hand + Ring.",
+    "What mark would Tallai recognize first? — OPEN."
+  ]
+}
