@@ -30,6 +30,9 @@
   "faction_layer": [
     "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name."
   ],
+  "characters": [
+    "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon."
+  ],
   "production_and_accessibility": [
     "Animatic on-screen captions transcribed 2026-06-22 (see data/visual_artifacts.json caption_transcript); audio track (yellowbirdbeats score, any dialogue) still has no transcript — no speech-to-text tooling was available.",
     "Character dossiers (Ada, Tallai, Q, Quartz) and six visual boards not yet present — see data/visual_artifacts.json awaiting_fragment.",

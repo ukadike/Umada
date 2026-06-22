@@ -11,3 +11,11 @@ Cape Wipeout survivors — see `data/characters.json` for locked role-facts and
 
 No biographical, physical, or personality detail exists yet beyond the role-facts above.
 Nothing further has been invented to fill the gap.
+
+## Pending names (not canon)
+
+**Aisha**, **Nayla**, and **Adeola** were named as "KNOWN CANON" in a 2026-06-22
+repository-restructuring brief, but none appear anywhere in the source package, the
+realized plates, or any prior fragment. Logged as `OPEN QUESTION` / pending confirmation
+in `data/characters.json` rather than merged into canon — see
+`01_canon/OPEN_QUESTIONS.md` (#28).

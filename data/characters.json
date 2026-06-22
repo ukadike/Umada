@@ -48,5 +48,29 @@
     ],
     "dossier_artifact": "Quartz Character Dossier",
     "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "Aisha",
+    "status": "OPEN QUESTION (pending confirmation)",
+    "known_facts": [],
+    "open_question": "Named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief, but absent from the source package, the realized plates, and every prior fragment. No role-facts or biographical detail exist. See 01_canon/OPEN_QUESTIONS.md.",
+    "dossier_artifact": null,
+    "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "Nayla",
+    "status": "OPEN QUESTION (pending confirmation)",
+    "known_facts": [],
+    "open_question": "Named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief, but absent from the source package, the realized plates, and every prior fragment. No role-facts or biographical detail exist. See 01_canon/OPEN_QUESTIONS.md.",
+    "dossier_artifact": null,
+    "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "Adeola",
+    "status": "OPEN QUESTION (pending confirmation)",
+    "known_facts": [],
+    "open_question": "Named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief, but absent from the source package, the realized plates, and every prior fragment. No role-facts or biographical detail exist. See 01_canon/OPEN_QUESTIONS.md.",
+    "dossier_artifact": null,
+    "dossier_status": "AWAITING FRAGMENT"
   }
 ]

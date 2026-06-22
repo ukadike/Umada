@@ -80,6 +80,17 @@ smallest of these get asked to Kemi one at a time.
     Human Communities.** All named at EMERGING status in Era 15 (The Kingdom Age) with
     no further detail — nature, territory, relationships, and conflicts are all open.
 
+## Characters
+
+28. **Aisha, Nayla, Adeola.** Named as "KNOWN CANON" characters in a 2026-06-22
+    repository-restructuring brief, alongside Ada, Tallai, Q, and Quartz. None of the
+    three appear anywhere else in the source package, the realized plates, or any prior
+    fragment — they are not in `data/characters.json` and have no role-facts, dossier,
+    or supporting context. Logged as pending confirmation rather than merged into canon;
+    see `data/characters.json` for matching stub entries. Are these real additions to
+    canon Kemi wants to confirm, or material from a different draft that doesn't belong
+    here?
+
 ## Production / accessibility
 
 22. **Animatic transcript and captions — partially resolved.** On-screen captions and
