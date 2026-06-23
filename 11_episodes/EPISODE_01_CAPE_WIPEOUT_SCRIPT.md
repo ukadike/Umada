@@ -177,6 +177,10 @@ rescue anchor, the locked functional pairing "Q detects. Quartz carries."
 (`01_canon/SEED_CANON.md`). No visual reference for Quartz exists yet
 (`02_characters/QUARTZ_DOSSIER.md`); this script does not invent one either.
 
+Ada looks up — then faints (Kemi, 2026-06-23). This is the moment that makes Quartz's
+carry necessary: she is conscious just long enough to register Tallai's call, then
+loses consciousness again.
+
 At the very bottom edge of frame, a credit line:
 
 > ADANNA "ADA" VENTER — [role descriptor removed at creator's direction, 2026-06-23],

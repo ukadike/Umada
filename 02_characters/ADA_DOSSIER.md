@@ -57,6 +57,9 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 - **Tallai is confirmed to appear alongside Ada**, tending her after the blast, in
   `assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png` (Kemi-approved, 2026-06-23) —
   see `02_characters/TALLAI_DOSSIER.md`.
+- **In the rescue beat, Ada looks up, then faints** (Kemi, 2026-06-23) — staged in
+  `11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md` as the moment she registers Tallai's
+  call before losing consciousness again, which is what makes Quartz's carry necessary.
 
 ## Open questions (cross-referenced, not restated)
 
@@ -115,3 +118,5 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   **Yes.** (Kemi, 2026-06-23.) See `assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png`.
 - *Lock the four additional reference images (wasteland, Cape Agulhas, base camp,
   Tallai-rescue)?* → **Yes, lock all five.** (Kemi, 2026-06-23.)
+- *What does Ada do when Tallai reaches her?* → **She looks up, then faints.**
+  (Kemi, 2026-06-23.)
