@@ -11,7 +11,7 @@ Move Ada's dossier from AWAITING FRAGMENT to a filed artifact once the source ma
 - Confirm the dossier fragment has not already arrived unprocessed in `13_fragments/`.
 - When it arrives, capture it verbatim per `00_governance/FRAGMENT_WORKFLOW.md`.
 - Extract canon facts into `data/characters.json` without overwriting the existing locked role-facts.
-- Cross-check the "Kassey" and "Care Shooter" open questions against the new material before closing them.
+- Cross-check the "Kassey" open question against the new material before closing it.
 
 ## Acceptance Criteria
 
@@ -21,4 +21,4 @@ Move Ada's dossier from AWAITING FRAGMENT to a filed artifact once the source ma
 ## Dependencies
 
 - 01_canon/VISUAL_CANON_REGISTRY.md
-- 01_canon/OPEN_QUESTIONS.md #24, #25
+- 01_canon/OPEN_QUESTIONS.md #24

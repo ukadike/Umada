@@ -143,15 +143,20 @@ of the present artifacts also lives in `data/visual_artifacts.json`.
      cradling another body)
   10. 0:37–0:45 — "Talla calls. Q questions the risk. Quartz moves to carry her." A
       credit-style line is visible at the very bottom edge of frame: `ADANNA "ADA"
-      VENTER — CARE SHOOTER, OFF T—`, clipped by the right edge of the source video
-      frame itself (confirmed at native 720px width — the rest of this line is not
-      recoverable from this file).
+      VENTER — [role descriptor removed at creator's direction, 2026-06-23], OFF T—`,
+      clipped by the right edge of the source video frame itself (confirmed at native
+      720px width — the rest of this line is not recoverable from this file).
+      **Redaction note:** the credit line carries a role descriptor between the name and
+      "OFF T—" that the animatic frame does display; it has been retired from canon at the
+      creator's direction (2026-06-23) and is intentionally not reproduced here. This is a
+      deliberate, creator-directed divergence from the artifact, recorded so the omission
+      is not mistaken for an incomplete transcription.
   11. 0:45–0:49 (end) — Title card: "ADA-1" / "Trust body over record."
 - **canon implications:**
   - LOCKED (direct, unambiguous read): the Friedmandostorp blast/rescue dates to
     **March 19, 2226**.
   - LOCKED (direct, unambiguous read): Ada's full credited name is **Adanna "Ada"
-    Venter**, role-credited **Care Shooter**.
+    Venter**.
   - LOCKED: restates ADA-1's first ethic in-world as "Trust body over record," matching
     the already-locked "Trust Body Before Record."
   - PROBABLE (juxtaposition, not an explicit label): a military record for "Adanna K.
@@ -175,8 +180,9 @@ of the present artifacts also lives in `data/visual_artifacts.json`.
      of her necklace, the same entity as "KC" (`02_characters/KASSEY_DOSSIER.md`,
      `01_canon/OPEN_QUESTIONS.md` #24, #29). The animatic burns his name across Ada's
      record without explaining why; that narrative beat is left open, not interpreted.
-  2. What does "Care Shooter" mean as a credited role — camera/documentation work tied to
-     the frame narrative's reporter device, or something else?
+  2. [A role descriptor that appeared on Ada's credit line has been retired from canon at
+     the creator's direction, 2026-06-23, and is no longer tracked. See the redaction note
+     in the credit-line transcription above.]
   3. What is the "FFF" mark in the rubble-rescue panel?
   4. What is past "OFF T—" on Ada's credit line? Clipped by the source file's frame edge;
      not recoverable without a higher-resolution source export.

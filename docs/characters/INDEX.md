@@ -8,7 +8,7 @@ of character facts.
 
 | Name | Role | Dossier |
 | --- | --- | --- |
-| Ada (Adanna "Ada" Venter) | Field commander / scapegoat; listed KIA before final blast confirmation; credited Care Shooter | `AWAITING FRAGMENT` |
+| Ada (Adanna "Ada" Venter) | Field commander / scapegoat; listed KIA before final blast confirmation | `AWAITING FRAGMENT` |
 | Tallai / Talla | Chimera care specialist; known at the Friedmandostorp bread stop | `AWAITING FRAGMENT` |
 | Q | Detects (scout/sensing role) | `AWAITING FRAGMENT` |
 | Quartz | Carries (load-bearer / rescue anchor) | `AWAITING FRAGMENT` |
@@ -26,6 +26,4 @@ see `data/characters.json` and `01_canon/OPEN_QUESTIONS.md` #28. `[CANON REVIEW 
 
 ## Open questions
 
-- Who or what is "Kassey" relative to Ada? (`01_canon/OPEN_QUESTIONS.md` #24)
-- What does "Care Shooter" mean as Ada's credited role? (#25)
 - Talla vs Tallai — one preferred spelling, or a nickname/full-name pair? (#4)

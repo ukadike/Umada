@@ -126,15 +126,17 @@ smallest of these get asked to Kemi one at a time.
     now has his own entry: `02_characters/KASSEY_DOSSIER.md`. Residual detail about Kassey
     (role, appearance, why his name marks her record) is tracked there as open fields, not
     as this question.
-25. **What does "Care Shooter" mean?** Ada's credited role on the rescue animatic's credit
-    line. Camera/documentation work tied to the frame narrative's reporter device, or
-    something else, is not stated.
+25. **[Removed at creator's direction, 2026-06-23.]** This item concerned a role
+    descriptor that appeared on Ada's animatic credit line. The descriptor has been retired
+    from canon and is no longer tracked, developed, or assigned meaning. The slot is kept
+    so existing cross-references stay valid; see the redaction note in the credit-line
+    transcription in `01_canon/VISUAL_CANON_REGISTRY.md`.
 26. **What is the "FFF" mark?** Etched near the figures in the rescue animatic's
     rubble-rescue panel (0:21–0:26); unexplained.
-27. **What is past "OFF T—" on Ada's credit line?** The line `ADANNA "ADA" VENTER — CARE
-    SHOOTER, OFF T—` is clipped by the right edge of the source video frame itself
-    (confirmed at native 720px width); not recoverable without a higher-resolution source
-    export.
+27. **What is past "OFF T—" on Ada's credit line?** The line `ADANNA "ADA" VENTER — [role
+    descriptor removed at creator's direction, 2026-06-23], OFF T—` is clipped by the right
+    edge of the source video frame itself (confirmed at native 720px width); not
+    recoverable without a higher-resolution source export.
 
 ## Resolved (kept here for the audit trail)
 

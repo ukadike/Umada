@@ -11,8 +11,6 @@ Open fields are placeholders for the tiny-questions protocol
 ## Identity
 
 - **Full credited name:** Adanna "Ada" Venter.
-- **Credited role:** Care Shooter (per the Friedmandostorp rescue animatic's credit
-  line). What "Care Shooter" means as a role is itself open — see Open Questions below.
 - **Narrative role:** Field commander / scapegoat.
 - **Survivor status:** One of the four Cape Wipeout survivors, alongside Tallai/Talla,
   Q, and Quartz. Listed KIA before final blast confirmation.
@@ -26,8 +24,8 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 - Appears in the Friedmandostorp rescue animatic (March 19, 2226): introduced by her
   full credited name and role in the same panel as the torn military record bearing the
   name "Kassey" (see Open Questions).
-- Credit line on the animatic reads `ADANNA "ADA" VENTER — CARE SHOOTER, OFF T—`,
-  clipped by the source frame's right edge.
+- Credit line on the animatic reads `ADANNA "ADA" VENTER — [role descriptor removed at
+  creator's direction, 2026-06-23], OFF T—`, clipped by the source frame's right edge.
 - **Sent by the Military Industrial Complex (MIC), with Kassey, to execute the Cape
   Wipeout blast** (March 19, 2226) — the detonation that obliterates the facility (Kemi,
   2026-06-23). Coheres with her locked "field commander / scapegoat" role and the locked
@@ -42,7 +40,6 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 
 ## Open questions (cross-referenced, not restated)
 
-- What "Care Shooter" means as a credited role — `01_canon/OPEN_QUESTIONS.md` #25.
 - What is past "OFF T—" on her credit line — `01_canon/OPEN_QUESTIONS.md` #27.
 - **Resolved:** Kassey = KC, a separate person, Ada's lover — `01_canon/OPEN_QUESTIONS.md`
   #24 and #29.
@@ -89,6 +86,6 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 
 ---
 
-**Tiny question for Kemi:** Ada's animatic credit is **"Care Shooter"** — yet she's
-military brass, sent to execute a blast. What does "Care Shooter" mean: a role, a rank, a
-callsign, or an irony in the credit? (One line closes open question #25.)
+**Tiny question for Kemi:** When the blast goes wrong and everything's coming apart, does
+Ada go **cold and methodical** or **loud and driving**? (One trait — enough to set how she
+reads on screen under pressure.)
