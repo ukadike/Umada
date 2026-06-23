@@ -10,7 +10,11 @@
 > Some records survived. Some did not. Some stories were erased. Some refused to disappear.
 > If you stay long enough, you may help us remember.
 
-![Nago — Symbology of Umada: a reference plate showing the eight core survival signs (Bread, Water, Safe, Danger, Carry, Home, Help, Rest) with their hand gestures, tactile forms, symbol families, and accessibility-first design principles.](assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png)
+![Nago — Symbology of Umada, golden-ratio banner crop: the eight core survival signs — Bread, Water, Safe, Danger, Carry, Home, Help, Rest — with their hand gestures, tactile forms, and the Golden Rectangle design grammar they're built on.](assets/img/site/README_HERO_BANNER.png)
+
+*Banner is a 1.618∶1 crop of the full reference plate — see
+[`PLATE_NAGO_SYMBOLOGY_OF_UMADA.png`](assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png) for the
+complete signage, phrase, and tactile-system detail.*
 
 This repository is the living archive, canon engine, and (eventually) public site for
 UMADA — built and maintained under **Aderin / UMADA Steward** mode. See `CLAUDE.md` for
