@@ -104,6 +104,11 @@ smallest of these get asked to Kemi one at a time.
     rescue of Ada (Kemi confirmed 2026-06-23 this last point is **deliberately undecided**,
     not merely unrecorded); and why his name burns across her record specifically. Tracked
     as open fields in `02_characters/KASSEY_DOSSIER.md` and `02_characters/ADA_DOSSIER.md`.
+31. **Ada's wings/pilot-style badge.** Her locked reference image
+    (`assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png`, Kemi-approved 2026-06-23) shows
+    a wings/pilot-style badge on her chest, alongside a sleeve flag patch whose design
+    isn't specified. Whether this means an aviation background, or is decorative, is open
+    — not invented. Tracked in `02_characters/ADA_DOSSIER.md`.
 
 ## Production / accessibility
 

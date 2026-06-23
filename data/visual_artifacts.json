@@ -54,6 +54,18 @@
         "What is past “OFF T—” on Ada's credit line? Clipped by the source file's frame edge.",
         "No transcript exists yet for the audio track (score and any dialogue)."
       ]
+    },
+    {
+      "artifact_id": "ADA_CHARACTER_REFERENCE_v1",
+      "status": "PRESENT",
+      "file": "assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png",
+      "provenance": "AI-generated (DALL-E) concept art; prompt authored by Aderin from locked canon facts; approved by Kemi as Ada's locked reference image, 2026-06-23. Captured at 13_fragments/2026-06-23_ada_reference_portrait.md.",
+      "title_on_plate": null,
+      "canon_implications": "Locks Ada's wardrobe and gear: woodland-pattern camo uniform, name tape \"ADA,\" gold collar rank insignia, wings/pilot-style chest badge, sleeve flag patch (design unspecified), web belt with holstered sidearm and knife, wristwatch — alongside her already-locked ponytail, necklace, slim Nigerian build, and cold-and-methodical demeanor. See 02_characters/ADA_DOSSIER.md.",
+      "episode_usage": "Reference image for any future depiction of Ada.",
+      "alt_text": "Painted portrait of Ada, a slim Nigerian woman in a woodland-pattern camo military uniform with a name tape reading ADA, gold collar rank insignia, a wings-style chest badge, and a sleeve flag patch, standing composed with a calm, focused expression. She wears a thin silver necklace and has her dark hair slicked back into a ponytail. A holstered sidearm and knife sit on her web belt and a wristwatch on her wrist. Behind her, a sunlit coastal African town with corrugated rooftops, a lighthouse, and a weathered signpost reading AGULHAS GUIDELIKE PUNT 34 50' S 20 00' E.",
+      "tactile_notes": "Not applicable — static reference image, not a Nago sign.",
+      "open_questions": ["Does the wings/pilot-style badge indicate an aviation background, or is it decorative? See 01_canon/OPEN_QUESTIONS.md #31."]
     }
   ],
   "awaiting_fragment": [

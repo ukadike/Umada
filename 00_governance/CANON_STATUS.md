@@ -80,6 +80,12 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 - Ada carries a necklace, a gift from Kassey/KC — Ada's lover, a man (Kemi-confirmed,
   2026-06-23). The necklace is a simple silver chain with a small, solid heart pendant
   (not a locket).
+- Ada is Nigerian, slim build, and goes cold and methodical (not loud) under pressure
+  (Kemi, 2026-06-23). Her locked visual reference is
+  `assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png` (Kemi-approved, 2026-06-23),
+  which is the visual source of truth for her wardrobe/gear (woodland-pattern camo
+  uniform, name tape, rank insignia, wings/pilot-style badge, sleeve flag patch, sidearm,
+  knife, wristwatch) per the same convention as the Nago plates.
 - Q detects. Quartz carries — load-bearer / rescue anchor.
 - ADA-1 begins with body-over-record logic: Trust Body Before Record, Trust Witness
   Before Narrative, Trust Survival Before Authority.

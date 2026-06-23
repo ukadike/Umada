@@ -37,12 +37,22 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   2026-06-23), with his own dossier at [`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md). His name
   is the one burned across Ada's torn military record in the animatic. The necklace's
   appearance, material, and what it means to Ada are open fields below.
+- **Locked visual reference:** `assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png`
+  (Kemi-approved, 2026-06-23). For any visual depiction of Ada, this image is the visual
+  source of truth where text is silent or in conflict, per the same convention as the
+  Nago plates (`00_governance/VISUAL_LAYER_RULES.md`). It shows: a woodland-pattern camo
+  uniform; a name tape reading "ADA"; gold collar rank insignia; a wings/pilot-style
+  chest badge; a sleeve flag patch (design not specified); a web belt with a holstered
+  sidearm and knife; a wristwatch; the necklace; and the ponytail. See
+  `13_fragments/2026-06-23_ada_reference_portrait.md` for the full capture.
 
 ## Open questions (cross-referenced, not restated)
 
 - What is past "OFF T—" on her credit line — `01_canon/OPEN_QUESTIONS.md` #27.
 - **Resolved:** Kassey = KC, a separate person, Ada's lover — `01_canon/OPEN_QUESTIONS.md`
   #24 and #29.
+- Does the wings/pilot-style badge in the locked reference image mean an aviation
+  background, or is it decorative? — `01_canon/OPEN_QUESTIONS.md` #31.
 
 ## Open fields — AWAITING Kemi (not invented)
 
@@ -50,11 +60,6 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   default look **slicked back in a ponytail**. In the rescue animatic (the "A face first.
   Then the damage." beat) it is **mangled** — the ponytail wrecked by the blast (Kemi,
   2026-06-23). Other features (face, eyes, skin) remain open.
-- **Wardrobe / signature look:** A **military uniform — "medium brass"** (Kemi,
-  2026-06-23). Read in the standard military sense as a **mid-ranking officer** (brass =
-  the officer class; "medium" = neither top brass nor junior), which fits her locked
-  field-commander role. The rank reading is a gloss, not a stated insignia; specific
-  insignia, the uniform's colors, and the rest of the wardrobe stay open.
 - **Personality & voice:** Under pressure — when things are coming apart — she goes
   **cold and methodical**, not loud (Kemi, 2026-06-23). Voice and personality otherwise
   open.
@@ -70,7 +75,7 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 ## Production notes
 
 - Visual reference for any depiction: `assets/video/UMADA_Friedmandostorp_Rescue_Animatic.mp4`
-  (the only artifact she currently appears in).
+  and `assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png` (locked, 2026-06-23).
 - Any visual realization of Ada will need alt text and a plain-language description per
   `00_governance/ACCESSIBILITY_BASELINE.md` before public release.
 - **Internal art-direction reference only, not public canon** (Kemi, 2026-06-23): comp
@@ -94,3 +99,5 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   methodical or loud and driving?* → **Cold and methodical.** (Kemi, 2026-06-23.)
 - *Ethnicity / build?* → **Nigerian; slim.** (Kemi, 2026-06-23.) Plus an internal
   art-direction comp (Iman) logged in Production notes, not as public canon.
+- *Lock the generated reference portrait as Ada's visual reference, gear and all?* →
+  **Yes.** (Kemi, 2026-06-23.) See `assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png`.
