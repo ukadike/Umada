@@ -49,7 +49,10 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 
 ## Open fields — AWAITING Kemi (not invented)
 
-- **Physical description:** none on record.
+- **Physical description:** Long hair, her default look **slicked back in a ponytail**.
+  In the rescue animatic (the "A face first. Then the damage." beat) it is **mangled** —
+  the ponytail wrecked by the blast (Kemi, 2026-06-23). Other features (face, eyes, build,
+  skin) remain open.
 - **Personality & voice:** none on record.
 - **The necklace from Kassey** — a **simple silver chain with a small, solid heart
   pendant** (not a locket; Kemi, 2026-06-23). What it means to Ada is open — not guessed
@@ -74,10 +77,11 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   Closed #29; the two names are one entity, canonically written **Kassey**.
 - *Is Kassey separate from Ada, or another name for her?* → **A different person — Ada's
   (man) lover.** (Kemi, 2026-06-23.) Closed #24. Kassey now has his own dossier.
+- *First thing we notice about Ada's face?* → **Her hair** — long, usually slicked back
+  in a ponytail; mangled in the blast. (Kemi, 2026-06-23.)
 
 ---
 
-**Tiny question for Kemi:** The animatic's caption "A face first. Then the damage." holds
-on Ada's face before anything else. What's the first thing we notice about that face —
-one feature (her eyes, a scar, her expression, something she's marked with)? (Enough to
-make Ada drawable, anchored to a beat the animatic already gives us.)
+**Tiny question for Kemi:** What does Ada wear — one signature piece (a jacket, her own
+clothes, or the MIC kit she was sent in to execute the blast)? (Enough to fix her
+silhouette; the rest of the wardrobe can stay open.)
