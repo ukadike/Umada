@@ -90,15 +90,12 @@ smallest of these get asked to Kemi one at a time.
     see `data/characters.json` for matching stub entries. Are these real additions to
     canon Kemi wants to confirm, or material from a different draft that doesn't belong
     here?
-29. **Who is KC, and is KC the same as "Kassey"?** Kemi confirmed (2026-06-23) that Ada
-    carries a necklace given to her by **KC** — a new named entity, recorded as a LOCKED
-    fact about the necklace's origin. Who KC is in their own right (relative, partner,
-    friend, the same person as Ada under another name) is not stated and is not invented.
-    Separately, the rescue animatic burns the name **"Kassey"** across Ada's torn military
-    record (#24). The two names are phonetically close, but nothing in canon connects
-    them; whether KC *is* Kassey is recorded here as a noticed resonance, not a claim.
-    A yes/no from Kemi would close this and likely #24. The necklace's own appearance,
-    material, and meaning remain open fields in `02_characters/ADA_DOSSIER.md`.
+29. **Is KC the same as "Kassey"? — RESOLVED (Kemi, 2026-06-23): yes.** Ada's necklace was
+    given by **KC**; Kemi confirmed KC and the animatic's **"Kassey"** are one entity. The
+    canonical written form is **Kassey** (the spelling on the rescue animatic, the visual
+    source of truth); **KC** is a short form. The residual question — who Kassey is
+    *relative to Ada* — continues under #24. The necklace's own appearance, material, and
+    meaning remain open fields in `02_characters/ADA_DOSSIER.md`.
 
 ## Production / accessibility
 
@@ -113,12 +110,14 @@ smallest of these get asked to Kemi one at a time.
 23. **Character dossiers (Ada, Tallai, Q, Quartz) and six visual boards** are referenced
     across the source package but not physically present — see
     `01_canon/VISUAL_CANON_REGISTRY.md` for the full `AWAITING FRAGMENT` list.
-24. **Who or what is "Kassey"?** The rescue animatic burns the name "Kassey" across a torn
-    military record for "Adanna K. [Venter]" — stamped CLEARANCE DENIED, marked KIA,
-    tagged "Chimera Survivor. Scientist. Empath." — in the same panel that introduces Ada
-    by her full credited name, Adanna "Ada" Venter. Same person under a second name, a
-    relative, or someone else entirely is not stated; recorded as an unresolved
-    juxtaposition, not a claim.
+24. **Who is "Kassey" relative to Ada? — narrowed, still open.** The rescue animatic burns
+    the name "Kassey" across a torn military record for "Adanna K. [Venter]" — stamped
+    CLEARANCE DENIED, marked KIA, tagged "Chimera Survivor. Scientist. Empath." — in the
+    same panel that introduces Ada by her full credited name, Adanna "Ada" Venter.
+    **Confirmed since (Kemi, 2026-06-23):** Kassey is the giver of Ada's necklace, and is
+    the same entity as "KC" (see resolved #29). **Still open:** whether Kassey is a person
+    *separate from* Ada or "Kassey" is another name for Ada herself. The gift framing leans
+    toward a separate person, but that is not asserted — pending Kemi's confirmation.
 25. **What does "Care Shooter" mean?** Ada's credited role on the rescue animatic's credit
     line. Camera/documentation work tied to the frame narrative's reporter device, or
     something else, is not stated.
