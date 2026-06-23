@@ -170,11 +170,11 @@ of the present artifacts also lives in `data/visual_artifacts.json`.
   sequence above. An audio transcript/caption track for the score and any dialogue
   remains AWAITING FRAGMENT.
 - **open questions:**
-  1. Who or what is "Kassey," relative to Adanna "Ada" Venter? **Partially resolved
-     (Kemi, 2026-06-23):** Kassey is the giver of Ada's necklace and is the same entity as
-     "KC" (`02_characters/ADA_DOSSIER.md`, `01_canon/OPEN_QUESTIONS.md` #29). Still open:
-     whether Kassey is a person separate from Ada or another name for Ada herself (#24).
-     The animatic burns the name across Adanna's record without explaining the connection.
+  1. Who or what is "Kassey," relative to Adanna "Ada" Venter? **RESOLVED (Kemi,
+     2026-06-23):** Kassey is a separate person — **Ada's lover, a man** — and the giver
+     of her necklace, the same entity as "KC" (`02_characters/KASSEY_DOSSIER.md`,
+     `01_canon/OPEN_QUESTIONS.md` #24, #29). The animatic burns his name across Ada's
+     record without explaining why; that narrative beat is left open, not interpreted.
   2. What does "Care Shooter" mean as a credited role — camera/documentation work tied to
      the frame narrative's reporter device, or something else?
   3. What is the "FFF" mark in the rubble-rescue panel?

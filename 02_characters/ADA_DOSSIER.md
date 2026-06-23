@@ -28,19 +28,18 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   name "Kassey" (see Open Questions).
 - Credit line on the animatic reads `ADANNA "ADA" VENTER — CARE SHOOTER, OFF T—`,
   clipped by the source frame's right edge.
-- **Carries a necklace, a gift from Kassey** (confirmed by Kemi, 2026-06-23). Kemi also
-  confirmed that **KC** (how the gift was first noted) and **Kassey** — the name burned
-  across Ada's torn military record in the animatic — are the **same entity**. Whether
-  Kassey is a person separate from Ada or Ada's own second name is still open (#24). The
-  necklace's appearance, material, and what it means to Ada are open fields below.
+- **Carries a necklace, a gift from Kassey** (confirmed by Kemi, 2026-06-23). Kassey
+  (short form **KC**) is **Ada's lover** — a man, a separate person from Ada (Kemi,
+  2026-06-23), with his own dossier at [`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md). His name
+  is the one burned across Ada's torn military record in the animatic. The necklace's
+  appearance, material, and what it means to Ada are open fields below.
 
 ## Open questions (cross-referenced, not restated)
 
-- Who Kassey/KC is *relative to Ada* (separate person or Ada's own second name) —
-  `01_canon/OPEN_QUESTIONS.md` #24.
 - What "Care Shooter" means as a credited role — `01_canon/OPEN_QUESTIONS.md` #25.
 - What is past "OFF T—" on her credit line — `01_canon/OPEN_QUESTIONS.md` #27.
-- KC = Kassey is **resolved** (Kemi, 2026-06-23) — `01_canon/OPEN_QUESTIONS.md` #29.
+- **Resolved:** Kassey = KC, a separate person, Ada's lover — `01_canon/OPEN_QUESTIONS.md`
+  #24 and #29.
 
 ## Open fields — AWAITING Kemi (not invented)
 
@@ -48,10 +47,10 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 - **Personality & voice:** none on record.
 - **The necklace from Kassey** (object confirmed): appearance, material, what it depicts
   or holds, and what it means to Ada are all open. Not described or guessed at.
-- **Relationships:** Ada has a confirmed tie to **Kassey/KC** (the necklace's giver,
-  whose name also burns across her military record); the nature of that relationship is
-  open (#24). Ties to Tallai, Q, and Quartz remain role-adjacency only — no
-  personal/relational detail exists yet.
+- **Relationships:** **Kassey/KC is Ada's lover** (a man, a separate person; Kemi,
+  2026-06-23) — he gave her the necklace, and his name burns across her military record.
+  See [`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md). Ties to Tallai, Q, and Quartz remain
+  role-adjacency only — no personal/relational detail exists yet.
 - **Arc notes:** none on record.
 
 ## Production notes
@@ -66,9 +65,10 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 - *What does Ada carry?* → **A necklace, a gift from Kassey (KC).** (Kemi, 2026-06-23.)
 - *Is KC the same person as the animatic's "Kassey"?* → **Yes.** (Kemi, 2026-06-23.)
   Closed #29; the two names are one entity, canonically written **Kassey**.
+- *Is Kassey separate from Ada, or another name for her?* → **A different person — Ada's
+  (man) lover.** (Kemi, 2026-06-23.) Closed #24. Kassey now has his own dossier.
 
 ---
 
-**Tiny question for Kemi:** Is **Kassey** a person *separate from* Ada (someone who gave
-her the necklace and whose name marks her record), or is "Kassey" another name for Ada
-herself? (A yes/no here closes open question #24 — the last thread on this identity.)
+**Next tiny question** is logged on Kassey's dossier (what the necklace looks like) — see
+[`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md).

@@ -18,11 +18,12 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   RETIRED for the same reason (2026-06-22 brief).
 - **Tallai / Talla** — both forms attested in source canon; treated as the same person
   pending confirmation of a single preferred form. See Open Questions.
-- **Kassey** (short form **KC**) — the giver of Ada's necklace. Kemi confirmed
-  (2026-06-23) that KC and the animatic's "Kassey" are the **same entity**. **Kassey** is
-  the canonical written form — it is the spelling burned into the rescue animatic, the
-  visual source of truth; **KC** is the short form. Who Kassey is *relative to Ada* (a
-  separate person, or Ada's own second name) is still OPEN (#24).
+- **Kassey** (short form **KC**) — **Ada's lover; a man; a separate person from Ada**
+  (Kemi, 2026-06-23). Gave Ada the necklace she carries; his name burns across her
+  military record in the rescue animatic. **Kassey** is the canonical written form — the
+  spelling on the animatic, the visual source of truth; **KC** is the short form. KC =
+  Kassey and the Kassey-vs-Ada question are both resolved (#24, #29). Detail about Kassey
+  is EMERGING — see `02_characters/KASSEY_DOSSIER.md`.
 - **Sisekong / Tishekong** — RETIRED as transcription errors. The correct names are
   **Umada** and **Tisetan**.
 
@@ -72,8 +73,8 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   Industrial Complex destroys the facility; the official story diverges from the truth.
 - Ada, Tallai/Talla, Q, and Quartz survive Cape Wipeout.
 - Ada is field commander / scapegoat; listed KIA before final blast confirmation.
-- Ada carries a necklace, a gift from Kassey/KC (Kemi-confirmed, 2026-06-23). Kassey's
-  relationship to Ada is open (#24).
+- Ada carries a necklace, a gift from Kassey/KC — Ada's lover, a man (Kemi-confirmed,
+  2026-06-23).
 - Q detects. Quartz carries — load-bearer / rescue anchor.
 - ADA-1 begins with body-over-record logic: Trust Body Before Record, Trust Witness
   Before Narrative, Trust Survival Before Authority.

@@ -8,9 +8,10 @@
       "One of four Cape Wipeout survivors (with Tallai/Talla, Q, and Quartz).",
       "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago.",
       "Full credited name and role per the Friedmandostorp rescue animatic: Adanna \"Ada\" Venter, credited Care Shooter.",
-      "Carries a necklace, a gift from Kassey (confirmed by Kemi, 2026-06-23). Kemi confirmed KC and the animatic's \"Kassey\" are the same entity; Kassey is the canonical spelling (visual source of truth)."
+      "Carries a necklace, a gift from Kassey (confirmed by Kemi, 2026-06-23). Kemi confirmed KC and the animatic's \"Kassey\" are the same entity; Kassey is the canonical spelling (visual source of truth).",
+      "Kassey is Ada's lover — a man, a separate person (Kemi, 2026-06-23). His name burns across Ada's torn military record in the animatic. See 02_characters/KASSEY_DOSSIER.md."
     ],
-    "open_question": "The animatic burns the name \"Kassey\" across a torn military record for an \"Adanna K. [Venter]\" (stamped CLEARANCE DENIED, KIA, tagged Chimera Survivor / Scientist / Empath) in the same panel as Ada's introduction. Kassey is confirmed (Kemi, 2026-06-23) to be the giver of Ada's necklace and the same entity as \"KC\". Still open (#24): whether Kassey is a person separate from Ada or Ada's own second name — see 01_canon/VISUAL_CANON_REGISTRY.md and 01_canon/OPEN_QUESTIONS.md.",
+    "open_question": null,
     "dossier_artifact": "Ada Character Dossier",
     "dossier_status": "IN PROGRESS — see 02_characters/ADA_DOSSIER.md (role facts compiled, open fields awaiting Kemi)"
   },
@@ -49,6 +50,19 @@
     ],
     "dossier_artifact": "Quartz Character Dossier",
     "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "Kassey",
+    "status": "EMERGING (confirmed by Kemi) / DRAFT (full dossier)",
+    "known_facts": [
+      "Ada's lover — a man, a separate person from Ada (Kemi, 2026-06-23).",
+      "Gave Ada the necklace she carries (Kemi, 2026-06-23).",
+      "His name \"Kassey\" burns across Ada's torn military record in the Friedmandostorp rescue animatic, in a different, glowing script (March 19, 2226). The record itself is Ada's; its CLEARANCE DENIED / KIA stamps and Chimera Survivor / Scientist / Empath tags describe Ada, not Kassey.",
+      "Canonical written form: Kassey (visual source of truth); KC is the short form."
+    ],
+    "open_question": "Role, appearance, status (alive or dead by Cape Wipeout), and why his name burns across Ada's record are all open and not invented. See 02_characters/KASSEY_DOSSIER.md.",
+    "dossier_artifact": "Kassey Character Dossier",
+    "dossier_status": "IN PROGRESS — see 02_characters/KASSEY_DOSSIER.md"
   },
   {
     "name": "Aisha",

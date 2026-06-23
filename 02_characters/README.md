@@ -10,6 +10,10 @@ named Cape Wipeout survivors — see `data/characters.json` for locked role-fact
 - **Tallai / Talla** — chimera care specialist; known at the Friedmandostorp bread stop.
 - **Q** — detects (scout/sensing role).
 - **Quartz** — carries (load-bearer / rescue anchor).
+- **Kassey** — Ada's lover (a man); gave her the necklace she carries; his name burns
+  across her military record in the animatic. Dossier started:
+  [`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md). EMERGING — confirmed by Kemi, detail still
+  open.
 
 No biographical, physical, or personality detail exists yet beyond the role-facts above.
 Nothing further has been invented to fill the gap.
