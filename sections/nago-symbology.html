@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nago Symbology — UMADA</title>
+<meta name="description" content="Nago: the visual operating system of Umada — design principles, function and motif families, visual grammar, and tactile system.">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script src="../assets/js/data-loader.js" defer></script>
+<script src="../assets/js/accessibility.js" defer></script>
+<script src="../assets/js/nav.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="site-header__top">
+    <p class="site-title"><a href="../index.html">UMADA</a></p>
+    <p class="site-tagline">A world being remembered.</p>
+  </div>
+  <nav class="primary-nav" aria-label="Primary"><details><summary>Browse the archive (20 sections)</summary><div class="nav-groups"><div class="nav-group"><h2>Orient</h2><ul><li><a href="start-here.html">Start Here</a></li></ul></div><div class="nav-group"><h2>Canon</h2><ul><li><a href="foundational-strata.html">Foundational Strata</a></li><li><a href="civilizational-ledger.html">Civilizational Ledger</a></li><li><a href="founding-myths.html">Founding Myths</a></li><li><a href="timeline.html">Timeline</a></li></ul></div><div class="nav-group"><h2>World</h2><ul><li><a href="characters.html">Characters</a></li><li><a href="places.html">Places</a></li><li><a href="kingdoms-factions.html">Kingdoms & Factions</a></li></ul></div><div class="nav-group"><h2>Language</h2><ul><li><a href="language-signage.html">Language & Signage</a></li><li><a href="nago-symbology.html">Nago Symbology</a></li></ul></div><div class="nav-group"><h2>Access</h2><ul><li><a href="accessibility.html">Accessibility</a></li></ul></div><div class="nav-group"><h2>Visual</h2><ul><li><a href="visual-archive.html">Visual Archive</a></li><li><a href="visual-canon.html">Visual Canon</a></li><li><a href="atlas.html">Atlas</a></li></ul></div><div class="nav-group"><h2>Production</h2><ul><li><a href="episode-releases.html">Episode Releases</a></li><li><a href="research-archive.html">Research Archive</a></li><li><a href="creator-archive.html">Creator Archive</a></li></ul></div><div class="nav-group"><h2>Fan</h2><ul><li><a href="faraday-box.html">Faraday Box</a></li><li><a href="fan-explorer.html">Fan Explorer</a></li><li><a href="fan-archive.html">Fan Archive</a></li></ul></div></div></details></nav>
+</header>
+<main id="main">
+
+<p class="meta-line">Language</p>
+<h1>Nago Symbology</h1>
+<p class="lede">The visual operating system of Umada. Nago begins before grammar — need
+comes first.</p>
+
+<p><em>"Nago" draws on Nagô / Yoruba heritage. Within UMADA it is a fictional, evolving
+survival-and-care sign system — not a depiction of any real sign language or sacred
+script. Every rooted term is treated with provenance and care.</em></p>
+
+<blockquote><p>Nago was born from the hands of survivors. It was shaped in markets,
+shelters, and ruins. It was carried by Tallai, Ada, Q, and the people. It belongs to
+everyone.</p></blockquote>
+
+<h2>Design principles</h2>
+<ul>
+  <li>Accessible to all</li><li>Easy to learn</li><li>Easy to feel</li>
+  <li>Easy to see</li><li>Easy to remember</li><li>Easy to share</li>
+</ul>
+
+<h2>Two axes — never merged</h2>
+<p>Function families organize <strong>signage</strong> (what a sign is for). Motif families
+organize <strong>narrative</strong> visual identity (title cards, dossier boards, brand
+iconography). They are not the same system and are never collapsed into one.</p>
+
+<h3>Function families (signage)</h3>
+<ul id="function-families" aria-live="polite"></ul>
+
+<h3>Motif families (narrative)</h3>
+<ul id="motif-families" aria-live="polite"></ul>
+
+<h2>Visual grammar</h2>
+<p>Built on the Golden Rectangle and ancient geometry — for legibility and memory, not
+mystification.</p>
+<ul id="visual-grammar" aria-live="polite"></ul>
+
+<h2>Tactile system</h2>
+<p>Every Nago sign must exist as: gesture, flat visual mark, raised tactile mark, verbal
+description, screen-reader label, public signage icon, map symbol, episode graphic.</p>
+<ul>
+  <li>Avoid thin details; use clear edges and high-contrast relief.</li>
+  <li>Support fingertip scanning.</li>
+  <li>Use redundant text labels.</li>
+  <li>Never rely on color alone.</li>
+  <li>Design for low vision and blind users from the beginning.</li>
+</ul>
+
+<h2>Proto-Nago lineage</h2>
+<p>Fourteen marks existed before the refined eight. Not all of them carried forward — that
+gap is left open rather than papered over.</p>
+<table class="fact-table" id="proto-table" aria-live="polite">
+  <thead><tr><th>Proto mark</th><th>Meaning</th><th>Carried into refined set?</th></tr></thead>
+  <tbody id="proto-table-body"></tbody>
+</table>
+
+<h2>Tiny questions</h2>
+<ul id="tiny-questions" aria-live="polite"></ul>
+
+<h2>Fanbase use</h2>
+<p id="fanbase-use"></p>
+
+<div class="cross-refs">Sources: <code>07_languages/NAGO_SYMBOLOGY_BIBLE.md</code>, <code>data/nago_symbology.json</code>, <code>data/nago_proto_signs.json</code>. The signs themselves: <a href="language-signage.html">Language &amp; Signage</a>. The plates this is transcribed from: <a href="visual-archive.html">Visual Archive</a>.</div>
+
+<script type="module">
+  const { loadJSON, el, list, renderError } = window.Umada;
+  loadJSON("../data/nago_symbology.json").then((sym) => {
+    const ff = document.getElementById("function-families");
+    sym.axes.function_families.families.forEach((f) => {
+      const li = el("li", {}, [el("strong", { text: f.name + " — " + f.tagline })]);
+      if (f.seed_signs.length) li.appendChild(list(f.seed_signs));
+      else li.appendChild(el("p", { class: "meta-line", text: f.note || "No signs seeded yet." }));
+      ff.appendChild(li);
+    });
+    const mf = document.getElementById("motif-families");
+    sym.axes.motif_families.families.forEach((f) => {
+      mf.appendChild(el("li", {}, [
+        el("strong", { text: f.name + " — " }),
+        document.createTextNode(f.marks + " Meanings: " + f.meanings.join(", ") + "."),
+      ]));
+    });
+    const vg = document.getElementById("visual-grammar");
+    sym.visual_grammar.primitives.forEach((p) => {
+      vg.appendChild(el("li", {}, [el("strong", { text: p.name + " — " }), document.createTextNode(p.meaning)]));
+    });
+    const tq = document.getElementById("tiny-questions");
+    sym.tiny_questions.forEach((q) => tq.appendChild(el("li", { text: q })));
+    document.getElementById("fanbase-use").textContent = sym.fanbase_use;
+  }).catch(() => renderError(document.getElementById("function-families"), "../data/nago_symbology.json"));
+
+  loadJSON("../data/nago_proto_signs.json").then((proto) => {
+    const tbody = document.getElementById("proto-table-body");
+    proto.marks.forEach((m) => {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: m.name }),
+        el("td", { text: m.meaning }),
+        el("td", { text: m.carried_into_refined_set ? ("Yes — " + m.refined_equivalent) : "No" }),
+      ]));
+    });
+  }).catch(() => renderError(document.getElementById("proto-table"), "../data/nago_proto_signs.json"));
+</script>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Canon status legend:
+      <span class="status-tag" data-status="LOCKED">LOCKED</span>
+      <span class="status-tag" data-status="PROBABLE">PROBABLE</span>
+      <span class="status-tag" data-status="EMERGING">EMERGING</span>
+      <span class="status-tag" data-status="OPEN QUESTION">OPEN QUESTION</span>
+      <span class="status-tag" data-status="RETIRED">RETIRED</span>
+      <span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span>
+    </p>
+    <p>Fans contribute signal, not automatic canon — see the <a href="../sections/faraday-box.html">Faraday Box</a>.</p>
+    <p>Governed by <code>00_governance/CANON_STATUS.md</code> and <code>00_governance/NO_FABRICATION_RULE.md</code>.</p>
+  </div>
+</footer>
+</body>
+</html>

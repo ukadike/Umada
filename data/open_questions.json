@@ -1,0 +1,47 @@
+{
+  "naming_and_canon_structure": [
+    "Memory vs Witness — applied as a rename per the refined plate; split if Kemi meant two distinct families.",
+    "Environment family contents — EMERGING, no signs seeded yet.",
+    "Motif-five fate — kept as a live narrative axis separate from the seven signage families.",
+    "Talla vs Tallai — single preferred spelling, or deliberate nickname/full-name pair?"
+  ],
+  "nago_signage": [
+    "Which of the seven Proto-Nago marks not in the refined eight were dropped, absorbed, or are awaiting re-render.",
+    "Vector/CSS-level shape spec for the five Visual Grammar primitives.",
+    "Quartz absent from the refined plate's Honor & Origin line — intentional, or predates Quartz's full lock-in?",
+    "What mark would Tallai recognize first?"
+  ],
+  "frame_narrative_and_geography": [
+    "Who disputes the council leadership of Umada and Tisetan, and over what?",
+    "Relationship between Tisetan and Umada — sister cities, successor city, rivals, or other?",
+    "What the Omoluabi device looks like or how it works.",
+    "What ADA-1 is — AI system, doctrine, person, or designation."
+  ],
+  "timeline_and_world_mechanics": [
+    "Mechanism of the Breach (Atlantic as carrier).",
+    "Mechanism of Super Hurricane Cindy as a carrier event.",
+    "Chimeran Flu origin and transmission.",
+    "Angel Dust — relationship and naming; flagged for provenance/care given the real-world drug-slang homonym.",
+    "Dead Glass — literal, technological, or metaphorical collapse?",
+    "S-Vector — definition beyond 'connects biology, technology, memory, adaptation, consciousness.'",
+    "Hidden Archive / alien presence — specifics beyond PROBABLE status.",
+    "Atlantis's relationship to the main timeline."
+  ],
+  "faction_layer": [
+    "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name."
+  ],
+  "characters": [
+    "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon."
+  ],
+  "production_and_accessibility": [
+    "Animatic on-screen captions transcribed 2026-06-22 (see data/visual_artifacts.json caption_transcript); audio track (yellowbirdbeats score, any dialogue) still has no transcript — no speech-to-text tooling was available.",
+    "Character dossiers (Ada, Tallai, Q, Quartz) and six visual boards not yet present — see data/visual_artifacts.json awaiting_fragment.",
+    "Who or what is \"Kassey\" relative to Adanna \"Ada\" Venter — same person under a second name, a relative, or someone else? Burned across Ada's military record in the rescue animatic without explanation.",
+    "What does \"Care Shooter\" mean as Ada's credited role in the rescue animatic?",
+    "What is the \"FFF\" mark etched near the figures in the rescue animatic's rubble-rescue panel?",
+    "What is past \"OFF T—\" on Ada's credit line in the rescue animatic? Clipped by the source file's native frame edge; not recoverable without a higher-resolution export."
+  ],
+  "resolved": [
+    "Does the full v1 + v1.2 site/section scaffolding already exist in the working repo? Resolved at pre-flight: repo contained only .gitattributes; this build is that scaffolding."
+  ]
+}

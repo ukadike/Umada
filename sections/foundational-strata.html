@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foundational Strata — UMADA</title>
+<meta name="description" content="The ten foundational strata of UMADA.">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script src="../assets/js/data-loader.js" defer></script>
+<script src="../assets/js/accessibility.js" defer></script>
+<script src="../assets/js/nav.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="site-header__top">
+    <p class="site-title"><a href="../index.html">UMADA</a></p>
+    <p class="site-tagline">A world being remembered.</p>
+  </div>
+  <nav class="primary-nav" aria-label="Primary"><details><summary>Browse the archive (20 sections)</summary><div class="nav-groups"><div class="nav-group"><h2>Orient</h2><ul><li><a href="start-here.html">Start Here</a></li></ul></div><div class="nav-group"><h2>Canon</h2><ul><li><a href="foundational-strata.html">Foundational Strata</a></li><li><a href="civilizational-ledger.html">Civilizational Ledger</a></li><li><a href="founding-myths.html">Founding Myths</a></li><li><a href="timeline.html">Timeline</a></li></ul></div><div class="nav-group"><h2>World</h2><ul><li><a href="characters.html">Characters</a></li><li><a href="places.html">Places</a></li><li><a href="kingdoms-factions.html">Kingdoms & Factions</a></li></ul></div><div class="nav-group"><h2>Language</h2><ul><li><a href="language-signage.html">Language & Signage</a></li><li><a href="nago-symbology.html">Nago Symbology</a></li></ul></div><div class="nav-group"><h2>Access</h2><ul><li><a href="accessibility.html">Accessibility</a></li></ul></div><div class="nav-group"><h2>Visual</h2><ul><li><a href="visual-archive.html">Visual Archive</a></li><li><a href="visual-canon.html">Visual Canon</a></li><li><a href="atlas.html">Atlas</a></li></ul></div><div class="nav-group"><h2>Production</h2><ul><li><a href="episode-releases.html">Episode Releases</a></li><li><a href="research-archive.html">Research Archive</a></li><li><a href="creator-archive.html">Creator Archive</a></li></ul></div><div class="nav-group"><h2>Fan</h2><ul><li><a href="faraday-box.html">Faraday Box</a></li><li><a href="fan-explorer.html">Fan Explorer</a></li><li><a href="fan-archive.html">Fan Archive</a></li></ul></div></div></details></nav>
+</header>
+<main id="main">
+
+<p class="meta-line">Canon</p>
+<h1>Foundational Strata</h1>
+<p class="lede">Ten layers UMADA is built on, each a lens the rest of the archive is read through.</p>
+<ol>
+  <li><strong>Care Doctrine</strong> — Extraction, Stabilization, Care, Analysis, Transport, Witness.</li>
+  <li><strong>Accessibility Civilization</strong> — Access = Survival.</li>
+  <li><strong>Signal Theory</strong> — Storms, stories, language, disease, memory, towers, relays.</li>
+  <li><strong>Nago Origins</strong> — Bread sign, market signs, survival vocabulary before grammar.</li>
+  <li><strong>Friedmandostorp</strong> — Bread stop, market, Southern Cape corridor, weather, harbor settlement, Nigerian-diaspora Agege-bread influence.</li>
+  <li><strong>Body Before Record</strong> — the ADA-1 principle: trust body before record; trust witness before narrative; trust survival before authority.</li>
+  <li><strong>Monsters as Care Infrastructure</strong> — chimeras become the care institutions refused to give.</li>
+  <li><strong>Hidden Archive</strong> — aliens, Atlantis, S-Vector, damaged records, missing evidence.</li>
+  <li><strong>SSL Layer</strong> — UMADA as the mythological/narrative layer of Small Systems Lab.</li>
+  <li><strong>The Tower</strong> — the Black Stars Tower hears first. Listening is infrastructure.</li>
+</ol>
+<h2>Care Doctrine, in detail</h2>
+<p>The six-step rescue sequence is locked; step-level procedural detail is not yet written.</p>
+<ol id="rescue-steps" class="era-list" aria-live="polite"></ol>
+<div id="ada1-ethics"></div>
+
+<p>The other strata expand elsewhere in the archive: Nago Origins in
+<a href="nago-symbology.html">Nago Symbology</a>, Friedmandostorp in
+<a href="places.html">Places</a> and <a href="atlas.html">Atlas</a>, and the civilizational
+arc in the <a href="civilizational-ledger.html">Civilizational Ledger</a>.</p>
+<div class="cross-refs">Source: <code>01_canon/FOUNDATIONAL_STRATA.md</code>, <code>data/rescue_doctrine.json</code>.</div>
+
+<script type="module">
+  const { loadJSON, el, statusTag, renderError } = window.Umada;
+  const stepsEl = document.getElementById("rescue-steps");
+  const ethicsEl = document.getElementById("ada1-ethics");
+  loadJSON("../data/rescue_doctrine.json").then((doctrine) => {
+    doctrine.steps.forEach((step) => {
+      stepsEl.appendChild(el("li", { class: "era-item" }, [
+        el("span", { class: "era-num", text: String(step.order).padStart(2, "0") }),
+        el("h3", {}, [document.createTextNode(step.name + " "), statusTag(doctrine.status.includes("LOCKED") ? "LOCKED" : doctrine.status)]),
+        el("p", { text: step.description }),
+      ]));
+    });
+    const ethics = doctrine.ada1_ethics;
+    ethicsEl.appendChild(el("h3", { text: ethics.title }));
+    ethicsEl.appendChild(statusTag(ethics.status));
+    ethicsEl.appendChild(el("ul", {}, ethics.principles.map((p) => el("li", { text: p }))));
+  }).catch(() => renderError(stepsEl, "../data/rescue_doctrine.json"));
+</script>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Canon status legend:
+      <span class="status-tag" data-status="LOCKED">LOCKED</span>
+      <span class="status-tag" data-status="PROBABLE">PROBABLE</span>
+      <span class="status-tag" data-status="EMERGING">EMERGING</span>
+      <span class="status-tag" data-status="OPEN QUESTION">OPEN QUESTION</span>
+      <span class="status-tag" data-status="RETIRED">RETIRED</span>
+      <span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span>
+    </p>
+    <p>Fans contribute signal, not automatic canon — see the <a href="../sections/faraday-box.html">Faraday Box</a>.</p>
+    <p>Governed by <code>00_governance/CANON_STATUS.md</code> and <code>00_governance/NO_FABRICATION_RULE.md</code>.</p>
+  </div>
+</footer>
+</body>
+</html>

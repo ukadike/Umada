@@ -1,0 +1,22 @@
+{
+  "title": "Rescue Doctrine",
+  "status": "LOCKED (sequence) / EMERGING (full procedural detail)",
+  "steps": [
+    { "order": 1, "name": "Extraction", "description": "AWAITING FRAGMENT — sequence locked, step-level detail not yet provided." },
+    { "order": 2, "name": "Stabilization", "description": "AWAITING FRAGMENT — sequence locked, step-level detail not yet provided." },
+    { "order": 3, "name": "Care", "description": "AWAITING FRAGMENT — sequence locked, step-level detail not yet provided." },
+    { "order": 4, "name": "Analysis", "description": "AWAITING FRAGMENT — sequence locked, step-level detail not yet provided." },
+    { "order": 5, "name": "Transport", "description": "AWAITING FRAGMENT — sequence locked, step-level detail not yet provided." },
+    { "order": 6, "name": "Witness", "description": "AWAITING FRAGMENT — sequence locked, step-level detail not yet provided." }
+  ],
+  "ada1_ethics": {
+    "title": "ADA-1 Ethics (civilizational principles)",
+    "status": "LOCKED (principles) / OPEN QUESTION (what ADA-1 is — AI, doctrine, person, or designation is unspecified)",
+    "principles": [
+      "Trust Body Before Record.",
+      "Trust Witness Before Narrative.",
+      "Trust Survival Before Authority."
+    ]
+  },
+  "related_signs": ["Carry", "Help", "Safe", "Danger", "Witness"]
+}

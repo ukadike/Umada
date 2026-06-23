@@ -1,0 +1,73 @@
+{
+  "present": [
+    {
+      "artifact_id": "PLATE_PROTO_NAGO",
+      "status": "PRESENT",
+      "file": "assets/img/PLATE_PROTO_NAGO.png",
+      "provenance": "Realized plate, UMADA_Aderin_SHIP_v1 ship package.",
+      "title_on_plate": "Proto-Nago: The First Signs of Survival",
+      "canon_implications": "Source for data/nago_proto_signs.json; origin layer beneath the refined Nago system.",
+      "episode_usage": "Visual reference for origin-era / pre-standardization signage.",
+      "alt_text": "Illustrated reference plate titled Proto-Nago: The First Signs of Survival, showing fourteen hand-scratched survival marks with their meanings, the materials and surfaces they were made with, and a closing quote about why they were made.",
+      "tactile_notes": "No tactile form documented on this plate; tactile forms for proto marks are AWAITING FRAGMENT.",
+      "open_questions": ["Which proto marks persisted into refined Nago and which were dropped or absorbed — not stated on either plate."]
+    },
+    {
+      "artifact_id": "PLATE_NAGO_SYMBOLOGY_OF_UMADA",
+      "status": "PRESENT",
+      "file": "assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png",
+      "provenance": "Realized plate, UMADA_Aderin_SHIP_v1 ship package.",
+      "title_on_plate": "Nago: Symbology of Umada — A Visual Language. A Survival Memory. A Promise to Understand.",
+      "canon_implications": "Source for the eight core survival signs, seven function families, and five Visual Grammar primitives in data/nago_symbology.json and data/nago_signs.json.",
+      "episode_usage": "Visual reference for Language & Signage and Nago Symbology sections; art direction reference for in-world signage.",
+      "alt_text": "Illustrated reference plate titled Nago: Symbology of Umada, showing design principles, a five-symbol visual grammar, eight core survival signs with hand gestures and tactile forms, seven color-coded symbol families, examples of in-world signage, sign-combination phrase examples, a tactile-system explanation, and an honor and origin statement.",
+      "tactile_notes": "Tactile form illustrated per core sign directly on the plate; source for written tactile-form descriptions.",
+      "open_questions": ["Vector/CSS-level shape spec for the Visual Grammar primitives is AWAITING a dedicated asset-extraction pass."]
+    },
+    {
+      "artifact_id": "UMADA_Friedmandostorp_Rescue_Animatic",
+      "status": "PRESENT",
+      "file": "assets/video/UMADA_Friedmandostorp_Rescue_Animatic.mp4",
+      "provenance": "Realized animatic, UMADA_Aderin_SHIP_v1 ship package. Score: yellowbirdbeats.",
+      "title_on_plate": null,
+      "canon_implications": "Dates the Friedmandostorp blast/rescue to March 19, 2226. Confirms Ada's full credited name as Adanna \"Ada\" Venter, role-credited Care Shooter. Restates ADA-1's first ethic on-screen as \"Trust body over record.\" See 01_canon/VISUAL_CANON_REGISTRY.md for the full caption transcript and the Kassey open question.",
+      "episode_usage": "Referenced from the Visual Archive section and the Cape Wipeout, Pt. 1 episode-release entry.",
+      "alt_text": "Animatic video depicting the Friedmandostorp rescue sequence from Cape Wipeout, Pt. 1, dated March 19 2226, scored by yellowbirdbeats.",
+      "tactile_notes": "Not applicable to video. An audio transcript for the score and any dialogue remains AWAITING FRAGMENT — no speech-to-text tooling was available to produce one without guessing at content.",
+      "caption_transcript": [
+        { "time": "0:00–0:05", "text": "UMADA / Friedmandostorp / March 19, 2226 (title card over four comic-panel thumbnails; one names “Kassey”)." },
+        { "time": "0:05–0:10", "text": "The town is in shards." },
+        { "time": "0:10–0:12", "text": "The town is blown open." },
+        { "time": "0:12–0:15", "text": "Corrugated roofs. Cement dust. Clay. Sewage. Bread in the road." },
+        { "time": "0:15–0:21", "text": "A face first. Then the damage." },
+        { "time": "0:21–0:26", "text": "Not dead. Not yet. (a mark resembling “FFF” is etched near the figures, unexplained)" },
+        { "time": "0:26–0:30", "text": "And one name burning under all of it. (torn military record, stamped CLEARANCE DENIED: “...VENTER,” “...STED KIA,” “[C]HIMERA SURVIVOR. SCIENTIST. EMPATH.” — with “Kassey” burned across it in a different script)" },
+        { "time": "0:30–0:33", "text": "The road comes broken: paperwork, fire, betrayal — and Kassey." },
+        { "time": "0:33–0:37", "text": "The record says dead. The body says no." },
+        { "time": "0:37–0:45", "text": "Talla calls. Q questions the risk. Quartz moves to carry her. (credit line at frame bottom: ADANNA “ADA” VENTER — CARE SHOOTER, OFF T—, clipped by the source frame's right edge)" },
+        { "time": "0:45–0:49", "text": "ADA-1 / Trust body over record." }
+      ],
+      "transcript_note": "Covers on-screen captions and document/credit text only, recovered by manual frame review (ffmpeg, 2fps sampling, plus targeted high-resolution crops) during the 2026-06-22 Phase C ingestion pass. The audio track has not been reviewed.",
+      "open_questions": [
+        "Who or what is “Kassey” relative to Adanna “Ada” Venter — same person, a relative, or someone else?",
+        "What does “Care Shooter” mean as a credited role?",
+        "What is the “FFF” mark in the rubble-rescue panel?",
+        "What is past “OFF T—” on Ada's credit line? Clipped by the source file's frame edge.",
+        "No transcript exists yet for the audio track (score and any dialogue)."
+      ]
+    }
+  ],
+  "awaiting_fragment": [
+    { "artifact_id": "Ada Character Dossier", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Tallai Character Dossier", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Q Character Dossier", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Quartz Character Dossier", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Friedmandostorp Bread Stop Board", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Nago Origin Gestures Board", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Cape Lab Blast Board", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "ADA-1 Emergence Board", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Rescue Doctrine Board", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Super Hurricane Cindy Board", "status": "AWAITING FRAGMENT" },
+    { "artifact_id": "Black Stars Tower Board", "status": "AWAITING FRAGMENT" }
+  ]
+}
