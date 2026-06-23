@@ -188,7 +188,9 @@ of the present artifacts also lives in `data/visual_artifacts.json`.
 Tagged `AWAITING FRAGMENT`. Expected filename and believed contents are not described —
 only what they are called and where they're referenced from.
 
-1. **Ada Character Dossier** — AWAITING FRAGMENT
+1. **Ada Character Dossier** — IN PROGRESS, see `02_characters/ADA_DOSSIER.md` (role
+   facts compiled from canon; physical description, personality, and relationships
+   await Kemi via the tiny-questions protocol)
 2. **Tallai Character Dossier** — AWAITING FRAGMENT
 3. **Q Character Dossier** — AWAITING FRAGMENT
 4. **Quartz Character Dossier** — AWAITING FRAGMENT
