@@ -38,25 +38,29 @@
   },
   {
     "name": "Q",
-    "status": "LOCKED (role) / AWAITING FRAGMENT (full dossier)",
+    "status": "LOCKED (role) / IN PROGRESS (full dossier)",
     "known_facts": [
       "Detects — scout/sensing role (\"Q detects. Quartz carries.\").",
       "One of four Cape Wipeout survivors.",
-      "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago."
+      "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago.",
+      "Appears in the Friedmandostorp rescue animatic's caption sequence (March 19, 2226): \"Talla calls. Q questions the risk. Quartz moves to carry her.\" — the only narrative beat on record involving Q directly. See 01_canon/VISUAL_CANON_REGISTRY.md."
     ],
+    "open_question": "What does Q hear? Logged as a draft tiny question in 00_governance/TINY_QUESTIONS_PROTOCOL.md, not yet formally asked.",
     "dossier_artifact": "Q Character Dossier",
-    "dossier_status": "AWAITING FRAGMENT"
+    "dossier_status": "IN PROGRESS — see 02_characters/Q_DOSSIER.md (role facts and the rescue-animatic beat compiled, open fields awaiting Kemi)"
   },
   {
     "name": "Quartz",
-    "status": "LOCKED (role) / AWAITING FRAGMENT (full dossier)",
+    "status": "LOCKED (role) / IN PROGRESS (full dossier)",
     "known_facts": [
       "Carries — load-bearer / rescue anchor (\"Q detects. Quartz carries.\").",
       "One of four Cape Wipeout survivors.",
-      "Not named in the refined Nago plate's in-world Honor & Origin line, which credits Tallai, Ada, Q, and \"the people\" — see open question in 01_canon/OPEN_QUESTIONS.md."
+      "Not named in the refined Nago plate's in-world Honor & Origin line, which credits Tallai, Ada, Q, and \"the people\" — see open question in 01_canon/OPEN_QUESTIONS.md.",
+      "Appears in the Friedmandostorp rescue animatic's caption sequence (March 19, 2226): \"Talla calls. Q questions the risk. Quartz moves to carry her.\" — confirms Quartz physically carries Ada during the rescue. See 01_canon/VISUAL_CANON_REGISTRY.md."
     ],
+    "open_question": "What does Quartz refuse to drop? Logged as a draft tiny question in 00_governance/TINY_QUESTIONS_PROTOCOL.md, not yet formally asked.",
     "dossier_artifact": "Quartz Character Dossier",
-    "dossier_status": "AWAITING FRAGMENT"
+    "dossier_status": "IN PROGRESS — see 02_characters/QUARTZ_DOSSIER.md (role facts and the rescue-animatic beat compiled, open fields awaiting Kemi)"
   },
   {
     "name": "Kassey",

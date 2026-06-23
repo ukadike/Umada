@@ -203,8 +203,12 @@ only what they are called and where they're referenced from.
 2. **Tallai Character Dossier** — IN PROGRESS, see `02_characters/TALLAI_DOSSIER.md`
    (role facts and one locked visual reference compiled, confirming she is herself a
    chimera; open fields await Kemi)
-3. **Q Character Dossier** — AWAITING FRAGMENT
-4. **Quartz Character Dossier** — AWAITING FRAGMENT
+3. **Q Character Dossier** — IN PROGRESS, see `02_characters/Q_DOSSIER.md` (role facts
+   and the rescue-animatic beat — "Q questions the risk" — compiled; physical
+   description, personality, visual reference, and relationships await Kemi)
+4. **Quartz Character Dossier** — IN PROGRESS, see `02_characters/QUARTZ_DOSSIER.md`
+   (role facts and the rescue-animatic beat — "Quartz moves to carry her" — compiled;
+   physical description, personality, visual reference, and relationships await Kemi)
 5. **Friedmandostorp Bread Stop Board** — AWAITING FRAGMENT
 6. **Nago Origin Gestures Board** — AWAITING FRAGMENT
 7. **Cape Lab Blast Board** — AWAITING FRAGMENT

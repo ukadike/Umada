@@ -1,7 +1,7 @@
 # Characters
 
-Index of known characters. Full dossiers are `AWAITING FRAGMENT` for two of the four
-named Cape Wipeout survivors — see `data/characters.json` for locked role-facts and
+Index of known characters. All four named Cape Wipeout survivors now have a dossier
+drafting started — see `data/characters.json` for locked role-facts and
 `01_canon/VISUAL_CANON_REGISTRY.md` for the dossier stubs.
 
 - **Ada** — field commander / scapegoat; listed KIA before final blast confirmation.
@@ -12,8 +12,12 @@ named Cape Wipeout survivors — see `data/characters.json` for locked role-fact
   treats chimeras (Kemi, 2026-06-23); known at the Friedmandostorp bread stop. Dossier
   drafting started: [`TALLAI_DOSSIER.md`](TALLAI_DOSSIER.md) (role facts and locked
   visual reference compiled, open fields awaiting Kemi).
-- **Q** — detects (scout/sensing role).
-- **Quartz** — carries (load-bearer / rescue anchor).
+- **Q** — detects (scout/sensing role). Dossier drafting started:
+  [`Q_DOSSIER.md`](Q_DOSSIER.md) (role facts and the rescue-animatic beat — "Q questions
+  the risk" — compiled, open fields awaiting Kemi).
+- **Quartz** — carries (load-bearer / rescue anchor). Dossier drafting started:
+  [`QUARTZ_DOSSIER.md`](QUARTZ_DOSSIER.md) (role facts and the rescue-animatic beat —
+  "Quartz moves to carry her" — compiled, open fields awaiting Kemi).
 - **Kassey** — Ada's lover (a man); gave her the necklace she carries; his name burns
   across her military record in the animatic. Dossier started:
   [`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md). EMERGING — confirmed by Kemi, detail still
