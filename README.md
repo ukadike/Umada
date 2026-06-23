@@ -4,6 +4,7 @@
 [![Build Phase](https://img.shields.io/badge/build_phase-C_ingestion-efece2?style=flat-square&labelColor=1a1a1a)](#build-status)
 [![Fabrication](https://img.shields.io/badge/fabrication-zero-efece2?style=flat-square&labelColor=1a1a1a)](00_governance/NO_FABRICATION_RULE.md)
 [![Accessibility](https://img.shields.io/badge/accessibility-baseline_enforced-efece2?style=flat-square&labelColor=1a1a1a)](00_governance/ACCESSIBILITY_BASELINE.md)
+[![License](https://img.shields.io/badge/license-all_rights_reserved-efece2?style=flat-square&labelColor=1a1a1a)](LICENSE)
 
 > This is not a world that was built. It is a world being remembered.
 > Some records survived. Some did not. Some stories were erased. Some refused to disappear.
