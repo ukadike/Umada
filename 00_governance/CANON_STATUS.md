@@ -74,7 +74,7 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 - Ada, Tallai/Talla, Q, and Quartz survive Cape Wipeout.
 - Ada is field commander / scapegoat; listed KIA before final blast confirmation.
 - Ada carries a necklace, a gift from Kassey/KC — Ada's lover, a man (Kemi-confirmed,
-  2026-06-23).
+  2026-06-23). The necklace is a simple silver chain with a small heart pendant.
 - Q detects. Quartz carries — load-bearer / rescue anchor.
 - ADA-1 begins with body-over-record logic: Trust Body Before Record, Trust Witness
   Before Narrative, Trust Survival Before Authority.

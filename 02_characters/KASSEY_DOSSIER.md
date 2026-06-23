@@ -19,8 +19,8 @@ Kemi's to draft.
 
 - **Ada's lover** — a man, romantically partnered with Adanna "Ada" Venter (Kemi,
   2026-06-23).
-- **Gave Ada her necklace** (Kemi, 2026-06-23). The necklace's appearance and meaning are
-  open — see `02_characters/ADA_DOSSIER.md`.
+- **Gave Ada her necklace** (Kemi, 2026-06-23): a simple silver chain with a small heart
+  pendant. What it means to Ada is open — see `02_characters/ADA_DOSSIER.md`.
 - His name **"Kassey" burns across Ada's torn military record** in the Friedmandostorp
   rescue animatic, in a different, glowing script from the typed record (March 19, 2226).
   Source: `01_canon/VISUAL_CANON_REGISTRY.md`. Note: the record itself — stamped CLEARANCE
@@ -49,9 +49,11 @@ Kemi's to draft.
 
 - *Is Kassey separate from Ada, or another name for her?* → **A different person — Ada's
   (man) lover.** (Kemi, 2026-06-23.) Closed open question #24.
+- *What does the necklace Kassey gave Ada look like?* → **A simple silver chain with a
+  small heart pendant.** (Kemi, 2026-06-23.)
 
 ---
 
-**Tiny question for Kemi:** What does the necklace Kassey gave Ada look like? (One
-concrete detail — a shape, a material, a charm — makes it drawable and lets it carry
-meaning on screen without inventing the rest of him.)
+**Tiny question for Kemi:** Is the heart pendant a **locket that opens** (holding, say, a
+photo, a Nago mark, or a lock of hair), or a **solid** charm? (One detail that decides
+whether the necklace can carry a hidden beat on screen.)
