@@ -28,20 +28,28 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   name "Kassey" (see Open Questions).
 - Credit line on the animatic reads `ADANNA "ADA" VENTER — CARE SHOOTER, OFF T—`,
   clipped by the source frame's right edge.
+- **Carries a necklace, a gift from KC** (confirmed by Kemi, 2026-06-23). Who KC is, and
+  whether "KC" relates to the "Kassey" burned across Ada's military record, is not stated
+  — see Open Questions. The necklace's appearance, material, and what it means to Ada are
+  open fields below.
 
 ## Open questions (cross-referenced, not restated)
 
 - Who or what is "Kassey" relative to Ada — `01_canon/OPEN_QUESTIONS.md` #24.
 - What "Care Shooter" means as a credited role — `01_canon/OPEN_QUESTIONS.md` #25.
 - What is past "OFF T—" on her credit line — `01_canon/OPEN_QUESTIONS.md` #27.
+- Who is **KC** (gave Ada her necklace), and is KC the same as "Kassey" —
+  `01_canon/OPEN_QUESTIONS.md` #29.
 
 ## Open fields — AWAITING Kemi (not invented)
 
 - **Physical description:** none on record.
 - **Personality & voice:** none on record.
-- **Signature object / what she carries:** none on record.
-- **Relationships** (to Tallai, Q, Quartz, and anyone else): role-adjacency only — no
-  personal/relational detail exists yet.
+- **The necklace from KC** (object confirmed): appearance, material, what it depicts or
+  holds, and what it means to Ada are all open. Not described or guessed at.
+- **Relationships:** Ada has a confirmed tie to **KC** (the necklace's giver); the nature
+  of that relationship is open. Ties to Tallai, Q, and Quartz remain role-adjacency only —
+  no personal/relational detail exists yet.
 - **Arc notes:** none on record.
 
 ## Production notes
@@ -51,8 +59,13 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 - Any visual realization of Ada will need alt text and a plain-language description per
   `00_governance/ACCESSIBILITY_BASELINE.md` before public release.
 
+## Answered tiny questions
+
+- *What does Ada carry?* → **A necklace, a gift from KC.** (Kemi, 2026-06-23.) Logged as
+  locked above; opened the new KC identity question (#29).
+
 ---
 
-**Tiny question for Kemi:** What does Ada carry? (A signature object — tool, weapon,
-keepsake, anything she's rarely seen without — closes one small gap without asking for
-the whole character.)
+**Tiny question for Kemi:** Is **KC** the same person as the **"Kassey"** burned across
+Ada's military record in the rescue animatic? (The names sound alike, but the animatic
+never connects them — a yes/no closes both the necklace's giver and open question #24.)

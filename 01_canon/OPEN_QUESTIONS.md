@@ -90,6 +90,15 @@ smallest of these get asked to Kemi one at a time.
     see `data/characters.json` for matching stub entries. Are these real additions to
     canon Kemi wants to confirm, or material from a different draft that doesn't belong
     here?
+29. **Who is KC, and is KC the same as "Kassey"?** Kemi confirmed (2026-06-23) that Ada
+    carries a necklace given to her by **KC** — a new named entity, recorded as a LOCKED
+    fact about the necklace's origin. Who KC is in their own right (relative, partner,
+    friend, the same person as Ada under another name) is not stated and is not invented.
+    Separately, the rescue animatic burns the name **"Kassey"** across Ada's torn military
+    record (#24). The two names are phonetically close, but nothing in canon connects
+    them; whether KC *is* Kassey is recorded here as a noticed resonance, not a claim.
+    A yes/no from Kemi would close this and likely #24. The necklace's own appearance,
+    material, and meaning remain open fields in `02_characters/ADA_DOSSIER.md`.
 
 ## Production / accessibility
 

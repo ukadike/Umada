@@ -18,6 +18,10 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   RETIRED for the same reason (2026-06-22 brief).
 - **Tallai / Talla** — both forms attested in source canon; treated as the same person
   pending confirmation of a single preferred form. See Open Questions.
+- **KC** — canonical short form for the (as-yet-unidentified) giver of Ada's necklace,
+  confirmed by Kemi 2026-06-23. Rendered "KC" until a fuller name is given. Whether KC is
+  the same as the animatic's **"Kassey"** is an OPEN QUESTION (#29), not a settled
+  equivalence — do not collapse the two names without Kemi's confirmation.
 - **Sisekong / Tishekong** — RETIRED as transcription errors. The correct names are
   **Umada** and **Tisetan**.
 
@@ -67,6 +71,8 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   Industrial Complex destroys the facility; the official story diverges from the truth.
 - Ada, Tallai/Talla, Q, and Quartz survive Cape Wipeout.
 - Ada is field commander / scapegoat; listed KIA before final blast confirmation.
+- Ada carries a necklace, a gift from KC (Kemi-confirmed, 2026-06-23). KC's identity is
+  open (#29).
 - Q detects. Quartz carries — load-bearer / rescue anchor.
 - ADA-1 begins with body-over-record logic: Trust Body Before Record, Trust Witness
   Before Narrative, Trust Survival Before Authority.
