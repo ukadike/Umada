@@ -43,6 +43,12 @@ This is the contributor/build-process README. For the fan/visitor-facing welcome
   rescue animatic: the **visual source of truth**. Where any document disagrees with a
   plate, the plate wins.
 - `sections/`, `assets/css/`, `assets/js/`, `index.html` — the public site (Phase B).
+- `docs/` — a production-bible layer for people doing production work, added alongside
+  the canon engine above. It cross-links into the engine rather than restating facts;
+  the engine remains the source of truth. See `docs/README.md` and
+  `docs/canon/GOVERNANCE.md`. Includes `docs/project-management/issues/` (Issue-001
+  through Issue-050), every issue traceable to a real open question or `AWAITING
+  FRAGMENT` artifact already on record.
 
 ## Build status
 
