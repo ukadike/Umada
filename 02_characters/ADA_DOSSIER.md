@@ -45,9 +45,9 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 
 - **Physical description:** none on record.
 - **Personality & voice:** none on record.
-- **The necklace from Kassey** — a **simple silver chain with a small heart pendant**
-  (Kemi, 2026-06-23). What it means to Ada, and whether the heart pendant is solid or a
-  locket, are open — not guessed at.
+- **The necklace from Kassey** — a **simple silver chain with a small, solid heart
+  pendant** (not a locket; Kemi, 2026-06-23). What it means to Ada is open — not guessed
+  at.
 - **Relationships:** **Kassey/KC is Ada's lover** (a man, a separate person; Kemi,
   2026-06-23) — he gave her the necklace, and his name burns across her military record.
   See [`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md). Ties to Tallai, Q, and Quartz remain
