@@ -77,5 +77,7 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 
 ---
 
-**Next tiny question** is logged on Kassey's dossier (what the necklace looks like) — see
-[`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md).
+**Tiny question for Kemi:** The animatic's caption "A face first. Then the damage." holds
+on Ada's face before anything else. What's the first thing we notice about that face —
+one feature (her eyes, a scar, her expression, something she's marked with)? (Enough to
+make Ada drawable, anchored to a beat the animatic already gives us.)
