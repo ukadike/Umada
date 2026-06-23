@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/civilizational_ledger.schema.json",
+  "title": "UMADA Civilizational Ledger",
+  "description": "Validates data/civilizational_ledger.json.",
+  "type": "object",
+  "required": ["title", "status", "eras"],
+  "additionalProperties": true,
+  "properties": {
+    "title": { "type": "string" },
+    "status": { "type": "string" },
+    "framing_note": { "type": "string" },
+    "eras": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["era", "title", "status", "summary"],
+        "additionalProperties": true,
+        "properties": {
+          "era": { "type": "integer", "minimum": 0 },
+          "title": { "type": "string" },
+          "status": { "type": "string" },
+          "summary": { "type": "string" }
+        }
+      }
+    }
+  }
+}

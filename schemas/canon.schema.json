@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/canon.schema.json",
+  "title": "UMADA Canon Seed",
+  "description": "Validates data/canon.json.",
+  "type": "object",
+  "required": ["status_legend", "locked"],
+  "additionalProperties": true,
+  "properties": {
+    "status_legend": { "type": "array", "items": { "type": "string" } },
+    "locked": { "type": "array", "items": { "type": "string" } },
+    "friedmandostorp": { "type": "array", "items": { "type": "string" } },
+    "ada1_ethics": { "type": "array", "items": { "type": "string" } },
+    "rescue_doctrine_steps": { "type": "array", "items": { "type": "string" } },
+    "nago_axes": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "function_families": { "type": "array", "items": { "type": "string" } },
+        "motif_families": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "emerging": { "type": "array", "items": { "type": "string" } },
+    "poetry_note": { "type": "string" }
+  }
+}

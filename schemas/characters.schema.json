@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/characters.schema.json",
+  "title": "UMADA Characters",
+  "description": "Validates data/characters.json.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "status", "known_facts"],
+    "additionalProperties": true,
+    "properties": {
+      "name": { "type": "string" },
+      "status": { "type": "string" },
+      "known_facts": { "type": "array", "items": { "type": "string" } },
+      "open_question": { "type": "string" },
+      "dossier_artifact": { "type": ["string", "null"] },
+      "dossier_status": { "type": "string" }
+    }
+  }
+}

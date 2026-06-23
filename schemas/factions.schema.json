@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/factions.schema.json",
+  "title": "UMADA Factions",
+  "description": "Validates data/factions.json.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "status", "era", "known_facts"],
+    "additionalProperties": true,
+    "properties": {
+      "name": { "type": "string" },
+      "status": { "type": "string" },
+      "era": { "type": "string" },
+      "known_facts": { "type": "array", "items": { "type": "string" } },
+      "note": { "type": "string" }
+    }
+  }
+}

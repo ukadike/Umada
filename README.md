@@ -55,9 +55,14 @@ This is the contributor/build-process README. For the fan/visitor-facing welcome
 - `data/` — structured JSON the site and tooling read from (canon, timeline, characters,
   factions, visual artifacts, Nago signs and symbology, rescue doctrine, civilizational
   ledger, sources, open questions).
+- `schemas/` — JSON Schema (2020-12) definitions for every file in `data/`, validating
+  shape only, never canon content. See `schemas/README.md`.
 - `assets/img/`, `assets/video/` — the realized Nago plates and the Friedmandostorp
   rescue animatic: the **visual source of truth**. Where any document disagrees with a
   plate, the plate wins.
+- `prompts/` — image-generation prompt notes for future concept art and storyboards,
+  restating only already-locked visual canon (see `prompts/README.md`); subjects with no
+  locked visual reference get a stub, not an invented appearance.
 - `sections/`, `assets/css/`, `assets/js/`, `index.html` — the public site (Phase B).
 - `docs/` — a production-bible layer for people doing production work, added alongside
   the canon engine above. It cross-links into the engine rather than restating facts;

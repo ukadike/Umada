@@ -22,13 +22,18 @@ If you're looking for the canon engine itself, start at the root `README.md` ins
 - **[Character Index](characters/INDEX.md)**
 - **[Faction Index](factions/INDEX.md)**
 - **[Event Index](events/INDEX.md)**
-- `episodes/` — reserved; Episode 1 has deliberately not been written yet
+- `episodes/` — reserved; Episode 1 has deliberately not been *scripted* yet. The locked
+  facts it will draw from are scaffolded in
+  [`11_episodes/EPISODE_01_CAPE_WIPEOUT.md`](../11_episodes/EPISODE_01_CAPE_WIPEOUT.md).
 - **[Visual Language Guide](production/VISUAL_LANGUAGE_GUIDE.md)**
 - **[Production Roadmap](production/ROADMAP.md)**
 - **[Research Index](research/INDEX.md)**
 - **[Contributor Guide](../docs/CONTRIBUTOR_GUIDE.md)**
 - **[Project Management / Issues](project-management/issues/INDEX.md)** — Issue-001
   through Issue-050, grouped by production phase
+- `../prompts/` — image-generation prompt notes, reused across future concept art and
+  storyboards; restates locked visual canon only, never invents an unlocked appearance.
+- `../schemas/` — JSON Schema definitions for every `data/*.json` file.
 
 ## Accessibility
 

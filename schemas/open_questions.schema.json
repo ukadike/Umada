@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/open_questions.schema.json",
+  "title": "UMADA Open Questions",
+  "description": "Validates data/open_questions.json — an object of category-name keys, each an array of open-question strings. Category names are not enumerated since new categories may be added as new gaps are found.",
+  "type": "object",
+  "additionalProperties": {
+    "type": "array",
+    "items": { "type": "string" }
+  }
+}

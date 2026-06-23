@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/rescue_doctrine.schema.json",
+  "title": "UMADA Rescue Doctrine",
+  "description": "Validates data/rescue_doctrine.json.",
+  "type": "object",
+  "required": ["title", "status", "steps"],
+  "additionalProperties": true,
+  "properties": {
+    "title": { "type": "string" },
+    "status": { "type": "string" },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["order", "name", "description"],
+        "additionalProperties": true,
+        "properties": {
+          "order": { "type": "integer", "minimum": 1 },
+          "name": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "ada1_ethics": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "title": { "type": "string" },
+        "status": { "type": "string" },
+        "principles": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "related_signs": { "type": "array", "items": { "type": "string" } }
+  }
+}

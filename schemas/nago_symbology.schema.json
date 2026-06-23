@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/nago_symbology.schema.json",
+  "title": "UMADA Nago Symbology",
+  "description": "Validates data/nago_symbology.json — design principles, the two-axis family system, the Visual Grammar primitives, and the tactile system, transcribed from assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png.",
+  "type": "object",
+  "required": ["title", "status", "axes"],
+  "additionalProperties": true,
+  "properties": {
+    "title": { "type": "string" },
+    "status": { "type": "string" },
+    "real_world_provenance_note": { "type": "string" },
+    "core_thesis": { "type": "string" },
+    "design_principles": { "type": "array", "items": { "type": "string" } },
+    "axes": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "note": { "type": "string" },
+        "function_families": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "label": { "type": "string" },
+            "purpose": { "type": "string" },
+            "families": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name"],
+                "additionalProperties": true,
+                "properties": {
+                  "name": { "type": "string" },
+                  "tagline": { "type": "string" },
+                  "status": { "type": "string" },
+                  "renamed_from": { "type": "string" },
+                  "rename_note": { "type": "string" },
+                  "note": { "type": "string" },
+                  "seed_signs": { "type": "array", "items": { "type": "string" } }
+                }
+              }
+            }
+          }
+        },
+        "motif_families": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "label": { "type": "string" },
+            "purpose": { "type": "string" },
+            "families": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name"],
+                "additionalProperties": true,
+                "properties": {
+                  "name": { "type": "string" },
+                  "marks": { "type": "string" },
+                  "meanings": { "type": "array", "items": { "type": "string" } }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "visual_grammar": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "source": { "type": "string" },
+        "construction_note": { "type": "string" },
+        "primitives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "meaning"],
+            "additionalProperties": true,
+            "properties": {
+              "name": { "type": "string" },
+              "meaning": { "type": "string" }
+            }
+          }
+        },
+        "open_question": { "type": "string" }
+      }
+    },
+    "tactile_system": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "requirement": { "type": "string" },
+        "rules": { "type": "array", "items": { "type": "string" } },
+        "plate_callouts": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "accessibility_requirements": { "type": "array", "items": { "type": "string" } },
+    "in_world_honor_and_origin": { "type": "string" },
+    "how_to_read_nago": { "type": "array", "items": { "type": "string" } },
+    "promise_of_nago": { "type": "array", "items": { "type": "string" } },
+    "made_with_what_we_had": { "type": "array", "items": { "type": "string" } },
+    "fanbase_use": { "type": "string" },
+    "tiny_questions": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/nago_signs.schema.json",
+  "title": "UMADA Nago Signs",
+  "description": "Validates data/nago_signs.json — one entry per Nago sign, refined layer.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "function_family", "status", "plain_language_meaning"],
+    "additionalProperties": true,
+    "properties": {
+      "name": { "type": "string" },
+      "function_family": { "type": "string" },
+      "motif_family": { "type": "string" },
+      "core_survival_sign": { "type": "boolean" },
+      "status": { "type": "string" },
+      "plain_language_meaning": { "type": "string" },
+      "gesture": { "type": "string" },
+      "visual_mark": { "type": "string" },
+      "tactile_form": { "type": "string" },
+      "context": { "type": "string" },
+      "screen_reader_label": { "type": "string" },
+      "no_color_only_note": { "type": "string" },
+      "low_vision_support": { "type": "string" },
+      "provenance_care_note": { "type": "string" },
+      "alt_text": { "type": "string" },
+      "open_questions": { "type": "array", "items": { "type": "string" } }
+    }
+  }
+}

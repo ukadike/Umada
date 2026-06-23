@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/sources.schema.json",
+  "title": "UMADA Sources / Ingestion Log",
+  "description": "Validates data/sources.json.",
+  "type": "object",
+  "required": ["ingestion_package", "files"],
+  "additionalProperties": true,
+  "properties": {
+    "ingestion_package": { "type": "string" },
+    "ingested_on": { "type": "string" },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "ingested_into"],
+        "additionalProperties": true,
+        "properties": {
+          "path": { "type": "string" },
+          "ingested_into": { "type": "string" }
+        }
+      }
+    }
+  }
+}

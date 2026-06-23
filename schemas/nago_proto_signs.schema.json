@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/nago_proto_signs.schema.json",
+  "title": "UMADA Proto-Nago Signs",
+  "description": "Validates data/nago_proto_signs.json, transcribed from assets/img/PLATE_PROTO_NAGO.png.",
+  "type": "object",
+  "required": ["title", "status", "marks"],
+  "additionalProperties": true,
+  "properties": {
+    "title": { "type": "string" },
+    "status": { "type": "string" },
+    "framing_text": { "type": "string" },
+    "closing_quote": { "type": "string" },
+    "made_with_what_we_had": { "type": "array", "items": { "type": "string" } },
+    "surfaces_marked_on": { "type": "array", "items": { "type": "string" } },
+    "how_they_were_read": { "type": "array", "items": { "type": "string" } },
+    "who_made_these_signs": { "type": "array", "items": { "type": "string" } },
+    "how_they_traveled": { "type": "array", "items": { "type": "string" } },
+    "early_combinations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["signs", "meaning"],
+        "additionalProperties": true,
+        "properties": {
+          "signs": { "type": "array", "items": { "type": "string" } },
+          "meaning": { "type": "string" }
+        }
+      }
+    },
+    "not_perfect_still_understood_note": { "type": "string" },
+    "promise_of_nago_proto": { "type": "string" },
+    "marks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "meaning", "carried_into_refined_set"],
+        "additionalProperties": true,
+        "properties": {
+          "name": { "type": "string" },
+          "meaning": { "type": "string" },
+          "carried_into_refined_set": { "type": "boolean" },
+          "refined_equivalent": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "open_questions": { "type": "array", "items": { "type": "string" } }
+  }
+}
