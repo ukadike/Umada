@@ -25,12 +25,13 @@ questions surfaced while drafting** section at the end of this file.
 
 ## COLD OPEN
 
-**SETTING: unspecified.** Nothing about where or when the frame narrative's "present"
-takes place is locked — only that it exists. This script does not invent a setting for
-it. `[OPEN — #32]`
+**SETTING: Tisetan.** The future reporter/time-traveler stands somewhere in Tisetan
+(Kemi, 2026-06-23). No specific place within Tisetan, or *when* relative to the events
+shown, is locked yet — this script does not invent either. `[OPEN — #32]`
 
-We hear, before we see anything:
+We hear:
 
+> Tick.
 > Tick.
 > Tick.
 > Tick.
@@ -39,7 +40,9 @@ We hear, before we see anything:
 > BOOM.
 
 *(Verbatim, `01_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md`; locked opening beat,
-`00_governance/CANON_STATUS.md`.)*
+`00_governance/CANON_STATUS.md`.)* On BOOM, an explosion is visualized on screen —
+locked staging (Kemi, 2026-06-23), though no further detail of the explosion itself
+(scale, color, what it depicts) is locked yet.
 
 A figure — **the future reporter / time-traveler** — holds **the Omoluabi device**.
 Neither is described anywhere in canon (`01_canon/OPEN_QUESTIONS.md` #11; the figure's

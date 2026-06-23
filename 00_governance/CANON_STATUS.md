@@ -48,7 +48,14 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 - UMADA opens through a future reporter / time traveler carrying an **Omoluabi device**.
 - Omoluabi is not the story; it is the device that lets the story be witnessed.
 - The future council dispute concerns leadership of **Umada and Tisetan**.
-- Opening beat: tick, tick, tick, tick — BOOM.
+- Opening beat: tick, tick, tick, tick, tick — BOOM (five ticks, corrected from a
+  previously-recorded four; Kemi, 2026-06-23 — see
+  `01_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md`). The BOOM is visualized on screen as an
+  explosion, not heard only (Kemi, 2026-06-23); no further visual detail of that
+  explosion is locked yet.
+- The future reporter/time-traveler stands in **Tisetan** while the Omoluabi device
+  shows them Cape Wipeout (Kemi, 2026-06-23). When, relative to the events shown, is
+  still open — `01_canon/OPEN_QUESTIONS.md` #32.
 
 ## Locked Nago structure
 

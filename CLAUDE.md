@@ -31,7 +31,8 @@ cannot be reintroduced as variants. Canonical settlement spelling: **Friedmandos
 UMADA opens through a future reporter / time traveler carrying an Omoluabi device.
 Omoluabi is not the story; it is the device that lets the story be witnessed. The future
 council dispute concerns leadership of **Umada and Tisetan**. Sisekong/Tishekong are
-transcription errors. Opening beat: tick, tick, tick, tick — BOOM.
+transcription errors. Opening beat: tick, tick, tick, tick, tick — BOOM, visualized as
+an explosion on screen.
 
 ## Nago Symbology
 

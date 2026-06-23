@@ -42,7 +42,8 @@ Status legend: LOCKED / PROBABLE / EMERGING / OPEN QUESTION / RETIRED
 - Omoluabi is not the story; it is the device that lets the story be witnessed.
 - The future council dispute concerns leadership of Umada and Tisetan.
 - Sisekong/Tishekong are transcription errors.
-- Opening beat: tick, tick, tick, tick — BOOM.
+- Opening beat: tick, tick, tick, tick, tick — BOOM, visualized as an explosion on
+  screen (corrected/elaborated, Kemi, 2026-06-23 — see `00_governance/CANON_STATUS.md`).
 
 ## Nago canon (from v1.2)
 
