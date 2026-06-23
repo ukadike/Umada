@@ -109,6 +109,18 @@ smallest of these get asked to Kemi one at a time.
     a wings/pilot-style badge on her chest, alongside a sleeve flag patch whose design
     isn't specified. Whether this means an aviation background, or is decorative, is open
     — not invented. Tracked in `02_characters/ADA_DOSSIER.md`.
+32. **What does "C.A.R.F." stand for?** Tallai's locked visual reference
+    (`assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png`, Kemi-approved 2026-06-23)
+    shows her wearing a care-coat patch reading "C.A.R.F." The acronym is not expanded
+    anywhere in source. Tracked as the active tiny question in
+    `02_characters/TALLAI_DOSSIER.md`.
+33. **Is the unnamed base camp meant to be Friedmandostorp?** Ada's locked reference image
+    (`assets/concept-art/ADA_BASE_CAMP_REFERENCE_v1.png`, Kemi-approved 2026-06-23) shows
+    her at a military camp whose wall signage renders close to "FRIEDMANDESTORP" (the
+    RETIRED spelling) — logged as an AI-rendering artifact, not a respelling. If this camp
+    is meant to be Friedmandostorp, the signage would need correcting (regeneration or a
+    manual fix) before public use. See
+    `13_fragments/2026-06-23_ada_base_camp_reference.md`.
 
 ## Production / accessibility
 

@@ -66,11 +66,57 @@
       "alt_text": "Painted portrait of Ada, a slim Nigerian woman in a woodland-pattern camo military uniform with a name tape reading ADA, gold collar rank insignia, a wings-style chest badge, and a sleeve flag patch, standing composed with a calm, focused expression. She wears a thin silver necklace and has her dark hair slicked back into a ponytail. A holstered sidearm and knife sit on her web belt and a wristwatch on her wrist. Behind her, a sunlit coastal African town with corrugated rooftops, a lighthouse, and a weathered signpost reading AGULHAS GUIDELIKE PUNT 34 50' S 20 00' E.",
       "tactile_notes": "Not applicable — static reference image, not a Nago sign.",
       "open_questions": ["Does the wings/pilot-style badge indicate an aviation background, or is it decorative? See 01_canon/OPEN_QUESTIONS.md #31."]
+    },
+    {
+      "artifact_id": "ADA_WASTELAND_REFERENCE_v1",
+      "status": "PRESENT",
+      "file": "assets/concept-art/ADA_WASTELAND_REFERENCE_v1.png",
+      "provenance": "AI-generated (DALL-E) concept art; approved by Kemi as locked reference canon ('Lock all five'), 2026-06-23. Captured at 13_fragments/2026-06-23_ada_wasteland_reference.md.",
+      "title_on_plate": null,
+      "canon_implications": "Locks Ada's blast-aftermath appearance: wounded and dirtied, camo shirt torn open over a white undershirt, NIGERIA sleeve patch visible, necklace at her throat, ponytail loose and windblown. Background chimeras and an unlabeled dome-on-lattice tower are NOT identified with any locked structure or named character. See 02_characters/ADA_DOSSIER.md.",
+      "episode_usage": "Reference image for Ada's appearance in the immediate blast aftermath.",
+      "alt_text": "Ada stands amid blast wreckage and rubble, wounded and dirtied, her camo shirt torn open over a white undershirt with a NIGERIA sleeve patch visible, a thin silver necklace at her throat, and her ponytail loose and windblown. In the background, horned humanoid figures (chimeras) stand at a distance and an unlabeled dome-on-lattice tower rises on the horizon under an orange, smoke-hazed sky.",
+      "tactile_notes": "Not applicable — static reference image, not a Nago sign.",
+      "open_questions": ["The tower's identity is not labeled or confirmed as any locked structure (e.g. not confirmed as the Black Stars Tower)."]
+    },
+    {
+      "artifact_id": "ADA_CAPE_AGULHAS_REFERENCE_v1",
+      "status": "PRESENT",
+      "file": "assets/concept-art/ADA_CAPE_AGULHAS_REFERENCE_v1.png",
+      "provenance": "AI-generated (DALL-E) concept art; approved by Kemi as locked reference canon ('Lock all five'), 2026-06-23. Captured at 13_fragments/2026-06-23_ada_cape_agulhas_reference.md.",
+      "title_on_plate": null,
+      "canon_implications": "Visually confirms the already-locked Cape Agulhas, South Africa coastal geography (00_governance/CANON_STATUS.md). Introduces no new facts beyond visual confirmation.",
+      "episode_usage": "Reference image for Ada's appearance against the Cape Agulhas coastal backdrop.",
+      "alt_text": "Ada stands on a bluff above a coastal town, in her camo uniform with an ADA name tape, rank insignia, and necklace, her ponytail slicked back, expression calm and composed. A lighthouse and breaking surf are visible below. A weathered sign in the foreground reads CAPE AGULHAS / SOUTH AFRICA / WHERE THE ATLANTIC MEETS THE INDIAN OCEAN.",
+      "tactile_notes": "Not applicable — static reference image, not a Nago sign.",
+      "open_questions": []
+    },
+    {
+      "artifact_id": "ADA_BASE_CAMP_REFERENCE_v1",
+      "status": "PRESENT",
+      "file": "assets/concept-art/ADA_BASE_CAMP_REFERENCE_v1.png",
+      "provenance": "AI-generated (DALL-E) concept art; approved by Kemi as locked reference canon ('Lock all five'), 2026-06-23. Captured at 13_fragments/2026-06-23_ada_base_camp_reference.md.",
+      "title_on_plate": null,
+      "canon_implications": "Locked for Ada's appearance and the camp scene generally. The wall signage text is explicitly NOT locked — it reads close to 'FRIEDMANDESTORP,' the RETIRED spelling, logged as a likely AI-rendering artifact rather than a canon respelling; the location is filed as an unnamed camp, not asserted to be Friedmandostorp. See cautionary note in 00_governance/CANON_STATUS.md.",
+      "episode_usage": "Reference image for Ada at an unnamed military camp.",
+      "alt_text": "Ada stands reading a paper report at a military camp at dusk, with a Nigerian flag on a pole, a radar dome atop a lattice tower, several soldiers and a figure in a white coat near a building, trucks, a tablet displaying red alert-style readouts, and binoculars and a radio on a table in the foreground. A building wall behind her bears stenciled text too small to transcribe with confidence.",
+      "tactile_notes": "Not applicable — static reference image, not a Nago sign.",
+      "open_questions": ["Is this camp meant to be Friedmandostorp, and if so, should the signage be regenerated with the correct spelling before public use? See 01_canon/OPEN_QUESTIONS.md #33."]
+    },
+    {
+      "artifact_id": "TALLAI_ADA_RESCUE_REFERENCE_v1",
+      "status": "PRESENT",
+      "file": "assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png",
+      "provenance": "AI-generated (DALL-E) concept art; approved by Kemi as locked reference canon ('Lock all five'), 2026-06-23. Captured at 13_fragments/2026-06-23_tallai_ada_rescue_reference.md.",
+      "title_on_plate": null,
+      "canon_implications": "Locks Tallai's visual reference and confirms she is herself a chimera (Kemi, 2026-06-23): pale scaled, reptilian skin; a frilled crest along the head; a clawed/webbed hand; a white care-coat/robe bearing a patch reading 'C.A.R.F.' Confirms Tallai tends to a wounded Ada after the blast. See 02_characters/TALLAI_DOSSIER.md and 02_characters/ADA_DOSSIER.md.",
+      "episode_usage": "Reference image for Tallai's appearance and for the rescue scene following the Cape Wipeout blast.",
+      "alt_text": "Tallai, a chimera with pale scaled reptilian skin, a frilled crest along her head, and a clawed, webbed hand, wears a white care-coat bearing a patch reading C.A.R.F. and tends to a wounded Ada, cradling her forehead.",
+      "tactile_notes": "Not applicable — static reference image, not a Nago sign.",
+      "open_questions": ["What does \"C.A.R.F.\" stand for? See 01_canon/OPEN_QUESTIONS.md #32."]
     }
   ],
   "awaiting_fragment": [
-    { "artifact_id": "Ada Character Dossier", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Tallai Character Dossier", "status": "AWAITING FRAGMENT" },
     { "artifact_id": "Q Character Dossier", "status": "AWAITING FRAGMENT" },
     { "artifact_id": "Quartz Character Dossier", "status": "AWAITING FRAGMENT" },
     { "artifact_id": "Friedmandostorp Bread Stop Board", "status": "AWAITING FRAGMENT" },

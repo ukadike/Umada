@@ -197,9 +197,12 @@ Tagged `AWAITING FRAGMENT`. Expected filename and believed contents are not desc
 only what they are called and where they're referenced from.
 
 1. **Ada Character Dossier** — IN PROGRESS, see `02_characters/ADA_DOSSIER.md` (role
-   facts compiled from canon; physical description, personality, and relationships
-   await Kemi via the tiny-questions protocol)
-2. **Tallai Character Dossier** — AWAITING FRAGMENT
+   facts and five locked visual references compiled; physical description, personality,
+   and relationships partly resolved, remainder await Kemi via the tiny-questions
+   protocol)
+2. **Tallai Character Dossier** — IN PROGRESS, see `02_characters/TALLAI_DOSSIER.md`
+   (role facts and one locked visual reference compiled, confirming she is herself a
+   chimera; open fields await Kemi)
 3. **Q Character Dossier** — AWAITING FRAGMENT
 4. **Quartz Character Dossier** — AWAITING FRAGMENT
 5. **Friedmandostorp Bread Stop Board** — AWAITING FRAGMENT
@@ -210,4 +213,5 @@ only what they are called and where they're referenced from.
 10. **Super Hurricane Cindy Board** — AWAITING FRAGMENT
 11. **Black Stars Tower Board** — AWAITING FRAGMENT
 
-See `data/visual_artifacts.json` for the structured form of this registry.
+See `data/visual_artifacts.json` for the structured form of this registry, including the
+five locked Ada/Tallai reference images approved 2026-06-23.

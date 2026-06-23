@@ -1,13 +1,17 @@
 # Characters
 
-Index of known characters. Full dossiers are `AWAITING FRAGMENT` for three of the four
+Index of known characters. Full dossiers are `AWAITING FRAGMENT` for two of the four
 named Cape Wipeout survivors — see `data/characters.json` for locked role-facts and
 `01_canon/VISUAL_CANON_REGISTRY.md` for the dossier stubs.
 
 - **Ada** — field commander / scapegoat; listed KIA before final blast confirmation.
-  Dossier drafting started: [`ADA_DOSSIER.md`](ADA_DOSSIER.md) (role facts compiled,
-  open fields awaiting Kemi via the tiny-questions protocol).
-- **Tallai / Talla** — chimera care specialist; known at the Friedmandostorp bread stop.
+  Dossier drafting started: [`ADA_DOSSIER.md`](ADA_DOSSIER.md) (role facts and five
+  locked visual references compiled, open fields awaiting Kemi via the tiny-questions
+  protocol).
+- **Tallai / Talla** — chimera care specialist; herself a chimera, not a non-chimera who
+  treats chimeras (Kemi, 2026-06-23); known at the Friedmandostorp bread stop. Dossier
+  drafting started: [`TALLAI_DOSSIER.md`](TALLAI_DOSSIER.md) (role facts and locked
+  visual reference compiled, open fields awaiting Kemi).
 - **Q** — detects (scout/sensing role).
 - **Quartz** — carries (load-bearer / rescue anchor).
 - **Kassey** — Ada's lover (a man); gave her the necklace she carries; his name burns

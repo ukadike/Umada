@@ -45,6 +45,18 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   chest badge; a sleeve flag patch (design not specified); a web belt with a holstered
   sidearm and knife; a wristwatch; the necklace; and the ponytail. See
   `13_fragments/2026-06-23_ada_reference_portrait.md` for the full capture.
+- **Additional locked reference images** (Kemi-approved, 2026-06-23):
+  `assets/concept-art/ADA_WASTELAND_REFERENCE_v1.png` (blast-wreckage aftermath, torn
+  uniform, chimeras and an unidentified tower in the background — the tower is not
+  locked as any named structure);
+  `assets/concept-art/ADA_CAPE_AGULHAS_REFERENCE_v1.png` (confirms the Cape Agulhas,
+  South Africa coastal setting already locked in `00_governance/CANON_STATUS.md`);
+  `assets/concept-art/ADA_BASE_CAMP_REFERENCE_v1.png` (Ada reading a report at an unnamed
+  military camp — the wall signage is **not** locked, see the cautionary note in
+  `00_governance/CANON_STATUS.md` and `13_fragments/2026-06-23_ada_base_camp_reference.md`).
+- **Tallai is confirmed to appear alongside Ada**, tending her after the blast, in
+  `assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png` (Kemi-approved, 2026-06-23) —
+  see `02_characters/TALLAI_DOSSIER.md`.
 
 ## Open questions (cross-referenced, not restated)
 
@@ -101,3 +113,5 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   art-direction comp (Iman) logged in Production notes, not as public canon.
 - *Lock the generated reference portrait as Ada's visual reference, gear and all?* →
   **Yes.** (Kemi, 2026-06-23.) See `assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png`.
+- *Lock the four additional reference images (wasteland, Cape Agulhas, base camp,
+  Tallai-rescue)?* → **Yes, lock all five.** (Kemi, 2026-06-23.)
