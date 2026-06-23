@@ -53,6 +53,11 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   In the rescue animatic (the "A face first. Then the damage." beat) it is **mangled** —
   the ponytail wrecked by the blast (Kemi, 2026-06-23). Other features (face, eyes, build,
   skin) remain open.
+- **Wardrobe / signature look:** A **military uniform — "medium brass"** (Kemi,
+  2026-06-23). Read in the standard military sense as a **mid-ranking officer** (brass =
+  the officer class; "medium" = neither top brass nor junior), which fits her locked
+  field-commander role. The rank reading is a gloss, not a stated insignia; specific
+  insignia, the uniform's colors, and the rest of the wardrobe stay open.
 - **Personality & voice:** none on record.
 - **The necklace from Kassey** — a **simple silver chain with a small, solid heart
   pendant** (not a locket; Kemi, 2026-06-23). What it means to Ada is open — not guessed
@@ -79,9 +84,11 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   (man) lover.** (Kemi, 2026-06-23.) Closed #24. Kassey now has his own dossier.
 - *First thing we notice about Ada's face?* → **Her hair** — long, usually slicked back
   in a ponytail; mangled in the blast. (Kemi, 2026-06-23.)
+- *What does Ada wear?* → **A military uniform, "medium brass"** (read as a mid-ranking
+  officer). (Kemi, 2026-06-23.)
 
 ---
 
-**Tiny question for Kemi:** What does Ada wear — one signature piece (a jacket, her own
-clothes, or the MIC kit she was sent in to execute the blast)? (Enough to fix her
-silhouette; the rest of the wardrobe can stay open.)
+**Tiny question for Kemi:** Ada's animatic credit is **"Care Shooter"** — yet she's
+military brass, sent to execute a blast. What does "Care Shooter" mean: a role, a rank, a
+callsign, or an irony in the credit? (One line closes open question #25.)
