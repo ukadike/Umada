@@ -228,6 +228,18 @@ END OF RECOVERED MATERIAL.
   animatic's audio track (score plus any dialogue) still has no transcript
   (`01_canon/OPEN_QUESTIONS.md` #22) — this script cannot supply one, since it covers
   on-screen content only.
+- **Cold-open previz (2026-06-23):** `assets/video/EPISODE_01_COLD_OPEN_PREVIZ_v1.mp4`
+  (39.5s, silent, 1920x1080) is a derived production assembly, not new recovered canon —
+  it edits this script's own verbatim captions and locked stills into a timed video, using
+  only assets already present in the repo: the five locked Ada/Tallai reference images
+  (`assets/concept-art/`) and DejaVu Sans Bold text cards for beats with no matching image
+  (the torn military record, the Kassey-related captions, both title cards). Two caveats:
+  (1) the BOOM/explosion is a placeholder — a white flash plus a text card reading "BOOM."
+    / "the obliterating explosion" — since no specific scale, color, or depiction of that
+    explosion is locked (see COLD OPEN above); (2) it is silent, since no score or dialogue
+    transcript exists yet (`01_canon/OPEN_QUESTIONS.md` #22). The new "Ada looks up — then
+    faints" beat is rendered in gold text to visually distinguish it from the verbatim
+    white animatic captions it sits alongside.
 
 ## Open questions surfaced while drafting (new, 2026-06-23)
 
