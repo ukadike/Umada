@@ -44,7 +44,8 @@ Kemi's to draft.
 - **Whether he and Ada acted willingly or under coercion**, and what the MIC told them the
   mission was: open — not interpreted (#30).
 - **What becomes of Kassey after the blast** (he survives it; where he is during the
-  survivors' rescue of Ada in the animatic is unstated): open (#30).
+  survivors' rescue of Ada in the animatic is **deliberately undecided** — Kemi confirmed
+  2026-06-23 this is not yet known, so it stays open and is not to be invented): open (#30).
 - **Why his name burns across Ada's record:** a narrative beat the animatic shows but does
   not explain. Not interpreted here.
 - **First name / full name** (if "Kassey" is itself a short or family form): not stated.
@@ -67,9 +68,10 @@ Kemi's to draft.
   2026-06-23.)
 - *Is Kassey alive at Cape Wipeout, or already lost?* → **Alive.** He and Ada were sent
   by the MIC to execute the blast and obliterate the facility. (Kemi, 2026-06-23.)
+- *Where is Kassey during the survivors' rescue of Ada?* → **Not yet known** — Kemi left
+  it deliberately open (2026-06-23). Parked under #30; not to be invented.
 
 ---
 
-**Tiny question for Kemi:** During the rescue in the animatic — the survivors pulling Ada
-from the rubble — where is **Kassey**? With her, separated in the blast, or somewhere else?
-(One detail that places him in the scene without inventing the rest.)
+**Tiny question for Kemi:** What does Kassey look like — even one feature (build, skin,
+hair, a mark, what he wears)? (Enough to make him drawable; the rest can stay open.)
