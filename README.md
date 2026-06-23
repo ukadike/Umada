@@ -1,8 +1,15 @@
 # UMADA
 
+[![Canon](https://img.shields.io/badge/canon-governed-efece2?style=flat-square&labelColor=1a1a1a)](00_governance/CANON_STATUS.md)
+[![Build Phase](https://img.shields.io/badge/build_phase-C_ingestion-efece2?style=flat-square&labelColor=1a1a1a)](#build-status)
+[![Fabrication](https://img.shields.io/badge/fabrication-zero-efece2?style=flat-square&labelColor=1a1a1a)](00_governance/NO_FABRICATION_RULE.md)
+[![Accessibility](https://img.shields.io/badge/accessibility-baseline_enforced-efece2?style=flat-square&labelColor=1a1a1a)](00_governance/ACCESSIBILITY_BASELINE.md)
+
 > This is not a world that was built. It is a world being remembered.
 > Some records survived. Some did not. Some stories were erased. Some refused to disappear.
 > If you stay long enough, you may help us remember.
+
+![Nago — Symbology of Umada: a reference plate showing the eight core survival signs (Bread, Water, Safe, Danger, Carry, Home, Help, Rest) with their hand gestures, tactile forms, symbol families, and accessibility-first design principles.](assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png)
 
 This repository is the living archive, canon engine, and (eventually) public site for
 UMADA — built and maintained under **Aderin / UMADA Steward** mode. See `CLAUDE.md` for
@@ -10,6 +17,10 @@ the steward's role and operating rules.
 
 This is the contributor/build-process README. For the fan/visitor-facing welcome, see
 [`PUBLIC_README.md`](PUBLIC_README.md).
+
+**Quick links:** [Fan welcome](PUBLIC_README.md) · [Steward brief](CLAUDE.md) ·
+[Canon status](00_governance/CANON_STATUS.md) · [Governance](00_governance/) ·
+[Production bible](docs/README.md) · [Structured data](data/)
 
 ## What this is
 
