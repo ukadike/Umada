@@ -52,10 +52,14 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   previously-recorded four; Kemi, 2026-06-23 — see
   `01_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md`). The BOOM is visualized on screen as an
   explosion, not heard only (Kemi, 2026-06-23); no further visual detail of that
-  explosion is locked yet.
+  explosion is locked yet. The five ticks represent ordinary life ("life in the
+  garden"); the BOOM is "the obliterating explosion" that ends it (Kemi, 2026-06-23).
 - The future reporter/time-traveler stands in **Tisetan** while the Omoluabi device
-  shows them Cape Wipeout (Kemi, 2026-06-23). When, relative to the events shown, is
-  still open — `01_canon/OPEN_QUESTIONS.md` #32.
+  shows them Cape Wipeout (Kemi, 2026-06-23); no specific place within Tisetan is
+  locked. Their arrival — the start of their witnessing through the device — coincides
+  with the BOOM above, not before or after it (Kemi, 2026-06-23, "it is at this very
+  moment the time traveller arrives"). The calendar distance between their present and
+  the events of March 19, 2226 remains open — `01_canon/OPEN_QUESTIONS.md` #32.
 
 ## Locked Nago structure
 

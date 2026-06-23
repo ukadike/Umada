@@ -26,8 +26,11 @@ questions surfaced while drafting** section at the end of this file.
 ## COLD OPEN
 
 **SETTING: Tisetan.** The future reporter/time-traveler stands somewhere in Tisetan
-(Kemi, 2026-06-23). No specific place within Tisetan, or *when* relative to the events
-shown, is locked yet — this script does not invent either. `[OPEN — #32]`
+(Kemi, 2026-06-23). No specific place within Tisetan is locked yet — this script does
+not invent one. `[OPEN — #32, partial]` What *is* now locked: the reporter's arrival —
+the start of their witnessing through the Omoluabi device — coincides with the BOOM
+below, not before or after it (Kemi, 2026-06-23, "it is at this very moment the time
+traveller arrives").
 
 We hear:
 
@@ -43,6 +46,11 @@ We hear:
 `00_governance/CANON_STATUS.md`.)* On BOOM, an explosion is visualized on screen —
 locked staging (Kemi, 2026-06-23), though no further detail of the explosion itself
 (scale, color, what it depicts) is locked yet.
+
+The five ticks are not just a sound cue counting down to the BOOM — they are ordinary
+life, "life in the garden." The BOOM that follows is "the obliterating explosion" that
+ends it. The reporter's arrival below happens at this same instant: not a cut to a
+different time, but the moment of the blast itself (Kemi, 2026-06-23).
 
 A figure — **the future reporter / time-traveler** — holds **the Omoluabi device**.
 Neither is described anywhere in canon (`01_canon/OPEN_QUESTIONS.md` #11; the figure's
@@ -221,10 +229,12 @@ END OF RECOVERED MATERIAL.
 
 Added to `01_canon/OPEN_QUESTIONS.md` as #32–#34:
 
-- **#32 — Where/when is the frame narrative's "present"?** The future reporter/
-  time-traveler and the Omoluabi device are locked as existing; no scene, location, or
-  time period is locked for where they stand while witnessing events. Surfaced while
-  attempting to stage the cold open.
+- **#32 — Where/when is the frame narrative's "present"? — further resolved
+  2026-06-23.** Where: Tisetan (no specific place within it locked). When, relative to
+  the events shown: the reporter's arrival coincides with the BOOM/obliterating
+  explosion itself, not before or after — "it is at this very moment the time traveller
+  arrives" (Kemi, 2026-06-23). Still open: the calendar distance between the reporter's
+  present and March 19, 2226.
 - **#33 — What does the future reporter/time-traveler look like?** No physical
   description exists. Surfaced for the same reason as #32.
 - **#34 — Does Episode 1 extend past the animatic's recovered 48.58 seconds, and if so

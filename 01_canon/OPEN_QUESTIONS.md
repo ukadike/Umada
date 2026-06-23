@@ -112,13 +112,17 @@ smallest of these get asked to Kemi one at a time.
     a wings/pilot-style badge on her chest, alongside a sleeve flag patch whose design
     isn't specified. Whether this means an aviation background, or is decorative, is open
     — not invented. Tracked in `02_characters/ADA_DOSSIER.md`.
-32. **Where/when is the frame narrative's "present"? — partially resolved.** Where: the
+32. **Where/when is the frame narrative's "present"? — further resolved.** Where: the
     future reporter/time-traveler stands in **Tisetan** while the Omoluabi device shows
-    them Cape Wipeout (Kemi, 2026-06-23). Open: *when* — no time period or distance from
-    the events shown (March 19, 2226) is locked. The future reporter/time-traveler and
-    the Omoluabi device are locked as existing (`00_governance/CANON_STATUS.md`).
-    Surfaced while drafting the Episode 1 cold open
-    (`11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`, 2026-06-23).
+    them Cape Wipeout (Kemi, 2026-06-23); no specific place within Tisetan is locked.
+    When, relative to the events shown: the reporter's arrival — the start of their
+    witnessing through the device — coincides with the BOOM itself, not before or after
+    it ("it is at this very moment the time traveller arrives," Kemi, 2026-06-23). The
+    five ticks preceding the BOOM represent ordinary life ("life in the garden"); the
+    BOOM is "the obliterating explosion" that ends it (Kemi, 2026-06-23). Still open: the
+    calendar distance between the reporter's own present and the events of March 19,
+    2226 — i.e., how far in Tisetan's future "now" sits. Surfaced while drafting the
+    Episode 1 cold open (`11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`, 2026-06-23).
 33. **What does the future reporter/time-traveler look like?** No physical description
     exists anywhere in canon. Surfaced for the same reason as #32.
 34. **Does Episode 1 extend past the animatic's recovered ~49 seconds, and if so with

@@ -44,6 +44,9 @@ Status legend: LOCKED / PROBABLE / EMERGING / OPEN QUESTION / RETIRED
 - Sisekong/Tishekong are transcription errors.
 - Opening beat: tick, tick, tick, tick, tick — BOOM, visualized as an explosion on
   screen (corrected/elaborated, Kemi, 2026-06-23 — see `00_governance/CANON_STATUS.md`).
+- The five ticks represent ordinary life ("life in the garden"); the BOOM is "the
+  obliterating explosion." The future reporter/time-traveler's arrival coincides with
+  that explosion, not before or after it (Kemi, 2026-06-23).
 
 ## Nago canon (from v1.2)
 
