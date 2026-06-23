@@ -26,7 +26,8 @@ If you're looking for the canon engine itself, start at the root `README.md` ins
   facts it will draw from are scaffolded in
   [`11_episodes/EPISODE_01_CAPE_WIPEOUT.md`](../11_episodes/EPISODE_01_CAPE_WIPEOUT.md).
 - **[Visual Language Guide](production/VISUAL_LANGUAGE_GUIDE.md)**
-- **[Production Roadmap](production/ROADMAP.md)**
+- **[Production Roadmap](production/ROADMAP.md)** · **[Next Steps](production/NEXT_STEPS.md)**
+  · **[Repo Health Checklist](production/REPO_HEALTH_CHECKLIST.md)**
 - **[Research Index](research/INDEX.md)**
 - **[Contributor Guide](../docs/CONTRIBUTOR_GUIDE.md)**
 - **[Project Management / Issues](project-management/issues/INDEX.md)** — Issue-001

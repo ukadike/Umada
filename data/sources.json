@@ -2,28 +2,97 @@
   "ingestion_package": "UMADA_Aderin_SHIP_v1",
   "ingested_on": "Phase A — Spine",
   "files": [
-    { "path": "START_HERE.md", "ingested_into": "Read for build orientation; not copied into the repo verbatim." },
-    { "path": "CLAUDE_CODE_MASTER_PROMPT.md", "ingested_into": "Build spec followed for this repository's structure and phasing." },
-    { "path": "CLAUDE.md", "ingested_into": "CLAUDE.md (repo root, verbatim)." },
-    { "path": "SHIP_NOTES_and_DECISIONS.md", "ingested_into": "Reconciliation decisions folded into 00_governance/CANON_STATUS.md and 01_canon/OPEN_QUESTIONS.md." },
-    { "path": "source_canon/SEED_CANON.md", "ingested_into": "01_canon/SEED_CANON.md, data/canon.json" },
-    { "path": "source_canon/FOUNDATIONAL_STRATA.md", "ingested_into": "01_canon/FOUNDATIONAL_STRATA.md" },
-    { "path": "source_canon/CIVILIZATIONAL_LEDGER.md", "ingested_into": "01_canon/CIVILIZATIONAL_LEDGER.md, data/civilizational_ledger.json, data/timeline.json" },
-    { "path": "source_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md", "ingested_into": "01_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md" },
-    { "path": "source_canon/VISUAL_CANON_REGISTRY.md", "ingested_into": "01_canon/VISUAL_CANON_REGISTRY.md, data/visual_artifacts.json" },
-    { "path": "source_symbology/NAGO_SYMBOLOGY_BIBLE.md", "ingested_into": "data/nago_symbology.json, data/nago_signs.json" },
-    { "path": "source_symbology/NAGO_GLYPH_SYSTEM.md", "ingested_into": "data/nago_symbology.json (motif_families)" },
-    { "path": "source_symbology/NAGO_SIGNAGE_GUIDE.md", "ingested_into": "00_governance/ACCESSIBILITY_BASELINE.md" },
-    { "path": "source_symbology/NAGO_NO_GENERIC_GLYPHS_RULE.md", "ingested_into": "00_governance/NAGO_NO_GENERIC_GLYPHS_RULE.md" },
-    { "path": "source_governance/FRAGMENT_TEMPLATE.md", "ingested_into": "13_fragments/TEMPLATE.md" },
-    { "path": "source_governance/TINY_QUESTIONS_PROTOCOL.md", "ingested_into": "00_governance/TINY_QUESTIONS_PROTOCOL.md" },
-    { "path": "source_fanbase/FANBASE_FARADAY_BOX.md", "ingested_into": "16_fanbase/" },
-    { "path": "source_fanbase/FAN_ARCHIVE.md", "ingested_into": "18_fan_archive/" },
-    { "path": "data/civilizational_ledger.seed.json", "ingested_into": "data/civilizational_ledger.json, data/timeline.json" },
-    { "path": "data/nago_signs.seed.json", "ingested_into": "Superseded by data/nago_signs.json (adds Help, Rest, Witness, Relay, and accessibility fields)." },
-    { "path": "data/nago_symbology.seed.json", "ingested_into": "data/nago_signs.json, data/nago_symbology.json" },
-    { "path": "assets/img/PLATE_PROTO_NAGO.png", "ingested_into": "assets/img/PLATE_PROTO_NAGO.png (copied), data/nago_proto_signs.json, 01_canon/VISUAL_CANON_REGISTRY.md" },
-    { "path": "assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png", "ingested_into": "assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png (copied), data/nago_symbology.json, data/nago_signs.json, 01_canon/VISUAL_CANON_REGISTRY.md" },
-    { "path": "assets/video/UMADA_Friedmandostorp_Rescue_Animatic.mp4", "ingested_into": "assets/video/UMADA_Friedmandostorp_Rescue_Animatic.mp4 (copied), 01_canon/VISUAL_CANON_REGISTRY.md" }
+    {
+      "path": "START_HERE.md",
+      "ingested_into": "Read for build orientation; not copied into the repo verbatim."
+    },
+    {
+      "path": "CLAUDE_CODE_MASTER_PROMPT.md",
+      "ingested_into": "Build spec followed for this repository's structure and phasing."
+    },
+    {
+      "path": "CLAUDE.md",
+      "ingested_into": "CLAUDE.md (repo root, verbatim)."
+    },
+    {
+      "path": "SHIP_NOTES_and_DECISIONS.md",
+      "ingested_into": "Reconciliation decisions folded into 00_governance/CANON_STATUS.md and 01_canon/OPEN_QUESTIONS.md."
+    },
+    {
+      "path": "source_canon/SEED_CANON.md",
+      "ingested_into": "01_canon/SEED_CANON.md, data/canon.json"
+    },
+    {
+      "path": "source_canon/FOUNDATIONAL_STRATA.md",
+      "ingested_into": "01_canon/FOUNDATIONAL_STRATA.md"
+    },
+    {
+      "path": "source_canon/CIVILIZATIONAL_LEDGER.md",
+      "ingested_into": "01_canon/CIVILIZATIONAL_LEDGER.md, data/civilizational_ledger.json, data/timeline.json"
+    },
+    {
+      "path": "source_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md",
+      "ingested_into": "01_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md"
+    },
+    {
+      "path": "source_canon/VISUAL_CANON_REGISTRY.md",
+      "ingested_into": "01_canon/VISUAL_CANON_REGISTRY.md, data/visual_artifacts.json"
+    },
+    {
+      "path": "source_symbology/NAGO_SYMBOLOGY_BIBLE.md",
+      "ingested_into": "data/nago_symbology.json, data/nago_signs.json"
+    },
+    {
+      "path": "source_symbology/NAGO_GLYPH_SYSTEM.md",
+      "ingested_into": "data/nago_symbology.json (motif_families)"
+    },
+    {
+      "path": "source_symbology/NAGO_SIGNAGE_GUIDE.md",
+      "ingested_into": "00_governance/ACCESSIBILITY_BASELINE.md"
+    },
+    {
+      "path": "source_symbology/NAGO_NO_GENERIC_GLYPHS_RULE.md",
+      "ingested_into": "00_governance/NAGO_NO_GENERIC_GLYPHS_RULE.md"
+    },
+    {
+      "path": "source_governance/FRAGMENT_TEMPLATE.md",
+      "ingested_into": "13_fragments/TEMPLATE.md"
+    },
+    {
+      "path": "source_governance/TINY_QUESTIONS_PROTOCOL.md",
+      "ingested_into": "00_governance/TINY_QUESTIONS_PROTOCOL.md"
+    },
+    {
+      "path": "source_fanbase/FANBASE_FARADAY_BOX.md",
+      "ingested_into": "16_fanbase/"
+    },
+    {
+      "path": "source_fanbase/FAN_ARCHIVE.md",
+      "ingested_into": "18_fan_archive/"
+    },
+    {
+      "path": "data/civilizational_ledger.seed.json",
+      "ingested_into": "data/civilizational_ledger.json, data/timeline.json"
+    },
+    {
+      "path": "data/nago_signs.seed.json",
+      "ingested_into": "Superseded by data/nago_signs.json (adds Help, Rest, Witness, Relay, and accessibility fields)."
+    },
+    {
+      "path": "data/nago_symbology.seed.json",
+      "ingested_into": "data/nago_signs.json, data/nago_symbology.json"
+    },
+    {
+      "path": "assets/img/PLATE_PROTO_NAGO.png",
+      "ingested_into": "assets/img/PLATE_PROTO_NAGO.png (copied), data/nago_proto_signs.json, 01_canon/VISUAL_CANON_REGISTRY.md"
+    },
+    {
+      "path": "assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png",
+      "ingested_into": "assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png (copied), data/nago_symbology.json, data/nago_signs.json, 01_canon/VISUAL_CANON_REGISTRY.md"
+    },
+    {
+      "path": "assets/video/UMADA_Friedmandostorp_Rescue_Animatic.mp4",
+      "ingested_into": "assets/video/UMADA_Friedmandostorp_Rescue_Animatic.mp4 (copied), 01_canon/VISUAL_CANON_REGISTRY.md"
+    }
   ]
 }

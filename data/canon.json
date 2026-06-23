@@ -1,5 +1,11 @@
 {
-  "status_legend": ["LOCKED", "PROBABLE", "EMERGING", "OPEN QUESTION", "RETIRED"],
+  "status_legend": [
+    "LOCKED",
+    "PROBABLE",
+    "EMERGING",
+    "OPEN QUESTION",
+    "RETIRED"
+  ],
   "locked": [
     "Cape Wipeout, Pt. 1 is the canonical public title.",
     "Southern Cape // Friedmandostorp Corridor is the corrected geography (near Cape Agulhas; African coastal).",
@@ -40,10 +46,31 @@
     "Trust Witness Before Narrative.",
     "Trust Survival Before Authority."
   ],
-  "rescue_doctrine_steps": ["Extraction", "Stabilization", "Care", "Analysis", "Transport", "Witness"],
+  "rescue_doctrine_steps": [
+    "Extraction",
+    "Stabilization",
+    "Care",
+    "Analysis",
+    "Transport",
+    "Witness"
+  ],
   "nago_axes": {
-    "function_families": ["Survival", "Care", "Signal", "Movement", "Civic", "Memory", "Environment"],
-    "motif_families": ["Wound", "Relay", "Archive", "Storm", "Visitor"]
+    "function_families": [
+      "Survival",
+      "Care",
+      "Signal",
+      "Movement",
+      "Civic",
+      "Memory",
+      "Environment"
+    ],
+    "motif_families": [
+      "Wound",
+      "Relay",
+      "Archive",
+      "Storm",
+      "Visitor"
+    ]
   },
   "emerging": [
     "Cindy as carrier event from Cape breach to Angel Dust.",

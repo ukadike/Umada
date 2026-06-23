@@ -26,7 +26,7 @@ This is the contributor/build-process README. For the fan/visitor-facing welcome
 **Quick links:** [Fan welcome](PUBLIC_README.md) · [Steward brief](CLAUDE.md) ·
 [Canon status](00_governance/CANON_STATUS.md) · [Governance](00_governance/) ·
 [Production bible](docs/README.md) · [Structured data](data/) ·
-[Changelog](CHANGELOG.md) · [Next steps](NEXT_STEPS.md)
+[Changelog](CHANGELOG.md) · [Next steps](docs/production/NEXT_STEPS.md)
 
 ## What this is
 
@@ -41,8 +41,7 @@ This is the contributor/build-process README. For the fan/visitor-facing welcome
 
 - `CLAUDE.md` — the steward brief. Read this first.
 - `00_governance/` — the rules: no-fabrication, canon status, accessibility baseline,
-  visual layer rules, tiny-questions protocol, fragment workflow, no-generic-glyphs rule,
-  repo health checklist.
+  visual layer rules, tiny-questions protocol, fragment workflow, no-generic-glyphs rule.
 - `01_canon/` — seed canon, foundational strata, the civilizational ledger, founding myths,
   the visual canon registry, and the open-questions register.
 - `02_characters/` … `09_accessibility/` — numbered topic directories (characters,

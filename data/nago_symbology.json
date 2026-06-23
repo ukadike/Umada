@@ -20,34 +20,83 @@
         {
           "name": "Survival",
           "tagline": "to live",
-          "seed_signs": ["Bread", "Water", "Shelter", "Safe", "Danger", "Carry", "Home"]
+          "seed_signs": [
+            "Bread",
+            "Water",
+            "Shelter",
+            "Safe",
+            "Danger",
+            "Carry",
+            "Home"
+          ]
         },
         {
           "name": "Care",
           "tagline": "to heal and protect",
-          "seed_signs": ["Heal", "Feed", "Rest", "Hold", "Protect", "Stabilize", "Do not leave", "Help"]
+          "seed_signs": [
+            "Heal",
+            "Feed",
+            "Rest",
+            "Hold",
+            "Protect",
+            "Stabilize",
+            "Do not leave",
+            "Help"
+          ]
         },
         {
           "name": "Signal",
           "tagline": "to listen and connect",
-          "seed_signs": ["Listen", "Relay", "Tower", "Signal", "Storm", "Containment", "Return signal"]
+          "seed_signs": [
+            "Listen",
+            "Relay",
+            "Tower",
+            "Signal",
+            "Storm",
+            "Containment",
+            "Return signal"
+          ]
         },
         {
           "name": "Movement",
           "tagline": "to travel and return",
-          "seed_signs": ["Go", "Return", "Gather", "Cross", "Carry", "Follow", "Wait"]
+          "seed_signs": [
+            "Go",
+            "Return",
+            "Gather",
+            "Cross",
+            "Carry",
+            "Follow",
+            "Wait"
+          ]
         },
         {
           "name": "Civic",
           "tagline": "to build together",
-          "seed_signs": ["Council", "Shared resource", "Archive", "School", "Clinic", "Water point", "Safe route", "Public witness"]
+          "seed_signs": [
+            "Council",
+            "Shared resource",
+            "Archive",
+            "School",
+            "Clinic",
+            "Water point",
+            "Safe route",
+            "Public witness"
+          ]
         },
         {
           "name": "Memory",
           "tagline": "to remember and learn",
           "renamed_from": "Witness",
           "rename_note": "Recorded as a rename, not a deletion. Witness's signs are folded under Memory.",
-          "seed_signs": ["Witness", "Record", "Remember", "Hidden record", "False record", "Body before record"]
+          "seed_signs": [
+            "Witness",
+            "Record",
+            "Remember",
+            "Hidden record",
+            "False record",
+            "Body before record"
+          ]
         },
         {
           "name": "Environment",
@@ -65,27 +114,58 @@
         {
           "name": "Wound",
           "marks": "Broken circle, fracture, scar, split line.",
-          "meanings": ["danger", "breach", "loss", "false record", "damage", "warning"]
+          "meanings": [
+            "danger",
+            "breach",
+            "loss",
+            "false record",
+            "damage",
+            "warning"
+          ]
         },
         {
           "name": "Relay",
           "marks": "Double line, nested ring, repeated arc.",
-          "meanings": ["signal", "communication", "hand relay", "return message", "tower"]
+          "meanings": [
+            "signal",
+            "communication",
+            "hand relay",
+            "return message",
+            "tower"
+          ]
         },
         {
           "name": "Archive",
           "marks": "Circle, dot, frame, tablet, witness mark.",
-          "meanings": ["memory", "record", "testimony", "preserved fragment", "canon"]
+          "meanings": [
+            "memory",
+            "record",
+            "testimony",
+            "preserved fragment",
+            "canon"
+          ]
         },
         {
           "name": "Storm",
           "marks": "Wave, spiral, pressure contour, concentric disturbance.",
-          "meanings": ["Cindy", "storm", "viral spread", "atmospheric signal", "carrier event"]
+          "meanings": [
+            "Cindy",
+            "storm",
+            "viral spread",
+            "atmospheric signal",
+            "carrier event"
+          ]
         },
         {
           "name": "Visitor",
           "marks": "Threshold, crossing mark, half-mask, obscured dot.",
-          "meanings": ["time traveler", "observer", "hidden witness", "arrival", "not from here"]
+          "meanings": [
+            "time traveler",
+            "observer",
+            "hidden witness",
+            "arrival",
+            "not from here"
+          ]
         }
       ]
     }
@@ -94,11 +174,26 @@
     "source": "PLATE_NAGO_SYMBOLOGY_OF_UMADA.png",
     "construction_note": "All Nago symbols are built on curves, balance, and human connection. Rooted in the Golden Rectangle and ancient geometry — for legibility and memory, not mystification.",
     "primitives": [
-      { "name": "Circle", "meaning": "memory / continuity / shared memory" },
-      { "name": "Open Circle", "meaning": "open access / shared" },
-      { "name": "Broken Circle", "meaning": "lost / interrupted memory / broken record" },
-      { "name": "Three Rings", "meaning": "relay / signal" },
-      { "name": "Hand + Ring", "meaning": "witness / presence" }
+      {
+        "name": "Circle",
+        "meaning": "memory / continuity / shared memory"
+      },
+      {
+        "name": "Open Circle",
+        "meaning": "open access / shared"
+      },
+      {
+        "name": "Broken Circle",
+        "meaning": "lost / interrupted memory / broken record"
+      },
+      {
+        "name": "Three Rings",
+        "meaning": "relay / signal"
+      },
+      {
+        "name": "Hand + Ring",
+        "meaning": "witness / presence"
+      }
     ],
     "open_question": "Exact vector/CSS-level shape construction against the Golden Rectangle is visible on the plate but not yet formally specified for the site to render precisely."
   },
@@ -128,7 +223,13 @@
     "whether usable by humans, chimeras, cyborgs, or all"
   ],
   "in_world_honor_and_origin": "Nago was born from the hands of survivors. It was shaped in markets, shelters, and ruins. It was carried by Tallai, Ada, Q, and the people. It belongs to everyone.",
-  "how_to_read_nago": ["Look.", "Feel.", "Make the gesture.", "Remember the meaning.", "Share it forward."],
+  "how_to_read_nago": [
+    "Look.",
+    "Feel.",
+    "Make the gesture.",
+    "Remember the meaning.",
+    "Share it forward."
+  ],
   "promise_of_nago": [
     "We will be understood.",
     "We will be included.",
@@ -136,7 +237,18 @@
     "We will build Umada.",
     "Nago is care. Nago is us. Nago is Umada."
   ],
-  "made_with_what_we_had": ["Charcoal", "Ash", "Chalk", "Blood", "Paint", "Soot", "Mud", "Cut marks", "Burn marks", "Anything — if it could mark, it became Nago."],
+  "made_with_what_we_had": [
+    "Charcoal",
+    "Ash",
+    "Chalk",
+    "Blood",
+    "Paint",
+    "Soot",
+    "Mud",
+    "Cut marks",
+    "Burn marks",
+    "Anything — if it could mark, it became Nago."
+  ],
   "fanbase_use": "Fans may create relay marks. Fan marks are not canon automatically. They are audience signals. They enter the Faraday Box.",
   "tiny_questions": [
     "What shape feels most like Bread? — ANSWERED by the plate: arch/dome with three vertical strokes.",

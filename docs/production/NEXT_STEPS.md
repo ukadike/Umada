@@ -26,7 +26,7 @@ at):
 
 - **Tooling gaps**, each already filed as an issue:
   - `ISSUE-041` — JSON schema validator for `data/*.json` (manual validation only exists
-    today; see `00_governance/REPO_HEALTH_CHECKLIST.md` §1).
+    today; see `docs/production/REPO_HEALTH_CHECKLIST.md` §1).
   - `ISSUE-042` — audit `sections/*.html` pages against their `data/*.json` sources.
   - `ISSUE-045` — broken-link / cross-reference checker across the repo.
 - **Accessibility work** still open (`ISSUE-021` through `ISSUE-025`): the animatic's

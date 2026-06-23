@@ -10,7 +10,9 @@
       "episode_usage": "Visual reference for origin-era / pre-standardization signage.",
       "alt_text": "Illustrated reference plate titled Proto-Nago: The First Signs of Survival, showing fourteen hand-scratched survival marks with their meanings, the materials and surfaces they were made with, and a closing quote about why they were made.",
       "tactile_notes": "No tactile form documented on this plate; tactile forms for proto marks are AWAITING FRAGMENT.",
-      "open_questions": ["Which proto marks persisted into refined Nago and which were dropped or absorbed — not stated on either plate."]
+      "open_questions": [
+        "Which proto marks persisted into refined Nago and which were dropped or absorbed — not stated on either plate."
+      ]
     },
     {
       "artifact_id": "PLATE_NAGO_SYMBOLOGY_OF_UMADA",
@@ -22,7 +24,9 @@
       "episode_usage": "Visual reference for Language & Signage and Nago Symbology sections; art direction reference for in-world signage.",
       "alt_text": "Illustrated reference plate titled Nago: Symbology of Umada, showing design principles, a five-symbol visual grammar, eight core survival signs with hand gestures and tactile forms, seven color-coded symbol families, examples of in-world signage, sign-combination phrase examples, a tactile-system explanation, and an honor and origin statement.",
       "tactile_notes": "Tactile form illustrated per core sign directly on the plate; source for written tactile-form descriptions.",
-      "open_questions": ["Vector/CSS-level shape spec for the Visual Grammar primitives is AWAITING a dedicated asset-extraction pass."]
+      "open_questions": [
+        "Vector/CSS-level shape spec for the Visual Grammar primitives is AWAITING a dedicated asset-extraction pass."
+      ]
     },
     {
       "artifact_id": "UMADA_Friedmandostorp_Rescue_Animatic",
@@ -35,17 +39,50 @@
       "alt_text": "Animatic video depicting the Friedmandostorp rescue sequence from Cape Wipeout, Pt. 1, dated March 19 2226, scored by yellowbirdbeats.",
       "tactile_notes": "Not applicable to video. An audio transcript for the score and any dialogue remains AWAITING FRAGMENT — no speech-to-text tooling was available to produce one without guessing at content.",
       "caption_transcript": [
-        { "time": "0:00–0:05", "text": "UMADA / Friedmandostorp / March 19, 2226 (title card over four comic-panel thumbnails; one names “Kassey”)." },
-        { "time": "0:05–0:10", "text": "The town is in shards." },
-        { "time": "0:10–0:12", "text": "The town is blown open." },
-        { "time": "0:12–0:15", "text": "Corrugated roofs. Cement dust. Clay. Sewage. Bread in the road." },
-        { "time": "0:15–0:21", "text": "A face first. Then the damage." },
-        { "time": "0:21–0:26", "text": "Not dead. Not yet. (a mark resembling “FFF” is etched near the figures, unexplained)" },
-        { "time": "0:26–0:30", "text": "And one name burning under all of it. (torn military record, stamped CLEARANCE DENIED: “...VENTER,” “...STED KIA,” “[C]HIMERA SURVIVOR. SCIENTIST. EMPATH.” — with “Kassey” burned across it in a different script)" },
-        { "time": "0:30–0:33", "text": "The road comes broken: paperwork, fire, betrayal — and Kassey." },
-        { "time": "0:33–0:37", "text": "The record says dead. The body says no." },
-        { "time": "0:37–0:45", "text": "Talla calls. Q questions the risk. Quartz moves to carry her. (credit line at frame bottom: ADANNA “ADA” VENTER — [role descriptor removed at creator's direction, 2026-06-23], OFF T—, clipped by the source frame's right edge)" },
-        { "time": "0:45–0:49", "text": "ADA-1 / Trust body over record." }
+        {
+          "time": "0:00–0:05",
+          "text": "UMADA / Friedmandostorp / March 19, 2226 (title card over four comic-panel thumbnails; one names “Kassey”)."
+        },
+        {
+          "time": "0:05–0:10",
+          "text": "The town is in shards."
+        },
+        {
+          "time": "0:10–0:12",
+          "text": "The town is blown open."
+        },
+        {
+          "time": "0:12–0:15",
+          "text": "Corrugated roofs. Cement dust. Clay. Sewage. Bread in the road."
+        },
+        {
+          "time": "0:15–0:21",
+          "text": "A face first. Then the damage."
+        },
+        {
+          "time": "0:21–0:26",
+          "text": "Not dead. Not yet. (a mark resembling “FFF” is etched near the figures, unexplained)"
+        },
+        {
+          "time": "0:26–0:30",
+          "text": "And one name burning under all of it. (torn military record, stamped CLEARANCE DENIED: “...VENTER,” “...STED KIA,” “[C]HIMERA SURVIVOR. SCIENTIST. EMPATH.” — with “Kassey” burned across it in a different script)"
+        },
+        {
+          "time": "0:30–0:33",
+          "text": "The road comes broken: paperwork, fire, betrayal — and Kassey."
+        },
+        {
+          "time": "0:33–0:37",
+          "text": "The record says dead. The body says no."
+        },
+        {
+          "time": "0:37–0:45",
+          "text": "Talla calls. Q questions the risk. Quartz moves to carry her. (credit line at frame bottom: ADANNA “ADA” VENTER — [role descriptor removed at creator's direction, 2026-06-23], OFF T—, clipped by the source frame's right edge)"
+        },
+        {
+          "time": "0:45–0:49",
+          "text": "ADA-1 / Trust body over record."
+        }
       ],
       "transcript_note": "Covers on-screen captions and document/credit text only, recovered by manual frame review (ffmpeg, 2fps sampling, plus targeted high-resolution crops) during the 2026-06-22 Phase C ingestion pass. The audio track has not been reviewed.",
       "open_questions": [
@@ -65,7 +102,9 @@
       "episode_usage": "Reference image for any future depiction of Ada.",
       "alt_text": "Painted portrait of Ada, a slim Nigerian woman in a woodland-pattern camo military uniform with a name tape reading ADA, gold collar rank insignia, a wings-style chest badge, and a sleeve flag patch, standing composed with a calm, focused expression. She wears a thin silver necklace and has her dark hair slicked back into a ponytail. A holstered sidearm and knife sit on her web belt and a wristwatch on her wrist. Behind her, a sunlit coastal African town with corrugated rooftops, a lighthouse, and a weathered signpost reading AGULHAS GUIDELIKE PUNT 34 50' S 20 00' E.",
       "tactile_notes": "Not applicable — static reference image, not a Nago sign.",
-      "open_questions": ["Does the wings/pilot-style badge indicate an aviation background, or is it decorative? See 01_canon/OPEN_QUESTIONS.md #31."]
+      "open_questions": [
+        "Does the wings/pilot-style badge indicate an aviation background, or is it decorative? See 01_canon/OPEN_QUESTIONS.md #31."
+      ]
     },
     {
       "artifact_id": "ADA_WASTELAND_REFERENCE_v1",
@@ -77,7 +116,9 @@
       "episode_usage": "Reference image for Ada's appearance in the immediate blast aftermath.",
       "alt_text": "Ada stands amid blast wreckage and rubble, wounded and dirtied, her camo shirt torn open over a white undershirt with a NIGERIA sleeve patch visible, a thin silver necklace at her throat, and her ponytail loose and windblown. In the background, horned humanoid figures (chimeras) stand at a distance and an unlabeled dome-on-lattice tower rises on the horizon under an orange, smoke-hazed sky.",
       "tactile_notes": "Not applicable — static reference image, not a Nago sign.",
-      "open_questions": ["The tower's identity is not labeled or confirmed as any locked structure (e.g. not confirmed as the Black Stars Tower)."]
+      "open_questions": [
+        "The tower's identity is not labeled or confirmed as any locked structure (e.g. not confirmed as the Black Stars Tower)."
+      ]
     },
     {
       "artifact_id": "ADA_CAPE_AGULHAS_REFERENCE_v1",
@@ -117,14 +158,41 @@
     }
   ],
   "awaiting_fragment": [
-    { "artifact_id": "Q Character Dossier", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Quartz Character Dossier", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Friedmandostorp Bread Stop Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Nago Origin Gestures Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Cape Lab Blast Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "ADA-1 Emergence Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Rescue Doctrine Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Super Hurricane Cindy Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Black Stars Tower Board", "status": "AWAITING FRAGMENT" }
+    {
+      "artifact_id": "Q Character Dossier",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Quartz Character Dossier",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Friedmandostorp Bread Stop Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Nago Origin Gestures Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Cape Lab Blast Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "ADA-1 Emergence Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Rescue Doctrine Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Super Hurricane Cindy Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Black Stars Tower Board",
+      "status": "AWAITING FRAGMENT"
+    }
   ]
 }

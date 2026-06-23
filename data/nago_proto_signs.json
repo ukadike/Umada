@@ -3,35 +3,174 @@
   "status": "PRESENT — transcribed directly from PLATE_PROTO_NAGO.png (visual source of truth)",
   "framing_text": "Before Nago was a language, it was a desperate need. Made by hands that had no common words left. Made for shelter, for runs, for strangers, for help. Made to be seen, felt, and understood. Not perfect. Not beautiful. Necessary. This is where Nago begins.",
   "closing_quote": "We had no words. So we made signs. We had no safety. So we marked the way. We had no certainty. So we watched each other. We had each other. That was enough.",
-  "made_with_what_we_had": ["Charcoal", "Ash", "Chalk", "Blood", "Paint", "Soot", "Mud", "Cut marks", "Burn marks", "Anything — if it could mark, it became Nago."],
-  "surfaces_marked_on": ["Walls", "Streets", "Crates & Doors", "Tents & Cloth", "Rocks", "Trees", "Skin"],
-  "how_they_were_read": ["Seen from a distance", "Felt with the hand", "Understood in a second", "Taught by showing", "Passed by doing", "Remembered always"],
-  "who_made_these_signs": ["Workers", "Survivors", "Healers", "Mothers", "Children", "Strangers", "Friends"],
-  "how_they_traveled": ["By hand", "By eye", "By memory", "By story", "By heart"],
+  "made_with_what_we_had": [
+    "Charcoal",
+    "Ash",
+    "Chalk",
+    "Blood",
+    "Paint",
+    "Soot",
+    "Mud",
+    "Cut marks",
+    "Burn marks",
+    "Anything — if it could mark, it became Nago."
+  ],
+  "surfaces_marked_on": [
+    "Walls",
+    "Streets",
+    "Crates & Doors",
+    "Tents & Cloth",
+    "Rocks",
+    "Trees",
+    "Skin"
+  ],
+  "how_they_were_read": [
+    "Seen from a distance",
+    "Felt with the hand",
+    "Understood in a second",
+    "Taught by showing",
+    "Passed by doing",
+    "Remembered always"
+  ],
+  "who_made_these_signs": [
+    "Workers",
+    "Survivors",
+    "Healers",
+    "Mothers",
+    "Children",
+    "Strangers",
+    "Friends"
+  ],
+  "how_they_traveled": [
+    "By hand",
+    "By eye",
+    "By memory",
+    "By story",
+    "By heart"
+  ],
   "early_combinations": [
-    { "signs": ["Bread", "Home"], "meaning": "Food and water. Home here." },
-    { "signs": ["Danger", "Help"], "meaning": "Danger. Help needed." },
-    { "signs": ["Look/Watch", "Go This Way"], "meaning": "Watch. Go this way." },
-    { "signs": ["Care/Love", "Look/Watch"], "meaning": "We watch. We care." },
-    { "signs": ["Home"], "meaning": "Home is up ahead." }
+    {
+      "signs": [
+        "Bread",
+        "Home"
+      ],
+      "meaning": "Food and water. Home here."
+    },
+    {
+      "signs": [
+        "Danger",
+        "Help"
+      ],
+      "meaning": "Danger. Help needed."
+    },
+    {
+      "signs": [
+        "Look/Watch",
+        "Go This Way"
+      ],
+      "meaning": "Watch. Go this way."
+    },
+    {
+      "signs": [
+        "Care/Love",
+        "Look/Watch"
+      ],
+      "meaning": "We watch. We care."
+    },
+    {
+      "signs": [
+        "Home"
+      ],
+      "meaning": "Home is up ahead."
+    }
   ],
   "not_perfect_still_understood_note": "Many hands. Many styles. One meaning. — variant renderings of the same mark were all readable as the same sign.",
   "promise_of_nago_proto": "One day these marks will become a language. One day they will be beautiful. But they will never forget their beginning. Nago was born in struggle. Nago was born in care. Nago was born for Umada. And Nago will always belong to the people.",
   "marks": [
-    { "name": "Bread / Food", "meaning": "Food here. Share if you can.", "carried_into_refined_set": true, "refined_equivalent": "Bread" },
-    { "name": "Water", "meaning": "Water here. Stay.", "carried_into_refined_set": true, "refined_equivalent": "Water" },
-    { "name": "Safe", "meaning": "Safe here. Rest.", "carried_into_refined_set": true, "refined_equivalent": "Safe" },
-    { "name": "Danger", "meaning": "Danger. Do not go.", "carried_into_refined_set": true, "refined_equivalent": "Danger" },
-    { "name": "Go This Way", "meaning": "Go this way. Follow.", "carried_into_refined_set": false, "refined_equivalent": null },
-    { "name": "Help", "meaning": "Help needed. Or help here.", "carried_into_refined_set": true, "refined_equivalent": "Help" },
-    { "name": "Home / Shelter", "meaning": "Shelter here. Home.", "carried_into_refined_set": true, "refined_equivalent": "Home" },
-    { "name": "Carry / Bring", "meaning": "Carry this. Bring.", "carried_into_refined_set": true, "refined_equivalent": "Carry" },
-    { "name": "Care / Love", "meaning": "We care. You matter.", "carried_into_refined_set": false, "refined_equivalent": null },
-    { "name": "Look / Watch", "meaning": "Watch. Be alert.", "carried_into_refined_set": false, "refined_equivalent": null },
-    { "name": "Gather", "meaning": "We gather. Meet.", "carried_into_refined_set": false, "refined_equivalent": null },
-    { "name": "Down / Below", "meaning": "Down here. Below.", "carried_into_refined_set": false, "refined_equivalent": null },
-    { "name": "Up / Above", "meaning": "Up there. Above.", "carried_into_refined_set": false, "refined_equivalent": null },
-    { "name": "Stop / No", "meaning": "Stop. No.", "carried_into_refined_set": false, "refined_equivalent": null }
+    {
+      "name": "Bread / Food",
+      "meaning": "Food here. Share if you can.",
+      "carried_into_refined_set": true,
+      "refined_equivalent": "Bread"
+    },
+    {
+      "name": "Water",
+      "meaning": "Water here. Stay.",
+      "carried_into_refined_set": true,
+      "refined_equivalent": "Water"
+    },
+    {
+      "name": "Safe",
+      "meaning": "Safe here. Rest.",
+      "carried_into_refined_set": true,
+      "refined_equivalent": "Safe"
+    },
+    {
+      "name": "Danger",
+      "meaning": "Danger. Do not go.",
+      "carried_into_refined_set": true,
+      "refined_equivalent": "Danger"
+    },
+    {
+      "name": "Go This Way",
+      "meaning": "Go this way. Follow.",
+      "carried_into_refined_set": false,
+      "refined_equivalent": null
+    },
+    {
+      "name": "Help",
+      "meaning": "Help needed. Or help here.",
+      "carried_into_refined_set": true,
+      "refined_equivalent": "Help"
+    },
+    {
+      "name": "Home / Shelter",
+      "meaning": "Shelter here. Home.",
+      "carried_into_refined_set": true,
+      "refined_equivalent": "Home"
+    },
+    {
+      "name": "Carry / Bring",
+      "meaning": "Carry this. Bring.",
+      "carried_into_refined_set": true,
+      "refined_equivalent": "Carry"
+    },
+    {
+      "name": "Care / Love",
+      "meaning": "We care. You matter.",
+      "carried_into_refined_set": false,
+      "refined_equivalent": null
+    },
+    {
+      "name": "Look / Watch",
+      "meaning": "Watch. Be alert.",
+      "carried_into_refined_set": false,
+      "refined_equivalent": null
+    },
+    {
+      "name": "Gather",
+      "meaning": "We gather. Meet.",
+      "carried_into_refined_set": false,
+      "refined_equivalent": null
+    },
+    {
+      "name": "Down / Below",
+      "meaning": "Down here. Below.",
+      "carried_into_refined_set": false,
+      "refined_equivalent": null
+    },
+    {
+      "name": "Up / Above",
+      "meaning": "Up there. Above.",
+      "carried_into_refined_set": false,
+      "refined_equivalent": null
+    },
+    {
+      "name": "Stop / No",
+      "meaning": "Stop. No.",
+      "carried_into_refined_set": false,
+      "refined_equivalent": null
+    }
   ],
   "open_questions": [
     "Whether the seven marks not carried into the refined eight (Go This Way, Care/Love, Look/Watch, Gather, Down/Below, Up/Above, Stop/No) were retired, absorbed into a function family some other way, or are simply awaiting a refined re-render — not stated on either plate.",

@@ -49,7 +49,9 @@
     "low_vision_support": "Should be distinguishable by touch from Home; calm base line is a tactile differentiator.",
     "provenance_care_note": "Core survival sign locked to the realized plate.",
     "alt_text": "A raised open circle above a calm settling base line, the Nago sign for Safe.",
-    "open_questions": ["Confirm tactile distinction from Home is sufficient once both are rendered at production scale."]
+    "open_questions": [
+      "Confirm tactile distinction from Home is sufficient once both are rendered at production scale."
+    ]
   },
   {
     "name": "Danger",
@@ -66,7 +68,9 @@
     "low_vision_support": "Sharp, high-contrast angular relief for fast tactile and visual recognition.",
     "provenance_care_note": "Core survival sign locked to the realized plate.",
     "alt_text": "A raised sharp-angled crossed mark, the Nago sign for Danger.",
-    "open_questions": ["Exact construction (triangle vs. crossed/X form) needs a vector-level pass against the plate."]
+    "open_questions": [
+      "Exact construction (triangle vs. crossed/X form) needs a vector-level pass against the plate."
+    ]
   },
   {
     "name": "Carry",
@@ -83,7 +87,9 @@
     "low_vision_support": "Must distinguish carry-person from carry-object at touch scale.",
     "provenance_care_note": "Core survival sign locked to the realized plate.",
     "alt_text": "A raised supportive arc beneath a dot, the Nago sign for Carry.",
-    "open_questions": ["Carry-person vs. carry-object distinction not yet separately specified."]
+    "open_questions": [
+      "Carry-person vs. carry-object distinction not yet separately specified."
+    ]
   },
   {
     "name": "Home",
@@ -170,6 +176,8 @@
     "low_vision_support": "Must communicate direction if used in wayfinding; requires a directional cue beyond the ring motif alone.",
     "provenance_care_note": "Canonical Nago sign, not part of the core-survival eight. Belongs to the Signal family.",
     "alt_text": "Three nested raised rings, the Nago sign for Relay.",
-    "open_questions": ["How direction is communicated when Relay is used for wayfinding is not yet specified."]
+    "open_questions": [
+      "How direction is communicated when Relay is used for wayfinding is not yet specified."
+    ]
   }
 ]

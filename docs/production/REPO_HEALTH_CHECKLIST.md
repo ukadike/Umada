@@ -59,11 +59,11 @@ canon content itself (that's `00_governance/CANON_STATUS.md` and Kemi's call).
 
 ## 6. JSON formatting
 
-- [ ] Every `data/*.json` file is valid UTF-8, 2-space indented, and has a single
-  trailing newline. Short, flat string arrays (status legends, family lists) may stay
-  inline on one line rather than being force-expanded — that's the established style in
-  this repo (see `data/canon.json`, `data/timeline.json`), not a defect to "fix" by
-  re-running a generic formatter over everything.
+- [ ] Every `data/*.json` file is valid UTF-8, fully pretty-printed at 2-space
+  indentation, and ends with a single trailing newline. The canonical form is
+  `json.dumps(data, indent=2, ensure_ascii=False) + "\n"` — every array and object
+  fully expanded, no inline collapsing. Re-running that over a file should produce no
+  diff; if it does, the file has drifted and should be reformatted (content unchanged).
 
 ## After the audit
 

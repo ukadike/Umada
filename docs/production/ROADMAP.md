@@ -37,5 +37,5 @@ No episode has been written. The next concrete production step — writing Episo
 deliberately blocked until enough of the open questions and `AWAITING FRAGMENT` items
 tracked in `01_canon/OPEN_QUESTIONS.md` and `docs/project-management/issues/` are
 resolved that the episode can be generated from recovered canon rather than guessed at.
-See root [`NEXT_STEPS.md`](../../NEXT_STEPS.md) for a prioritized, concrete ordering of
-those same items.
+See [`NEXT_STEPS.md`](NEXT_STEPS.md) for a prioritized, concrete ordering of those same
+items.

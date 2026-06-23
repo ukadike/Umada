@@ -1,8 +1,46 @@
 [
-  { "name": "Lion Kingdom", "status": "EMERGING", "era": "Era 15 — The Kingdom Age", "known_facts": [], "note": "Named only. No further detail in source canon — nothing invented." },
-  { "name": "Jackal Peoples", "status": "EMERGING", "era": "Era 15 — The Kingdom Age", "known_facts": [], "note": "Named only. No further detail in source canon — nothing invented." },
-  { "name": "Black Stars", "status": "EMERGING", "era": "Era 13 — The Tower / Era 15 — The Kingdom Age", "known_facts": ["Associated with the Black Stars Tower, which \"hears first.\""], "note": "Tower link is locked; faction-level detail beyond that is not in source canon." },
-  { "name": "Phoenix Rising", "status": "EMERGING", "era": "Era 15 — The Kingdom Age", "known_facts": [], "note": "Named only. No further detail in source canon — nothing invented." },
-  { "name": "Cybernetic Houses", "status": "EMERGING", "era": "Era 15 — The Kingdom Age", "known_facts": [], "note": "Named only. No further detail in source canon — nothing invented." },
-  { "name": "Pure Human Communities", "status": "EMERGING", "era": "Era 15 — The Kingdom Age", "known_facts": [], "note": "Named only. No further detail in source canon — nothing invented." }
+  {
+    "name": "Lion Kingdom",
+    "status": "EMERGING",
+    "era": "Era 15 — The Kingdom Age",
+    "known_facts": [],
+    "note": "Named only. No further detail in source canon — nothing invented."
+  },
+  {
+    "name": "Jackal Peoples",
+    "status": "EMERGING",
+    "era": "Era 15 — The Kingdom Age",
+    "known_facts": [],
+    "note": "Named only. No further detail in source canon — nothing invented."
+  },
+  {
+    "name": "Black Stars",
+    "status": "EMERGING",
+    "era": "Era 13 — The Tower / Era 15 — The Kingdom Age",
+    "known_facts": [
+      "Associated with the Black Stars Tower, which \"hears first.\""
+    ],
+    "note": "Tower link is locked; faction-level detail beyond that is not in source canon."
+  },
+  {
+    "name": "Phoenix Rising",
+    "status": "EMERGING",
+    "era": "Era 15 — The Kingdom Age",
+    "known_facts": [],
+    "note": "Named only. No further detail in source canon — nothing invented."
+  },
+  {
+    "name": "Cybernetic Houses",
+    "status": "EMERGING",
+    "era": "Era 15 — The Kingdom Age",
+    "known_facts": [],
+    "note": "Named only. No further detail in source canon — nothing invented."
+  },
+  {
+    "name": "Pure Human Communities",
+    "status": "EMERGING",
+    "era": "Era 15 — The Kingdom Age",
+    "known_facts": [],
+    "note": "Named only. No further detail in source canon — nothing invented."
+  }
 ]
