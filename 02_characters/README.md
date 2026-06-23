@@ -8,7 +8,7 @@ drafting started — see `data/characters.json` for locked role-facts and
   Dossier drafting started: [`ADA_DOSSIER.md`](ADA_DOSSIER.md) (role facts and five
   locked visual references compiled, open fields awaiting Kemi via the tiny-questions
   protocol).
-- **Tallai / Talla** — chimera care specialist; herself a chimera, not a non-chimera who
+- **Tallai** — chimera care specialist; herself a chimera, not a non-chimera who
   treats chimeras (Kemi, 2026-06-23); known at the Friedmandostorp bread stop. Dossier
   drafting started: [`TALLAI_DOSSIER.md`](TALLAI_DOSSIER.md) (role facts and locked
   visual reference compiled, open fields awaiting Kemi).

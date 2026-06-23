@@ -14,7 +14,7 @@ Open fields are placeholders for the tiny-questions protocol
 - **Narrative role:** Detects — scout/sensing role. Functionally paired with Quartz: "Q
   detects. Quartz carries." (`01_canon/SEED_CANON.md`).
 - **Survivor status:** One of the four Cape Wipeout survivors, alongside Ada,
-  Tallai/Talla, and Quartz.
+  Tallai, and Quartz.
 
 Source: `data/characters.json`, `01_canon/SEED_CANON.md`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 

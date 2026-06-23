@@ -6,7 +6,7 @@ Status: EMERGING
 - **Chimeras** — emerge from Era 3 institutional experimentation ("for medicine,
   adaptation, military advantage, and survival"); explicitly "new beings, not monsters."
   Era 7's founding line: "They called us monsters. We became the care they were afraid
-  to give." Tallai/Talla is a chimera care specialist. By the Kingdom Age (Era 15),
+  to give." Tallai is a chimera care specialist. By the Kingdom Age (Era 15),
   chimeras are understood well enough to be a distinct population alongside Cybernetic
   Houses and Pure Human Communities.
 - **Cyborgs / Cybernetics** — begin in Era 9 (Emergency Cybernetics) as medical repair,

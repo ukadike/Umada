@@ -2,7 +2,7 @@
 
 Status: EMERGING — almost nothing locked beyond the survivor unit itself.
 
-Known: Ada, Tallai/Talla, Q, and Quartz are bound together as the four survivors of Cape
+Known: Ada, Tallai, Q, and Quartz are bound together as the four survivors of Cape
 Wipeout. "Q detects. Quartz carries." names a functional pairing between two of them, not
 a personal relationship.
 

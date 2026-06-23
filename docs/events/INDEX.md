@@ -6,7 +6,7 @@ any event the engine doesn't already name.
 
 | Event | Status | Summary |
 | --- | --- | --- |
-| Cape Wipeout, Pt. 1 | LOCKED | March 19, 2226, near Cape Agulhas. Chimeran Flu outbreak; the Military Industrial Complex destroys the facility; the official story diverges from the truth. Ada, Tallai/Talla, Q, and Quartz survive. Canonical public episode title. |
+| Cape Wipeout, Pt. 1 | LOCKED | March 19, 2226, near Cape Agulhas. Chimeran Flu outbreak; the Military Industrial Complex destroys the facility; the official story diverges from the truth. Ada, Tallai, Q, and Quartz survive. Canonical public episode title. |
 | The Breach | EMERGING | Containment fails; the Atlantic becomes a carrier. Mechanism `[TBD]` (`01_canon/OPEN_QUESTIONS.md` #13). |
 | Super Hurricane Cindy | EMERGING | Carries the breach through water, air, and storm. Mechanism `[TBD]` (#14). |
 | Angel Dust emergence | EMERGING | Chimeran Flu evolves during a period of prolonged instability. Relationship/naming flagged for provenance and care given the real-world drug-slang homonym (#16). |

@@ -16,8 +16,11 @@ smallest of these get asked to Kemi one at a time.
    are kept as a live narrative axis, separate from the seven signage families. Could be
    retired in favor of the plate's Visual Grammar primitives (Circle, Open Circle,
    Broken Circle, Three Rings, Hand+Ring) if Kemi prefers.
-4. **Talla vs Tallai.** Both forms are attested. Is this one character with a
-   nickname/full-name pair, or a spelling that needs to converge on one form?
+4. **Talla vs Tallai — RESOLVED (Kemi, 2026-06-23): converge on Tallai.** Both forms were
+   attested; Kemi confirmed a single converged spelling. **"Talla"** is RETIRED as a name
+   form — see `00_governance/CANON_STATUS.md`. Verbatim quotes of the rescue animatic's
+   caption ("Talla calls...") remain unchanged as literal transcript, not as ongoing use
+   of the retired form.
 
 ## Nago / signage
 

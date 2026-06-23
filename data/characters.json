@@ -5,7 +5,7 @@
     "known_facts": [
       "Field commander / scapegoat.",
       "Listed KIA before final blast confirmation.",
-      "One of four Cape Wipeout survivors (with Tallai/Talla, Q, and Quartz).",
+      "One of four Cape Wipeout survivors (with Tallai, Q, and Quartz).",
       "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago.",
       "Full credited name per the Friedmandostorp rescue animatic: Adanna \"Ada\" Venter.",
       "Carries a necklace from Kassey — a simple silver chain with a small, solid heart pendant (Kemi, 2026-06-23). Kassey (KC) is confirmed the same entity as the animatic's \"Kassey\", the canonical spelling (visual source of truth).",
@@ -22,8 +22,8 @@
     "dossier_status": "IN PROGRESS — see 02_characters/ADA_DOSSIER.md (role facts and five locked visual references compiled, a few open fields awaiting Kemi)"
   },
   {
-    "name": "Tallai / Talla",
-    "status": "LOCKED (role) / OPEN QUESTION (preferred single spelling) / IN PROGRESS (full dossier)",
+    "name": "Tallai",
+    "status": "LOCKED (role, spelling) / IN PROGRESS (full dossier)",
     "known_facts": [
       "Chimera care specialist — Tallai is herself a chimera who specializes in care, not a non-chimera who treats chimeras (Kemi, 2026-06-23).",
       "Known at the bread stop in Friedmandostorp before the blast.",
@@ -32,7 +32,7 @@
       "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago.",
       "Tends to a wounded Ada after the blast, cradling her forehead (Kemi-approved, 2026-06-23). Locked visual reference: assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png — pale scaled, reptilian skin; a frilled crest along the head; a clawed/webbed hand; a white care-coat/robe bearing a patch with text too small/AI-rendered to transcribe with confidence (not treated as canon text)."
     ],
-    "open_question": "Both 'Tallai' and 'Talla' are attested across source documents. Whether this is a nickname/full-name pair or a spelling that should converge on one form is open — see 01_canon/OPEN_QUESTIONS.md.",
+    "open_question": null,
     "dossier_artifact": "Tallai Character Dossier",
     "dossier_status": "IN PROGRESS — see 02_characters/TALLAI_DOSSIER.md (role facts and locked visual reference compiled, open fields awaiting Kemi)"
   },

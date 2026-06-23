@@ -56,8 +56,10 @@ needed:
 
 - Canonical spellings live only in `00_governance/CANON_STATUS.md`. Every other
   document defers to it rather than carrying its own copy of "the" spelling.
-- A name with two attested forms (e.g. Tallai / Talla) stays written as both forms,
-  joined by `/`, until Kemi confirms a single preferred form — never silently pick one.
+- A name with two attested forms (e.g. Tallai / Talla, before Kemi's 2026-06-23
+  confirmation converged it to Tallai — see `00_governance/CANON_STATUS.md`) stays
+  written as both forms, joined by `/`, until Kemi confirms a single preferred form —
+  never silently pick one.
 - A name proposed in new material that doesn't exist anywhere in the engine (e.g. Aisha,
   Nayla, Adeola — see `01_canon/OPEN_QUESTIONS.md` #28) is logged `OPEN QUESTION` /
   pending confirmation, never merged into locked canon on its own authority.

@@ -8,7 +8,7 @@ Kemi a tiny question, filing a real fragment, or building/auditing tooling.
 
 ## Worldbuilding
 
-- [ISSUE-001: Resolve Talla vs Tallai spelling](ISSUE-001.md)
+- [ISSUE-001: Resolve Talla vs Tallai spelling](ISSUE-001.md) — RESOLVED
 - [ISSUE-002: Define the Umada/Tisetan council dispute](ISSUE-002.md)
 - [ISSUE-003: Define the Tisetan/Umada relationship](ISSUE-003.md)
 - [ISSUE-004: Detail the six Era 15 factions](ISSUE-004.md)
@@ -17,7 +17,7 @@ Kemi a tiny question, filing a real fragment, or building/auditing tooling.
 ## Characters
 
 - [ISSUE-006: Recover Ada's full character dossier](ISSUE-006.md)
-- [ISSUE-007: Recover Tallai/Talla's full character dossier](ISSUE-007.md)
+- [ISSUE-007: Recover Tallai's full character dossier](ISSUE-007.md)
 - [ISSUE-008: Recover Q's full character dossier](ISSUE-008.md)
 - [ISSUE-009: Recover Quartz's full character dossier](ISSUE-009.md)
 - [ISSUE-010: Resolve Aisha, Nayla, Adeola status](ISSUE-010.md)

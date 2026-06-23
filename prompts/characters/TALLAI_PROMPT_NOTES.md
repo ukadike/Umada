@@ -1,4 +1,4 @@
-# Tallai / Talla — Prompt Notes
+# Tallai — Prompt Notes
 
 Status: **Locked reference exists** (one image, shared with Ada). These notes restate
 what's already approved — see `02_characters/TALLAI_DOSSIER.md` and
@@ -25,8 +25,7 @@ what's already approved — see `02_characters/TALLAI_DOSSIER.md` and
 - Care-coat patch text/insignia.
 - Any appearance outside the rescue scene (e.g. at the Friedmandostorp bread stop, where
   she is known but not yet visually realized).
-- Spelling: "Tallai" vs. "Talla" — both attested, not yet converged
-  (`01_canon/OPEN_QUESTIONS.md` #4). Use whichever form the most recent locked source
-  uses for any new asset filename, and flag the choice rather than silently picking one.
+- Spelling: resolved — use **"Tallai"** for any new asset filename or prompt text.
+  **"Talla"** is RETIRED (Kemi, 2026-06-23; `01_canon/OPEN_QUESTIONS.md` #4).
 
 See `02_characters/TALLAI_DOSSIER.md` for the full fact set and citation trail.

@@ -9,7 +9,7 @@ of character facts.
 | Name | Role | Dossier |
 | --- | --- | --- |
 | Ada (Adanna "Ada" Venter) | Field commander / scapegoat; listed KIA before final blast confirmation | `IN PROGRESS` — [`ADA_DOSSIER.md`](../../02_characters/ADA_DOSSIER.md) |
-| Tallai / Talla | Chimera care specialist (herself a chimera); known at the Friedmandostorp bread stop | `IN PROGRESS` — [`TALLAI_DOSSIER.md`](../../02_characters/TALLAI_DOSSIER.md) |
+| Tallai | Chimera care specialist (herself a chimera); known at the Friedmandostorp bread stop | `IN PROGRESS` — [`TALLAI_DOSSIER.md`](../../02_characters/TALLAI_DOSSIER.md) |
 | Q | Detects (scout/sensing role) | `IN PROGRESS` — [`Q_DOSSIER.md`](../../02_characters/Q_DOSSIER.md) |
 | Quartz | Carries (load-bearer / rescue anchor) | `IN PROGRESS` — [`QUARTZ_DOSSIER.md`](../../02_characters/QUARTZ_DOSSIER.md) |
 
@@ -28,6 +28,6 @@ repository-restructuring brief, but none appear anywhere in the source package, 
 realized plates, or any prior fragment. Logged `OPEN QUESTION` / pending confirmation —
 see `data/characters.json` and `01_canon/OPEN_QUESTIONS.md` #28. `[CANON REVIEW REQUIRED]`
 
-## Open questions
+## Resolved
 
-- Talla vs Tallai — one preferred spelling, or a nickname/full-name pair? (#4)
+- Talla vs Tallai — RESOLVED (Kemi, 2026-06-23): converge on Tallai; "Talla" retired. (#4)

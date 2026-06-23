@@ -9,8 +9,8 @@ Status legend: LOCKED / PROBABLE / EMERGING / OPEN QUESTION / RETIRED
 - Rescue Cluster 7-South is a care-based survivor cluster.
 - Ada is field commander / scapegoat.
 - Ada is listed KIA before final blast confirmation.
-- Talla/Tallai is a chimera care specialist.
-- Talla/Tallai is known at the bread stop before the blast.
+- Tallai is a chimera care specialist.
+- Tallai is known at the bread stop before the blast.
 - Bread Sign is an early Nago market sign.
 - Q detects. Quartz carries.
 - Quartz is load-bearer / rescue anchor.

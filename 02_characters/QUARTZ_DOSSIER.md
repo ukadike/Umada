@@ -14,7 +14,7 @@ Aderin's. Open fields are placeholders for the tiny-questions protocol
 - **Narrative role:** Carries — load-bearer / rescue anchor. Functionally paired with Q:
   "Q detects. Quartz carries." (`01_canon/SEED_CANON.md`).
 - **Survivor status:** One of the four Cape Wipeout survivors, alongside Ada,
-  Tallai/Talla, and Q.
+  Tallai, and Q.
 
 Source: `data/characters.json`, `01_canon/SEED_CANON.md`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 

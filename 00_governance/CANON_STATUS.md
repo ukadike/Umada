@@ -16,8 +16,12 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   repository-restructuring brief and corrected back to the locked spelling.
 - **Jackal Peoples** — canonical faction-layer name. The variant **"Jackal Tribes"** is
   RETIRED for the same reason (2026-06-22 brief).
-- **Tallai / Talla** — both forms attested in source canon; treated as the same person
-  pending confirmation of a single preferred form. See Open Questions.
+- **Tallai** — canonical character spelling (Kemi, 2026-06-23). The variant **"Talla"**
+  is RETIRED and must not be reintroduced as a name form — both forms were previously
+  attested in source canon pending confirmation; Kemi confirmed a single converged
+  spelling, resolving `01_canon/OPEN_QUESTIONS.md` #4 / `ISSUE-001`. Verbatim quotes from
+  the rescue animatic's caption track ("Talla calls...") are left untouched as a literal
+  transcript of the artifact, not as ongoing use of the retired form.
 - **Kassey** (short form **KC**) — **Ada's lover; a man; a separate person from Ada**
   (Kemi, 2026-06-23). Gave Ada the necklace she carries; his name burns across her
   military record in the rescue animatic. **Kassey** is the canonical written form — the
@@ -71,7 +75,7 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 - Cape Wipeout, Pt. 1 — canonical public episode title.
 - Cape Wipeout — March 19, 2226, near Cape Agulhas; Chimeran Flu outbreak; the Military
   Industrial Complex destroys the facility; the official story diverges from the truth.
-- Ada, Tallai/Talla, Q, and Quartz survive Cape Wipeout.
+- Ada, Tallai, Q, and Quartz survive Cape Wipeout.
 - Ada is field commander / scapegoat; listed KIA before final blast confirmation.
 - Ada and Kassey were sent by the Military Industrial Complex (MIC) to execute the Cape
   Wipeout blast that obliterates the facility (Kemi, 2026-06-23). This elaborates — does

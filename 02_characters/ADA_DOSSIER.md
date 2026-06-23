@@ -12,7 +12,7 @@ Open fields are placeholders for the tiny-questions protocol
 
 - **Full credited name:** Adanna "Ada" Venter.
 - **Narrative role:** Field commander / scapegoat.
-- **Survivor status:** One of the four Cape Wipeout survivors, alongside Tallai/Talla,
+- **Survivor status:** One of the four Cape Wipeout survivors, alongside Tallai,
   Q, and Quartz. Listed KIA before final blast confirmation.
 
 Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.

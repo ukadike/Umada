@@ -1,4 +1,4 @@
-# Tallai / Talla — Character Dossier
+# Tallai — Character Dossier
 
 Status: **LOCKED** (role facts and visual reference below) / **DRAFT — open fields
 awaiting Kemi**
@@ -11,8 +11,8 @@ are placeholders for the tiny-questions protocol
 
 ## Identity
 
-- **Name:** Both **Tallai** and **Talla** are attested. Treated as the same person
-  pending a single preferred form — see `01_canon/OPEN_QUESTIONS.md` #4.
+- **Name:** **Tallai** — canonical spelling (Kemi, 2026-06-23). **Talla** is RETIRED as
+  a name form — see `01_canon/OPEN_QUESTIONS.md` #4 and `00_governance/CANON_STATUS.md`.
 - **Narrative role:** Chimera care specialist; known at the Friedmandostorp bread stop
   before the blast; explores the Garden (Era 4).
 - **Survivor status:** One of the four Cape Wipeout survivors, alongside Ada, Q, and
@@ -39,8 +39,6 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 
 ## Open questions (cross-referenced, not restated)
 
-- Talla vs Tallai — single preferred spelling, or nickname/full-name pair?
-  `01_canon/OPEN_QUESTIONS.md` #4.
 - What mark would Tallai recognize first? `01_canon/OPEN_QUESTIONS.md` #8.
 
 ## Open fields — AWAITING Kemi (not invented)
@@ -62,6 +60,9 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 
 ## Answered tiny questions
 
+- *Talla vs Tallai — converge on one spelling, or keep as a nickname/full-name pair?* →
+  **Converge on Tallai.** "Talla" is RETIRED as a name form. (Kemi, 2026-06-23.) Closed
+  `01_canon/OPEN_QUESTIONS.md` #4 / `ISSUE-001`.
 - *Is the caregiver in the rescue-reference image Tallai?* → **Yes.** (Kemi, 2026-06-23.)
 - *Does her chimera-presenting appearance mean Tallai is herself a chimera?* → **Yes —
   she is a chimera who specializes in care**, not a specialist who treats chimeras.

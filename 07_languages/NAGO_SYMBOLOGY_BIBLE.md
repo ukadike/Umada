@@ -39,7 +39,7 @@ families respectively; they are not part of the core-survival set.)
 Status: LOCKED / FOUNDATIONAL
 Gesture: Fingers to mouth. Palm open.
 Meaning: I am hungry. I ask for bread. Not begging. Survival with dignity.
-Context: Friedmandostorp bread stop. Early Nago market sign. Tallai / Talla known at the bread stop.
+Context: Friedmandostorp bread stop. Early Nago market sign. Tallai known at the bread stop.
 
 ---
 

@@ -31,7 +31,7 @@ chronological view, see `world/history/TIMELINE.md`.
 
 Era 5 is the most solidly established point on this arc: March 19, 2226, near Cape
 Agulhas. A Chimeran Flu outbreak; the Military Industrial Complex destroys the facility;
-the official story diverges from the truth. Ada, Tallai/Talla, Q, and Quartz survive.
+the official story diverges from the truth. Ada, Tallai, Q, and Quartz survive.
 This is the locked civilizational anchor everything else on the arc is measured against
 — see `00_governance/CANON_STATUS.md`.
 

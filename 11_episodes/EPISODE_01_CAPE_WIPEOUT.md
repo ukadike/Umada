@@ -22,7 +22,7 @@ or content beyond what's already locked elsewhere in this repository.
 - **Ada and Kassey were sent by the MIC to execute the blast** that obliterates the
   facility (Kemi, 2026-06-23) — they were its operatives, not bystanders to it. Kassey
   survives; Ada is listed KIA before final blast confirmation.
-- **Four survivors:** Ada (Adanna "Ada" Venter, field commander/scapegoat), Tallai/Talla
+- **Four survivors:** Ada (Adanna "Ada" Venter, field commander/scapegoat), Tallai
   (chimera care specialist), Q (detects), Quartz (carries).
 - **ADA-1's first ethic**, restated on-screen: "Trust body over record" (matching the
   already-locked "Trust Body Before Record").

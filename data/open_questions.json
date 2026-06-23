@@ -2,8 +2,7 @@
   "naming_and_canon_structure": [
     "Memory vs Witness — applied as a rename per the refined plate; split if Kemi meant two distinct families.",
     "Environment family contents — EMERGING, no signs seeded yet.",
-    "Motif-five fate — kept as a live narrative axis separate from the seven signage families.",
-    "Talla vs Tallai — single preferred spelling, or deliberate nickname/full-name pair?"
+    "Motif-five fate — kept as a live narrative axis separate from the seven signage families."
   ],
   "nago_signage": [
     "Which of the seven Proto-Nago marks not in the refined eight were dropped, absorbed, or are awaiting re-render.",
@@ -43,6 +42,7 @@
   ],
   "resolved": [
     "Does the full v1 + v1.2 site/section scaffolding already exist in the working repo? Resolved at pre-flight: repo contained only .gitattributes; this build is that scaffolding.",
-    "Who is \"Kassey\" relative to Ada? Resolved (Kemi, 2026-06-23): Kassey is a separate person — Ada's lover, a man — and the giver of her necklace; the same entity as \"KC\". See 02_characters/KASSEY_DOSSIER.md."
+    "Who is \"Kassey\" relative to Ada? Resolved (Kemi, 2026-06-23): Kassey is a separate person — Ada's lover, a man — and the giver of her necklace; the same entity as \"KC\". See 02_characters/KASSEY_DOSSIER.md.",
+    "Talla vs Tallai spelling — Resolved (Kemi, 2026-06-23): converge on Tallai; \"Talla\" is RETIRED as a name form. See 00_governance/CANON_STATUS.md and 01_canon/OPEN_QUESTIONS.md #4."
   ]
 }

@@ -12,7 +12,7 @@
       "name": { "type": "string" },
       "status": { "type": "string" },
       "known_facts": { "type": "array", "items": { "type": "string" } },
-      "open_question": { "type": "string" },
+      "open_question": { "type": ["string", "null"] },
       "dossier_artifact": { "type": ["string", "null"] },
       "dossier_status": { "type": "string" }
     }
