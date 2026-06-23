@@ -28,8 +28,10 @@ The archive lives as a small, fast, no-build website — open
   this whole world is checked against.
 - **[Faraday Box](sections/faraday-box.html)** — how audience signal gets in.
 
-Episode 1 has deliberately not been written yet. This archive comes first, so the episode
-can be generated precisely from what's actually been recovered — not guessed at.
+Episode 1 now has a first-pass draft script, generated precisely from what's actually
+been recovered — the rescue animatic's own captions and already-locked facts, with no
+dialogue invented and every gap marked openly:
+[`11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`](11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md).
 
 ## Canon status, at a glance
 

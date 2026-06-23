@@ -5,11 +5,15 @@ section. Every item below already exists as an open question or issue elsewhere 
 repo — this file orders them, it doesn't add new ones. Re-derive nothing from here;
 follow the linked source for full detail.
 
-## Blocking Episode 1
+## Blocking a fuller Episode 1 script
 
-Episode 1 is deliberately unwritten until these resolve (per
-`00_governance/NO_FABRICATION_RULE.md` — generated from recovered canon, not guessed
-at):
+A first-pass draft script now exists
+(`11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`, 2026-06-23) — built without waiting on
+these, using only verbatim captions, verbatim locked poetry, and scene description
+grounded in already-locked facts, with every true gap marked inline. These items still
+block anything beyond that — spoken dialogue, a frame-narrative setting, content past
+the animatic's recovered ~49 seconds — per `00_governance/NO_FABRICATION_RULE.md`
+(generated from recovered canon, not guessed at):
 
 1. **Character dossiers.** Tallai's, Q's, and Quartz's open fields (physical
    description, personality, voice, relationships, arc) are still `AWAITING Kemi` — see

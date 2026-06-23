@@ -14,7 +14,9 @@
     "Who disputes the council leadership of Umada and Tisetan, and over what?",
     "Relationship between Tisetan and Umada — sister cities, successor city, rivals, or other?",
     "What the Omoluabi device looks like or how it works.",
-    "What ADA-1 is — AI system, doctrine, person, or designation."
+    "What ADA-1 is — AI system, doctrine, person, or designation.",
+    "Where/when is the frame narrative's 'present'? No scene, location, or time period is locked for where the future reporter/time-traveler stands while witnessing events. See 01_canon/OPEN_QUESTIONS.md #32.",
+    "What does the future reporter/time-traveler look like? No physical description exists anywhere in canon. See 01_canon/OPEN_QUESTIONS.md #33."
   ],
   "timeline_and_world_mechanics": [
     "Mechanism of the Breach (Atlantic as carrier).",
@@ -38,7 +40,8 @@
     "What is the \"FFF\" mark etched near the figures in the rescue animatic's rubble-rescue panel?",
     "What is past \"OFF T—\" on Ada's credit line in the rescue animatic? Clipped by the source file's native frame edge; not recoverable without a higher-resolution export.",
     "The MIC blast mission (Kemi, 2026-06-23): Ada and Kassey were sent by the Military Industrial Complex to execute the Cape Wipeout blast; Kassey survives. Open: whether they acted willingly or under coercion, what becomes of Kassey after the blast (his whereabouts during the rescue are deliberately undecided), and why his name burns across Ada's record. See 01_canon/OPEN_QUESTIONS.md #30.",
-    "Ada's wings/pilot-style badge in her locked reference image (assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png, Kemi-approved 2026-06-23): aviation background, or decorative? See 01_canon/OPEN_QUESTIONS.md #31."
+    "Ada's wings/pilot-style badge in her locked reference image (assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png, Kemi-approved 2026-06-23): aviation background, or decorative? See 01_canon/OPEN_QUESTIONS.md #31.",
+    "Does Episode 1 extend past the animatic's recovered ~49 seconds, and if so with what? Surfaced while drafting 11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md. See 01_canon/OPEN_QUESTIONS.md #34."
   ],
   "resolved": [
     "Does the full v1 + v1.2 site/section scaffolding already exist in the working repo? Resolved at pre-flight: repo contained only .gitattributes; this build is that scaffolding.",

@@ -112,6 +112,17 @@ smallest of these get asked to Kemi one at a time.
     a wings/pilot-style badge on her chest, alongside a sleeve flag patch whose design
     isn't specified. Whether this means an aviation background, or is decorative, is open
     — not invented. Tracked in `02_characters/ADA_DOSSIER.md`.
+32. **Where/when is the frame narrative's "present"?** The future reporter/time-traveler
+    and the Omoluabi device are locked as existing (`00_governance/CANON_STATUS.md`); no
+    scene, location, or time period is locked for where they stand while witnessing
+    events. Surfaced while drafting the Episode 1 cold open
+    (`11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`, 2026-06-23).
+33. **What does the future reporter/time-traveler look like?** No physical description
+    exists anywhere in canon. Surfaced for the same reason as #32.
+34. **Does Episode 1 extend past the animatic's recovered ~49 seconds, and if so with
+    what?** "Cape Wipeout, Pt. 1" is the full locked episode title; nothing states
+    whether the recovered animatic *is* the episode in miniature or only its cold open.
+    Surfaced while deciding where the Episode 1 draft script should end.
 
 ## Production / accessibility
 

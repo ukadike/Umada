@@ -22,8 +22,10 @@ If you're looking for the canon engine itself, start at the root `README.md` ins
 - **[Character Index](characters/INDEX.md)**
 - **[Faction Index](factions/INDEX.md)**
 - **[Event Index](events/INDEX.md)**
-- `episodes/` — reserved; Episode 1 has deliberately not been *scripted* yet. The locked
-  facts it will draw from are scaffolded in
+- `episodes/` — reserved; Episode 1 now has a first-pass draft script, Kemi-directed
+  (2026-06-23):
+  [`11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`](../11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md).
+  The locked facts it's checked against remain scaffolded in
   [`11_episodes/EPISODE_01_CAPE_WIPEOUT.md`](../11_episodes/EPISODE_01_CAPE_WIPEOUT.md).
 - **[Visual Language Guide](production/VISUAL_LANGUAGE_GUIDE.md)**
 - **[Production Roadmap](production/ROADMAP.md)** · **[Next Steps](production/NEXT_STEPS.md)**

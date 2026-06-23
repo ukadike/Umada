@@ -33,9 +33,14 @@ Preparation, Website Preparation, Research).
 
 ## What comes next
 
-No episode has been written. The next concrete production step — writing Episode 1 — is
-deliberately blocked until enough of the open questions and `AWAITING FRAGMENT` items
-tracked in `01_canon/OPEN_QUESTIONS.md` and `docs/project-management/issues/` are
-resolved that the episode can be generated from recovered canon rather than guessed at.
-See [`NEXT_STEPS.md`](NEXT_STEPS.md) for a prioritized, concrete ordering of those same
-items.
+Episode 1 has a first-pass draft script —
+[`EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`](../../11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md)
+(2026-06-23) — built without waiting for the open questions below to resolve, by using
+only verbatim animatic captions, verbatim locked poetry, and scene description grounded
+in already-locked facts; every true gap is marked inline rather than guessed at, and
+three new ones were surfaced and logged (`01_canon/OPEN_QUESTIONS.md` #32–#34). The open
+questions and `AWAITING FRAGMENT` items tracked in `01_canon/OPEN_QUESTIONS.md` and
+`docs/project-management/issues/` still block a fuller script — spoken dialogue, a
+frame-narrative setting, anything past the animatic's recovered ~49 seconds — from being
+written. See [`NEXT_STEPS.md`](NEXT_STEPS.md) for a prioritized, concrete ordering of
+those same items.

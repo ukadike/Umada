@@ -1,13 +1,15 @@
 # Episode 01 — Cape Wipeout, Pt. 1
 
-Status: **SCAFFOLD ONLY — AWAITING SCRIPT.** This is not a script, treatment, or
-scene-by-scene breakdown. It compiles the locked facts and recovered material this
-episode will eventually be generated from, per `CLAUDE.md`'s no-fabrication rule and
-`docs/production/ROADMAP.md`'s explicit block: *"the next concrete production step —
-writing Episode 1 — is deliberately blocked until enough of the open questions and
-`AWAITING FRAGMENT` items... are resolved that the episode can be generated from
-recovered canon rather than guessed at."* Nothing below invents dialogue, scene order,
-or content beyond what's already locked elsewhere in this repository.
+Status: **SCAFFOLD — DRAFT SCRIPT EXISTS.** This file is not a script; it compiles the
+locked facts and recovered material the episode is built from. A first-pass draft
+script now exists at
+[`EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`](EPISODE_01_CAPE_WIPEOUT_SCRIPT.md) (2026-06-23,
+Kemi-directed), built only from the facts below and the animatic's own captions — no
+dialogue, voice, or open question was invented to write it; see that file's "Production
+notes" and "Open questions surfaced while drafting" sections. This scaffold remains the
+fact ledger the script (and any future revision of it) is checked against. Nothing
+below invents dialogue, scene order, or content beyond what's already locked elsewhere
+in this repository.
 
 ## Locked facts
 
@@ -80,5 +82,7 @@ episode:
 
 See `docs/production/ROADMAP.md` for where episode work sits in the build sequence and
 `docs/project-management/issues/INDEX.md` for the tracked issues (Worldbuilding,
-Characters, Timeline categories) whose resolution unblocks this episode. This file should
-be updated as those resolve — not replaced by a script until enough of them have.
+Characters, Timeline categories) whose resolution would tighten the draft script further.
+This file should keep being updated as those resolve, and the script revised to match —
+this scaffold is the fact ledger, the script is generated from it, never the other way
+around.

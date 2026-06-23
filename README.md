@@ -34,8 +34,10 @@ This is the contributor/build-process README. For the fan/visitor-facing welcome
   fabrication and a full audit trail.
 - A living archive: source documents, governance rules, and structured data that the
   public site and future episodes are generated from.
-- Not yet a finished show. Episode 1 has deliberately not been written — this repository
-  builds the system that lets it be generated precisely from recovered canon.
+- Not yet a finished show. Episode 1 has a first-pass draft script
+  (`11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md`) generated precisely from recovered
+  canon — no invented dialogue, every gap marked inline; the other two planned releases
+  remain unwritten.
 
 ## Where things live
 
