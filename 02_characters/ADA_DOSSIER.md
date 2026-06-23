@@ -55,7 +55,9 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   the officer class; "medium" = neither top brass nor junior), which fits her locked
   field-commander role. The rank reading is a gloss, not a stated insignia; specific
   insignia, the uniform's colors, and the rest of the wardrobe stay open.
-- **Personality & voice:** none on record.
+- **Personality & voice:** Under pressure — when things are coming apart — she goes
+  **cold and methodical**, not loud (Kemi, 2026-06-23). Voice and personality otherwise
+  open.
 - **The necklace from Kassey** — a **simple silver chain with a small, solid heart
   pendant** (not a locket; Kemi, 2026-06-23). What it means to Ada is open — not guessed
   at.
@@ -83,9 +85,5 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   in a ponytail; mangled in the blast. (Kemi, 2026-06-23.)
 - *What does Ada wear?* → **A military uniform, "medium brass"** (read as a mid-ranking
   officer). (Kemi, 2026-06-23.)
-
----
-
-**Tiny question for Kemi:** When the blast goes wrong and everything's coming apart, does
-Ada go **cold and methodical** or **loud and driving**? (One trait — enough to set how she
-reads on screen under pressure.)
+- *When the blast goes wrong and everything's coming apart, does Ada go cold and
+  methodical or loud and driving?* → **Cold and methodical.** (Kemi, 2026-06-23.)
