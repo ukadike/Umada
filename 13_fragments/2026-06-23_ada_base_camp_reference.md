@@ -29,20 +29,20 @@
 ## Canon
 
 - proposed status: LOCKED for Ada's appearance and the camp scene generally
-  (Kemi-approved, 2026-06-23). The wall signage text is explicitly NOT locked — it reads
-  close to "FRIEDMANDESTORP," which is the RETIRED spelling (`00_governance/CANON_STATUS.md`),
-  not the locked **Friedmandostorp**. AI-generated in-image text is unreliable by nature;
-  this is logged as a likely rendering artifact, not treated as a canon respelling, and
-  the location is filed as "an unnamed camp" rather than asserted to be Friedmandostorp.
+  (Kemi-approved, 2026-06-23). The wall signage text is explicitly NOT locked — it is
+  AI-rendered and too small to transcribe with confidence (consistent with the raw-content
+  note above). No specific reading or (mis)spelling is asserted; the location is filed as
+  "an unnamed camp" rather than asserted to be Friedmandostorp or any other named
+  settlement.
 - target files: `02_characters/ADA_DOSSIER.md`, `data/visual_artifacts.json`,
   `00_governance/CANON_STATUS.md` (cautionary note only).
-- confidence: high for Ada's appearance; explicitly low/rejected for the signage text.
-- provenance/care notes: flagging for Kemi — if this camp is meant to be Friedmandostorp,
-  the signage would need correcting (regeneration or a manual fix) before any public use,
-  to avoid reintroducing the retired spelling.
+- confidence: high for Ada's appearance; none for the signage text, which is illegible.
+- provenance/care notes: the camp's identity is unconfirmed either way; the signage is not
+  legible as rendered and carries no claimed spelling to correct.
 
 ## Tiny Question
 
-Is this camp meant to be Friedmandostorp, and if so, should the signage be regenerated
-with the correct spelling before this image is used publicly? Logged as open, not
-guessed at.
+None. Removed at creator's direction, 2026-06-23 — the prior question assumed the signage
+was legible enough to resemble a specific (retired) spelling, which was an over-read of
+AI-rendering noise. No specific text is asserted, so there is nothing further to ask about
+it.

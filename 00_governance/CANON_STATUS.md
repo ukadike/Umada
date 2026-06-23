@@ -92,18 +92,18 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   Agulhas, South Africa coastal setting); `assets/concept-art/ADA_BASE_CAMP_REFERENCE_v1.png`
   (an unnamed military camp — see cautionary note below); and
   `assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png` (Tallai tending a wounded Ada).
-  **Cautionary note:** the base-camp image's wall signage renders close to
-  "FRIEDMANDESTORP" (the RETIRED spelling). This is logged as an AI image-generation
-  rendering artifact, not a canon respelling — the camp is filed as "unnamed," not
-  asserted to be Friedmandostorp. See `13_fragments/2026-06-23_ada_base_camp_reference.md`
-  and `01_canon/OPEN_QUESTIONS.md` #33.
+  **Cautionary note:** the base-camp image's wall signage is AI-rendered and too small to
+  transcribe with confidence — no specific reading or (mis)spelling is asserted, and the
+  camp is filed as "unnamed," not asserted to be Friedmandostorp. See
+  `13_fragments/2026-06-23_ada_base_camp_reference.md`.
 - **Tallai is herself a chimera** who specializes in care (Kemi, 2026-06-23) — "chimera
   care specialist" means a chimera who specializes in care, not a non-chimera who treats
   chimeras. Her locked visual reference is
   `assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png` (Kemi-approved, 2026-06-23):
   pale scaled reptilian skin, a frilled crest, a clawed/webbed hand, and a white
-  care-coat bearing a patch reading "C.A.R.F." (expansion open, see Open Questions). She
-  is shown tending a wounded Ada after the Cape Wipeout blast.
+  care-coat bearing a patch with text too small/AI-rendered to transcribe with confidence
+  (not treated as canon text). She is shown tending a wounded Ada after the Cape Wipeout
+  blast.
 - Q detects. Quartz carries — load-bearer / rescue anchor.
 - ADA-1 begins with body-over-record logic: Trust Body Before Record, Trust Witness
   Before Narrative, Trust Survival Before Authority.

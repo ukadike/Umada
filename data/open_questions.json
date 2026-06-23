@@ -39,9 +39,7 @@
     "What is the \"FFF\" mark etched near the figures in the rescue animatic's rubble-rescue panel?",
     "What is past \"OFF T—\" on Ada's credit line in the rescue animatic? Clipped by the source file's native frame edge; not recoverable without a higher-resolution export.",
     "The MIC blast mission (Kemi, 2026-06-23): Ada and Kassey were sent by the Military Industrial Complex to execute the Cape Wipeout blast; Kassey survives. Open: whether they acted willingly or under coercion, what becomes of Kassey after the blast (his whereabouts during the rescue are deliberately undecided), and why his name burns across Ada's record. See 01_canon/OPEN_QUESTIONS.md #30.",
-    "Ada's wings/pilot-style badge in her locked reference image (assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png, Kemi-approved 2026-06-23): aviation background, or decorative? See 01_canon/OPEN_QUESTIONS.md #31.",
-    "What does \"C.A.R.F.\" stand for on Tallai's care-coat patch in her locked reference image (assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png, Kemi-approved 2026-06-23)? See 01_canon/OPEN_QUESTIONS.md #32.",
-    "Is the unnamed military camp in Ada's locked reference image (assets/concept-art/ADA_BASE_CAMP_REFERENCE_v1.png, Kemi-approved 2026-06-23) meant to be Friedmandostorp? Its wall signage renders close to the RETIRED \"Friedmandestorp\" spelling, logged as an AI-rendering artifact, not a respelling. See 01_canon/OPEN_QUESTIONS.md #33."
+    "Ada's wings/pilot-style badge in her locked reference image (assets/concept-art/ADA_CHARACTER_REFERENCE_v1.png, Kemi-approved 2026-06-23): aviation background, or decorative? See 01_canon/OPEN_QUESTIONS.md #31."
   ],
   "resolved": [
     "Does the full v1 + v1.2 site/section scaffolding already exist in the working repo? Resolved at pre-flight: repo contained only .gitattributes; this build is that scaffolding.",

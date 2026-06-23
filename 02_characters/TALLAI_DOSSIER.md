@@ -32,15 +32,15 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   visual source of truth where text is silent or in conflict, per the same convention as
   the Nago plates (`00_governance/VISUAL_LAYER_RULES.md`). It shows: pale scaled,
   reptilian skin; a frilled crest along the head; a clawed/webbed hand; a white
-  care-coat/robe bearing a patch reading "C.A.R.F." (acronym not expanded anywhere in
-  source — open). She appears tending to a wounded Ada, cradling her forehead. See
-  `13_fragments/2026-06-23_tallai_ada_rescue_reference.md` for the full capture.
+  care-coat/robe bearing a patch with text too small/AI-rendered to transcribe with
+  confidence (not treated as canon text). She appears tending to a wounded Ada, cradling
+  her forehead. See `13_fragments/2026-06-23_tallai_ada_rescue_reference.md` for the full
+  capture.
 
 ## Open questions (cross-referenced, not restated)
 
 - Talla vs Tallai — single preferred spelling, or nickname/full-name pair?
   `01_canon/OPEN_QUESTIONS.md` #4.
-- What does "C.A.R.F." stand for? `01_canon/OPEN_QUESTIONS.md` #32.
 - What mark would Tallai recognize first? `01_canon/OPEN_QUESTIONS.md` #8.
 
 ## Open fields — AWAITING Kemi (not invented)
@@ -66,8 +66,6 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 - *Does her chimera-presenting appearance mean Tallai is herself a chimera?* → **Yes —
   she is a chimera who specializes in care**, not a specialist who treats chimeras.
   (Kemi, 2026-06-23.)
-
----
-
-**Tiny question for Kemi:** What does "C.A.R.F." stand for on Tallai's coat — or is that
-still undecided for now?
+- *Does the patch on Tallai's coat read "C.A.R.F." as real in-world text?* → **No** —
+  confirmed as AI-rendering noise, not legible/confidently transcribable. Removed from
+  canon rather than tracked as an open question. (Kemi, 2026-06-23.)
