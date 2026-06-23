@@ -96,6 +96,13 @@ smallest of these get asked to Kemi one at a time.
     source of truth); **KC** is a short form. The residual question — who Kassey is
     *relative to Ada* — continues under #24. The necklace's own appearance, material, and
     meaning remain open fields in `02_characters/ADA_DOSSIER.md`.
+30. **The MIC blast mission — open threads.** Kemi confirmed (2026-06-23) that Ada and
+    Kassey were sent by the Military Industrial Complex to execute the Cape Wipeout blast
+    that obliterates the facility, and that Kassey survives it. Open and not invented:
+    whether the two acted willingly or under coercion; what the MIC told them the mission
+    was; what becomes of Kassey after the blast and where he is during the survivors'
+    rescue of Ada; and why his name burns across her record specifically. Tracked as open
+    fields in `02_characters/KASSEY_DOSSIER.md` and `02_characters/ADA_DOSSIER.md`.
 
 ## Production / accessibility
 

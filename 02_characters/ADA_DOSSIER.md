@@ -28,6 +28,12 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   name "Kassey" (see Open Questions).
 - Credit line on the animatic reads `ADANNA "ADA" VENTER — CARE SHOOTER, OFF T—`,
   clipped by the source frame's right edge.
+- **Sent by the Military Industrial Complex (MIC), with Kassey, to execute the Cape
+  Wipeout blast** (March 19, 2226) — the detonation that obliterates the facility (Kemi,
+  2026-06-23). Coheres with her locked "field commander / scapegoat" role and the locked
+  fact that the MIC destroys the facility: she was an operative it sent, then a scapegoat
+  it discarded (listed KIA). The scapegoat causality is recorded as it already stood, not
+  newly invented here.
 - **Carries a necklace, a gift from Kassey** (confirmed by Kemi, 2026-06-23). Kassey
   (short form **KC**) is **Ada's lover** — a man, a separate person from Ada (Kemi,
   2026-06-23), with his own dossier at [`KASSEY_DOSSIER.md`](KASSEY_DOSSIER.md). His name

@@ -9,7 +9,8 @@
       "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago.",
       "Full credited name and role per the Friedmandostorp rescue animatic: Adanna \"Ada\" Venter, credited Care Shooter.",
       "Carries a necklace from Kassey — a simple silver chain with a small, solid heart pendant (Kemi, 2026-06-23). Kassey (KC) is confirmed the same entity as the animatic's \"Kassey\", the canonical spelling (visual source of truth).",
-      "Kassey is Ada's lover — a man, a separate person (Kemi, 2026-06-23). His name burns across Ada's torn military record in the animatic. See 02_characters/KASSEY_DOSSIER.md."
+      "Kassey is Ada's lover — a man, a separate person (Kemi, 2026-06-23). His name burns across Ada's torn military record in the animatic. See 02_characters/KASSEY_DOSSIER.md.",
+      "Sent by the Military Industrial Complex (MIC), with Kassey, to execute the Cape Wipeout blast that obliterates the facility (Kemi, 2026-06-23). Elaborates her locked field-commander/scapegoat role and the locked fact that the MIC destroys the facility."
     ],
     "open_question": null,
     "dossier_artifact": "Ada Character Dossier",
@@ -57,10 +58,12 @@
     "known_facts": [
       "Ada's lover — a man, a separate person from Ada (Kemi, 2026-06-23).",
       "Gave Ada the necklace she carries — a simple silver chain with a small, solid heart pendant (Kemi, 2026-06-23).",
+      "Alive through Cape Wipeout (Kemi, 2026-06-23) — not the figure listed KIA; that is Ada's record.",
+      "Sent by the Military Industrial Complex (MIC), with Ada, to execute the Cape Wipeout blast that obliterates the facility (Kemi, 2026-06-23). Elaborates the locked fact that the MIC destroys the facility.",
       "His name \"Kassey\" burns across Ada's torn military record in the Friedmandostorp rescue animatic, in a different, glowing script (March 19, 2226). The record itself is Ada's; its CLEARANCE DENIED / KIA stamps and Chimera Survivor / Scientist / Empath tags describe Ada, not Kassey.",
       "Canonical written form: Kassey (visual source of truth); KC is the short form."
     ],
-    "open_question": "Role, appearance, status (alive or dead by Cape Wipeout), and why his name burns across Ada's record are all open and not invented. See 02_characters/KASSEY_DOSSIER.md.",
+    "open_question": "Appearance, his standing role beyond the blast mission, whether he and Ada acted willingly or under coercion, and what becomes of him after the blast are all open and not invented. See 02_characters/KASSEY_DOSSIER.md and 01_canon/OPEN_QUESTIONS.md #30.",
     "dossier_artifact": "Kassey Character Dossier",
     "dossier_status": "IN PROGRESS — see 02_characters/KASSEY_DOSSIER.md"
   },

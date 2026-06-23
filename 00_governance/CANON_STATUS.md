@@ -73,6 +73,10 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   Industrial Complex destroys the facility; the official story diverges from the truth.
 - Ada, Tallai/Talla, Q, and Quartz survive Cape Wipeout.
 - Ada is field commander / scapegoat; listed KIA before final blast confirmation.
+- Ada and Kassey were sent by the Military Industrial Complex (MIC) to execute the Cape
+  Wipeout blast that obliterates the facility (Kemi, 2026-06-23). This elaborates — does
+  not contradict — the locked fact that the MIC destroys the facility; they were the
+  operatives it used. Kassey survives the blast.
 - Ada carries a necklace, a gift from Kassey/KC — Ada's lover, a man (Kemi-confirmed,
   2026-06-23). The necklace is a simple silver chain with a small, solid heart pendant
   (not a locket).
