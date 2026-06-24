@@ -32,10 +32,10 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   visual source of truth where text is silent or in conflict, per the same convention as
   the Nago plates (`00_governance/VISUAL_LAYER_RULES.md`). It shows: pale scaled,
   reptilian skin; a frilled crest along the head; a clawed/webbed hand; a white
-  care-coat/robe bearing a patch with text too small/AI-rendered to transcribe with
-  confidence (not treated as canon text). She appears tending to a wounded Ada, cradling
-  her forehead. See `13_fragments/2026-06-23_tallai_ada_rescue_reference.md` for the full
-  capture.
+  care-coat/robe bearing a patch reading **C.A.R.F.** (Kemi, 2026-06-24 — "carf is
+  correct for Tallai"; reverses the 2026-06-23 illegible/AI-noise reading, see "Answered
+  tiny questions" below). She appears tending to a wounded Ada, cradling her forehead.
+  See `13_fragments/2026-06-23_tallai_ada_rescue_reference.md` for the full capture.
 - **In the rescue beat, Tallai's first instinct toward the unconscious Ada is not fear,
   but understanding** (Kemi, 2026-06-24) — she approaches Ada "not as an enemy, specimen,
   or resource, but as a mystery. A living story that has fallen into Tallai's world."
@@ -82,12 +82,6 @@ verbatim profile.
 ## Open questions (cross-referenced, not restated)
 
 - What mark would Tallai recognize first? `01_canon/OPEN_QUESTIONS.md` #8.
-- Does naming the **Cape Agulhas Research Facility** in this lineage profile mean the
-  illegible coat patch in `TALLAI_ADA_RESCUE_REFERENCE_v1.png` should now be read as
-  "C.A.R.F." after all — reversing the 2026-06-23 retraction below — or is the facility
-  name independently-true lineage canon that doesn't speak to what that specific patch
-  shows? Not resolved either way; see
-  `13_fragments/2026-06-24_tallai_lineage_profile.md`.
 
 ## Open fields — AWAITING Kemi (not invented)
 
@@ -124,3 +118,7 @@ verbatim profile.
 - *Does the patch on Tallai's coat read "C.A.R.F." as real in-world text?* → **No** —
   confirmed as AI-rendering noise, not legible/confidently transcribable. Removed from
   canon rather than tracked as an open question. (Kemi, 2026-06-23.)
+- *Does naming the Cape Agulhas Research Facility in the 2026-06-24 lineage profile mean
+  the coat patch should be read as "C.A.R.F." after all?* → **Yes — reverses the answer
+  above.** "Carf is correct for Tallai." (Kemi, 2026-06-24.) Closed the open question
+  logged in `13_fragments/2026-06-24_tallai_lineage_profile.md`.

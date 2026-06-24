@@ -9,9 +9,9 @@ what's already approved — see `02_characters/TALLAI_DOSSIER.md` and
 - A chimera herself — pale, scaled reptilian skin.
 - A frilled crest along the head.
 - A clawed/webbed hand.
-- A white care-coat/robe bearing a patch with text too small/AI-rendered to transcribe
-  with confidence — **not** treated as canon text; do not invent a reading of it in a new
-  prompt.
+- A white care-coat/robe bearing a patch reading **C.A.R.F.** (Kemi, 2026-06-24, "carf is
+  correct for Tallai" — reverses the 2026-06-23 illegible/AI-noise reading). Any new
+  prompt depicting this coat should render the patch as legible "C.A.R.F." text.
 
 ## Locked scene variant
 
@@ -22,7 +22,6 @@ what's already approved — see `02_characters/TALLAI_DOSSIER.md` and
 
 ## Open before extending further
 
-- Care-coat patch text/insignia.
 - Any appearance outside the rescue scene (e.g. at the Friedmandostorp bread stop, where
   she is known but not yet visually realized).
 - Spelling: resolved — use **"Tallai"** for any new asset filename or prompt text.

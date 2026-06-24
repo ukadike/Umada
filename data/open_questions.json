@@ -32,8 +32,7 @@
     "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name."
   ],
   "characters": [
-    "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon.",
-    "Does naming the \"Cape Agulhas Research Facility\" in Tallai's 2026-06-24 lineage profile reverse the 2026-06-23 retraction of the \"C.A.R.F.\" coat-patch reading on TALLAI_ADA_RESCUE_REFERENCE_v1.png, or is the facility name true independently of what that patch shows? Not resolved either way; see 13_fragments/2026-06-24_tallai_lineage_profile.md."
+    "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon."
   ],
   "production_and_accessibility": [
     "Animatic on-screen captions transcribed 2026-06-22 (see data/visual_artifacts.json caption_transcript); audio track (yellowbirdbeats score, any dialogue) still has no transcript — no speech-to-text tooling was available.",
@@ -47,6 +46,7 @@
   "resolved": [
     "Does the full v1 + v1.2 site/section scaffolding already exist in the working repo? Resolved at pre-flight: repo contained only .gitattributes; this build is that scaffolding.",
     "Who is \"Kassey\" relative to Ada? Resolved (Kemi, 2026-06-23): Kassey is a separate person — Ada's lover, a man — and the giver of her necklace; the same entity as \"KC\". See 02_characters/KASSEY_DOSSIER.md.",
-    "Talla vs Tallai spelling — Resolved (Kemi, 2026-06-23): converge on Tallai; \"Talla\" is RETIRED as a name form. See 00_governance/CANON_STATUS.md and 01_canon/OPEN_QUESTIONS.md #4."
+    "Talla vs Tallai spelling — Resolved (Kemi, 2026-06-23): converge on Tallai; \"Talla\" is RETIRED as a name form. See 00_governance/CANON_STATUS.md and 01_canon/OPEN_QUESTIONS.md #4.",
+    "Does naming the \"Cape Agulhas Research Facility\" in Tallai's 2026-06-24 lineage profile reverse the 2026-06-23 retraction of the \"C.A.R.F.\" coat-patch reading on TALLAI_ADA_RESCUE_REFERENCE_v1.png? Resolved (Kemi, 2026-06-24): yes -- \"carf is correct for Tallai.\" See 00_governance/CANON_STATUS.md and 02_characters/TALLAI_DOSSIER.md."
   ]
 }

@@ -44,8 +44,12 @@
   who specializes in care, not a non-chimera specialist who treats chimeras. The patch's
   text is AI-rendered and not confidently legible; it is not transcribed or treated as
   canon text (removed at creator's direction, 2026-06-23).
+  **Superseded (Kemi, 2026-06-24):** this retraction was reversed — "carf is correct for
+  Tallai." See `00_governance/CANON_STATUS.md` and `02_characters/TALLAI_DOSSIER.md`.
 
 ## Tiny Question
 
-None. The patch text was logged as illegible AI-rendering noise, not a real acronym to
-define — removed at creator's direction, 2026-06-23.
+None at capture. The patch text was logged as illegible AI-rendering noise, not a real
+acronym to define — removed at creator's direction, 2026-06-23. **Reversed (Kemi,
+2026-06-24):** the patch reads "C.A.R.F." after all; see
+`13_fragments/2026-06-24_tallai_lineage_profile.md`.

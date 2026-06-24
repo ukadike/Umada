@@ -28,6 +28,12 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   spelling on the animatic, the visual source of truth; **KC** is the short form. KC =
   Kassey and the Kassey-vs-Ada question are both resolved (#24, #29). Detail about Kassey
   is EMERGING — see `02_characters/KASSEY_DOSSIER.md`.
+- **C.A.R.F.** — confirmed legible reading of the coat-patch text in
+  `assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png`, worn by Tallai ("carf is
+  correct for Tallai," Kemi, 2026-06-24). This reverses the 2026-06-23 retraction that
+  treated the patch as illegible AI-rendering noise; it coheres with the **Cape Agulhas
+  Research Facility** named in Tallai's lineage profile. See
+  `02_characters/TALLAI_DOSSIER.md`.
 - **Sisekong / Tishekong** — RETIRED as transcription errors. The correct names are
   **Umada** and **Tisetan**.
 
@@ -116,10 +122,10 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   chimeras. Her locked visual reference is
   `assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png` (Kemi-approved, 2026-06-23):
   pale scaled reptilian skin, a frilled crest, a clawed/webbed hand, and a white
-  care-coat bearing a patch with text too small/AI-rendered to transcribe with confidence
-  (not treated as canon text). She is shown tending a wounded Ada after the Cape Wipeout
-  blast. In that beat, her first instinct toward the unconscious Ada is not fear but
-  understanding (Kemi, 2026-06-24).
+  care-coat bearing a patch reading **C.A.R.F.** (Kemi, 2026-06-24 — see "Locked
+  spellings" above; reverses the 2026-06-23 illegible/AI-noise reading). She is shown
+  tending a wounded Ada after the Cape Wipeout blast. In that beat, her first instinct
+  toward the unconscious Ada is not fear but understanding (Kemi, 2026-06-24).
 - **Tallai's chimera lineage** (Kemi, 2026-06-24): post-human, originating from the Cape
   Agulhas Research Facility's adaptive biology program several generations before Cape
   Wipeout; built for observation, environmental adaptation, communication, caregiving,
@@ -128,10 +134,9 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   cephalopod-derived traits, corvid-derived traits, an engineered memory lineage, and
   synthetic components partly of non-Earth origin. Full profile:
   `02_characters/TALLAI_DOSSIER.md`, `13_fragments/2026-06-24_tallai_lineage_profile.md`.
-  **Open tension, not resolved:** whether this newly-named facility means the illegible
-  coat patch on the same reference image should now read "C.A.R.F." after all, reversing
-  the 2026-06-23 retraction logged in `02_characters/TALLAI_DOSSIER.md` — flagged, not
-  decided.
+  **Resolved (Kemi, 2026-06-24):** the coat patch on the same reference image does read
+  "C.A.R.F." — see "Locked spellings" above. This reverses the 2026-06-23 retraction
+  logged in `02_characters/TALLAI_DOSSIER.md`.
 - Q detects. Quartz carries — load-bearer / rescue anchor.
 - ADA-1 begins with body-over-record logic: Trust Body Before Record, Trust Witness
   Before Narrative, Trust Survival Before Authority.

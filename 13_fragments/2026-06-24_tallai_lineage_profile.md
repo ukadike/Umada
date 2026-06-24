@@ -117,3 +117,7 @@ independently-true piece of lineage canon that doesn't speak to what that specif
 shows (i.e. the patch stays illegible/non-canon text, the facility itself is just newly
 named in prose)? Logged inline in `02_characters/TALLAI_DOSSIER.md` rather than guessed
 at either way.
+
+**Resolved (Kemi, 2026-06-24):** "carf is correct for Tallai." The patch does read
+"C.A.R.F.," reversing the 2026-06-23 retraction. See `00_governance/CANON_STATUS.md` and
+`02_characters/TALLAI_DOSSIER.md` ("Answered tiny questions").
