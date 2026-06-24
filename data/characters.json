@@ -31,11 +31,15 @@
       "Explores the Garden (Era 4).",
       "One of four Cape Wipeout survivors.",
       "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago.",
-      "Tends to a wounded Ada after the blast, cradling her forehead (Kemi-approved, 2026-06-23). Locked visual reference: assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png — pale scaled, reptilian skin; a frilled crest along the head; a clawed/webbed hand; a white care-coat/robe bearing a patch with text too small/AI-rendered to transcribe with confidence (not treated as canon text)."
+      "Tends to a wounded Ada after the blast, cradling her forehead (Kemi-approved, 2026-06-23). Locked visual reference: assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png — pale scaled, reptilian skin; a frilled crest along the head; a clawed/webbed hand; a white care-coat/robe bearing a patch with text too small/AI-rendered to transcribe with confidence (not treated as canon text).",
+      "In the rescue beat, Tallai's first instinct toward the unconscious Ada is not fear but understanding (Kemi, 2026-06-24) — she approaches Ada 'not as an enemy, specimen, or resource, but as a mystery. A living story that has fallen into Tallai's world.'",
+      "Lineage (Kemi, 2026-06-24): a post-human chimera lineage originating from the Cape Agulhas Research Facility's adaptive biology program, several generations before Cape Wipeout, developed for observation, environmental adaptation, communication, caregiving, and long-duration survival in unstable ecosystems -- not a military chimera or industrial bioform.",
+      "Lineage composition (Kemi, 2026-06-24): a human cognitive foundation (language, social intelligence, abstract reasoning, empathy, cultural learning, fine motor control -- curiosity, grief, affection, humor, and wonder, expressed in ways not fully human-typical); a marine adaptation layer (salt tolerance, enhanced senses, environmental-stress resistance, wound recovery, water conservation); synthetic cephalopod-derived traits (pattern recognition, distributed sensory processing, flexible identity expression, non-verbal communication, rapid environmental learning); corvid-derived traits (tool use, object collection, curiosity-driven exploration, spatial/event memory, long-term observation -- she gathers artifacts that may matter later); an engineered memory lineage (long-term recall, intergenerational knowledge transfer, attachment to stories and historical records -- her people often become historians, archivists, navigators); and synthetic components of partly non-Earth origin (environmental resilience, disease resistance, tissue regeneration, neural plasticity), whose full origins many descendants no longer know.",
+      "Cultural role (Kemi, 2026-06-24): the lineage was never intended to dominate -- designed to observe, to learn, to preserve, to connect."
     ],
-    "open_question": null,
+    "open_question": "Does naming the Cape Agulhas Research Facility in the 2026-06-24 lineage profile mean the illegible coat patch in TALLAI_ADA_RESCUE_REFERENCE_v1.png should now be read as \"C.A.R.F.\" after all, reversing the 2026-06-23 retraction, or is the facility name independently-true lineage canon unrelated to that patch? See 02_characters/TALLAI_DOSSIER.md.",
     "dossier_artifact": "Tallai Character Dossier",
-    "dossier_status": "IN PROGRESS — see 02_characters/TALLAI_DOSSIER.md (role facts and locked visual reference compiled, open fields awaiting Kemi)"
+    "dossier_status": "IN PROGRESS — see 02_characters/TALLAI_DOSSIER.md (role facts, locked visual reference, and full chimera-lineage profile compiled, open fields awaiting Kemi)"
   },
   {
     "name": "Q",

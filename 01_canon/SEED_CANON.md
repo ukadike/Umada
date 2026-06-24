@@ -11,6 +11,8 @@ Status legend: LOCKED / PROBABLE / EMERGING / OPEN QUESTION / RETIRED
 - Ada is listed KIA before final blast confirmation.
 - Tallai is a chimera care specialist.
 - Tallai is known at the bread stop before the blast.
+- Tallai's chimera lineage originates from the Cape Agulhas Research Facility's adaptive biology program (human, marine, cephalopod-derived, corvid-derived, memory-lineage, and synthetic components; Kemi, 2026-06-24).
+- In the rescue beat, Tallai's first instinct toward the unconscious Ada is not fear but understanding (Kemi, 2026-06-24).
 - Bread Sign is an early Nago market sign.
 - Q detects. Quartz carries.
 - Quartz is load-bearer / rescue anchor.

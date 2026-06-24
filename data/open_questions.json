@@ -32,7 +32,8 @@
     "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name."
   ],
   "characters": [
-    "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon."
+    "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon.",
+    "Does naming the \"Cape Agulhas Research Facility\" in Tallai's 2026-06-24 lineage profile reverse the 2026-06-23 retraction of the \"C.A.R.F.\" coat-patch reading on TALLAI_ADA_RESCUE_REFERENCE_v1.png, or is the facility name true independently of what that patch shows? Not resolved either way; see 13_fragments/2026-06-24_tallai_lineage_profile.md."
   ],
   "production_and_accessibility": [
     "Animatic on-screen captions transcribed 2026-06-22 (see data/visual_artifacts.json caption_transcript); audio track (yellowbirdbeats score, any dialogue) still has no transcript — no speech-to-text tooling was available.",

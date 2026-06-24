@@ -164,6 +164,13 @@ scaled, reptilian skin; a frilled crest along the head; a clawed/webbed hand; a 
 care-coat bearing a patch whose text is not legible enough to be canon
 (`02_characters/TALLAI_DOSSIER.md`) — tending the wounded Ada, cradling her forehead.
 
+Tallai's first instinct toward the unconscious Ada is not fear, but understanding (Kemi,
+2026-06-24): she approaches her not as an enemy, specimen, or resource, but as a
+mystery — a living story that has fallen into Tallai's world. This is interior
+characterization of the gesture already on screen, not a spoken line; see
+`02_characters/TALLAI_DOSSIER.md` for the full lineage context this draws from (a
+care-and-observation chimera lineage, never built to dominate).
+
 CAPTION: *"Talla calls. Q questions the risk. Quartz moves to carry her."*
 
 *(Verbatim, animatic 0:37–0:45. The animatic's own caption uses "Talla" as a literal

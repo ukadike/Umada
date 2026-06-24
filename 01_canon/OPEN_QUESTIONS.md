@@ -129,6 +129,16 @@ smallest of these get asked to Kemi one at a time.
     what?** "Cape Wipeout, Pt. 1" is the full locked episode title; nothing states
     whether the recovered animatic *is* the episode in miniature or only its cold open.
     Surfaced while deciding where the Episode 1 draft script should end.
+35. **Does the "Cape Agulhas Research Facility" name reverse the C.A.R.F. patch
+    retraction?** Kemi's 2026-06-24 Tallai lineage profile names the Cape Agulhas
+    Research Facility as the origin of Tallai's lineage's adaptive-biology program — the
+    same initials as a coat-patch reading ("C.A.R.F.") on
+    `assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png` that Kemi explicitly retracted
+    as AI-rendering noise on 2026-06-23 (`02_characters/TALLAI_DOSSIER.md`,
+    `CHANGELOG.md` commit `035a7a3`). Does the new profile mean the patch should now read
+    "C.A.R.F." after all, or is the facility name true independently of what that
+    specific patch shows? Not resolved either way; see
+    `13_fragments/2026-06-24_tallai_lineage_profile.md`.
 
 ## Production / accessibility
 

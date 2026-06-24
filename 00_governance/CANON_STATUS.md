@@ -118,7 +118,20 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
   pale scaled reptilian skin, a frilled crest, a clawed/webbed hand, and a white
   care-coat bearing a patch with text too small/AI-rendered to transcribe with confidence
   (not treated as canon text). She is shown tending a wounded Ada after the Cape Wipeout
-  blast.
+  blast. In that beat, her first instinct toward the unconscious Ada is not fear but
+  understanding (Kemi, 2026-06-24).
+- **Tallai's chimera lineage** (Kemi, 2026-06-24): post-human, originating from the Cape
+  Agulhas Research Facility's adaptive biology program several generations before Cape
+  Wipeout; built for observation, environmental adaptation, communication, caregiving,
+  and long-duration survival — never a military chimera or industrial bioform. Combines
+  a human cognitive foundation with a marine adaptation layer, synthetic
+  cephalopod-derived traits, corvid-derived traits, an engineered memory lineage, and
+  synthetic components partly of non-Earth origin. Full profile:
+  `02_characters/TALLAI_DOSSIER.md`, `13_fragments/2026-06-24_tallai_lineage_profile.md`.
+  **Open tension, not resolved:** whether this newly-named facility means the illegible
+  coat patch on the same reference image should now read "C.A.R.F." after all, reversing
+  the 2026-06-23 retraction logged in `02_characters/TALLAI_DOSSIER.md` — flagged, not
+  decided.
 - Q detects. Quartz carries — load-bearer / rescue anchor.
 - ADA-1 begins with body-over-record logic: Trust Body Before Record, Trust Witness
   Before Narrative, Trust Survival Before Authority.

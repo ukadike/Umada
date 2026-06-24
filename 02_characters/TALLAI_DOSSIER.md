@@ -36,16 +36,66 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
   confidence (not treated as canon text). She appears tending to a wounded Ada, cradling
   her forehead. See `13_fragments/2026-06-23_tallai_ada_rescue_reference.md` for the full
   capture.
+- **In the rescue beat, Tallai's first instinct toward the unconscious Ada is not fear,
+  but understanding** (Kemi, 2026-06-24) — she approaches Ada "not as an enemy, specimen,
+  or resource, but as a mystery. A living story that has fallen into Tallai's world."
+  Staged in `11_episodes/EPISODE_01_CAPE_WIPEOUT_SCRIPT.md` as interior characterization
+  of the existing caregiving gesture, not spoken dialogue.
+
+## Lineage (Kemi, 2026-06-24)
+
+Tallai belongs to a post-human chimera lineage originating from the **Cape Agulhas
+Research Facility's** adaptive biology program, several generations before Cape
+Wipeout. Unlike military chimeras or industrial bioforms, the lineage was developed for
+observation, environmental adaptation, communication, caregiving, and long-duration
+survival in unstable ecosystems — coheres with the already-locked "chimera care
+specialist" role. See `13_fragments/2026-06-24_tallai_lineage_profile.md` for the full
+verbatim profile.
+
+- **Human foundation** — the primary genetic framework remains human: language
+  acquisition, social intelligence, abstract reasoning, emotional empathy, cultural
+  learning, fine motor control. Tallai experiences curiosity, grief, affection, humor,
+  and wonder in ways recognizable to humans, though often expressed differently.
+- **Marine adaptation layer** — salt tolerance, enhanced sensory perception, resistance
+  to environmental stress, improved wound recovery, efficient water conservation; lets
+  Tallai's people thrive in harsh coastal environments after ecological collapse.
+- **Cephalopod-derived traits** (synthetic) — exceptional pattern recognition,
+  distributed sensory processing, flexible identity expression, non-verbal
+  communication, rapid environmental learning — perceiving relationships and patterns
+  many humans overlook.
+- **Corvid-derived traits** — tool use, object collection, curiosity-driven exploration,
+  memory of locations and events, long-term observational behavior. Tallai often gathers
+  artifacts not because they have immediate value, but because understanding them may
+  become important later.
+- **Memory lineage** — enhanced long-term recall, intergenerational knowledge transfer,
+  pattern retention across decades, strong attachment to stories, symbols, and historical
+  records. Tallai's people often become historians, archivists, navigators, and keepers
+  of cultural memory.
+- **Synthetic components** — adaptive systems designed through artificial genomic
+  engineering before the collapse, not all of Earth-species origin: environmental
+  resilience, disease resistance, tissue regeneration, neural plasticity. Many
+  descendants no longer know the full origins of these modifications — whether Tallai
+  personally does is not stated and not assumed.
+- **Cultural role** — the lineage was never intended to dominate; designed to observe,
+  to learn, to preserve, to connect.
 
 ## Open questions (cross-referenced, not restated)
 
 - What mark would Tallai recognize first? `01_canon/OPEN_QUESTIONS.md` #8.
+- Does naming the **Cape Agulhas Research Facility** in this lineage profile mean the
+  illegible coat patch in `TALLAI_ADA_RESCUE_REFERENCE_v1.png` should now be read as
+  "C.A.R.F." after all — reversing the 2026-06-23 retraction below — or is the facility
+  name independently-true lineage canon that doesn't speak to what that specific patch
+  shows? Not resolved either way; see
+  `13_fragments/2026-06-24_tallai_lineage_profile.md`.
 
 ## Open fields — AWAITING Kemi (not invented)
 
 - **Physical description beyond the locked reference image:** build, voice, specific
   scale coloring/pattern variation, eyes — open.
-- **Personality & voice:** none on record.
+- **Personality & voice:** no spoken voice on record. Emotional range is now locked via
+  the lineage profile above (curiosity, grief, affection, humor, wonder — expressed in
+  ways not fully human-typical).
 - **Relationships:** role-adjacency only to Ada, Q, and Quartz (fellow survivors); no
   personal/relational detail exists yet.
 - **Arc notes:** none on record beyond "explores the Garden (Era 4)."
@@ -54,9 +104,13 @@ Source: `data/characters.json`, `01_canon/VISUAL_CANON_REGISTRY.md`.
 
 - Visual reference for any depiction:
   `assets/concept-art/TALLAI_ADA_RESCUE_REFERENCE_v1.png` (locked, 2026-06-23) — the only
-  artifact she currently appears in.
+  artifact she currently appears in. No new visual asset accompanies the 2026-06-24
+  lineage profile; the image re-attached alongside it is checksum-identical to the
+  already-locked file.
 - Any visual realization of Tallai will need alt text and a plain-language description
-  per `00_governance/ACCESSIBILITY_BASELINE.md` before public release.
+  per `00_governance/ACCESSIBILITY_BASELINE.md` before public release. The lineage
+  profile above will need the same treatment once it is publicly surfaced — four trait
+  sources plus a synthetic layer is dense material for a plain-language pass.
 
 ## Answered tiny questions
 
