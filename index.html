@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UMADA — UMADA</title>
-<meta name="description" content="The living archive and canon engine for UMADA.">
+<title>UMADA — A world being remembered</title>
+<meta name="description" content="The recovered archive and canon engine for UMADA: a canon-governed world told as a recovered archive. Every fact carries a status. Every gap is marked, not filled.">
 <link rel="stylesheet" href="assets/css/main.css">
 <script src="assets/js/data-loader.js" defer></script>
 <script src="assets/js/accessibility.js" defer></script>
@@ -21,66 +21,100 @@
 </header>
 <main id="main">
 
-<h1>UMADA</h1>
-<blockquote>
-  <p>This is not a world that was built. It is a world being remembered.</p>
-  <p>Some records survived. Some did not. Some stories were erased. Some refused to disappear.</p>
-  <p>If you stay long enough, you may help us remember.</p>
-</blockquote>
+<h1 class="visually-hidden">UMADA</h1>
 
-<p class="lede">This is the living archive, canon engine, and public site for UMADA — a
-canon-governed world built from recovered fragments, not invented from nothing. Every
-fact here carries a status. Every gap is marked, not filled.</p>
+<section class="opening">
+  <p class="eyebrow">Entry 000 · Welcome mat</p>
+  <div class="remembered">
+    <p>This is not a world that was built.</p>
+    <p>It is a world being remembered.</p>
+    <p>Some records survived. Some did not. Some refused to disappear.</p>
+  </div>
+  <p class="lede">UMADA is a canon-governed world told as a recovered archive, not a finished
+    script. Every fact here carries a status. Every gap is marked, not filled — if something
+    isn't known yet, the archive says so and waits.</p>
+</section>
 
-<h2>Canon status legend</h2>
-<div class="tag-row">
-  <span class="status-tag" data-status="LOCKED">LOCKED</span>
-  <span class="status-tag" data-status="PROBABLE">PROBABLE</span>
-  <span class="status-tag" data-status="EMERGING">EMERGING</span>
-  <span class="status-tag" data-status="OPEN QUESTION">OPEN QUESTION</span>
-  <span class="status-tag" data-status="RETIRED">RETIRED</span>
-  <span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span>
-</div>
-<dl>
-  <dt>LOCKED</dt><dd>Confirmed; will not drift or be reintroduced as a variant.</dd>
-  <dt>PROBABLE</dt><dd>Strongly indicated by source material, not yet fully confirmed.</dd>
-  <dt>EMERGING</dt><dd>Named and directional, detail still arriving.</dd>
-  <dt>OPEN QUESTION</dt><dd>Genuinely unresolved — tracked, not guessed at.</dd>
-  <dt>RETIRED</dt><dd>A prior error or variant, kept on record so it isn't reintroduced.</dd>
-  <dt>AWAITING FRAGMENT</dt><dd>An artifact is named but not yet physically present. The index entry exists; its contents do not, until a fragment arrives.</dd>
-</dl>
+<section class="legend">
+  <h2 class="eyebrow">The ground beneath each fact · certainty shown as weight</h2>
+  <dl class="ledger">
+    <dt><span class="stat stat--locked">Locked</span></dt>
+    <dd>Confirmed. Will not drift or be quietly swapped for a variant.</dd>
+    <dt><span class="stat stat--probable">Probable</span></dt>
+    <dd>Strongly indicated by source material, not yet fully confirmed.</dd>
+    <dt><span class="stat stat--emerging">Emerging</span></dt>
+    <dd>Named and directional; detail still arriving.</dd>
+    <dt><span class="stat stat--open">Open question</span></dt>
+    <dd>Genuinely unresolved. Tracked, not guessed at.</dd>
+    <dt><span class="stat stat--retired">Retired</span></dt>
+    <dd>A prior error or variant, kept on record so it isn't reintroduced.</dd>
+    <dt><span class="stat stat--awaiting">Awaiting fragment</span></dt>
+    <dd>Named but not yet present. The index entry exists; its contents do not, until a fragment arrives.</dd>
+  </dl>
 
-<h2>Where to start</h2>
-<ul class="card-grid">
-  <li class="card"><a href="sections/start-here.html"><strong>Start Here</strong></a> — how to read this archive.</li>
-  <li class="card"><a href="sections/foundational-strata.html"><strong>Foundational Strata</strong></a> — the ten layers UMADA is built on.</li>
-  <li class="card"><a href="sections/nago-symbology.html"><strong>Nago Symbology</strong></a> — the visual operating system of Umada.</li>
-  <li class="card"><a href="sections/faraday-box.html"><strong>Faraday Box</strong></a> — how fans contribute signal.</li>
-</ul>
+  <div class="fragment" role="group" aria-label="Example: an entry awaiting its fragment">
+    <div class="fragment__head">
+      <span class="fragment__id">Entry · Aderin / ship record</span>
+      <span class="stat stat--awaiting">Awaiting fragment</span>
+    </div>
+    <div class="void"><span>[ contents not yet recovered ]</span></div>
+    <p class="fragment__note">The gap is the record. Nothing is invented to fill this silence.</p>
+  </div>
+</section>
 
-<h2>Build status</h2>
-<table class="fact-table">
-  <tr><th>Phase A — Spine</th><td><span class="status-tag" data-status="LOCKED">COMPLETE</span> Governance, canon, and structured data.</td></tr>
-  <tr><th>Phase B — Site</th><td><span class="status-tag" data-status="EMERGING">THIS LAYER</span> Public-facing sections in the monochrome graphite presentation palette.</td></tr>
-  <tr><th>Phase C — Ingestion</th><td><span class="status-tag" data-status="OPEN QUESTION">PENDING</span> Archive-recovery logs and deeper artifact processing.</td></tr>
-</table>
+<section class="start">
+  <h2 class="eyebrow">Where to start</h2>
+  <div class="doors">
+    <div class="door">
+      <span class="door__code">00 · Orient</span>
+      <h3><a href="sections/start-here.html">Start Here</a></h3>
+      <p>How to read this archive before reading anything else in it.</p>
+    </div>
+    <div class="door">
+      <span class="door__code">01 · Canon</span>
+      <h3><a href="sections/foundational-strata.html">Foundational Strata</a></h3>
+      <p>The layers the world is built on.</p>
+    </div>
+    <div class="door">
+      <span class="door__code">07 · Language</span>
+      <h3><a href="sections/nago-symbology.html">Nago Symbology</a></h3>
+      <p>The visual operating system of Umada: survival language, access infrastructure, civic memory.</p>
+    </div>
+    <div class="door">
+      <span class="door__code">16 · Fan</span>
+      <h3><a href="sections/faraday-box.html">Faraday Box</a></h3>
+      <p>How audience signal gets in — contribution, not automatic canon.</p>
+    </div>
+  </div>
+</section>
 
-<p class="meta-line">Episode 1 has deliberately not been written. This repository builds the
-system that lets it be generated precisely from recovered canon.</p>
+<section class="build">
+  <h2 class="eyebrow">Build status</h2>
+  <div class="phases">
+    <div class="phase">
+      <span class="phase__name">Phase A — Spine</span>
+      <span class="phase__body"><span class="stat stat--locked">Complete</span> &nbsp;Governance, canon, and structured data.</span>
+    </div>
+    <div class="phase">
+      <span class="phase__name">Phase B — Site</span>
+      <span class="phase__body"><span class="stat stat--emerging">This layer</span> &nbsp;Public-facing sections in the monochrome graphite system.</span>
+    </div>
+    <div class="phase">
+      <span class="phase__name">Phase C — Ingestion</span>
+      <span class="phase__body"><span class="stat stat--open">Pending</span> &nbsp;Archive-recovery logs and deeper artifact processing.</span>
+    </div>
+  </div>
+  <p class="lede" style="margin-top:1.5rem;color:var(--muted)">Episode 1 has deliberately not been
+    written. This repository builds the system that lets it be generated precisely from recovered
+    canon — not guessed at.</p>
+</section>
 
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <p>Canon status legend:
-      <span class="status-tag" data-status="LOCKED">LOCKED</span>
-      <span class="status-tag" data-status="PROBABLE">PROBABLE</span>
-      <span class="status-tag" data-status="EMERGING">EMERGING</span>
-      <span class="status-tag" data-status="OPEN QUESTION">OPEN QUESTION</span>
-      <span class="status-tag" data-status="RETIRED">RETIRED</span>
-      <span class="status-tag" data-status="AWAITING FRAGMENT">AWAITING FRAGMENT</span>
-    </p>
     <p>Fans contribute signal, not automatic canon — see the <a href="sections/faraday-box.html">Faraday Box</a>.</p>
     <p>Governed by <code>00_governance/CANON_STATUS.md</code> and <code>00_governance/NO_FABRICATION_RULE.md</code>.</p>
+    <p class="home">Part of <a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a></p>
   </div>
 </footer>
 </body>
