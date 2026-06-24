@@ -197,11 +197,11 @@ blockquote p { margin: 0.3rem 0; }
   padding: 0.1rem 0.5rem;
   white-space: nowrap;
 }
+.status-tag[data-status*="LOCKED"] { border-width: 2px; }
+.status-tag[data-status*="EMERGING"] { border-color: var(--muted); }
 .status-tag[data-status*="OPEN QUESTION"] { border-style: dashed; }
-.status-tag[data-status*="AWAITING FRAGMENT"] { border-style: dotted; }
-.status-tag[data-status*="RETIRED"] { text-decoration: line-through; }
-.status-tag[data-status*="EMERGING"] { border-style: solid; }
-.status-tag[data-status*="PROBABLE"] { border-style: double; border-width: 3px; padding: 0 0.5rem; }
+.status-tag[data-status*="RETIRED"] { border-color: var(--line); color: var(--muted); text-decoration: line-through; }
+.status-tag[data-status*="AWAITING FRAGMENT"] { border-style: dotted; border-color: var(--muted); color: var(--muted); }
 
 .tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.5rem 0; }
 
@@ -334,23 +334,6 @@ main > section:first-child { margin-top: 0; }
 .ledger { display: grid; grid-template-columns: auto 1fr; gap: 0; border-top: 1px solid var(--line); }
 .ledger dt { padding: 1rem 1.25rem 1rem 0; border-bottom: 1px solid var(--line); align-self: start; }
 .ledger dd { padding: 1rem 0; border-bottom: 1px solid var(--line); margin: 0; color: var(--ink); }
-.stat {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  display: inline-block;
-  padding: 0.3rem 0.6rem;
-  background: var(--paper);
-  color: var(--ink);
-  white-space: nowrap;
-}
-.stat--locked { border: 2px solid var(--ink); }
-.stat--probable { border: 1px solid var(--ink); }
-.stat--emerging { border: 1px solid var(--muted); }
-.stat--open { border: 1px dashed var(--ink); }
-.stat--retired { border: 1px solid var(--line); color: var(--muted); text-decoration: line-through; }
-.stat--awaiting { border: 1px dotted var(--muted); color: var(--muted); }
 
 @media (max-width: 34rem) {
   .ledger { grid-template-columns: 1fr; }
@@ -368,17 +351,22 @@ main > section:first-child { margin-top: 0; }
   font-family: var(--mono); font-size: 0.74rem; text-transform: uppercase;
   letter-spacing: 0.1em; color: var(--ink);
 }
-.fragment .void {
+.void {
   min-height: 6.5rem; display: flex; align-items: center; justify-content: center;
   text-align: center; padding: 1.5rem;
 }
-.fragment .void span {
+.void span {
   font-family: var(--mono); font-size: 0.78rem; text-transform: uppercase;
   letter-spacing: 0.14em; color: var(--muted);
 }
 .fragment .fragment__note {
   padding: 0.8rem 1.1rem; border-top: 1px solid var(--line);
   font-family: var(--serif); font-size: 0.98rem; color: var(--muted);
+}
+/* Marked gap nested inside a compact card rather than a standalone fragment block */
+.card .void {
+  min-height: 0; display: block; text-align: left; padding: 0.6rem 0;
+  margin: 0.5rem 0; border-top: 1px dotted var(--line); border-bottom: 1px dotted var(--line);
 }
 
 /* ---- archive front door ---- */
