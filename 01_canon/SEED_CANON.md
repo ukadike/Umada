@@ -69,6 +69,10 @@ Status legend: LOCKED / PROBABLE / EMERGING / OPEN QUESTION / RETIRED
 - Faraday Box as protected audience signal system.
 - Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars as faction layer.
 - Tisetan as future city/capital/signal center.
+- Black Stars as the premier scientific civilization of the future: history, Kuiper
+  Belt Renaissance exploration era, scientific philosophy, instrumentation culture,
+  eight named sensor technologies, and expanded Earth Sensors Lab / Omoluabi
+  connections (Kemi, 2026-06-25; full profile `01_canon/BLACK_STARS_CIVILIZATION.md`).
 
 ## Poetry
 

@@ -82,6 +82,32 @@ smallest of these get asked to Kemi one at a time.
 21. **Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure
     Human Communities.** All named at EMERGING status in Era 15 (The Kingdom Age) with
     no further detail — nature, territory, relationships, and conflicts are all open.
+    (Black Stars now have a substantial civilization profile beyond this gap — see #36
+    below and `01_canon/BLACK_STARS_CIVILIZATION.md` — but territory, leadership, and
+    inter-faction relationships remain open for all six.)
+
+## Black Stars / Earth Sensors Lab expansion (Kemi, 2026-06-25)
+
+36. **Is Earth Sensors Lab the same referent as the SSL Layer / Small Systems Lab?**
+    `01_canon/FOUNDATIONAL_STRATA.md` item 9 names an undeveloped "SSL Layer — UMADA as
+    mythological/narrative layer of Small Systems Lab," with no further elaboration
+    anywhere in the repository. The new Black Stars brief names "Earth Sensors Lab" as a
+    present-day educational program serving the same narrative role (UMADA as mythic
+    layer atop a real-world STEM program). Whether these are the same concept under two
+    names, or two genuinely separate concepts, is not assumed either way — see
+    `01_canon/BLACK_STARS_CIVILIZATION.md` and `01_canon/FOUNDATIONAL_STRATA.md`.
+37. **Where does the Kuiper Belt Renaissance sit on the Era 0–16 timeline?** The Black
+    Stars are tied to Era 13 (The Tower) and Era 15 (The Kingdom Age) via the existing
+    Tower fact, but the brief does not place the Kuiper Belt Renaissance — the
+    deep-space exploration era — at a specific point relative to those eras or any
+    other. Not placed by inference.
+38. **Scope of invention for the Black Stars' institutions, laboratories, vessels, and
+    terminology.** The brief's "Guidance for Claude Code" section explicitly asks for
+    new scientific institutions, laboratories, exploration vessels, terminology,
+    observational ethics, and additional sensor classes to be invented, which is in
+    tension with the no-fabrication rule. Not resolved unilaterally — put to Kemi
+    directly. See `01_canon/BLACK_STARS_CIVILIZATION.md` "Open fields" and
+    `13_fragments/2026-06-25_black_stars_canonical_expansion.md`.
 
 ## Characters
 

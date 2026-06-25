@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Fold-Wave Interferometer",
+    "status": "EMERGING",
+    "function": "Measures subtle distortions in folded space-time.",
+    "plain_language_meaning": "A tool that detects tiny ripples where space-time itself bends or folds.",
+    "provenance_care_note": "Named directly by Kemi, 2026-06-25; description is the verbatim one-line function given in the brief. No mechanism, scale, or appearance is specified beyond this.",
+    "open_questions": []
+  },
+  {
+    "name": "Deep Ice Spectrometer",
+    "status": "EMERGING",
+    "function": "Analyzes ancient Kuiper Belt materials without destroying samples.",
+    "plain_language_meaning": "A tool that studies ancient ice and rock from deep space without breaking the sample apart.",
+    "provenance_care_note": "Named directly by Kemi, 2026-06-25; description is the verbatim one-line function given in the brief.",
+    "open_questions": []
+  },
+  {
+    "name": "Quantum Pollen Array",
+    "status": "EMERGING",
+    "function": "Detects microscopic biological signatures drifting through interplanetary space.",
+    "plain_language_meaning": "A tool that senses tiny traces of life floating between planets.",
+    "provenance_care_note": "Named directly by Kemi, 2026-06-25; description is the verbatim one-line function given in the brief.",
+    "open_questions": []
+  },
+  {
+    "name": "Gravitational Echo Receiver",
+    "status": "EMERGING",
+    "function": "Measures remnants of extremely old high-energy cosmic events.",
+    "plain_language_meaning": "A tool that listens for the lingering traces of ancient, powerful cosmic events.",
+    "provenance_care_note": "Named directly by Kemi, 2026-06-25; description is the verbatim one-line function given in the brief.",
+    "open_questions": []
+  },
+  {
+    "name": "Memory Crystal Scanner",
+    "status": "EMERGING",
+    "function": "Reads information encoded inside naturally occurring crystalline structures.",
+    "plain_language_meaning": "A tool that reads information stored naturally inside crystals.",
+    "provenance_care_note": "Named directly by Kemi, 2026-06-25; description is the verbatim one-line function given in the brief. Name resonance with the Memory function/motif families (`00_governance/CANON_STATUS.md` Locked Nago structure) is noted, not asserted as an intentional link.",
+    "open_questions": [
+      "Is the name's echo of the Nago Memory family intentional, or coincidental?"
+    ]
+  },
+  {
+    "name": "Dark Matter Boundary Sensor",
+    "status": "EMERGING",
+    "function": "Detects interactions between ordinary matter and unknown gravitational phenomena.",
+    "plain_language_meaning": "A tool that detects where normal matter touches unexplained gravitational forces.",
+    "provenance_care_note": "Named directly by Kemi, 2026-06-25; description is the verbatim one-line function given in the brief.",
+    "open_questions": []
+  },
+  {
+    "name": "Atmospheric Memory Recorder",
+    "status": "EMERGING",
+    "function": "Captures persistent environmental traces left by long-past catastrophic events.",
+    "plain_language_meaning": "A tool that records lasting traces an old disaster left behind in the air or environment.",
+    "provenance_care_note": "Named directly by Kemi, 2026-06-25; description is the verbatim one-line function given in the brief.",
+    "open_questions": []
+  },
+  {
+    "name": "Biofield Resonance Mapper",
+    "status": "EMERGING",
+    "function": "Maps relationships between living ecosystems rather than individual organisms.",
+    "plain_language_meaning": "A tool that maps how whole living ecosystems relate to each other, not just single living things.",
+    "provenance_care_note": "Named directly by Kemi, 2026-06-25; description is the verbatim one-line function given in the brief.",
+    "open_questions": []
+  }
+]

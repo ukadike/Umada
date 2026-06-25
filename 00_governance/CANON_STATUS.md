@@ -145,6 +145,43 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 - Super Hurricane Cindy carried the breach through water, air, and storm.
 - Monsters (chimeras) become care infrastructure, not monsters in the pejorative sense.
 
+## Black Stars civilization (EMERGING, Kemi, 2026-06-25)
+
+Full profile: `01_canon/BLACK_STARS_CIVILIZATION.md`. Direct Kemi text drop, captured
+verbatim in `13_fragments/2026-06-25_black_stars_canonical_expansion.md`.
+
+- The Black Stars are the premier scientific civilization of the future — not defined
+  primarily by military power; remembered for changing humanity's relationship with
+  observation. Built on curiosity, instrumentation, observation, verification, and
+  exploration.
+- Their breakthrough technology began with a single physical principle (space-time
+  geometry) quietly transferred by an unnamed ancient alien presence, several
+  generations before the main UMADA storyline; the Black Stars themselves spent decades
+  developing it into usable technology. "The breakthrough belonged to humanity. The
+  idea did not."
+- **The Kuiper Belt Renaissance** — the era in which the Black Stars became the first
+  civilization capable of routine scientific expeditions beyond Neptune, treating the
+  Kuiper Belt as their greatest laboratory.
+- Scientific philosophy: "Every better instrument creates a better civilization."
+  Observation precedes understanding; understanding precedes action.
+- Eight named sensor technologies (`data/black_star_sensors.json`): Fold-Wave
+  Interferometer, Deep Ice Spectrometer, Quantum Pollen Array, Gravitational Echo
+  Receiver, Memory Crystal Scanner, Dark Matter Boundary Sensor, Atmospheric Memory
+  Recorder, Biofield Resonance Mapper.
+- **Earth Sensors Lab** is named for the first time as a present-day educational
+  program and the "educational ancestor of Black Star science." Whether it is the same
+  referent as the pre-existing, minimally-documented "SSL Layer / Small Systems Lab"
+  (`01_canon/FOUNDATIONAL_STRATA.md` item 9) is an **open question**, not resolved
+  either way — see `01_canon/OPEN_QUESTIONS.md`.
+- Omoluabi's role is expanded: beyond a reporting engine, it becomes the "editorial
+  companion to scientific civilization," gaining ten new editorial schema categories
+  (see `08_technology/README.md`).
+- **Not locked, and not invented beyond what Kemi stated:** specific scientific
+  institutions, laboratories (beyond the Kuiper Belt itself), exploration vessels, a
+  formal observational-ethics doctrine, and additional sensor classes are open slots —
+  see `01_canon/BLACK_STARS_CIVILIZATION.md` "Open fields" and
+  `01_canon/OPEN_QUESTIONS.md`.
+
 ## Open decisions (Kemi's to confirm or change)
 
 - **Memory vs Witness naming** — applied as a rename per the plate. If Witness and Memory

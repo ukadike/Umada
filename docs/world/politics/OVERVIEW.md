@@ -9,13 +9,16 @@ or relationships are described anywhere in source canon. Full detail:
 - Lion Kingdom
 - Jackal Peoples (the variant "Jackal Tribes" is RETIRED — `00_governance/CANON_STATUS.md`)
 - Phoenix Rising
-- Black Stars (linked to the Black Stars Tower, which "hears first" — Era 13)
+- Black Stars (linked to the Black Stars Tower, which "hears first" — Era 13; the
+  premier scientific civilization of the future — see `01_canon/BLACK_STARS_CIVILIZATION.md`)
 - Cybernetic Houses
 - Pure Human Communities
 
-None of the six have documented territory, leadership, ideology, or relationships to one
-another beyond co-existing in the same era. Nothing has been invented to fill that gap
-(`01_canon/OPEN_QUESTIONS.md` #21).
+None of the six have documented territory, leadership, or relationships to one another
+beyond co-existing in the same era. The Black Stars are the exception on ideology — a
+scientific philosophy and history now exist (`01_canon/BLACK_STARS_CIVILIZATION.md`,
+Kemi, 2026-06-25) — but no territory, leadership, or inter-faction relationship has been
+invented to fill that remaining gap (`01_canon/OPEN_QUESTIONS.md` #21).
 
 ## The future council
 

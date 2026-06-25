@@ -29,7 +29,12 @@
     "Atlantis's relationship to the main timeline."
   ],
   "faction_layer": [
-    "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name."
+    "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name. Black Stars now have a substantial civilization profile beyond this gap (see black_stars_expansion below and 01_canon/BLACK_STARS_CIVILIZATION.md), but territory, leadership, and inter-faction relationships remain open for all six."
+  ],
+  "black_stars_expansion": [
+    "Is Earth Sensors Lab the same referent as the SSL Layer / Small Systems Lab named in 01_canon/FOUNDATIONAL_STRATA.md item 9? Not assumed either way.",
+    "Where does the Kuiper Belt Renaissance sit on the Era 0-16 timeline relative to Era 13 (The Tower) and Era 15 (The Kingdom Age)? Not placed by inference.",
+    "Scope of invention for the Black Stars' institutions, laboratories, exploration vessels, and terminology beyond what Kemi explicitly named — the brief's 'Guidance for Claude Code' section asks for invention, in tension with the no-fabrication rule. Put to Kemi directly rather than resolved unilaterally. See 01_canon/BLACK_STARS_CIVILIZATION.md and 13_fragments/2026-06-25_black_stars_canonical_expansion.md."
   ],
   "characters": [
     "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon."

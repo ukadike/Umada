@@ -18,9 +18,15 @@
     "status": "EMERGING",
     "era": "Era 13 — The Tower / Era 15 — The Kingdom Age",
     "known_facts": [
-      "Associated with the Black Stars Tower, which \"hears first.\""
+      "Associated with the Black Stars Tower, which \"hears first.\"",
+      "The premier scientific civilization of the future; not defined primarily by military power (Kemi, 2026-06-25).",
+      "Built on curiosity, instrumentation, observation, verification, and exploration; \"Knowledge — not conquest — is their greatest achievement\" (Kemi, 2026-06-25).",
+      "Their breakthrough technology began with a single physical principle (space-time geometry) quietly transferred by an unnamed ancient alien presence several generations before the main UMADA storyline; the Black Stars spent decades developing it into usable technology themselves (Kemi, 2026-06-25).",
+      "Became the first civilization capable of routine scientific expeditions beyond Neptune, in an era named \"The Kuiper Belt Renaissance\" (Kemi, 2026-06-25).",
+      "Scientific philosophy: \"Every better instrument creates a better civilization.\" Observation precedes understanding; understanding precedes action (Kemi, 2026-06-25).",
+      "Instrumentation culture: celebrate scientists, engineers, instrument builders, observers, archivists, and explorers rather than warriors (Kemi, 2026-06-25)."
     ],
-    "note": "Tower link is locked; faction-level detail beyond that is not in source canon."
+    "note": "Tower link is locked. Full civilization profile (history, philosophy, named sensors, Earth Sensors Lab and Omoluabi connections): `01_canon/BLACK_STARS_CIVILIZATION.md`. Specific institutions, laboratories, exploration vessels, and additional terminology are not yet named in source canon — not invented; see that file's \"Open fields\" and `01_canon/OPEN_QUESTIONS.md`."
   },
   {
     "name": "Phoenix Rising",

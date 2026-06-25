@@ -76,7 +76,12 @@ Early survival signs evolve into civic/accessibility/memory infrastructure. Brea
 ## Era 13 — The Tower
 Status: EMERGING
 
-The Black Stars Tower hears first. Listening becomes infrastructure.
+The Black Stars Tower hears first. Listening becomes infrastructure. The Black Stars
+themselves are the premier scientific civilization of the future, remembered for
+transforming humanity's ability to observe reality rather than for military power
+(Kemi, 2026-06-25; full profile: `01_canon/BLACK_STARS_CIVILIZATION.md`). Where their
+deep-space exploration era — "The Kuiper Belt Renaissance" — falls relative to this Era
+and Era 15 below is not yet specified; see `01_canon/OPEN_QUESTIONS.md`.
 
 ## Era 14 — Tisetan Rising
 Status: EMERGING

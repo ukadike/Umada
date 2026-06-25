@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/black_star_sensors.schema.json",
+  "title": "UMADA Black Star Sensor Technologies",
+  "description": "Validates data/black_star_sensors.json — speculative Black Star sensor instruments connecting Earth Sensors Lab to Black Star deep-space science.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "status", "function", "plain_language_meaning"],
+    "additionalProperties": true,
+    "properties": {
+      "name": { "type": "string" },
+      "status": { "type": "string" },
+      "function": { "type": "string" },
+      "plain_language_meaning": { "type": "string" },
+      "provenance_care_note": { "type": "string" },
+      "open_questions": { "type": "array", "items": { "type": "string" } }
+    }
+  }
+}

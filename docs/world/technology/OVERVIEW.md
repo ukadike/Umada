@@ -14,6 +14,11 @@ Status: EMERGING — named but largely undescribed. Full detail: `08_technology/
 - **S-Vector** (Era 2) — connects biology, technology, memory, adaptation, and
   consciousness; no civilization fully understands it. No further definition exists
   (`01_canon/OPEN_QUESTIONS.md` #18).
+- **Black Star sensor technologies** (Kemi, 2026-06-25) — eight named speculative
+  instruments tied to the Black Stars civilization and framed as descendants of
+  present-day Earth Sensors Lab classroom sensors. Full detail:
+  `08_technology/README.md`, `data/black_star_sensors.json`,
+  `01_canon/BLACK_STARS_CIVILIZATION.md`.
 
 No other technology is named in source canon. Nago signage itself — gesture, tactile
 form, screen-reader label — is documented as accessibility infrastructure, not as a
