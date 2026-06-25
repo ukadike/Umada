@@ -1,0 +1,38 @@
+{
+  "source": "UMADA_CANON_INDEX.md, delivered by Kemi 2026-06-25; corroborated independently by the Book One canon package's book/timeline.md (\"The Five Houses convene\" at the Council Era).",
+  "rule": "Exactly five Houses unless explicitly revised.",
+  "relationship_to_era_15_faction_list": "Layered on top of, not in place of, the pre-existing EMERGING six-name faction list (data/factions.json, 01_canon/CIVILIZATIONAL_LEDGER.md Era 15). Partial name correspondence is plausible but not asserted as fact — see 01_canon/OPEN_QUESTIONS.md #33 and #34.",
+  "houses": [
+    {
+      "id": "house_lion_001",
+      "name": "Lion House",
+      "themes": ["continuity", "monarchy", "governance", "stewardship"],
+      "faction_layer_cross_reference": "Plausibly corresponds to 'Lion Kingdom' in data/factions.json — not confirmed."
+    },
+    {
+      "id": "house_jaguar_001",
+      "name": "Jaguar House",
+      "themes": ["adaptability", "intelligence", "strategy", "second successful chimera lineage"],
+      "faction_layer_cross_reference": "No clear predecessor in data/factions.json. Near-homophone of 'Jackal Peoples' — explicitly NOT treated as the same entity. See Open Question #34."
+    },
+    {
+      "id": "house_cybernetic_001",
+      "name": "Cybernetic House",
+      "themes": ["accessibility", "assistive technology", "prosthetics", "longevity", "restoration"],
+      "faction_layer_cross_reference": "Plausibly corresponds to 'Cybernetic Houses' in data/factions.json — not confirmed."
+    },
+    {
+      "id": "house_pure_human_001",
+      "name": "Pure Human House",
+      "themes": ["continuity with pre-Cindy humanity", "origin claims", "contradiction around cybernetic dependence"],
+      "faction_layer_cross_reference": "Plausibly corresponds to 'Pure Human Communities' in data/factions.json — not confirmed."
+    },
+    {
+      "id": "house_s_vector_001",
+      "name": "S-Vector House",
+      "themes": ["alien federation descendants", "ancient knowledge", "memory stones", "disclosure"],
+      "faction_layer_cross_reference": "No predecessor in data/factions.json. Substantially clarifies, but is not stated outright to be, the previously-undefined Era 2 — S-Vector. See Open Question #35."
+    }
+  ],
+  "unmatched_old_faction_names": ["Black Stars", "Phoenix Rising"]
+}

@@ -1,16 +1,31 @@
 # Technology
 
-Status: EMERGING — named but largely undescribed.
+Status: EMERGING
 
-- **Omoluabi device** — the device that lets the future reporter / time traveler witness
-  the story. Omoluabi is explicitly "not the story." Physical form and mechanism: OPEN
-  QUESTION.
-- **ADA-1** — civilizational ethics ("Trust Body Before Record," "Trust Witness Before
-  Narrative," "Trust Survival Before Authority") are attributed to ADA-1. Whether ADA-1
-  is an AI system, a doctrine, a person, or a designation is an open question.
-- **Emergency Cybernetics** (Era 9) — begin as medical repair, accessibility, and
-  survival tools; later become status systems.
-- **S-Vector** (Era 2) — connects biology, technology, memory, adaptation, and
-  consciousness; no civilization fully understands it. No further definition exists.
+- **Omoluabi** — observation/documentation device and public-interest intelligence
+  system; carried by the Reporter / Time Traveler. Used to witness, document, and
+  preserve truth. Explicitly **not a weapon** and not the subject of UMADA — the device
+  that lets the story be witnessed, not the story itself.
+- **ADA-1** — [existing entry, see prior fragments].
+- **Emergency Cybernetics** (Era 9) — medical repair, accessibility, and survival tools;
+  later become status systems tied to the Cybernetic House.
+- **S-Vector** — ancient knowledge/technology tied to the S-Vector House and its
+  descendants; substantially clarifies but does not resolve the previously-undefined
+  `Era 2 — S-Vector` (see `01_canon/OPEN_QUESTIONS.md` #35).
 
-See `01_canon/OPEN_QUESTIONS.md` for the open questions tied to each of these.
+## Canon Index additions (2026-06-25)
+
+Per `UMADA_CANON_INDEX.md`:
+
+- **Dead Glass** — widespread post-collapse programmable material. Common for everyday
+  uses; restricted uses require governance tests. Distinct from Cape Wipeout (the event)
+  — Dead Glass is the post-Cindy material/era of built-environment failure.
+- **Ether Power** — free-energy-like system accessed through activated/coded memory
+  stones and Dead Glass. Explicitly **not biological-interface based**.
+- **Memory Stones** — examples: Quartz, Coral, regional stones, Dead Glass. Can be
+  activated/coded to receive Ether Power. The material "Quartz" here is explicitly not
+  related to the character **Quartz** (Ada's survivor-unit companion) — see
+  `08_technology/MEMORY_TABLETS_AND_STONES.md`.
+- **Memory Tablets** — preserve oral tradition, Nago glyphs, law, education, memory, and
+  songs. See `08_technology/MEMORY_TABLETS_AND_STONES.md` for register structure and
+  educational use.

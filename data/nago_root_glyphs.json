@@ -1,0 +1,31 @@
+{
+  "status": "research",
+  "source": "umada_book_one_claude_package_v3.zip, worldbuilding/nago_script.md, delivered by Kemi 2026-06-25",
+  "layer_note": "This is a third, separate Nago layer (semantic root glyphs), distinct from the function-family (signage) and motif-family (narrative) axes. Do not merge.",
+  "checked_against_realized_plates": false,
+  "premise": "Nago is not an alphabet. It is a semantic writing and communication system. Each glyph represents a core concept rather than a sound. Meaning emerges through relationship, sequence, gesture, position, touch, song, and context.",
+  "modalities": ["visual glyphs", "tactile glyphs", "Hand Relay / sign language", "spoken language", "sung forms", "carved tablets", "memory stones", "Dead Glass inscriptions"],
+  "root_glyphs": [
+    {"glyph_concept": "Circle over crescent", "meaning": "Community / Home"},
+    {"glyph_concept": "Three horizontal bars / staff form", "meaning": "Governance / Law"},
+    {"glyph_concept": "Concentric target", "meaning": "Memory"},
+    {"glyph_concept": "Eye", "meaning": "Observation"},
+    {"glyph_concept": "Spiral diamond", "meaning": "Knowledge / Inquiry"},
+    {"glyph_concept": "Dotted matrix", "meaning": "People / Community"},
+    {"glyph_concept": "Branch", "meaning": "Growth / Life"},
+    {"glyph_concept": "Vertical staff", "meaning": "Stewardship"},
+    {"glyph_concept": "Divided circle", "meaning": "Balance"}
+  ],
+  "combinations": [
+    {"combination": "Observation + Memory", "interpretation": "Record"},
+    {"combination": "Community + Memory", "interpretation": "History"},
+    {"combination": "Community + Stewardship", "interpretation": "Governance"},
+    {"combination": "Growth + Memory", "interpretation": "Learn"},
+    {"combination": "Stewardship + Balance", "interpretation": "Justice"}
+  ],
+  "design_principle": "A language that cannot be accessed by all citizens cannot govern all citizens.",
+  "open_questions": [
+    "Whether any of these nine root glyphs correspond visually to marks already present on the realized plates. Not yet checked.",
+    "Whether this root-glyph layer is meant to underlie the function-family and motif-family axes, or stand alongside them as an independent system. AWAITING FRAGMENT."
+  ]
+}

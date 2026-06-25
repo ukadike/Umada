@@ -1,21 +1,39 @@
 # Characters
 
-Index of known characters. Full dossiers are `AWAITING FRAGMENT` for all four named
-Cape Wipeout survivors — see `data/characters.json` for locked role-facts and
-`01_canon/VISUAL_CANON_REGISTRY.md` for the dossier stubs.
+Status: EMERGING
 
-- **Ada** — field commander / scapegoat; listed KIA before final blast confirmation.
-- **Tallai / Talla** — chimera care specialist; known at the Friedmandostorp bread stop.
-- **Q** — detects (scout/sensing role).
-- **Quartz** — carries (load-bearer / rescue anchor).
+This index lists characters with any canon presence. Full dossiers live in
+individual files once enough fragments accumulate; until then, see
+`data/characters.json` for structured fields.
 
-No biographical, physical, or personality detail exists yet beyond the role-facts above.
-Nothing further has been invented to fill the gap.
+- **Ada** (Adanna Venter) — protagonist, survivor of Cape Wipeout, first total
+  cybernetic reconstruction case, founder/steward of the Estate of Memory.
+  Refuses political rule and refuses to become the time traveler; chooses the
+  Reporter instead. See Open Question #24 for the full_name nuance.
+- **Tallai / Talla** — chimera care specialist; first being to discover/rescue
+  Ada after Cape Wipeout; later Steward of Ada's Estate; connected to the
+  bread-stand origin moment; death profoundly shapes Ada's grief and the
+  Estate of Memory.
+- **Q** and **Quartz** — bound with Ada and Tallai as the four locked survivors
+  of Cape Wipeout. "Q detects. Quartz carries." names a functional pairing,
+  not a personal relationship.
+- **KC** (added 2026-06-25, per `UMADA_CANON_INDEX.md`) — Ada's partner and a
+  Cape-operation operative. Accepts limited restorative cybernetics for
+  mobility but refuses full restructuring — an explicit ethical counterpoint
+  to Ada's total reconstruction. Present at the Cape Operation morning,
+  meant to meet Ada at the Friedmandostorp bread stand, and "separated" (not
+  confirmed killed) at the moment of Cape Wipeout. Not one of the four locked
+  Cape Wipeout survivors below — see Open Questions #29 and #30. Canonical
+  name is **KC**, not Casey (per Canon Index naming rule); cross-referenced
+  against the prior "Kasey" note in Open Question #29.
+- **The Reporter / Time Traveler** (added 2026-06-25, per
+  `UMADA_CANON_INDEX.md`) — AI-enhanced hybrid human-cybernetic observer,
+  narrator, and carrier of the Omoluabi device. Chosen by Ada during the
+  Council Era to witness history, not change it. Voice is precise,
+  reflective, historically corrective. Distinct from Ada, who refuses this
+  role for herself.
 
-## Pending names (not canon)
+## Pending names
 
-**Aisha**, **Nayla**, and **Adeola** were named as "KNOWN CANON" in a 2026-06-22
-repository-restructuring brief, but none appear anywhere in the source package, the
-realized plates, or any prior fragment. Logged as `OPEN QUESTION` / pending confirmation
-in `data/characters.json` rather than merged into canon — see
-`01_canon/OPEN_QUESTIONS.md` (#28).
+Aisha, Nayla, and Adeola appear in early notes without confirmed roles or
+relationships. Treat as `AWAITING FRAGMENT` until a source clarifies them.
