@@ -23,20 +23,29 @@
     "Chimeran Flu origin and transmission.",
     "Angel Dust — relationship and naming; flagged for provenance/care given the real-world drug-slang homonym.",
     "Dead Glass — literal, technological, or metaphorical collapse?",
-    "S-Vector — definition beyond 'connects biology, technology, memory, adaptation, consciousness.'",
-    "Hidden Archive / alien presence — specifics beyond PROBABLE status.",
+    "S-Vector — definition beyond 'connects biology, technology, memory, adaptation, consciousness.' Cross-reference (2026-06-25): UMADA_CANON_INDEX.md's S-Vector House and Quiet Arrival event substantially clarify but do not state outright a link to this PROBABLE era — see canon_index_and_book_one_additions_2026_06_25 #35.",
+    "Hidden Archive / alien presence — specifics beyond PROBABLE status. Cross-reference (2026-06-25): may relate to the new S-Vector House / Quiet Arrival event, but no source states this outright — see canon_index_and_book_one_additions_2026_06_25 #35.",
     "Atlantis's relationship to the main timeline."
   ],
   "faction_layer": [
-    "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name."
+    "Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure Human Communities — nature, territory, relationships, conflicts all open beyond the name. Cross-reference (2026-06-25): UMADA_CANON_INDEX.md and the Book One canon package independently introduce a separate Five Houses structure (Lion, Jaguar, Cybernetic, Pure Human, S-Vector) layered on top of, not in place of, this list — see data/five_houses.json and canon_index_and_book_one_additions_2026_06_25 #33-34."
   ],
   "characters": [
     "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon."
   ],
+  "canon_index_and_book_one_additions_2026_06_25": [
+    "29. Kasey vs. KC vs. Casey — Kemi confirmed in chat 'Kasey is KC,' but UMADA_CANON_INDEX.md explicitly warns 'KC — not Casey.' Whether 'Kasey' is a safe informal expansion or risks the warned-against spelling is not resolved.",
+    "30. Is KC a fifth Cape Wipeout survivor? Book One timeline places KC 'separated' (not confirmed killed) at Cape Wipeout. KC is not added to the locked four-survivor sentence; whether KC should eventually count as a fifth survivor is open.",
+    "31. Chimera lineage assignment — Lion and Jaguar are locked as the first and second successful chimera lineages. Whether Tallai, Q, or Quartz belong to either lineage is not stated and not assumed.",
+    "32. Cindy/Cape Wipeout sequence conflict — the locked civilizational arc places Cindy after Cape Wipeout; two new 2026-06-25 sources place Cindy before the Cape Operation and Cape Wipeout. Neither account is altered; the conflict is flagged, not resolved.",
+    "33. Five Houses vs. the Era-15 faction list — three names plausibly correspond (Lion Kingdom/Lion House, Cybernetic Houses/Cybernetic House, Pure Human Communities/Pure Human House); Jaguar House and S-Vector House have no old predecessor; Black Stars and Phoenix Rising have no Houses counterpart. None asserted as fact.",
+    "34. Jackal Peoples vs. Jaguar House — near-homophone, explicitly not treated as the same entity pending Kemi's confirmation.",
+    "35. S-Vector House / Era 2 — S-Vector linkage — substantially clarifies the PROBABLE era but the link is inferred, not stated outright in either source."
+  ],
   "production_and_accessibility": [
     "Animatic on-screen captions transcribed 2026-06-22 (see data/visual_artifacts.json caption_transcript); audio track (yellowbirdbeats score, any dialogue) still has no transcript — no speech-to-text tooling was available.",
     "Character dossiers (Ada, Tallai, Q, Quartz) and six visual boards not yet present — see data/visual_artifacts.json awaiting_fragment.",
-    "Who or what is \"Kassey\" relative to Adanna \"Ada\" Venter — same person under a second name, a relative, or someone else? Burned across Ada's military record in the rescue animatic without explanation.",
+    "Who or what is \"Kassey\" relative to Adanna \"Ada\" Venter — same person under a second name, a relative, or someone else? Burned across Ada's military record in the rescue animatic without explanation. Cross-reference (2026-06-25): UMADA_CANON_INDEX.md gives Ada's full_name as 'Adanna Venter' (no middle initial) — a small additional data point, not a resolution.",
     "What does \"Care Shooter\" mean as Ada's credited role in the rescue animatic?",
     "What is the \"FFF\" mark etched near the figures in the rescue animatic's rubble-rescue panel?",
     "What is past \"OFF T—\" on Ada's credit line in the rescue animatic? Clipped by the source file's native frame edge; not recoverable without a higher-resolution export."

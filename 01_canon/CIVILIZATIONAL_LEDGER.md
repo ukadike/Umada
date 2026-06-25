@@ -92,3 +92,34 @@ Multiple powers emerge: Lion Kingdom, Jackal Peoples, Black Stars, Phoenix Risin
 Status: EMERGING
 
 Umada becomes a place and an idea: civilization organized around care, memory, access, witness, and repair.
+
+## Canon Index additions (2026-06-25)
+
+These additions come from `UMADA_CANON_INDEX.md` and the Book One canon package
+(both delivered by Kemi 2026-06-25). They sit alongside the numbered eras above rather
+than renumbering or rewriting any of them. Full detail and provenance:
+`00_governance/CANON_STATUS.md`, `01_canon/OPEN_QUESTIONS.md`.
+
+- **Quiet Arrival** — two years before Cindy; a peaceful interstellar federation arrives
+  on Earth for disclosure, not invasion. Some visitors remain in remote areas. Logically
+  precedes Era 0–2 in absolute time but is not inserted into the numbered sequence here,
+  since its relationship to Eras 0–2 is not stated by either source.
+- **Cindy — sequence conflict, flagged not resolved.** Both new 2026-06-25 sources
+  independently place "Cindy" (atmospheric/sediment event, effects "lasting for
+  centuries") *before* the Cape Operation and Cape Wipeout (Era 5). This directly
+  conflicts with Era 6 ("The Breach") and Era 7 ("Super Hurricane Cindy carries the
+  breach") above, which place Cindy *after* Cape Wipeout, and with the same phrase
+  locked in `01_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md`. Eras 6–7 are left unchanged.
+  See Open Question #32.
+- **Great Scientific Retreat** — after Cape Wipeout, public trust in chimeric/scientific
+  labs collapses, funding disappears, and knowledge survives in distributed communities,
+  hidden archives, oral tradition, and sanctuary networks. Consistent with and extends
+  the existing Era 9 (Emergency Cybernetics) / Era 15 framing of the same period; not
+  assigned its own era number here.
+- **Five Houses (Lion, Jaguar, Cybernetic, Pure Human, S-Vector)** — locked political
+  structure that converges by/before the Council Era (two centuries after Cape
+  Wipeout). Layered on top of, not in place of, the Era 15 six-faction list above. See
+  `data/five_houses.json` and Open Questions #33–34.
+- **Lion and Jaguar chimera lineages** — the first and second successful chimera
+  lineages, stabilized in the immediate aftermath of Cape Wipeout (between Era 5 and
+  Era 8) using Cindy's sediment. See Open Question #31.
