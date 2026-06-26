@@ -7,11 +7,31 @@
       "Listed KIA before final blast confirmation.",
       "One of four Cape Wipeout survivors (with Tallai/Talla, Q, and Quartz).",
       "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago.",
-      "Full credited name and role per the Friedmandostorp rescue animatic: Adanna \"Ada\" Venter, credited Care Shooter."
+      "Full credited name and role per the Friedmandostorp rescue animatic: Adanna \"Ada\" Venter, credited Care Shooter.",
+      "Per `UMADA_CANON_INDEX.md` (2026-06-25): full_name given as \"Adanna Venter\" (no middle initial) — see open_question below for how this relates to the torn military record's \"Adanna K. [Venter]\" / \"Kassey.\"",
+      "Per `UMADA_CANON_INDEX.md` (2026-06-25): described as \"the first total cybernetic reconstruction case\" — a new specific framing of her already-locked survival/reconstruction.",
+      "Per `UMADA_CANON_INDEX.md` (2026-06-25): KC is Ada's partner — see the KC entry below and Open Question #30 for survivor-status nuance.",
+      "Per `UMADA_CANON_INDEX.md` and the Book One canon package (both 2026-06-25): in the Council Era, Ada refuses to become the time traveler and instead chooses the Reporter, who carries the Omoluabi device to witness history."
     ],
-    "open_question": "The animatic burns the name \"Kassey\" across a torn military record for an \"Adanna K. [Venter]\" (stamped CLEARANCE DENIED, KIA, tagged Chimera Survivor / Scientist / Empath) in the same panel as Ada's introduction. Whether Kassey is the same person as Ada under a second name, a relative, or someone else is not stated — see 01_canon/VISUAL_CANON_REGISTRY.md and 01_canon/OPEN_QUESTIONS.md.",
+    "open_question": "The animatic burns the name \"Kassey\" across a torn military record for an \"Adanna K. [Venter]\" (stamped CLEARANCE DENIED, KIA, tagged Chimera Survivor / Scientist / Empath) in the same panel as Ada's introduction. Whether Kassey is the same person as Ada under a second name, a relative, or someone else is not stated — see 01_canon/VISUAL_CANON_REGISTRY.md and 01_canon/OPEN_QUESTIONS.md (#24).",
     "dossier_artifact": "Ada Character Dossier",
     "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "KC",
+    "status": "LOCKED (role, per UMADA_CANON_INDEX.md, 2026-06-25) / AWAITING FRAGMENT (full dossier)",
+    "known_facts": [
+      "Ada's partner — male, human, Cape-operation operative.",
+      "Accepts limited restorative cybernetics for mobility; refuses full cybernetic restructuring, in explicit ethical contrast to Ada's total reconstruction.",
+      "Insists technology serve personhood and choice.",
+      "Present at the Cape Operation, meant to meet Ada at the Friedmandostorp bread stand before proceeding to the Cape laboratory.",
+      "At the moment of Cape Wipeout, KC is described as \"separated\" — not confirmed killed (Book One canon package, book/timeline.md).",
+      "Dies before/within living memory of the Council Era — after Tallai, per the Book One timeline's ordering of the Estate-of-Memory years."
+    ],
+    "open_question": "KC is not added to the locked four-person Cape Wipeout survivor sentence (Ada, Tallai, Q, Quartz). Whether KC should eventually be treated as a fifth named survivor, or remains categorically distinct from that survivor unit, is Open Question #30. Whether \"Kasey\" (used informally by Kemi in chat) is a safe expansion of KC's name or risks the Canon Index's explicitly warned-against \"Casey\" spelling is Open Question #29.",
+    "dossier_artifact": "KC Character Dossier",
+    "dossier_status": "AWAITING FRAGMENT",
+    "source": "UMADA_CANON_INDEX.md (2026-06-25); corroborated by the Book One canon package's book/timeline.md"
   },
   {
     "name": "Tallai / Talla",
@@ -21,9 +41,10 @@
       "Known at the bread stop in Friedmandostorp before the blast.",
       "Explores the Garden (Era 4).",
       "One of four Cape Wipeout survivors.",
-      "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago."
+      "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago.",
+      "Per `UMADA_CANON_INDEX.md` (2026-06-25): the first being to discover/rescue Ada after Cape Wipeout, later Steward of Ada's Estate of Memory and caretaker of the sanctuary network and memory practices; chooses stewardship rather than ownership; death profoundly shapes Ada's grief and the Estate of Memory."
     ],
-    "open_question": "Both 'Tallai' and 'Talla' are attested across source documents. Whether this is a nickname/full-name pair or a spelling that should converge on one form is open — see 01_canon/OPEN_QUESTIONS.md.",
+    "open_question": "Both 'Tallai' and 'Talla' are attested across source documents. Whether this is a nickname/full-name pair or a spelling that should converge on one form is open — see 01_canon/OPEN_QUESTIONS.md. Separately, whether Tallai belongs to the Lion or Jaguar chimera lineage (per `UMADA_CANON_INDEX.md`, 2026-06-25) is not stated — see Open Question #31.",
     "dossier_artifact": "Tallai Character Dossier",
     "dossier_status": "AWAITING FRAGMENT"
   },
@@ -35,6 +56,7 @@
       "One of four Cape Wipeout survivors.",
       "Named in the refined Nago plate's in-world Honor & Origin line as one of those who carried Nago."
     ],
+    "open_question": "Whether Q belongs to the Lion or Jaguar chimera lineage (per `UMADA_CANON_INDEX.md`, 2026-06-25) is not stated — see Open Question #31.",
     "dossier_artifact": "Q Character Dossier",
     "dossier_status": "AWAITING FRAGMENT"
   },
@@ -46,8 +68,23 @@
       "One of four Cape Wipeout survivors.",
       "Not named in the refined Nago plate's in-world Honor & Origin line, which credits Tallai, Ada, Q, and \"the people\" — see open question in 01_canon/OPEN_QUESTIONS.md."
     ],
+    "open_question": "Whether Quartz belongs to the Lion or Jaguar chimera lineage (per `UMADA_CANON_INDEX.md`, 2026-06-25) is not stated — see Open Question #31. Note: `UMADA_CANON_INDEX.md` separately lists \"Quartz\" as an example material of Memory Stones (08_technology/MEMORY_TABLETS_AND_STONES.md); no relationship between the character and the material is stated or assumed.",
     "dossier_artifact": "Quartz Character Dossier",
     "dossier_status": "AWAITING FRAGMENT"
+  },
+  {
+    "name": "The Reporter / Time Traveler",
+    "status": "LOCKED (role, per UMADA_CANON_INDEX.md, 2026-06-25) / AWAITING FRAGMENT (full dossier)",
+    "known_facts": [
+      "AI-enhanced hybrid human-cybernetic; active during the opening frame.",
+      "Observer, time traveler, narrator, and carrier of the Omoluabi device.",
+      "Chosen by Ada — a distinct character from Ada, not Ada herself; Ada refuses to become the time traveler.",
+      "Sent to witness, not change, history.",
+      "Voice is precise, reflective, historically corrective."
+    ],
+    "dossier_artifact": "The Reporter Character Dossier",
+    "dossier_status": "AWAITING FRAGMENT",
+    "source": "UMADA_CANON_INDEX.md (2026-06-25); corroborated by the Book One canon package's book/timeline.md"
   },
   {
     "name": "Aisha",

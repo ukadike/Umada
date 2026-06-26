@@ -67,9 +67,16 @@ smallest of these get asked to Kemi one at a time.
 17. **Dead Glass — nature of the collapse.** Named as network/infrastructure/information
     collapse; whether "glass" is literal, technological, or metaphorical isn't specified.
 18. **S-Vector.** Connects biology, technology, memory, adaptation, and consciousness per
-    `FOUNDATIONAL_STRATA.md`; no further definition exists.
+    `FOUNDATIONAL_STRATA.md`; no further definition exists. **Cross-reference
+    (2026-06-25):** `UMADA_CANON_INDEX.md`'s new S-Vector House ("alien federation
+    descendants, ancient knowledge, memory stones, disclosure") and the new Quiet
+    Arrival event substantially clarify this PROBABLE era, but the link is inferred,
+    not stated outright in either source — see #35 below; this entry is not resolved
+    by that inference.
 19. **Hidden Archive / alien presence.** PROBABLE status only; no specifics beyond
-    "fragmented evidence, suppressed record, misunderstood myth."
+    "fragmented evidence, suppressed record, misunderstood myth." **Cross-reference
+    (2026-06-25):** see #35 below — the new S-Vector House and Quiet Arrival event may
+    relate to this PROBABLE alien-presence era, but no source states this outright.
 20. **Atlantis's relationship to the main timeline.** Era 0 names it as remembered
     catastrophe; how (or whether) it surfaces in Cape Wipeout–era or later storytelling
     is undefined.
@@ -79,6 +86,11 @@ smallest of these get asked to Kemi one at a time.
 21. **Lion Kingdom, Jackal Peoples, Phoenix Rising, Black Stars, Cybernetic Houses, Pure
     Human Communities.** All named at EMERGING status in Era 15 (The Kingdom Age) with
     no further detail — nature, territory, relationships, and conflicts are all open.
+    **Cross-reference (2026-06-25):** `UMADA_CANON_INDEX.md` and the Book One canon
+    package's `book/timeline.md` independently introduce a separate, more-detailed
+    Five Houses structure (Lion, Jaguar, Cybernetic, Pure Human, S-Vector) layered on
+    top of, not in place of, this list. Partial name correspondence is plausible but
+    not confirmed — see #33 and #34 below, and `data/five_houses.json`.
 
 ## Characters
 
@@ -90,6 +102,48 @@ smallest of these get asked to Kemi one at a time.
     see `data/characters.json` for matching stub entries. Are these real additions to
     canon Kemi wants to confirm, or material from a different draft that doesn't belong
     here?
+
+## New from Canon Index & Book One canon package (added 2026-06-25)
+
+29. **Kasey vs. KC vs. Casey.** Kemi has confirmed in chat that "Kasey is KC." The
+    `UMADA_CANON_INDEX.md` directive explicitly warns "KC — not Casey" as a
+    non-negotiable naming rule. Whether "Kasey" is a safe informal expansion of KC's
+    name, or risks drifting toward the warned-against "Casey" spelling, is not
+    resolved — logged rather than assumed either way.
+30. **Is KC a fifth Cape Wipeout survivor?** The Book One canon package's
+    `book/timeline.md` places KC at the Cape Operation, "separated" (not confirmed
+    killed) at the moment of Cape Wipeout — distinct from the locked statement that
+    Ada, Tallai, Q, and Quartz survive. KC is not added to that locked sentence here;
+    whether KC should eventually be treated as a fifth named survivor, or remains
+    categorically distinct from the named four-person survivor unit, is open.
+31. **Chimera lineage assignment.** `UMADA_CANON_INDEX.md` locks Lion and Jaguar as
+    the first and second successful chimera lineages, stabilized using Cindy's
+    sediment in the immediate aftermath of Cape Wipeout. Whether Tallai, Q, or Quartz
+    belong to either named lineage is not stated anywhere and is not assumed.
+32. **Cindy/Cape Wipeout sequence conflict.** The existing locked civilizational arc
+    (`01_canon/CIVILIZATIONAL_LEDGER.md` Era 6 "The Breach" then Era 7 "Super
+    Hurricane Cindy carries the breach," echoed in the locked poetic line in
+    `01_canon/FOUNDING_MYTHS_AND_FIRST_LINES.md` and in `01_canon/SEED_CANON.md`'s
+    EMERGING line) places Cindy *after* Cape Wipeout. Two independent 2026-06-25
+    sources from Kemi — `UMADA_CANON_INDEX.md`'s Key Timeline and the Book One
+    package's `book/timeline.md` — instead place a "Cindy" atmospheric/sediment event
+    *before* the Cape Operation and Cape Wipeout, with effects "lasting for
+    centuries." Neither account is altered by this entry; resolving whether these are
+    the same Cindy resequenced, or two distinct events sharing a name, is Kemi's call.
+33. **Five Houses vs. the Era-15 faction list.** See #21 above. Three names plausibly
+    correspond (Lion Kingdom/Lion House, Cybernetic Houses/Cybernetic House, Pure Human
+    Communities/Pure Human House); Jaguar House and S-Vector House have no clear
+    predecessor in the old list; Black Stars and Phoenix Rising have no clear Houses
+    counterpart. None of these correspondences are asserted as fact.
+34. **Jackal Peoples vs. Jaguar House.** Near-homophone, raised by the 2026-06-22
+    repository-restructuring brief's retirement of "Jackal Tribes" in favor of "Jackal
+    Peoples." The two names are explicitly NOT treated as the same entity here pending
+    Kemi's confirmation either way.
+35. **S-Vector House / Era 2 — S-Vector linkage.** `UMADA_CANON_INDEX.md`'s S-Vector
+    House ("alien federation descendants, ancient knowledge, memory stones,
+    disclosure") and the new Quiet Arrival event substantially clarify the
+    previously-undefined `Era 2 — S-Vector` (PROBABLE). The link is inferred, not
+    stated outright in either source.
 
 ## Production / accessibility
 
@@ -109,7 +163,11 @@ smallest of these get asked to Kemi one at a time.
     tagged "Chimera Survivor. Scientist. Empath." — in the same panel that introduces Ada
     by her full credited name, Adanna "Ada" Venter. Same person under a second name, a
     relative, or someone else entirely is not stated; recorded as an unresolved
-    juxtaposition, not a claim.
+    juxtaposition, not a claim. **Cross-reference (2026-06-25):** `UMADA_CANON_INDEX.md`
+    gives Ada's `full_name` as "Adanna Venter" (no middle initial), which doesn't
+    resolve whether "Kassey"/"Adanna K. [Venter]" is the same person under a second
+    name — if anything it's a small additional data point that the two recorded names
+    differ by more than a nickname.
 25. **What does "Care Shooter" mean?** Ada's credited role on the rescue animatic's credit
     line. Camera/documentation work tied to the frame narrative's reporter device, or
     something else, is not stated.

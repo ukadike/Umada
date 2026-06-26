@@ -20,5 +20,38 @@
     { "era": 14, "title": "Tisetan Rising", "status": "EMERGING", "summary": "Tisetan rises over the wound as signal/access/archive city." },
     { "era": 15, "title": "The Kingdom Age", "status": "EMERGING", "summary": "Lion Kingdom, Jackal Peoples, Black Stars, Phoenix Rising, Cybernetic Houses, Pure Human Communities." },
     { "era": 16, "title": "Umada", "status": "EMERGING", "summary": "Place and idea: care, memory, access, witness, repair." }
-  ]
+  ],
+  "canon_index_additions_2026_06_25": {
+    "source": "UMADA_CANON_INDEX.md and the Book One canon package, both delivered by Kemi 2026-06-25",
+    "note": "Additive only — does not renumber or rewrite eras 0-16 above.",
+    "items": [
+      {
+        "name": "Quiet Arrival",
+        "time": "Two years before Cindy",
+        "summary": "Peaceful interstellar federation arrives on Earth for disclosure, not invasion. Some visitors remain in remote areas.",
+        "not_assigned_era_number": true
+      },
+      {
+        "name": "Cindy — sequence conflict",
+        "status": "OPEN QUESTION #32",
+        "summary": "Two new sources place Cindy before Cape Operation/Cape Wipeout (effects lasting for centuries), conflicting with era 6/7 above which place Cindy after Cape Wipeout. Neither account altered; conflict flagged only."
+      },
+      {
+        "name": "Great Scientific Retreat",
+        "summary": "Public trust in chimeric/scientific labs collapses after Cape Wipeout; funding disappears; knowledge survives in distributed communities, hidden archives, oral tradition, sanctuary networks.",
+        "relates_to_eras": [9, 15]
+      },
+      {
+        "name": "Five Houses",
+        "members": ["Lion House", "Jaguar House", "Cybernetic House", "Pure Human House", "S-Vector House"],
+        "summary": "Locked political/species structure, converges by/before the Council Era. Layered on top of, not in place of, era 15's six-faction list.",
+        "see": ["data/five_houses.json", "Open Question #33", "Open Question #34"]
+      },
+      {
+        "name": "Lion and Jaguar chimera lineages",
+        "summary": "First and second successful chimera lineages, stabilized in the immediate aftermath of Cape Wipeout using Cindy's sediment.",
+        "see": "Open Question #31"
+      }
+    ]
+  }
 }
