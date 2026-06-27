@@ -37,3 +37,13 @@ No episode has been written. The next concrete production step — writing Episo
 deliberately blocked until enough of the open questions and `AWAITING FRAGMENT` items
 tracked in `01_canon/OPEN_QUESTIONS.md` and `docs/project-management/issues/` are
 resolved that the episode can be generated from recovered canon rather than guessed at.
+
+## Tooling addendum (2026-06-27)
+
+A production-pipeline fragment (`13_fragments/2026-06-27_studio_pipeline_package.md`)
+added reusable tooling without unblocking Episode 1 itself: a storyboard panel
+template, a shot-naming convention, a storyboard-panel accessibility baseline, a
+canon-approval checklist, a storyboard readiness map, and a reusable image-prompt
+system (see `15_archive_recovery/README.md`'s 2026-06-27 entry for the full list).
+This is groundwork for whenever Episode 1 is unblocked — it does not itself move the
+"What comes next" block above.

@@ -19,3 +19,12 @@ Define a file-naming convention for future storyboard and shot-list files so `as
 ## Dependencies
 
 - assets/storyboards/README.md
+
+## Progress (2026-06-27)
+
+Drafted, not yet confirmed. `assets/storyboards/README.md` now documents a proposed
+convention — `EP##-SC##-SHOT##` for authorized episodes, `CW-PROOF-###`-style IDs for
+pre-authorization proof-of-concept work — reconciling this issue's example with the
+2026-06-27 fragment's `CW-001`-style proposal. Tagged PROBABLE pending Kemi's
+confirmation (logged as Open Question #36); acceptance criteria not yet fully met
+until confirmed.

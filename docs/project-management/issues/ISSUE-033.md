@@ -20,3 +20,11 @@ Identify which already-locked anchors (Cape Wipeout, the Tower hears first, Cind
 
 - 00_governance/CANON_STATUS.md
 - 01_canon/OPEN_QUESTIONS.md
+
+## Progress (2026-06-27)
+
+Resolved. `docs/production/STORYBOARD_READINESS_MAP.md` filed: lists every locked
+civilizational/frame-narrative anchor from `00_governance/CANON_STATUS.md`, the
+blocking open question(s) for each, and a readiness rating. No panel content drafted.
+Also notes the separate episode-level authorization block that applies regardless of
+per-anchor readiness.

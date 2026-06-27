@@ -50,6 +50,10 @@
     "What is the \"FFF\" mark etched near the figures in the rescue animatic's rubble-rescue panel?",
     "What is past \"OFF T—\" on Ada's credit line in the rescue animatic? Clipped by the source file's native frame edge; not recoverable without a higher-resolution export."
   ],
+  "studio_pipeline_fragment_2026_06_27": [
+    "36. Shot-naming convention reconciliation — the fragment's CW-001 style vs. ISSUE-034's EP##-SC##-SHOT##; assets/storyboards/README.md now documents a reconciled PROBABLE convention pending Kemi's confirmation.",
+    "37. Whether the fragment's new character visual descriptors (Ada, Tallai, Q, Quartz; logged EMERGING in data/characters.json) count as the visual-design portion of the missing Character Dossiers, or a separate style-guide artifact distinct from the dossiers."
+  ],
   "resolved": [
     "Does the full v1 + v1.2 site/section scaffolding already exist in the working repo? Resolved at pre-flight: repo contained only .gitattributes; this build is that scaffolding."
   ]

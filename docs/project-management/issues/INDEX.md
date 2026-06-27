@@ -85,3 +85,11 @@ Kemi a tiny question, filing a real fragment, or building/auditing tooling.
 - [ISSUE-048: Recover the clipped "OFF T—" credit line](ISSUE-048.md)
 - [ISSUE-049: Investigate the S-Vector definition](ISSUE-049.md)
 - [ISSUE-050: Build a source-provenance index](ISSUE-050.md)
+
+## Progress note (2026-06-27)
+
+A production-pipeline fragment (`13_fragments/2026-06-27_studio_pipeline_package.md`)
+advanced ISSUE-006, 007, 008, 009 (EMERGING visual descriptors only — dossiers remain
+AWAITING FRAGMENT) and resolved ISSUE-031, 032, 033, 035; ISSUE-034 is drafted pending
+Kemi's confirmation. See each issue file's own "Progress (2026-06-27)" section and
+`15_archive_recovery/README.md`'s matching entry for details.

@@ -19,3 +19,11 @@ Specify what caption, transcript, and tactile-equivalent requirements a storyboa
 
 - ISSUE-031
 - 00_governance/ACCESSIBILITY_BASELINE.md
+
+## Progress (2026-06-27)
+
+Resolved. `00_governance/ACCESSIBILITY_BASELINE.md` extended with a "Storyboard/
+visual-artifact panel baseline" subsection (alt text, audio-description note,
+tactile/sign-equivalent note, verbatim caption/credit text), cross-checked against the
+animatic's `caption_transcript` precedent, and referenced from
+`assets/storyboards/STORYBOARD_TEMPLATE.md`.

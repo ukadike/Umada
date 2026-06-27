@@ -37,3 +37,15 @@ individual files once enough fragments accumulate; until then, see
 
 Aisha, Nayla, and Adeola appear in early notes without confirmed roles or
 relationships. Treat as `AWAITING FRAGMENT` until a source clarifies them.
+
+## Visual descriptors (EMERGING, 2026-06-27)
+
+A single production-pipeline fragment
+(`13_fragments/2026-06-27_studio_pipeline_package.md`) supplied visual/style
+descriptors for Ada, Tallai, Q, and Quartz (e.g. Ada — "Iman-like presence,
+expressive face, grounded survivor energy"; Quartz — "Snuffleupagus-like
+emotional presence without copying any existing character"). These are
+logged in `data/characters.json` as EMERGING, sourced to this fragment alone.
+They read as the visual-design layer of the still-missing Character
+Dossiers, not as completed biographical dossiers — full dossiers remain
+`AWAITING FRAGMENT`.

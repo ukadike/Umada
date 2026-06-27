@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "status": "EMPTY — schema only, no shots filed",
+    "schema_reference": "assets/storyboards/STORYBOARD_TEMPLATE.md",
+    "field_names": ["shot_id", "time", "text", "scene_id", "characters", "location", "canon_status", "visual_continuity_notes", "motion_description", "accessibility_note", "open_questions"],
+    "note": "Populate per-shot entries only once a storyboard is authorized and real content exists (see docs/production/STORYBOARD_READINESS_MAP.md and the root README.md on Episode 1's deliberate block). Do not invent shots to fill this file.",
+    "provenance": "Scaffolded 2026-06-27 in response to 13_fragments/2026-06-27_studio_pipeline_package.md; no content carried over from that fragment's sample storyboard."
+  },
+  "shots": []
+}

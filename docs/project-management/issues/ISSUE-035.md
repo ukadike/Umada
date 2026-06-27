@@ -19,3 +19,11 @@ Verify the storyboard template (ISSUE-031) is structurally compatible with the r
 
 - ISSUE-031
 - data/visual_artifacts.json
+
+## Progress (2026-06-27)
+
+Resolved. `assets/storyboards/STORYBOARD_TEMPLATE.md` uses `time` and `text` as its
+panel/timestamp/caption field names, matching `data/visual_artifacts.json`'s
+`caption_transcript.time` / `caption_transcript.text` exactly, so the template and the
+animatic's recovered transcript are directly comparable without renaming either
+structure.

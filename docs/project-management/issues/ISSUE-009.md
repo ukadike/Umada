@@ -22,3 +22,11 @@ Move Quartz's dossier from AWAITING FRAGMENT to a filed artifact, and resolve Qu
 
 - 00_governance/FRAGMENT_WORKFLOW.md
 - 01_canon/OPEN_QUESTIONS.md #7
+
+## Progress (2026-06-27)
+
+A fragment (`13_fragments/2026-06-27_studio_pipeline_package.md`) supplied a visual/
+style descriptor for Quartz, logged EMERGING in `data/characters.json`'s
+`known_facts`. `dossier_status` updated to note the visual descriptor is EMERGING
+while the full biographical dossier remains AWAITING FRAGMENT. Does not resolve #7
+(Quartz's absence from the Honor & Origin line).

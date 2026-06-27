@@ -22,3 +22,11 @@ Move Ada's dossier from AWAITING FRAGMENT to a filed artifact once the source ma
 
 - 01_canon/VISUAL_CANON_REGISTRY.md
 - 01_canon/OPEN_QUESTIONS.md #24, #25
+
+## Progress (2026-06-27)
+
+A fragment (`13_fragments/2026-06-27_studio_pipeline_package.md`) supplied a visual/
+style descriptor for Ada, logged EMERGING in `data/characters.json`'s `known_facts`.
+`dossier_status` updated to note the visual descriptor is EMERGING while the full
+biographical dossier remains AWAITING FRAGMENT — this is the visual-design layer only,
+not a closing fragment. Does not resolve "Kassey" or "Care Shooter" (#24, #25).

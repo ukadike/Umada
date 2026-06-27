@@ -43,3 +43,21 @@ Rules carried from the Nago Signage Guide and the No-Generic-Glyphs rule:
 - Tactile marks avoid thin details, use clear edges and high-contrast relief, support
   fingertip scanning, and pair with redundant text labels.
 - Design for low vision and blind users from the beginning, not as a retrofit.
+
+## Storyboard/visual-artifact panel baseline (added 2026-06-27, per ISSUE-032)
+
+Every storyboard panel (see `assets/storyboards/STORYBOARD_TEMPLATE.md`) requires, at
+minimum, an `accessibility_note` covering:
+
+- Alt text describing the panel's visual content in plain language.
+- An audio-description note if the panel feeds a video/animatic (what a non-sighted
+  viewer needs to follow the action).
+- A tactile/sign equivalent note where the panel depicts a Nago sign or gesture.
+- Caption/credit text captured verbatim in the panel's `text` field, not paraphrased —
+  consistent with how `data/visual_artifacts.json`'s `caption_transcript` already
+  captures the rescue animatic's on-screen text exactly as it appears on screen.
+
+This mirrors, rather than duplicates, the site-wide and Nago-specific baselines above:
+a storyboard panel is a future site image/video in draft form, so it inherits the same
+no-color-only, no-hover-only, reduced-motion, and plain-language rules once it is
+realized as an asset.

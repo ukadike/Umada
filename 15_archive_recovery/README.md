@@ -62,3 +62,43 @@ a new entry that says so, rather than silently editing history.
   precision, this pass stopped at description and left the open question open, pending
   either a dedicated vector-tracing pass over the source plate or Kemi's call on whether an
   explicitly-labeled approximation is acceptable in the meantime.
+
+## 2026-06-27 — Studio pipeline package ingestion
+
+- **Source:** `umada_studio_pipeline.zip`, delivered as a generic AI-film
+  production-pipeline package addressed to "Claude Code Tasks"
+  (`09_claude_tasks/CLAUDE_CODE_TASKS.md`), containing a README and nine numbered
+  subfolders (`00_canon/` through `09_claude_tasks/`).
+- **What:** Captured verbatim as a fragment
+  (`13_fragments/2026-06-27_studio_pipeline_package.md`) per
+  `00_governance/FRAGMENT_WORKFLOW.md`. Useful production-tooling material was routed
+  into the existing governance/production layers: a storyboard panel template
+  (`assets/storyboards/STORYBOARD_TEMPLATE.md`), a shot-naming convention
+  (`assets/storyboards/README.md`), a storyboard-panel accessibility baseline
+  (`00_governance/ACCESSIBILITY_BASELINE.md`), a canon-approval checklist
+  (`00_governance/CANON_APPROVAL_CHECKLIST.md`), a storyboard readiness map
+  (`docs/production/STORYBOARD_READINESS_MAP.md`), a reusable image-prompt system
+  (`docs/production/IMAGE_PROMPT_SYSTEM.md`), an empty shot database
+  (`data/storyboard_shots.json`), and EMERGING character visual descriptors for Ada,
+  Tallai, Q, and Quartz (`data/characters.json`).
+- **Method:** Extract → fragment capture → cross-checked against already-open
+  ISSUE-031 through ISSUE-035 (Storyboarding) and the already-recovered rescue-animatic
+  transcript before routing, rather than executing the package's task list verbatim.
+- **What was deliberately not done:** The package's Task 6 (fabricate 12 storyboard
+  shots, prompts, alt-text entries, a timing sheet, and a transcript for the Cape
+  Wipeout opening sequence) and Task 4 (build a new, separate static site) were not
+  executed. Episode 1 / the Cape Wipeout opening sequence has been deliberately left
+  unwritten (root `README.md`, `docs/production/ROADMAP.md`), ISSUE-031/033 explicitly
+  scope storyboarding work to templates and readiness mapping only ("do not draft any
+  panel content"), and a real, already-realized rescue animatic with a recovered
+  caption transcript already covers much of the same material — fabricating parallel
+  Cape Wipeout content risked contradicting it. See the fragment's own Canon section for
+  the full reasoning.
+- **Correction applied:** The package's "Friedmandestorp" typo (locked spelling:
+  **Friedmandostorp**) was logged as a fourth recurrence in
+  `00_governance/CANON_STATUS.md`, not reintroduced anywhere.
+- **Routed to:** see "What" above, plus `01_canon/OPEN_QUESTIONS.md` and
+  `data/open_questions.json` (two new tiny questions, items 36–37),
+  `02_characters/README.md` (visual-descriptor note),
+  `docs/project-management/issues/INDEX.md` and ISSUE-006/007/008/009/031/032/033/034
+  (progress notes).

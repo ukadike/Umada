@@ -178,6 +178,21 @@ smallest of these get asked to Kemi one at a time.
     (confirmed at native 720px width); not recoverable without a higher-resolution source
     export.
 
+## New from 2026-06-27 studio pipeline fragment
+
+36. **Shot-naming convention reconciliation.** The 2026-06-27 fragment
+    (`13_fragments/2026-06-27_studio_pipeline_package.md`) proposes a `CW-001`-style
+    sequence-prefix naming for storyboard shots; ISSUE-034 separately proposes
+    `EP##-SC##-SHOT##` for authorized episodes. `assets/storyboards/README.md` now
+    documents a reconciled convention (episode-scoped IDs for authorized work,
+    `CW-PROOF-###`-style IDs for pre-authorization proof-of-concept work) as PROBABLE,
+    pending Kemi's confirmation.
+37. **Character visual descriptors — dossier or separate style guide?** The same
+    fragment supplies visual/style descriptors for Ada, Tallai, Q, and Quartz (logged
+    EMERGING in `data/characters.json`). Whether Kemi considers this the visual-design
+    portion of the still-missing Character Dossiers, or a separate "style guide"
+    artifact distinct from the dossiers, is not yet confirmed.
+
 ## Resolved (kept here for the audit trail)
 
 - ~~Does the full v1 + v1.2 site/section scaffolding already exist in the working

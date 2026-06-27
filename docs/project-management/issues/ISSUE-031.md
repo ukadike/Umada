@@ -20,3 +20,11 @@ Create a reusable storyboard template (panel/shot/dialogue/caption/accessibility
 
 - assets/storyboards/README.md
 - data/visual_artifacts.json
+
+## Progress (2026-06-27)
+
+Resolved. `assets/storyboards/STORYBOARD_TEMPLATE.md` filed with a panel/shot/
+character/location/accessibility-note field schema mirroring the rescue animatic's
+panel structure, including a required `accessibility_note` field per panel. No
+episode content filled in — see the template's own provenance note for why the
+fragment's sample storyboard content was not carried over.

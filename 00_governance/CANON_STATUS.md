@@ -12,11 +12,13 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 
 - **Friedmandostorp** — canonical settlement spelling (with an "o" in the middle syllable:
   "...mand**o**storp"). The variant **"Friedmandestorp"** (an "e" in that syllable) is
-  RETIRED and must not be reintroduced — it has now resurfaced three times: a 2026-06-22
-  repository-restructuring brief, the 2026-06-25 "UMADA Book One" canon package, and the
-  2026-06-25 `UMADA_CANON_INDEX.md` directive itself. Each time it has been corrected back
-  to the locked spelling. Kemi confirmed directly on 2026-06-25 that "Friedmandestorp" is
-  a typo in all three sources, including her own Canon Index, and is not a canon change.
+  RETIRED and must not be reintroduced — it has now resurfaced four times: a 2026-06-22
+  repository-restructuring brief, the 2026-06-25 "UMADA Book One" canon package, the
+  2026-06-25 `UMADA_CANON_INDEX.md` directive itself, and the 2026-06-27 `umada_studio_pipeline`
+  package (see `13_fragments/2026-06-27_studio_pipeline_package.md`). Each time it has been
+  corrected back to the locked spelling. Kemi confirmed directly on 2026-06-25 that
+  "Friedmandestorp" is a typo in all three earlier sources, including her own Canon Index,
+  and is not a canon change.
 - **Jackal Peoples** — canonical faction-layer name. The variant **"Jackal Tribes"** is
   RETIRED for the same reason (2026-06-22 brief). See Open Question #34 for its
   relationship, if any, to the new **Jaguar House** (below) — the two are NOT treated as
