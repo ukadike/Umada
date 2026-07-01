@@ -7,7 +7,7 @@
   --paper: #efece2;
   --ink: #1a1a1a;
   --line: #d0cdc6;
-  --muted: #6f6f6f;
+  --muted: #5c5c5c; /* darkened from #6f6f6f for WCAG AA text contrast — see VISUAL_LAYER_RULES.md */
   --soft: #f9f9f7;
   --white: #ffffff;
   --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
