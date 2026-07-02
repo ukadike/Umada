@@ -18,3 +18,8 @@ Status: EMERGING — named but largely undescribed. Full detail: `08_technology/
 No other technology is named in source canon. Nago signage itself — gesture, tactile
 form, screen-reader label — is documented as accessibility infrastructure, not as a
 "technology," in `07_languages/` and `00_governance/ACCESSIBILITY_BASELINE.md`.
+
+Production cross-reference (not canon): the real-world
+[Omoluabi repository](https://github.com/ukadike/omoluabi) develops related
+observation/controller-device concepts as a sister Small Systems Lab project. See
+`08_technology/README.md` for the same note.

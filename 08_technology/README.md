@@ -29,3 +29,12 @@ Per `UMADA_CANON_INDEX.md`:
 - **Memory Tablets** — preserve oral tradition, Nago glyphs, law, education, memory, and
   songs. See `08_technology/MEMORY_TABLETS_AND_STONES.md` for register structure and
   educational use.
+
+## Related project (production note, not canon)
+
+The real-world [Omoluabi repository](https://github.com/ukadike/omoluabi) is the sister
+project developing observation/controller-device and public-interest-intelligence
+concepts that inform the in-world Omoluabi device above. This is a development
+cross-reference between two Small Systems Lab projects, not a canon fact — nothing in
+that repository should be treated as UMADA canon without going through
+`00_governance/FRAGMENT_WORKFLOW.md`.
