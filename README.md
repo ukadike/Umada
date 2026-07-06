@@ -98,3 +98,11 @@ Full detail: `00_governance/CANON_STATUS.md`.
 Fans and collaborators contribute **signal, not automatic canon**, through the Faraday
 Box (`16_fanbase/`). See `18_fan_archive/` for how contributions and development history
 are preserved.
+
+## Related SSL Projects
+
+- [Small Systems Lab](https://ukadike.github.io/small-systems-lab/) — ecosystem hub
+- [Omoluabi](https://ukadike.github.io/omoluabi/) — editorial intelligence
+- [Earth Sensors Lab](https://ukadike.github.io/earth-sensors-lab/) — accessible STEAM research
+- [Echo](https://ukadike.github.io/echo/) — AI literacy
+- [Accessible by Design](https://ukadike.github.io/accessible-by-design-prototyping/) — accessibility audit lab
