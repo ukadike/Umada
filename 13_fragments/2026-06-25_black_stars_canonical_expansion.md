@@ -381,3 +381,11 @@ Three threads from this brief need Kemi's direct word rather than an assumption:
    be invented now, or held as explicit open/AWAITING slots until Kemi names them
    herself? This one will be put to Kemi directly via a structured question once the
    rest of this brief's explicit content is drafted into canon.
+
+   **Partially answered (Kemi, 2026-06-25):** Kemi directed a narrower fill — draft one
+   exploration vessel and leave the rest of the invention list open. Aderin's proposal,
+   *First Light* (the astronomer's term for a new instrument's first observation), is
+   drafted at ADERIN-PROPOSED / EMERGING status in
+   `01_canon/BLACK_STARS_CIVILIZATION.md`, awaiting Kemi's confirmation. Institutions,
+   laboratories, an observational-ethics doctrine, additional sensor classes, and any
+   further vessels remain open, not invented. Threads 1 and 2 above remain open.
