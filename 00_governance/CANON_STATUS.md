@@ -176,10 +176,14 @@ verbatim in `13_fragments/2026-06-25_black_stars_canonical_expansion.md`.
 - Omoluabi's role is expanded: beyond a reporting engine, it becomes the "editorial
   companion to scientific civilization," gaining ten new editorial schema categories
   (see `08_technology/README.md`).
-- **Not locked, and not invented beyond what Kemi stated:** specific scientific
-  institutions, laboratories (beyond the Kuiper Belt itself), exploration vessels, a
-  formal observational-ethics doctrine, and additional sensor classes are open slots —
-  see `01_canon/BLACK_STARS_CIVILIZATION.md` "Open fields" and
+- **First Light** — first named Black Star exploration vessel; the ship that opened the
+  Kuiper Belt Renaissance, remembered for the instruments it carried. Aderin-proposed
+  and Kemi-confirmed 2026-06-25 (`data/black_star_vessels.json`,
+  `01_canon/BLACK_STARS_CIVILIZATION.md`).
+- **Not locked, and not invented beyond what Kemi stated or confirmed:** specific
+  scientific institutions, laboratories (beyond the Kuiper Belt itself), further
+  exploration vessels, a formal observational-ethics doctrine, and additional sensor
+  classes are open slots — see `01_canon/BLACK_STARS_CIVILIZATION.md` "Open fields" and
   `01_canon/OPEN_QUESTIONS.md`.
 
 ## Open decisions (Kemi's to confirm or change)

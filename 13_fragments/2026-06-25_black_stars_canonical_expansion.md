@@ -383,9 +383,11 @@ Three threads from this brief need Kemi's direct word rather than an assumption:
    rest of this brief's explicit content is drafted into canon.
 
    **Partially answered (Kemi, 2026-06-25):** Kemi directed a narrower fill — draft one
-   exploration vessel and leave the rest of the invention list open. Aderin's proposal,
-   *First Light* (the astronomer's term for a new instrument's first observation), is
-   drafted at ADERIN-PROPOSED / EMERGING status in
-   `01_canon/BLACK_STARS_CIVILIZATION.md`, awaiting Kemi's confirmation. Institutions,
-   laboratories, an observational-ethics doctrine, additional sensor classes, and any
-   further vessels remain open, not invented. Threads 1 and 2 above remain open.
+   exploration vessel and leave the rest of the invention list open. Aderin proposed
+   *First Light* (the astronomer's term for a new instrument's first observation) and
+   **Kemi confirmed it the same day**; it is now the first named Black Star vessel at
+   EMERGING status (`01_canon/BLACK_STARS_CIVILIZATION.md`,
+   `data/black_star_vessels.json`, `schemas/black_star_vessels.schema.json`).
+   Institutions, laboratories, an observational-ethics doctrine, additional sensor
+   classes, and any further vessels remain open, not invented. Threads 1 and 2 above
+   remain open.

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "First Light",
+    "status": "EMERGING",
+    "role": "The first Black Star vessel capable of routine scientific expeditions beyond Neptune — the ship that opened the Kuiper Belt Renaissance. Remembered for the instruments it carried, not for any combat record.",
+    "name_rationale": "\"First light\" is the astronomer's term for the first observation a new instrument ever makes. Chosen in Kemi's descriptive-English register (as with \"The Kuiper Belt Renaissance\" and the eight sensor names); coheres with the Black Stars Tower that \"hears first\" and the observation-first philosophy.",
+    "provenance_care_note": "Aderin-proposed 2026-06-25, confirmed by Kemi the same day. First named Black Star vessel. \"First light\" is a real astronomy term; used here as an in-world vessel name it carries no other real-world referent. Additional vessels remain open, not invented.",
+    "open_questions": [
+      "Vessel class, crew, capabilities, and appearance beyond the role above are undefined — not invented."
+    ]
+  }
+]

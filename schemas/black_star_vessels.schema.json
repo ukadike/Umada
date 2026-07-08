@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "umada/schemas/black_star_vessels.schema.json",
+  "title": "UMADA Black Star Exploration Vessels",
+  "description": "Validates data/black_star_vessels.json — named Black Star deep-space exploration vessels of the Kuiper Belt Renaissance.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "status", "role"],
+    "additionalProperties": true,
+    "properties": {
+      "name": { "type": "string" },
+      "status": { "type": "string" },
+      "role": { "type": "string" },
+      "name_rationale": { "type": "string" },
+      "provenance_care_note": { "type": "string" },
+      "open_questions": { "type": "array", "items": { "type": "string" } }
+    }
+  }
+}

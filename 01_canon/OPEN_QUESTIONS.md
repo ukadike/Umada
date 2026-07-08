@@ -107,11 +107,12 @@ smallest of these get asked to Kemi one at a time.
     observational ethics, and additional sensor classes to be invented, which is in
     tension with the no-fabrication rule. **Partially directed (Kemi, 2026-06-25): fill
     one narrower piece — a single exploration vessel — and leave the rest open.**
-    Aderin's proposal, *First Light*, is drafted in
-    `01_canon/BLACK_STARS_CIVILIZATION.md` at ADERIN-PROPOSED / EMERGING status,
-    awaiting Kemi's confirmation. Institutions, laboratories, an observational-ethics
-    doctrine, additional sensor classes, and any further vessels remain open, not
-    invented. See `13_fragments/2026-06-25_black_stars_canonical_expansion.md`.
+    Aderin proposed *First Light* and **Kemi confirmed it (2026-06-25)**; it is now the
+    first named Black Star vessel at EMERGING status
+    (`01_canon/BLACK_STARS_CIVILIZATION.md`, `data/black_star_vessels.json`).
+    Institutions, laboratories, an observational-ethics doctrine, additional sensor
+    classes, and any further vessels remain open, not invented. See
+    `13_fragments/2026-06-25_black_stars_canonical_expansion.md`.
 
 ## Characters
 

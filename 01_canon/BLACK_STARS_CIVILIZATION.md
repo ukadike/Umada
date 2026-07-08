@@ -80,11 +80,12 @@ deliberately, they produce more questions than answers.
 - Exploration vessels are remembered for the instruments they carried, not for combat
   record.
 
-### First Light — proposed flagship vessel (ADERIN-PROPOSED, EMERGING, awaiting Kemi)
+### First Light — flagship vessel (EMERGING, Kemi-confirmed 2026-06-25)
 
 Kemi asked (2026-06-25) for a single exploration vessel to be drafted, leaving the rest
-of the invention list open. This is Aderin's proposal, not Kemi-authored canon — confirm,
-edit, or reject.
+of the invention list open; Aderin proposed *First Light* and Kemi confirmed it the same
+day. It is the first named Black Star vessel. Structured entry:
+`data/black_star_vessels.json` (schema: `schemas/black_star_vessels.schema.json`).
 
 - **Name:** *First Light* — the astronomer's term for the first observation a new
   instrument ever makes. Chosen in Kemi's own descriptive-English register (as with "The
@@ -96,9 +97,8 @@ edit, or reject.
 - **Name rationale / provenance care note:** "first light" coheres with the Black Stars
   Tower that "hears first" (Era 13) and with the observation-first philosophy ("Observation
   precedes understanding"). It is a real astronomy term; used here as an in-world vessel
-  name, it carries no other real-world referent. Aderin-proposed only — if confirmed, it
-  becomes the first named vessel and a `data/black_star_vessels.json` file can be spun up;
-  additional vessels remain open slots (see Open fields).
+  name, it carries no other real-world referent. Additional vessels remain open slots
+  (see Open fields) — none invented beyond this one.
 
 ## Sensor technologies
 
@@ -164,8 +164,8 @@ pending Kemi's direct answer (see `01_canon/OPEN_QUESTIONS.md` and the tiny ques
 - Named scientific institutions.
 - Named laboratories (beyond "the Kuiper Belt" itself as the Black Stars' "greatest
   laboratory").
-- Named exploration vessels — *First Light* proposed above (Aderin-proposed, awaiting
-  Kemi); any further vessels remain open.
+- Named exploration vessels — *First Light* is confirmed above (Kemi, 2026-06-25); any
+  further vessels remain open.
 - A formal observational-ethics doctrine (parallel in structure to ADA-1's three
   ethics).
 - Additional sensor classes beyond the eight listed above.
