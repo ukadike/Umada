@@ -247,6 +247,11 @@ END OF RECOVERED MATERIAL.
     transcript exists yet (`01_canon/OPEN_QUESTIONS.md` #22). The new "Ada looks up — then
     faints" beat is rendered in gold text to visually distinguish it from the verbatim
     white animatic captions it sits alongside.
+- **Storyboard (2026-06-25):** `assets/storyboards/EPISODE_01_STORYBOARD.md` is a
+  panel-by-panel board derived from this script and the animatic beat order — a text
+  production plan, not new canon. Same rule as this script: verbatim captions, grounded
+  shots, and every gap (reporter, device, explosion, Kassey, Q, Quartz) marked
+  `[VISUAL DEV NEEDED]` / `[OPEN]` rather than invented.
 
 ## Open questions surfaced while drafting (new, 2026-06-23)
 
