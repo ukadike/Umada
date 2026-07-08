@@ -371,7 +371,8 @@ Three threads from this brief need Kemi's direct word rather than an assumption:
 1. Is "Earth Sensors Lab" the same referent as the existing, minimally-documented
    "Small Systems Lab / SSL Layer" in `01_canon/FOUNDATIONAL_STRATA.md` (item 9), or a
    separate concept that happens to share the same narrative role? Logged in
-   `01_canon/OPEN_QUESTIONS.md` rather than guessed at.
+   `01_canon/OPEN_QUESTIONS.md` rather than guessed at. **Resolved (Kemi, 2026-06-25):
+   they are different — two genuinely separate concepts, not merged.**
 2. Where does the Black Stars / Kuiper Belt Renaissance era sit on the
    `01_canon/CIVILIZATIONAL_LEDGER.md` timeline relative to the existing Era 0–16
    entries (especially Era 13, "The Tower")? Logged as open rather than placed by

@@ -124,10 +124,10 @@ systems. It is framed as **the educational ancestor of Black Star science** — 
 these evolve into entirely new classes of instruments (the eight above).
 
 - **"Today's classroom sensor becomes tomorrow's impossible instrument."**
-- Whether Earth Sensors Lab is the same referent as the pre-existing, minimally
-  documented "SSL Layer — UMADA as mythological/narrative layer of Small Systems Lab"
-  (`01_canon/FOUNDATIONAL_STRATA.md` item 9) is an open question, not an assumption —
-  see `01_canon/OPEN_QUESTIONS.md`.
+- Earth Sensors Lab is a **separate concept** from the pre-existing "SSL Layer — UMADA
+  as mythological/narrative layer of Small Systems Lab" (`01_canon/FOUNDATIONAL_STRATA.md`
+  item 9). Kemi confirmed the two are different, not one referent under two names (Kemi,
+  2026-06-25; `01_canon/OPEN_QUESTIONS.md` #36).
 
 ## Connection to Omoluabi
 
@@ -174,11 +174,14 @@ pending Kemi's direct answer (see `01_canon/OPEN_QUESTIONS.md` and the tiny ques
 
 ## Open questions (cross-referenced, not restated)
 
-- Is Earth Sensors Lab the same referent as the SSL Layer / Small Systems Lab?
-  `01_canon/OPEN_QUESTIONS.md` (new item, see below).
-- Where does the Kuiper Belt Renaissance sit on the Era 0–16 timeline? Same.
-- Should the institution/lab/vessel/terminology gaps above be filled by invention now,
-  or left open? Same.
+- Is Earth Sensors Lab the same referent as the SSL Layer / Small Systems Lab? —
+  RESOLVED (Kemi, 2026-06-25): they are different, separate concepts.
+  `01_canon/OPEN_QUESTIONS.md` #36.
+- Where does the Kuiper Belt Renaissance sit on the Era 0–16 timeline?
+  `01_canon/OPEN_QUESTIONS.md` #37 — open.
+- Should the institution/lab/terminology gaps above be filled by invention now, or left
+  open? `01_canon/OPEN_QUESTIONS.md` #38 — partially directed (one vessel, First Light,
+  confirmed); the rest remain open.
 
 ## Production notes
 

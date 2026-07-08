@@ -27,9 +27,9 @@ Mapper.
 These are framed as the descendants of present-day **Earth Sensors Lab** instruments
 (weather stations, soil sensors, sound sensors, water quality monitors, astronomical
 observation tools, environmental recording systems) — "today's classroom sensor becomes
-tomorrow's impossible instrument." Whether Earth Sensors Lab is the same referent as the
-pre-existing "SSL Layer / Small Systems Lab" concept (`01_canon/FOUNDATIONAL_STRATA.md`
-item 9) is an open question — see `01_canon/OPEN_QUESTIONS.md`.
+tomorrow's impossible instrument." Earth Sensors Lab is a separate concept from the
+pre-existing "SSL Layer / Small Systems Lab" (`01_canon/FOUNDATIONAL_STRATA.md` item 9) —
+Kemi confirmed they are different (Kemi, 2026-06-25; `01_canon/OPEN_QUESTIONS.md` #36).
 
 Omoluabi's expanded editorial role (above) gains ten new schema categories for this
 domain: extraterrestrial observations, unknown biological discoveries, interstellar

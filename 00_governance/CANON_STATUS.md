@@ -169,10 +169,10 @@ verbatim in `13_fragments/2026-06-25_black_stars_canonical_expansion.md`.
   Receiver, Memory Crystal Scanner, Dark Matter Boundary Sensor, Atmospheric Memory
   Recorder, Biofield Resonance Mapper.
 - **Earth Sensors Lab** is named for the first time as a present-day educational
-  program and the "educational ancestor of Black Star science." Whether it is the same
-  referent as the pre-existing, minimally-documented "SSL Layer / Small Systems Lab"
-  (`01_canon/FOUNDATIONAL_STRATA.md` item 9) is an **open question**, not resolved
-  either way — see `01_canon/OPEN_QUESTIONS.md`.
+  program and the "educational ancestor of Black Star science." It is a **separate
+  concept** from the pre-existing "SSL Layer / Small Systems Lab"
+  (`01_canon/FOUNDATIONAL_STRATA.md` item 9) — Kemi confirmed the two are different, not
+  one referent under two names (Kemi, 2026-06-25; `01_canon/OPEN_QUESTIONS.md` #36).
 - Omoluabi's role is expanded: beyond a reporting engine, it becomes the "editorial
   companion to scientific civilization," gaining ten new editorial schema categories
   (see `08_technology/README.md`).
