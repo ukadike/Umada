@@ -50,7 +50,10 @@ smallest of these get asked to Kemi one at a time.
     successor, rival capitals, or something else? Both are named as future
     signal/civic centers but their relationship to each other isn't defined.
 11. **What the Omoluabi device looks like or how it works.** Locked as the device that
-    lets the story be witnessed; no physical or functional description exists.
+    lets the story be witnessed; no physical or functional description exists. **Candidate
+    answer (2026-07-08, awaiting Kemi):** `OMOLUABI_DEVICE_DESIGN_v1` gives a full product
+    design (portable signal-capture device: observe/contextualize/preserve/share). Not yet
+    confirmed as the in-world device's canonical appearance — see #43.
 12. **What ADA-1 is.** Ethical principles are attributed to "ADA-1" (Trust Body Before
     Record, etc.), but whether ADA-1 is an AI system, a doctrine, a person, or a
     designation is never stated.
@@ -113,6 +116,47 @@ smallest of these get asked to Kemi one at a time.
     Institutions, laboratories, an observational-ethics doctrine, additional sensor
     classes, and any further vessels remain open, not invented. See
     `13_fragments/2026-06-25_black_stars_canonical_expansion.md`.
+
+## 2026-07-08 asset drop (visual canon — CANDIDATE, AWAITING KEMI)
+
+Full catalog: `15_archive_recovery/2026-07-08_asset_drop_ingestion.md`. None of the new
+assets are promoted to LOCKED; several conflict with locked canon and are logged here
+rather than reconciled.
+
+39. **Chimera-survivor design direction.** The drop contains two coherent, incompatible
+    visual directions for Q, Quartz, and Tallai: a **humanoid** cast board
+    (`CAPE_WIPEOUT_CAST_BOARD_v1`) vs **creature/alien** design sheets
+    (`Q_QUARTZ_CREATURE_DESIGN_v1` — Q insectoid, Quartz armored beast;
+    `TALLAI_UMADA_LABS_T11_DESIGN_v1` — ~2.18m alien). Which is canonical is unresolved and
+    blocks the Q/Quartz/Tallai dossiers and any realized storyboard art. **Asked directly.**
+40. **Ada reconception (A-7 sheet).** `ADA_UMADA_LABS_A7_DESIGN_v1` casts Ada as a
+    28-year-old "UMADA Labs Experiment A-7" heart-reader, "not Halle Berry / vibe: Iman,"
+    origin "Southern Cape Research Facility." This contradicts locked Ada (Nigerian human,
+    early 40s, Halle-Berry bone-structure reference, field commander/scapegoat, not a lab
+    experiment and not a heart-reader). Not merged over locked canon; awaiting Kemi on
+    whether this supersedes, is an alternate exploration, or belongs to a different layer.
+41. **C.A.R.F. expansion — Foundation vs Facility.** At full legibility the coat patch on
+    the locked rescue reference reads "Cape Agulhas Research **Foundation**"; locked prose
+    (`02_characters/TALLAI_DOSSIER.md`) expands it as "…**Facility**." Not silently flipped.
+42. **Cape Refuge Laboratory.** New facility plate (`CAPE_REFUGE_LABORATORY_COLOR/MONO_v1`),
+    "Omoluabi Institute accredited," with a date discrepancy across the two layers
+    ("Established 2398" vs an apparent "1998"). Its relationship to C.A.R.F., UMADA Labs, and
+    the frame timeline is open.
+43. **Omoluabi device design.** `OMOLUABI_DEVICE_DESIGN_v1` gives a full appearance/function
+    for a "Small Systems Lab / Omoluabi Protocol" device. Does it lock the in-world Omoluabi
+    device's look (this would answer #11), or is it the real-world product it is modelled on?
+44. **Lab-name proliferation.** Cape Agulhas Research Facility/Foundation, Cape Refuge
+    Laboratory, UMADA Labs (Care Division), Southern Cape Research Facility, and Small
+    Systems Lab now all appear. How many distinct entities exist and how they relate is open.
+45. **Retired spelling on the teddy-bear scene.** The road sign in
+    `FRIEDMANDOSTORP_CHIMERA_TEDDY_SCENE_v1` reads "FRIEDMANDESTORP" (the RETIRED "e"
+    spelling). Treated as an in-image artifact, not a reintroduction of the retired form.
+46. **Nago Glyphs (Small Systems Lab) vs the Nago survival-sign system.** The drop's Yorùbá
+    "Nago Glyphs" value-set (AYE, ÌMÚLÓ, ÌTÒRÍ…, created by Small Systems Lab) differs from
+    the locked survival-sign vocabulary (Bread, Water, Safe…) on the existing plates, and the
+    rosters vary across the new tablets. How the value-glyphs relate to the survival signs,
+    and how "Small Systems Lab" here relates to the "SSL Layer" in
+    `01_canon/FOUNDATIONAL_STRATA.md` item 9, is open.
 
 ## Characters
 

@@ -62,3 +62,29 @@ a new entry that says so, rather than silently editing history.
   precision, this pass stopped at description and left the open question open, pending
   either a dedicated vector-tracing pass over the source plate or Kemi's call on whether an
   explicitly-labeled approximation is acceptable in the meantime.
+
+## 2026-07-08 — Kemi asset drop (17 files)
+
+- **Source:** Kemi, direct file drop, no accompanying text.
+- **What:** 15 new assets preserved into `assets/` (13 canon-bearing images to
+  `concept-art/` and `img/`; 2 real-world references to `assets/reference/`); 2 files were
+  byte-identical duplicates of existing repo assets (the animatic and the locked Tallai/Ada
+  rescue reference) and were not re-copied.
+- **Highlights:** first design sheets for **Q** and **Quartz**; a **Cape Wipeout cast
+  board**; reconception sheets casting **Ada (A-7)** and **Tallai (T-11)** as "UMADA Labs"
+  heart-reader experiments; the **Omoluabi device** product design; a **Cape Refuge
+  Laboratory** facility plate; a **Small Systems Lab "Nago Glyphs"** value-glyph sheet
+  (Yorùbá) plus clay-tablet plates; and a monochrome "Coming Soon" branding card.
+- **Method:** each image viewed and described from legible content; md5 checksums compared
+  against repo assets to catch duplicates.
+- **Not done / flagged:** nothing promoted to LOCKED. The drop contains **direct conflicts
+  with locked canon** (two incompatible chimera-survivor design directions; an Ada
+  reconception that contradicts locked age/appearance/role; C.A.R.F. "Foundation" vs
+  "Facility"; a retired settlement spelling on one sign; proliferating lab names; glyph-name
+  variance across plates). All are logged, none reconciled unilaterally.
+- **Routed to:** full catalog in `15_archive_recovery/2026-07-08_asset_drop_ingestion.md`;
+  eight new open questions (`01_canon/OPEN_QUESTIONS.md` #39–#46,
+  `data/open_questions.json`); a blocking tiny question put to Kemi (which design direction
+  is canonical). Dossiers and `VISUAL_CANON_REGISTRY.md` are intentionally **not** updated
+  until Kemi resolves the design direction, so locked canon is not overwritten by candidate
+  material.

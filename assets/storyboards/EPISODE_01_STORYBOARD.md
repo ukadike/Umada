@@ -216,11 +216,21 @@ scope here — this storyboard covers on-screen visual content only.
 
 ## Panels that still need visual development (not invented here)
 
-- **The garden / Tisetan / the reporter / the Omoluabi device / the explosion** (Panels
-  0.1–0.3, 0.2) — frame-narrative visuals, all `[OPEN]` (#32, #33, #11) or unlocked.
+- **The garden / Tisetan / the reporter / the explosion** (Panels 0.1–0.3, 0.2) —
+  frame-narrative visuals, all `[OPEN]` (#32, #33) or unlocked. **The Omoluabi device** now
+  has a candidate design (`OMOLUABI_DEVICE_DESIGN_v1`, 2026-07-08) — awaiting Kemi (#43),
+  not yet locked.
 - **Kassey** (Panel 2.6) — no reference; `[OPEN — #30]`.
-- **Q and Quartz** (Panel 2.8) — no reference; `ISSUE-008`, `ISSUE-009`.
+- **Q and Quartz** (Panel 2.8) — **candidate designs now exist** from the 2026-07-08 drop,
+  but in **two conflicting directions** (humanoid `CAPE_WIPEOUT_CAST_BOARD_v1` vs creature
+  `Q_QUARTZ_CREATURE_DESIGN_v1`). Blocked on the design-direction question (`01_canon/
+  OPEN_QUESTIONS.md` #39) before either can be used here; `ISSUE-008`, `ISSUE-009`.
+- **Tallai** (Panel 2.7) — the locked rescue reference remains the source of truth; a newer
+  ~2.18m "UMADA Labs T-11" alien design (`TALLAI_UMADA_LABS_T11_DESIGN_v1`) conflicts with
+  it and is unresolved (#39). Do not restyle Tallai here until Kemi resolves the direction.
 
 Everything else maps to a locked animatic beat and/or a locked concept-art reference. As
 those open items resolve, add panels here and revise to match — the animatic beat order
-and the locked references remain the source of truth, never this derived board.
+and the locked references remain the source of truth, never this derived board. The
+2026-07-08 candidate designs are catalogued in
+`15_archive_recovery/2026-07-08_asset_drop_ingestion.md`.

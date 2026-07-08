@@ -35,6 +35,16 @@
     "Where does the Kuiper Belt Renaissance sit on the Era 0-16 timeline relative to Era 13 (The Tower) and Era 15 (The Kingdom Age)? Not placed by inference.",
     "Scope of invention for the Black Stars' institutions, laboratories, exploration vessels, and terminology beyond what Kemi explicitly named — the brief's 'Guidance for Claude Code' section asks for invention, in tension with the no-fabrication rule. Partially directed (Kemi, 2026-06-25): fill one narrower piece — a single exploration vessel — and leave the rest open. Aderin proposed 'First Light' and Kemi confirmed it (2026-06-25); it is now the first named Black Star vessel at EMERGING status (01_canon/BLACK_STARS_CIVILIZATION.md, data/black_star_vessels.json). Institutions, laboratories, an observational-ethics doctrine, additional sensor classes, and any further vessels remain open, not invented."
   ],
+  "asset_drop_2026_07_08": [
+    "Chimera-survivor design direction: humanoid cast board (CAPE_WIPEOUT_CAST_BOARD_v1) vs creature/alien sheets (Q insectoid + Quartz beast in Q_QUARTZ_CREATURE_DESIGN_v1; ~2.18m alien Tallai in TALLAI_UMADA_LABS_T11_DESIGN_v1). Two incompatible directions; asked directly. Blocks Q/Quartz/Tallai dossiers and realized storyboard art.",
+    "Ada reconception: ADA_UMADA_LABS_A7_DESIGN_v1 casts Ada as a 28-year-old 'UMADA Labs Experiment A-7' heart-reader ('not Halle Berry / vibe: Iman'), contradicting locked Ada (Nigerian human, early 40s, Halle-Berry reference, field commander, not a heart-reader). Not merged over locked canon; awaiting Kemi.",
+    "C.A.R.F. expansion: the locked rescue reference patch reads 'Cape Agulhas Research Foundation' at full legibility; locked prose says 'Cape Agulhas Research Facility.' Foundation vs Facility not silently flipped.",
+    "Cape Refuge Laboratory (CAPE_REFUGE_LABORATORY_COLOR/MONO_v1): 'Omoluabi Institute accredited'; date discrepancy 2398 vs 1998 across the two layers; relationship to C.A.R.F., UMADA Labs, and the timeline open.",
+    "Omoluabi device design (OMOLUABI_DEVICE_DESIGN_v1): does it lock the in-world Omoluabi device's appearance/function (answering open question #11), or is it the real-world Small Systems Lab product it is modelled on?",
+    "Lab-name proliferation: Cape Agulhas Research Facility/Foundation, Cape Refuge Laboratory, UMADA Labs (Care Division), Southern Cape Research Facility, Small Systems Lab all now appear; count of distinct entities and their relationships open.",
+    "Retired spelling on the teddy-bear scene: FRIEDMANDOSTORP_CHIMERA_TEDDY_SCENE_v1's road sign reads 'FRIEDMANDESTORP' (retired 'e' form). Treated as an in-image artifact, not a reintroduction.",
+    "Nago Glyphs (Small Systems Lab) vs the Nago survival-sign system: the Yoruba value-glyph set (AYE, IMULO, ITORI...) differs from the locked survival signs (Bread, Water, Safe...); rosters vary across new tablets; relationship to the survival signs and to the SSL Layer (01_canon/FOUNDATIONAL_STRATA.md item 9) open."
+  ],
   "characters": [
     "Aisha, Nayla, Adeola — named as 'KNOWN CANON' in a 2026-06-22 repository-restructuring brief alongside Ada, Tallai, Q, and Quartz, but absent from the source package, the realized plates, and every prior fragment. Logged pending confirmation rather than merged into canon."
   ],
