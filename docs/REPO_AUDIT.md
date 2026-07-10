@@ -45,7 +45,7 @@ Three layers, all cross-linked rather than duplicated:
 All 20 `sections/*.html` pages are linked from `index.html`'s primary nav and from each
 other's shared nav component; each carries a footer link back to `index.html`'s parent
 context and to the Small Systems Lab hub
-(`https://ukadike.github.io/small-systems-lab/`). `docs/README.md` indexes the full
+(`https://ukadike.github.io/Small-Systems-Lab/`). `docs/README.md` indexes the full
 production-bible layer. `00_governance/CANON_STATUS.md` is the canonical-facts register
 linked from the root README badge row.
 
