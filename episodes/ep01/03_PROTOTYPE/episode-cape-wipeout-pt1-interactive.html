@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UMADA — Cape Wipeout, Pt. 1: An Omoluabi Witness Record · Public Prototype v0.1</title>
+<style>
+:root{--ink:#16161a;--paper:#e9e6df;--fade:#5f5b52;--sig:#8f3d1c;--line:#b9b5aa;--body:17px;--label:12.5px}
+html[data-contrast="high"]{--paper:#fff;--ink:#000;--fade:#3a3730;--sig:#7a2f12;--line:#8a8578}
+html[data-size="lg"]{--body:20px;--label:14.5px}
+*{box-sizing:border-box;margin:0}
+body{background:var(--paper);color:var(--ink);font-family:Georgia,serif;font-size:var(--body);line-height:1.65}
+button{font:inherit;cursor:pointer;color:var(--ink)}
+button:focus-visible{outline:3px solid var(--sig);outline-offset:2px}
+#intro{position:fixed;inset:0;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9;text-align:center;padding:20px}
+#tick{font-family:"Courier New",monospace;font-size:24px;letter-spacing:.2em;min-height:40px;margin:24px 0;color:#b8b4a9}
+#enterBtn,#resumeBtn{background:var(--paper);color:var(--ink);border:none;padding:14px 30px;font-family:"Courier New",monospace;font-size:14px;letter-spacing:.2em;margin:6px}
+.eyebrow{font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.25em;color:var(--fade)}
+#intro .eyebrow{color:#b8b4a9}
+.wrap{max-width:700px;margin:0 auto;padding:40px 18px 90px}
+h1{font-weight:400;font-size:33px;margin:6px 0}
+[role=tablist]{display:flex;flex-wrap:wrap;margin:24px 0;border:1px solid var(--ink)}
+[role=tab]{flex:1;min-width:84px;padding:12px 4px;background:none;border:none;border-right:1px solid var(--ink);font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.12em}
+[role=tab]:last-child{border-right:none}
+[role=tab][aria-selected=true]{background:var(--ink);color:var(--paper)}
+.intro-copy{color:var(--fade);border-top:1px solid var(--line);padding-top:16px;font-size:calc(var(--body) - 1px)}
+.act{font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.25em;border-bottom:1px solid var(--ink);padding-bottom:7px;margin-top:38px}
+.beat{border-left:3px solid var(--ink);padding:16px 20px;margin:18px 0}
+.beat.rec{background:#f2ebdd;border-left-color:var(--sig)}
+.beat h3{font-style:italic;font-weight:400;font-size:22px}
+.beat.boomcard{border-left-width:10px;border-left-color:var(--sig)}
+.beat.boomcard h3{font-size:34px;font-style:normal;font-family:"Courier New",monospace;letter-spacing:.15em;color:var(--sig)}
+.btext{margin-top:12px}
+.chan{margin-top:12px;font-family:"Courier New",monospace;font-size:var(--label);display:flex;flex-wrap:wrap;gap:6px}
+.chan button{border:2px solid var(--ink);background:none;padding:5px 11px;letter-spacing:.08em}
+.chan button[aria-pressed=true]{background:var(--ink);color:var(--paper);text-decoration:underline}
+.recline{font-family:"Courier New",monospace;font-size:calc(var(--body) - 2px);color:var(--sig);letter-spacing:.04em}
+.note{margin-top:10px;font-family:"Courier New",monospace;font-size:var(--label);color:var(--fade);letter-spacing:.12em}
+.canonflag{margin-top:12px;border:1px dashed var(--sig);padding:10px 14px;font-family:"Courier New",monospace;font-size:var(--label);color:var(--sig);letter-spacing:.06em}
+.contradiction{margin-top:12px;border:2px solid var(--sig);padding:12px 14px;font-family:"Courier New",monospace;font-size:calc(var(--label) + 1px);color:var(--sig);letter-spacing:.05em}
+.hub{border:1px solid var(--ink);padding:20px;margin:22px 0}
+.hub h2{font-family:"Courier New",monospace;font-size:16px;letter-spacing:.15em;font-weight:400}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:16px}
+.rcard{text-align:left;border:1px solid var(--ink);background:none;padding:16px}
+.rcard .rt{font-size:19px;font-style:italic}
+.rcard .rm{font-family:"Courier New",monospace;font-size:var(--label);color:var(--fade);letter-spacing:.06em;margin-top:6px}
+.rcard .st{font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.1em;margin-top:8px}
+.rcard[data-done="1"]{border-style:dashed}
+.rcard[data-done="1"] .st{color:var(--sig)}
+.choice{display:block;width:100%;text-align:left;border:1px solid var(--ink);background:none;padding:13px 16px;margin:8px 0;font-family:"Courier New",monospace;font-size:calc(var(--label) + 1px);letter-spacing:.08em}
+.next{display:block;width:100%;text-align:center;background:none;border:1px solid var(--ink);padding:16px;margin:26px 0;font-family:"Courier New",monospace;font-size:13px;letter-spacing:.2em}
+.warn{font-family:"Courier New",monospace;font-size:var(--label);color:var(--sig);letter-spacing:.12em;margin-top:10px}
+.gapline{border:1px dashed var(--fade);padding:16px 20px;margin:16px 0;color:var(--fade);font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.1em}
+.card{border:1px solid var(--line);padding:18px 20px;margin:16px 0}
+.card h3{font-size:23px;font-weight:400}
+.card .role{font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.18em;color:var(--sig);margin:4px 0 10px}
+details{margin-top:12px}
+summary{font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.12em;color:var(--fade);cursor:pointer}
+details p,details li{margin-top:8px;font-size:calc(var(--body) - 2px);color:var(--fade)}
+.step{border-bottom:1px solid var(--line);padding:15px 0}
+.step .head{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+.step .n{font-family:"Courier New",monospace;color:var(--sig);font-size:13px}
+.step .nm{font-size:20px;font-style:italic}
+.step .lock{font-family:"Courier New",monospace;font-size:var(--label);color:var(--fade);letter-spacing:.1em;margin-left:auto}
+.step .d{margin-top:8px;font-size:calc(var(--body) - 1px)}
+.ledger{border:2px solid var(--ink);padding:22px;margin:22px 0;font-family:"Courier New",monospace;font-size:calc(var(--label) + 1.5px);letter-spacing:.05em;line-height:2}
+.ledger h2{font-size:16px;letter-spacing:.2em;font-weight:400;margin-bottom:12px}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.filters button{border:1px solid var(--ink);background:none;padding:5px 11px;font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.06em}
+.filters button[aria-pressed=true]{background:var(--ink);color:var(--paper);text-decoration:underline}
+.access label{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:14px 0;font-family:"Courier New",monospace;font-size:14px;letter-spacing:.06em;gap:10px}
+footer{margin-top:54px;border-top:1px solid var(--line);padding-top:14px;font-family:"Courier New",monospace;font-size:var(--label);line-height:1.9;color:var(--fade);letter-spacing:.08em}
+
+.story-frame{margin:14px 0 4px;border:1px solid var(--line);background:#efece4}
+.story-frame .frame-expand{display:block;width:100%;background:none;border:none;padding:0}
+.story-frame img{display:block;width:100%;height:auto;filter:grayscale(12%) sepia(8%)}
+.story-frame figcaption{padding:8px 12px;font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.08em;color:var(--fade);border-top:1px solid var(--line)}
+.story-frame .frame-label{display:block;color:var(--sig);letter-spacing:.15em;margin-bottom:2px}
+.rcard .thumb{display:block;width:100%;height:auto;margin-bottom:10px;border:1px solid var(--line)}
+#frameModal{position:fixed;inset:0;background:rgba(10,10,12,.92);display:none;align-items:center;justify-content:center;z-index:20;padding:20px;flex-direction:column}
+#frameModal[data-open="1"]{display:flex}
+#frameModal img{max-width:min(96vw,1100px);max-height:80vh;width:auto;height:auto}
+#frameModal figcaption{color:#d8d4c9;font-family:"Courier New",monospace;font-size:13px;margin-top:12px;max-width:800px;text-align:center;letter-spacing:.05em}
+#frameModal button{margin-top:14px;background:var(--paper);border:none;padding:10px 22px;font-family:"Courier New",monospace;letter-spacing:.15em}
+.docboard{border:2px solid var(--ink);margin:16px 0}
+.docboard img{display:block;width:100%;height:auto}
+.doclegend{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0;font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.06em}
+.doclegend span{border:1px solid var(--ink);padding:4px 10px}
+.docgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:16px}
+.doccard{border:1px solid var(--line)}
+.doccard img{display:block;width:100%;height:auto}
+.doccard .meta{padding:10px 12px;font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.05em;line-height:1.7}
+.doccard .meta .fid{color:var(--sig);letter-spacing:.15em}
+
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style></head><body>
+
+<div id="intro" role="dialog" aria-label="Episode entry">
+  <div class="eyebrow">UMADA — EP01 — PUBLIC PROTOTYPE v0.1</div>
+  <h1 style="color:inherit">Cape Wipeout, <em>Pt. 1</em></h1>
+  <div id="tick" aria-hidden="true"></div>
+  <p style="max-width:440px;font-size:15px;color:#b8b4a9;margin-bottom:22px">A single tick sounds in the distance. Text equivalent: five ticks precede the blast; one distant tick sounds on entry.</p>
+  <button id="enterBtn">BEGIN A NEW INVESTIGATION</button>
+  <button id="resumeBtn" hidden>CONTINUE PREVIOUS RECORD</button>
+</div>
+
+<div class="wrap">
+  <div class="eyebrow">UMADA — A WORLD BEING REMEMBERED</div>
+  <h1>UMADA — Cape Wipeout, <em>Pt. 1</em>: An Omoluabi Witness Record</h1>
+  <div class="eyebrow" style="color:var(--sig)">EPISODE 1 DRAFT 1 · PUBLIC PROTOTYPE v0.1</div>
+  <div class="canonflag" style="margin-top:14px"><strong>PUBLIC PROTOTYPE v0.1</strong> — This interactive witness record is an evolving proof of the UMADA–Omoluabi narrative system. Canon, accessibility, visual details, and story fragments remain under active review.</div>
+  <p style="margin-top:16px"><strong>UMADA is the world. Omoluabi is the witnessing system.</strong></p>
+  <p style="margin-top:8px;color:var(--fade);font-size:calc(var(--body) - 1px)">In this interactive Episode 1 prototype, you investigate the Cape Wipeout through bodies, official records, witnesses, environmental signals, and a damaged archival device. You may decide what to examine, whom to believe provisionally, and which contradictions to preserve. You may not rewrite what occurred.</p>
+
+  <div role="tablist" aria-label="Sections">
+    <button role="tab" aria-selected="true" id="tab-story" data-t="story">STORY</button>
+    <button role="tab" aria-selected="false" id="tab-ledger" data-t="ledger">LEDGER</button>
+    <button role="tab" aria-selected="false" id="tab-archive" data-t="archive">ARCHIVE</button>
+    <button role="tab" aria-selected="false" id="tab-dossiers" data-t="dossiers">DOSSIERS</button>
+    <button role="tab" aria-selected="false" id="tab-doctrine" data-t="doctrine">DOCTRINE</button>
+    <button role="tab" aria-selected="false" id="tab-uxdocs" data-t="uxdocs">UX DOCS</button>
+    <button role="tab" aria-selected="false" id="tab-access" data-t="access">ACCESS</button>
+  </div>
+
+  <p class="intro-copy">You are entering an Omoluabi record carried by the Reporter. You may choose what to examine, whom to believe provisionally, and which contradictions to preserve. You may not rewrite history.</p>
+
+  <main id="panel" role="tabpanel" tabindex="-1" aria-labelledby="tab-story"></main>
+  <div id="live" aria-live="polite" class="visually-hidden"></div>
+
+  <footer>ADA-1: TRUST BODY BEFORE RECORD · TRUST WITNESS BEFORE NARRATIVE · TRUST SURVIVAL BEFORE AUTHORITY<br>
+  WHEN THE RECORD AND THE LIVING BODY DISAGREE, HOW DO YOU DECIDE WHAT DESERVES TO BE BELIEVED?<br>
+  UNATTESTED MATERIAL IS MARKED DRAFT OR AWAITING FRAGMENT.</footer>
+</div>
+
+<div id="frameModal" role="dialog" aria-modal="true" aria-label="Enlarged story frame">
+  <img id="fmImg" src="" alt=""><figcaption id="fmCap"></figcaption>
+  <button id="fmClose">CLOSE (ESC)</button>
+</div>
+<script>
+/* ============ DATA ============ */
+const FRAMES={"EP01-F01": {"id": "EP01-F01", "src": "../01_FRAMES/ep01-frame-01-council-era.png", "w": 379, "h": 201, "title": "1. COLD OPEN — +200 YEARS (COUNCIL ERA)", "alt": "Council representatives gather in a circular chamber to dispute leadership of Umada and Tisetan.", "role": "fixed-anchor", "phase": "Council Era", "loc": "Council chamber", "use": "Required canon event; audience may inspect evidence but cannot alter outcome."}, "EP01-F02": {"id": "EP01-F02", "src": "../01_FRAMES/ep01-frame-02-dispatch.png", "w": 365, "h": 201, "title": "1b. THE DISPATCH", "alt": "A council elder transfers the Omoluabi device to the hooded Reporter, whose face remains unseen.", "role": "fixed-anchor", "phase": "Council Era", "loc": "Council chamber", "use": "Required canon event; audience may inspect evidence but cannot alter outcome."}, "EP01-F03": {"id": "EP01-F03", "src": "../01_FRAMES/ep01-frame-03-activation.png", "w": 336, "h": 201, "title": "1c. ACTIVATION", "alt": "The hooded Reporter activates the Omoluabi device before a luminous circular temporal field.", "role": "fixed-anchor", "phase": "Council Era", "loc": "Temporal threshold", "use": "Required canon event; audience may inspect evidence but cannot alter outcome."}, "EP01-F04": {"id": "EP01-F04", "src": "../01_FRAMES/ep01-frame-04-arrival-friedmandorstrop.png", "w": 408, "h": 201, "title": "2. ARRIVAL — FRIEDMANDORSTROP", "alt": "A coastal research settlement sits beneath mountains near Cape Agulhas, one hour before the Wipeout.", "role": "hub", "phase": "Before the Wipeout", "loc": "Friedmandorstrop", "use": "Route-selection hub opening multiple witness or location branches."}, "EP01-F05": {"id": "EP01-F05", "src": "../01_FRAMES/ep01-frame-05-garden-at-lab.png", "w": 379, "h": 181, "title": "3. THE GARDEN AT THE LAB", "alt": "A vast living laboratory garden contains experimental ecosystems, water channels, researchers, and civilians.", "role": "branch", "phase": "Before the Wipeout", "loc": "Laboratory garden", "use": "Optional investigative route that changes knowledge and witness-ledger state."}, "EP01-F06": {"id": "EP01-F06", "src": "../01_FRAMES/ep01-frame-06-going-for-bread.png", "w": 365, "h": 181, "title": "3b. GOING FOR BREAD", "alt": "Tallai, a visibly nonhuman chimera care specialist in pale layered garments, walks with small Q and massive Quartz.", "role": "branch", "phase": "Before the Wipeout", "loc": "Bread route", "use": "Optional investigative route that changes knowledge and witness-ledger state."}, "EP01-F07": {"id": "EP01-F07", "src": "../01_FRAMES/ep01-frame-07-ada-arrives-early.png", "w": 336, "h": 181, "title": "3c. ADA ARRIVES EARLY", "alt": "Ada, an adult Nigerian field commander, checks the time while waiting for KC.", "role": "branch", "phase": "Before the Wipeout", "loc": "Friedmandorstrop overlook", "use": "Optional investigative route that changes knowledge and witness-ledger state."}, "EP01-F08": {"id": "EP01-F08", "src": "../01_FRAMES/ep01-frame-08-tick-four-record.png", "w": 408, "h": 181, "title": "4. TICK FOUR — THE RECORD", "alt": "Ada studies a military device displaying her premature status as killed in action.", "role": "convergence", "phase": "The Five Ticks", "loc": "Ada military feed", "use": "Required event where prior branches converge and context changes interpretation."}, "EP01-F09": {"id": "EP01-F09", "src": "../01_FRAMES/ep01-frame-09-tick-five-recognition.png", "w": 379, "h": 160, "title": "5. TICK FIVE — RECOGNITION", "alt": "Q reacts to a disturbance and looks toward the approaching catastrophe.", "role": "fixed-anchor", "phase": "The Five Ticks", "loc": "Bread market", "use": "Required canon event; audience may inspect evidence but cannot alter outcome."}, "EP01-F10": {"id": "EP01-F10", "src": "../01_FRAMES/ep01-frame-10-boom.png", "w": 365, "h": 160, "title": "6. BOOM", "alt": "A black title frame reads five ticks followed by BOOM.", "role": "fixed-anchor", "phase": "The Wipeout", "loc": "Cape Wipeout", "use": "Required canon event; audience may inspect evidence but cannot alter outcome."}, "EP01-F11": {"id": "EP01-F11", "src": "../01_FRAMES/ep01-frame-11-rescue-begins.png", "w": 336, "h": 160, "title": "7. RESCUE BEGINS", "alt": "Tallai reaches injured Ada and begins care while Q detects and Quartz prepares to clear the path.", "role": "rescue-hub", "phase": "Rescue", "loc": "Blast zone", "use": "Post-blast signal hub where the audience selects a rescue perspective."}, "EP01-F12": {"id": "EP01-F12", "src": "../01_FRAMES/ep01-frame-12-quartz-finds-something.png", "w": 408, "h": 160, "title": "8. QUARTZ FINDS SOMETHING", "alt": "Quartz, the massive gentle rescue anchor, discovers a dusty teddy bear among the ruins.", "role": "branch", "phase": "Rescue", "loc": "Blast rubble", "use": "Optional investigative route that changes knowledge and witness-ledger state."}, "EP01-F13": {"id": "EP01-F13", "src": "../01_FRAMES/ep01-frame-13-to-safety.png", "w": 379, "h": 156, "title": "9. TO SAFETY", "alt": "Tallai, Q, and Quartz carry Ada away from the destroyed Cape site.", "role": "convergence", "phase": "Rescue", "loc": "Evacuation route", "use": "Required event where prior branches converge and context changes interpretation."}, "EP01-F14": {"id": "EP01-F14", "src": "../01_FRAMES/ep01-frame-14-stabilization.png", "w": 365, "h": 156, "title": "10. STABILIZATION", "alt": "Tallai stabilizes Ada in an intact care environment, preserving her personhood despite the record.", "role": "branch", "phase": "Rescue", "loc": "Care facility", "use": "Optional investigative route that changes knowledge and witness-ledger state."}, "EP01-F15": {"id": "EP01-F15", "src": "../01_FRAMES/ep01-frame-15-ada-remembers.png", "w": 336, "h": 156, "title": "11. ADA REMEMBERS", "alt": "Ada regains fragmented awareness while Tallai remains close and Ada asks for KC.", "role": "branch", "phase": "Rescue", "loc": "Care encounter", "use": "Optional investigative route that changes knowledge and witness-ledger state."}, "EP01-F16": {"id": "EP01-F16", "src": "../01_FRAMES/ep01-frame-16-close-part-two-tease.png", "w": 408, "h": 156, "title": "12. CLOSE / PT. 2 TEASE", "alt": "The hooded Reporter overlooks the ruined coast while the Omoluabi device continues recording.", "role": "fixed-anchor", "phase": "Closing", "loc": "Friedmandorstrop aftermath", "use": "Required canon event; audience may inspect evidence but cannot alter outcome."}};
+const FRAME_FOR={c1:"EP01-F01",c3:"EP01-F02",c4:"EP01-F03",rt1:"EP01-F06",rg1:"EP01-F05",ra1:"EP01-F07",rr1:"EP01-F03",t4:"EP01-F08",t5:"EP01-F09",boom:"EP01-F10","sig-quartz":"EP01-F12","sig-tallai":"EP01-F14","sig-adaS":"EP01-F15",a41:"EP01-F13",a42:"EP01-F16"};
+const ROUTE_FRAME={garden:"EP01-F05",tallai:"EP01-F06",ada:"EP01-F07",reporter:"EP01-F03"};
+const SIGNAL_FRAME={quartz:"EP01-F12",tallai:"EP01-F14",adaS:"EP01-F15",q:"EP01-F11"};
+const ROLE_LABEL={"fixed-anchor":"FIXED ANCHOR","hub":"ROUTE HUB","branch":"INVESTIGATIVE BRANCH","convergence":"CONVERGENCE","rescue-hub":"RESCUE HUB"};
+function frameFig(fid,cap){
+  const f=FRAMES[fid]; if(!f) return '';
+  return `<figure class="story-frame" data-frame-id="${f.id}">
+    <button class="frame-expand" data-expand="${f.id}" aria-label="Enlarge image: ${esc(f.alt)}">
+      <img src="${f.src}" alt="${esc(f.alt)}" width="${f.w}" height="${f.h}" loading="lazy">
+    </button>
+    <figcaption><span class="frame-label">${esc(ROLE_LABEL[f.role]||f.role.toUpperCase())} — ${esc(f.phase).toUpperCase()}</span><span>${esc(cap||f.alt)}</span></figcaption>
+  </figure>`;
+}
+const COUNCIL=[
+ {id:"c1",t:"The factions gather",b:"Two hundred years forward. Representatives of the factions fill the circular council chamber. Speech, Nago, prosthetic gesture, and tactile communication move through the room as ordinary civic language.",ch:{WITNESS:"The Reporter, not yet chosen, watches from the chamber's edge. Partial observation; incomplete visual access."}},
+ {id:"c2",t:"The dispute",b:"Leadership of Umada and Tisetan is disputed on the floor.",ch:{RECORD:"COUNCIL MINUTE — SUBJECT: LEADERSHIP, UMADA AND TISETAN. RESOLUTION: NONE FILED."}},
+ {id:"c3",t:"Ada refuses",b:"The time-travel assignment is offered to Ada. She refuses it. She chooses the Reporter.",ch:{RECORD:"COUNCIL MINUTE — ASSIGNMENT DECLINED BY A. TRANSFERRED TO: THE REPORTER."},contra:null},
+ {id:"c4",t:"The device is transferred",b:"The Omoluabi device passes hands before the assembled houses — ceremonial, political, consequential. The Reporter activates it. The chamber gives way to a coastline two centuries earlier.",faceless:true,ch:{DEVICE:"ACTIVATION REGISTERED. TEMPORAL APERTURE OPEN. DESTINATION: FRIEDMANDORSTROP, SOUTHERN CAPE CORRIDOR."}}
+];
+const ROUTES={
+ tallai:{title:"Follow Tallai to the bread stop",meta:"Witness evidence · care practice",frags:[
+   {id:"rt1",t:"The bread route",b:"Tallai moves through Friedmandorstrop — a familiar silhouette on a familiar route, known at the bread stop. Civilian trust is visible in how the town makes room.",ch:{WITNESS:"Tallai's practice of care is already civic — ordinary, pre-doctrine, unremarkable to the town."}},
+   {id:"rt2",t:"Q and Quartz, ordinary",b:"Q and Quartz accompany Tallai. Ordinary behavior: Q senses, Quartz steadies. Nothing yet requires rescue.",ch:{WITNESS:"Care practices before they become doctrine.",ENVIRONMENT:"Bread-stop morning. No anomaly registered by official systems."}}
+ ]},
+ garden:{title:"Enter the laboratory garden",meta:"Environmental evidence · Q detection signal",frags:[
+   {id:"rg1",t:"Experimental ecosystems",b:"The living laboratory garden under Cape light. Scientists and families move between experimental ecosystems — ecology and technology grown together.",ch:{ENVIRONMENT:"Garden sensors read nominal. Leaves and instruments share the same wind."}},
+   {id:"rg2",t:"Q detects first",b:"A disturbance too small for the official systems. Q detects it before anyone else.",ch:{ENVIRONMENT:"SENSOR LOG: NO EVENT.",WITNESS:"Q's response contradicts the sensor log — detection before official acknowledgment."},contra:"Garden sensors report no event; Q detects an anomaly."}
+ ]},
+ ada:{title:"Locate Ada",meta:"Body evidence · military feed",frags:[
+   {id:"ra1",t:"Ada, early",b:"Ada arrives early for bread. She expects KC. She checks the time. Ordinary military procedure, ordinary morning.",ch:{BODY:"Steady. Waiting. Alive.",RECORD:"FEED ACTIVE — FIELD COMMANDER ADA. STATUS: [SYNCING]"}},
+   {id:"ra2",t:"The feed lags",b:"Her feed syncs slowly. She is still operating inside procedure, still expecting KC.",ch:{RECORD:"STATUS FIELD PENDING AMENDMENT.",BODY:"Nothing about her body is pending."}}
+ ]},
+ reporter:{title:"Inspect the Reporter's anomaly log",meta:"Device evidence · temporal distortion",frags:[
+   {id:"rr1",t:"Device instability",b:"The Omoluabi device registers strain. Temporal distortion at the edges of the record; incomplete visual access. The Reporter observes and cannot yet interpret.",faceless:true,ch:{DEVICE:"ANOMALY LOG: DISTORTION RISING. EVIDENCE HELD, INTERPRETATION DEFERRED."}},
+   {id:"rr2",t:"The observer's limit",b:"The Reporter's role is to witness, not to intervene. The device holds evidence the Reporter cannot yet read.",faceless:true,ch:{DEVICE:"CHANNELS OPEN: 4. CHANNELS LEGIBLE: 3.",WITNESS:"The ethics of witnessing: hold what you cannot interpret."}}
+ ]}
+};
+const TICKS=[
+ {id:"t1",t:"Tick one — Garden",b:"Tick. A minor disturbance in the garden. Leaves and sensors react. Q detects something before anyone else."},
+ {id:"t2",t:"Tick two — Bread route",b:"Tick. The route continues. The morning holds its shape. Nothing official has changed."},
+ {id:"t3",t:"Tick three — Ada",b:"Tick. Ada waits. Still inside ordinary procedure. Still expecting KC."}
+];
+const TICK4={id:"t4",t:"Tick four — The record",b:"Tick. Ada sees it.",rec:"FIELD COMMANDER ADA — STATUS: KIA. The record predates final blast confirmation.",
+ examine:[
+  {k:"body",label:"Examine her physical response",out:"Her body answers before her mind does: breath, pulse, weight on her feet. Every bodily signal disputes the file.",contra:"Official record says KIA; body signal remains responsive.",trust:"body"},
+  {k:"stamp",label:"Inspect the record timestamp",out:"The timestamp precedes final blast confirmation. The record declared her dead before the event it cites.",contra:"KIA record timestamp precedes blast confirmation.",trust:"record-disputed"},
+  {k:"source",label:"Trace the source of the military update",out:"AWAITING FRAGMENT — the source of the premature update is not yet attested. The question is preserved, not answered.",unresolved:"Source of the premature KIA update"},
+  {k:"q",label:"Check Q's detection signal",out:"Q's signal reads Ada as unambiguously alive — detection before explanation, urgency before procedure.",contra:"Q's detection contradicts the official status.",trust:"witness"},
+  {k:"hold",label:"Preserve the contradiction and continue",out:"The device holds both claims without resolving them. Preservation of uncertainty is itself a witness act.",trust:"preserved"}
+ ]};
+const TICK5={id:"t5",t:"Tick five — Recognition",b:"Tick. Ada looks up. Q reacts. The Reporter's device registers an anomaly. Unease becomes imminence."};
+const BOOM={id:"boom",t:"BOOM",b:"The blast. The town and garden rupture. The Reporter is destabilized. Ada survives — alive, listed dead.",rec:"STATUS UNCHANGED: KIA."};
+const SIGNALS={
+ q:{title:"Q beneath the debris",meta:"Detection signal",doct:[4],b:"Q registers conflicting signs: the record identifies Ada as dead, but her body remains responsive. Detection outruns explanation; urgency precedes procedure.",contra:"Post-blast: record KIA, body responsive.",ch:{BODY:"RESPONSIVE.",RECORD:"KIA.",WITNESS:"Q holds both signals and will not choose the record."}},
+ quartz:{title:"Quartz at the collapsed corridor",meta:"Rescue path",doct:[2,3,5],b:"Quartz clears debris — scale, gentleness, weight understood. Quartz lifts Ada, and in the rubble finds a dusty teddy bear, lifting it too. Survivor and civilian memory carried out together.",ch:{ENVIRONMENT:"Corridor unstable. Least-harm route selected by feel, not by map.",WITNESS:"Gentleness at scale."}},
+ tallai:{title:"Tallai issuing a care command",meta:"Care decision",doct:[1],b:"Quartz waits for Tallai's direction. Tallai refuses to accept the record as final and orders extraction. Early Rescue Doctrine, spoken before it has a name.",ch:{WITNESS:"Rescue authority grounded in care ethics, not rank.",RECORD:"NO EXTRACTION AUTHORIZED. (The order proceeds anyway.)"},contra:"Extraction ordered against an official record that authorizes none."},
+ adaS:{title:"Ada's fragmented consciousness",meta:"Bodily memory",doct:[],b:"Fragmented bodily awareness. Pain. The KIA designation floating over her like weather. Disorientation — and one clear question: where is KC?",ch:{BODY:"Alive and asking.",RECORD:"KIA. NO AMENDMENT FILED."},unresolved:"Location of KC"},
+ record:{title:"The official incident log",meta:"Institutional record",doct:[],b:"Institutional language. Unchanged KIA status. Timestamps that precede events. Missing amendments. Whether this is suppression or procedural failure is not yet attested.",ch:{RECORD:"INCIDENT LOG: STATUS KIA. AMENDMENTS: NONE."},contra:"The log's timestamps precede the events they describe.",unresolved:"Suppression or procedural failure in the official log"},
+ reporterS:{title:"The Reporter's damaged witness feed",meta:"Device evidence",doct:[6],faceless:true,b:"The device is damaged; observation is partial. The Reporter cannot intervene — only preserve what the body, the rescuers, the environment, and the record each reveal, including their contradictions.",ch:{DEVICE:"FEED DEGRADED. WITNESS FUNCTION INTACT.",WITNESS:"The ethics of witnessing under damage: keep recording."}}
+};
+const RESCUE_DECISION={prompt:"The record has not changed. What should the witness device do?",opts:[
+ {k:"mark",label:"Mark the record as contradicted",out:"The device annotates the KIA entry: CONTRADICTED BY BODY AND WITNESS. The record is preserved, and disputed.",trust:"record-disputed"},
+ {k:"suspend",label:"Preserve the record but suspend its authority",out:"The record stays in the ledger; its authority does not. Survival outranks the file.",trust:"authority-suspended"},
+ {k:"second",label:"Seek a second witness",out:"AWAITING FRAGMENT — no second institutional witness is attested at the blast site. The request itself is preserved in the ledger.",unresolved:"Second witness to the premature KIA record"},
+ {k:"extract",label:"Prioritize extraction",out:"Analysis yields to survival. The contradiction is carried out of the blast zone along with Ada.",trust:"body"},
+ {k:"all",label:"Record all channels without resolving them",out:"Every channel — body, record, witness, environment, device — is preserved intact, contradictions included. Resolution is deferred to history.",trust:"preserved"}
+]};
+const ANCHOR4=[
+ {id:"a41",t:"Ada is carried out",b:"Q detects life. Tallai orders extraction. Quartz carries Ada — and the dusty teddy bear — out of the blast site. Ada remains listed KIA. Ada asks for KC.",rec:"STATUS: KIA. NO AMENDMENT FILED.",dest:true},
+ {id:"a42",t:"Closing fragment — the record and the refusal",b:"Return to the Reporter, and the record they carry. PROPOSED LANGUAGE (not locked canon): \u201cThe record says she died. The civilization that followed began when someone refused to believe it.\u201d",faceless:true}
+];
+const DOCTRINE=[
+ {n:1,name:"Extraction",d:"Remove the living being from immediate danger without allowing the official record to determine whether rescue is warranted.",via:"Tallai's care command"},
+ {n:2,name:"Stabilization",d:"Protect breath, circulation, structural integrity, sensory continuity, and immediate bodily survival.",via:"Quartz's rescue path"},
+ {n:3,name:"Care",d:"Treat personhood as present even when speech, movement, identity records, or institutional status are unavailable.",via:"Quartz's rescue path"},
+ {n:4,name:"Analysis",d:"Examine conflicting evidence without delaying life-preserving action.",via:"Q's detection signal"},
+ {n:5,name:"Transport",d:"Move the survivor using the least harmful available route and method.",via:"Quartz's rescue path"},
+ {n:6,name:"Witness",d:"Preserve what the body, rescuers, environment, and record each reveal, including contradictions between them.",via:"The Reporter's damaged feed"}
+];
+const CHARS=[
+ {name:"ADA",role:"FIELD COMMANDER",copy:"One of the known survivors of the Cape Wipeout. Officially recorded as killed before the blast occurred. Later underwent the first complete cybernetic reconstruction. In the Council Era, she refuses the role of time traveler and selects the Reporter.",deep:"ada",prov:"Sources: Friedmandorstrop rescue animatic; UMADA_CANON_INDEX.md (2026-06-25); Book One canon package. Name variants and the torn-record question are held in the Canon Ledger."},
+ {name:"TALLAI",role:"CHIMERA CARE SPECIALIST",copy:"Known along the Friedmandorstrop bread route before the Wipeout. Tallai discovers Ada alive after the blast and orders her extraction despite the official record.",deep:"tallai",prov:"Earlier variant 'Talla' is deprecated; 'Tallai' is the only public-facing spelling."},
+ {name:"Q",role:"DETECTION AND SENSING",copy:"A small insect-like chimera whose sensory response identifies danger and bodily survival before the official systems do.",deep:"q",prov:"Role locked in Seed Canon: Q detects."},
+ {name:"QUARTZ",role:"CARRIER AND RESCUE ANCHOR",copy:"A massive, gentle protector who clears debris and carries Ada from the blast site.",deep:"quartz",prov:"Role locked in Seed Canon: Quartz carries; load-bearer / rescue anchor."},
+ {name:"THE REPORTER",role:"WITNESS · TIME TRAVELER",copy:"Chosen by Ada in the Council Era to carry the Omoluabi device to Friedmandorstrop. The Reporter's face is never shown.",deep:"reporter",prov:"Canon constraint: rear silhouette, hood, shadow, gloved hands, partial framing only."},
+ {name:"KC",role:"ADA'S PARTNER",copy:"Expected at the bread stop. After the blast, Ada's first question is where KC is.",deep:null,prov:"Spelling standardized to 'KC' in Episode 1. Survivor-status nuance: held in the Canon Ledger."}
+];
+const DEEPEN={tallai:"tallai",garden:"q",ada:"ada",reporter:"reporter",q:"q",quartz:"quartz",adaS:"ada",reporterS:"reporter"};
+
+/* ============ STATE ============ */
+const DEFAULT={anchor:"council",councilIdx:0,routesVisited:[],routesDone:[],fragmentsSeen:[],framesSeen:[],witnessesFollowed:[],channelsOpened:[],contradictionsFound:[],doctrineUnlocked:[],unresolvedQuestions:[],trustDecisions:[],signalsDone:[],dossierDeep:[],tick4Choice:null,rescueChoice:null,tickIdx:0,firstReadingComplete:false,route:null,routeFrag:0,signal:null,anchor4Idx:0,chan:{}};
+let S=structuredClone(DEFAULT);
+try{const saved=localStorage.getItem('umada-ep01');if(saved){window.__saved=JSON.parse(saved);}}catch(e){}
+function persist(){try{localStorage.setItem('umada-ep01',JSON.stringify(S));}catch(e){}}
+function pref(k,v){try{v===undefined?localStorage.removeItem('umada-pref-'+k):localStorage.setItem('umada-pref-'+k,v);}catch(e){}}
+try{if(localStorage.getItem('umada-pref-size'))document.documentElement.dataset.size=localStorage.getItem('umada-pref-size');
+if(localStorage.getItem('umada-pref-contrast'))document.documentElement.dataset.contrast=localStorage.getItem('umada-pref-contrast');}catch(e){}
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const panel=document.getElementById('panel'),live=document.getElementById('live');
+const say=m=>{live.textContent=m;};
+function add(arr,v){if(v&&!S[arr].includes(v)){S[arr].push(v);return true;}return false;}
+function foundContra(c){if(add('contradictionsFound',c))say('Contradiction added to witness ledger: '+c);}
+function unlockDoct(n){const d=DOCTRINE.find(x=>x.n===n);if(add('doctrineUnlocked',n)&&d)say('Rescue Doctrine step revealed: '+d.name+'.');}
+
+/* ============ FRAGMENT RENDER ============ */
+function fragHTML(f,opts={}){
+  const chans=f.ch?Object.keys(f.ch):[];
+  const active=S.chan[f.id]||null;
+  let body=f.b, cls='';
+  if(active&&f.ch[active]){body=f.ch[active];cls=active==='RECORD'?'recline':'';}
+  if(active==='RECORD')opts.rec=true;
+  const fid=FRAME_FOR[f.id];
+  if(fid)add('framesSeen',fid);
+  return `<article class="beat${opts.rec?' rec':''}${opts.boom?' boomcard':''}" id="frag-${f.id}" tabindex="-1">
+    ${fid?frameFig(fid):''}
+    <h3>${esc(f.t)}</h3>
+    <div class="btext ${cls}">${esc(body)}</div>
+    ${f.rec&&!chans.includes('RECORD')?`<div class="recline" style="margin-top:10px">${esc(f.rec)}</div>`:''}
+    ${chans.length?`<div class="chan" role="group" aria-label="Evidence channels for ${esc(f.t)}">
+      <button data-ch="${f.id}:" aria-pressed="${!active}">NARRATIVE${!active?' ●':''}</button>
+      ${chans.map(c=>`<button data-ch="${f.id}:${c}" aria-pressed="${active===c}">${c}${active===c?' ●':''}</button>`).join('')}
+    </div>`:''}
+    ${f.faceless?`<div class="note">CANON CONSTRAINT — THE REPORTER'S FACE IS UNKNOWN</div>`:''}
+    ${f.dest?`<div class="canonflag">CANON DECISION REQUIRED — where Ada is taken (intact wing, underground care station, protected garden facility, Tallai's refuge, or another safe site). Not finalized here.</div>`:''}
+    ${f.contra&&S.contradictionsFound.includes(f.contra)?`<div class="contradiction">⚑ CONTRADICTION PRESERVED — ${esc(f.contra)}</div>`:''}
+  </article>`;
+}
+function seeFrag(f,loc,wit){
+  add('fragmentsSeen',f.id);
+  if(loc)add('routesVisited',loc);
+  if(wit)add('witnessesFollowed',wit);
+  if(f.contra)foundContra(f.contra);
+  if(f.unresolved)add('unresolvedQuestions',f.unresolved);
+}
+
+/* ============ STORY ============ */
+function renderStory(){
+  let h='';
+  if(S.firstReadingComplete){h=`<div class="gapline">FIRST READING COMPLETE — WITNESS LEDGER FILED. Archive Mode is open; the ledger can be revised there.</div>`+renderLedgerBlock();panel.innerHTML=h;return;}
+  if(S.anchor==='council'){
+    h+=`<h2 class="act">FIXED ANCHOR — THE COUNCIL ERA</h2>`;
+    COUNCIL.slice(0,S.councilIdx).forEach(f=>{h+=fragHTML(f);});
+    if(S.councilIdx<COUNCIL.length){
+      h+=`<button class="next" data-act="council-next">▸ CONTINUE — ${esc(COUNCIL[S.councilIdx].t).toUpperCase()}</button>`;
+    } else {
+      h+=`<button class="next" data-act="to-hub1">▸ THE RECORD OPENS ONTO FRIEDMANDORSTROP</button>`;
+    }
+  }
+  else if(S.anchor==='hub1'){
+    h+=`<h2 class="act">INTERACTIVE FIELD — FRIEDMANDORSTROP, BEFORE</h2>`;
+    add('framesSeen','EP01-F04');
+    h+=frameFig('EP01-F04','One hour before the Wipeout. The record opens.');
+    h+=`<div class="hub"><h2>THE DEVICE OPENS FOUR INCOMPLETE CHANNELS. WHICH ONE DO YOU ENTER?</h2>
+    <div class="cards">`;
+    for(const[k,r]of Object.entries(ROUTES)){
+      const done=S.routesDone.includes(k), started=S.routesVisited.includes(k);
+      const rf=FRAMES[ROUTE_FRAME[k]];
+      h+=`<button class="rcard" data-route="${k}" data-done="${done?1:0}">
+        ${rf?`<img class="thumb" src="${rf.src}" alt="" width="${rf.w}" height="${rf.h}" loading="lazy">`:''}
+        <span class="rt">${esc(r.title)}</span>
+        <span class="rm">${esc(r.meta)} · ${r.frags.length} fragments</span>
+        <span class="st">STATUS: ${done?'COMPLETE':started?'PARTIAL':'UNSEEN'}</span></button>`;
+    }
+    h+=`</div>`;
+    if(S.routesDone.length>=1){h+=`<div class="warn">TIME IS NARROWING. THE TICKS WILL CONVERGE.</div>
+      <button class="next" data-act="converge">▸ LET THE COUNTDOWN CONVERGE — THE FIVE TICKS</button>`;}
+    h+=`</div>`;
+  }
+  else if(S.anchor==='route'){
+    const r=ROUTES[S.route];
+    h+=`<h2 class="act">ROUTE — ${esc(r.title).toUpperCase()}</h2>`;
+    r.frags.slice(0,S.routeFrag).forEach(f=>{h+=fragHTML(f);});
+    if(S.routeFrag<r.frags.length){
+      h+=`<button class="next" data-act="route-next">▸ CONTINUE — ${esc(r.frags[S.routeFrag].t).toUpperCase()}</button>`;
+    }else{
+      h+=`<button class="next" data-act="route-hub">▸ RETURN TO THE ROUTE HUB</button>`;
+    }
+  }
+  else if(S.anchor==='ticks'){
+    h+=`<h2 class="act">FIXED ANCHOR — THE FIVE TICKS</h2>`;
+    TICKS.slice(0,Math.min(S.tickIdx,3)).forEach(f=>{h+=fragHTML(f);});
+    if(S.tickIdx<3){h+=`<button class="next" data-act="tick-next">▸ ${esc(TICKS[S.tickIdx].t).toUpperCase()}</button>`;}
+    else{h+=`<button class="next" data-act="to-tick4">▸ TICK FOUR</button>`;}
+  }
+  else if(S.anchor==='tick4'){
+    h+=`<h2 class="act">FIXED ANCHOR — TICK FOUR</h2>`;
+    h+=fragHTML(TICK4,{rec:true});
+    if(!S.tick4Choice){
+      h+=`<div class="hub"><h2>ADA'S BODY IS ALIVE. HER RECORD SAYS KIA. WHAT DO YOU EXAMINE FIRST?</h2>`;
+      TICK4.examine.forEach(o=>{h+=`<button class="choice" data-t4="${o.k}">${esc(o.label)}</button>`;});
+      h+=`</div>`;
+    }else{
+      const o=TICK4.examine.find(x=>x.k===S.tick4Choice);
+      h+=`<article class="beat" tabindex="-1" id="t4out"><h3>${esc(o.label)}</h3><div class="btext">${esc(o.out)}</div>
+      ${o.contra?`<div class="contradiction">⚑ CONTRADICTION PRESERVED — ${esc(o.contra)}</div>`:''}</article>
+      <button class="next" data-act="to-tick5">▸ TICK FIVE</button>`;
+    }
+  }
+  else if(S.anchor==='tick5'){
+    h+=`<h2 class="act">FIXED ANCHOR — TICK FIVE AND BOOM</h2>`;
+    h+=fragHTML(TICK5);
+    h+=`<button class="next" data-act="boom" style="border-color:var(--sig);color:var(--sig)">▸ THE BLAST CANNOT BE AVOIDED</button>`;
+  }
+  else if(S.anchor==='boom'){
+    h+=`<h2 class="act">FIXED ANCHOR — CAPE WIPEOUT</h2>`;
+    h+=fragHTML(BOOM,{boom:true,rec:true});
+    h+=`<button class="next" data-act="to-hub2">▸ MULTIPLE SIGNALS REMAIN ACTIVE</button>`;
+  }
+  else if(S.anchor==='hub2'){
+    h+=`<h2 class="act">INTERACTIVE FIELD — RESCUE</h2>`;
+    add('framesSeen','EP01-F11');
+    h+=frameFig('EP01-F11','The rescue begins. Multiple signals remain active.');
+    h+=`<div class="hub"><h2>MULTIPLE SIGNALS REMAIN ACTIVE. WHICH ONE DO YOU FOLLOW?</h2><div class="cards">`;
+    for(const[k,s]of Object.entries(SIGNALS)){
+      const done=S.signalsDone.includes(k);
+      const sf=k!=='q'?FRAMES[SIGNAL_FRAME[k]]:null;
+      h+=`<button class="rcard" data-signal="${k}" data-done="${done?1:0}">
+        ${sf?`<img class="thumb" src="${sf.src}" alt="" width="${sf.w}" height="${sf.h}" loading="lazy">`:''}
+        <span class="rt">${esc(s.title)}</span><span class="rm">${esc(s.meta)}</span>
+        <span class="st">STATUS: ${done?'FOLLOWED':'UNSEEN'}</span></button>`;
+    }
+    h+=`</div>`;
+    if(S.signalsDone.length>=1){h+=`<button class="next" data-act="rescue-decision">▸ THE RECORD HAS NOT CHANGED — DECIDE WHAT THE DEVICE DOES</button>`;}
+    h+=`</div>`;
+  }
+  else if(S.anchor==='signal'){
+    const s=SIGNALS[S.signal];
+    h+=`<h2 class="act">SIGNAL — ${esc(s.title).toUpperCase()}</h2>`;
+    h+=fragHTML({id:'sig-'+S.signal,t:s.title,b:s.b,ch:s.ch,faceless:s.faceless,contra:s.contra});
+    h+=`<button class="next" data-act="signal-hub">▸ RETURN TO THE SIGNALS</button>`;
+  }
+  else if(S.anchor==='decision'){
+    h+=`<h2 class="act">CHOICE UNDER CONTRADICTION</h2>
+    <div class="contradiction" style="margin-bottom:16px">OFFICIAL RECORD: KIA · BODY SIGNAL: RESPONSIVE · WITNESS SIGNAL: EXTRACTION ORDERED · ENVIRONMENTAL SIGNAL: BLAST ZONE UNSTABLE</div>`;
+    if(!S.rescueChoice){
+      h+=`<div class="hub"><h2>${esc(RESCUE_DECISION.prompt).toUpperCase()}</h2>`;
+      RESCUE_DECISION.opts.forEach(o=>{h+=`<button class="choice" data-rd="${o.k}">${esc(o.label)}</button>`;});
+      h+=`</div>`;
+    }else{
+      const o=RESCUE_DECISION.opts.find(x=>x.k===S.rescueChoice);
+      h+=`<article class="beat" tabindex="-1" id="rdout"><h3>${esc(o.label)}</h3><div class="btext">${esc(o.out)}</div></article>
+      <button class="next" data-act="to-anchor4">▸ FIXED ANCHOR — ADA IS CARRIED OUT</button>`;
+    }
+  }
+  else if(S.anchor==='anchor4'){
+    h+=`<h2 class="act">FIXED ANCHOR — ADA IS CARRIED OUT</h2>`;
+    ANCHOR4.slice(0,S.anchor4Idx).forEach(f=>{h+=fragHTML(f,{rec:!!f.rec});});
+    if(S.anchor4Idx<ANCHOR4.length){h+=`<button class="next" data-act="a4-next">▸ CONTINUE</button>`;}
+    else{h+=`<button class="next" data-act="file-ledger">▸ FILE THE WITNESS LEDGER</button>`;}
+  }
+  panel.innerHTML=h;
+}
+
+/* ============ LEDGER ============ */
+function ledgerData(){
+  const rn={tallai:"Tallai's bread route",garden:"Garden",ada:"Ada's feed",reporter:"Reporter's anomaly log"};
+  const unseenR=Object.keys(ROUTES).filter(k=>!S.routesDone.includes(k)).map(k=>ROUTES[k].title);
+  const unseenS=Object.keys(SIGNALS).filter(k=>!S.signalsDone.includes(k)).map(k=>SIGNALS[k].title);
+  return {routes:S.routesDone.map(k=>rn[k]||k),wits:S.witnessesFollowed,contras:S.contradictionsFound,doct:S.doctrineUnlocked.map(n=>DOCTRINE.find(d=>d.n===n).name),unres:S.unresolvedQuestions,trust:S.trustDecisions,unseen:[...unseenR,...unseenS],chans:S.channelsOpened};
+}
+function renderLedgerBlock(){
+  const L=ledgerData();
+  const row=(k,v)=>`${k}: ${v&&v.length?v.join(', '):'—'}<br>`;
+  return `<div class="ledger" role="region" aria-label="Witness ledger"><h2>WITNESS LEDGER — CAPE WIPEOUT, PT. 1</h2>
+  ${row('Routes examined',L.routes)}
+  ${row('Witnesses followed',L.wits)}
+  ${row('Evidence channels opened',L.chans)}
+  Record contradictions found: ${L.contras.length}<br>
+  ${L.contras.map(c=>'⚑ '+esc(c)).join('<br>')}${L.contras.length?'<br>':''}
+  Official status disputed: KIA<br>
+  ${row('Trust decisions',L.trust)}
+  ${row('Unresolved questions preserved',L.unres)}
+  ${row('Doctrine revealed',L.doct)}
+  Frames witnessed: ${S.framesSeen.length} of 16<br>
+  ${row('Unexamined',L.unseen)}
+  </div>
+  <p class="intro-copy">This record remains incomplete. Another route may reveal evidence you did not witness.</p>`;
+}
+function renderLedger(){
+  panel.innerHTML=(S.firstReadingComplete?'':`<div class="gapline">LEDGER IN PROGRESS — it is filed at the end of the first reading, and updates as you investigate.</div>`)+renderLedgerBlock()+
+  `<button class="next" data-act="restart">RESTART EPISODE — BEGIN A NEW INVESTIGATION</button>`;
+}
+
+/* ============ ARCHIVE ============ */
+let AF={wit:null,loc:null,chan:null};
+function allFrags(){
+  const out=[];
+  COUNCIL.forEach(f=>out.push({f,loc:'Council',wit:'Reporter'}));
+  for(const[k,r]of Object.entries(ROUTES)) r.frags.forEach(f=>out.push({f,loc:{tallai:'Bread route',garden:'Garden',ada:'Ada',reporter:'Device'}[k],wit:{tallai:'Tallai',garden:'Q',ada:'Ada',reporter:'Reporter'}[k]}));
+  TICKS.forEach(f=>out.push({f,loc:'Friedmandorstrop',wit:null}));
+  out.push({f:TICK4,loc:'Friedmandorstrop',wit:'Ada'});
+  out.push({f:TICK5,loc:'Friedmandorstrop',wit:null});
+  out.push({f:BOOM,loc:'Friedmandorstrop',wit:null});
+  for(const[k,s]of Object.entries(SIGNALS)) out.push({f:{id:'sig-'+k,t:s.title,b:s.b,ch:s.ch,faceless:s.faceless,contra:s.contra},loc:'Blast site',wit:{q:'Q',quartz:'Quartz',tallai:'Tallai',adaS:'Ada',record:null,reporterS:'Reporter'}[k]});
+  ANCHOR4.forEach(f=>out.push({f,loc:'Blast site',wit:null}));
+  return out;
+}
+function renderArchive(){
+  if(!S.firstReadingComplete){panel.innerHTML=`<div class="gapline">ARCHIVE MODE — LOCKED. File your first witness ledger in STORY to unlock free examination.</div>`;return;}
+  const wits=['Ada','Tallai','Q','Quartz','Reporter'],locs=['Council','Bread route','Garden','Friedmandorstrop','Blast site','Device'],chans=['BODY','RECORD','WITNESS','ENVIRONMENT','DEVICE'];
+  const fb=(g,list,cur)=>list.map(v=>`<button data-af="${g}:${v}" aria-pressed="${cur===v}">${v}${cur===v?' ●':''}</button>`).join('');
+  let h=`<p class="intro-copy">ARCHIVE MODE — free fragment selection. Filter by witness, location, or evidence channel; compare BODY and RECORD; revisit skipped branches. The ledger revises as you go.</p>
+  <div class="filters" role="group" aria-label="Filter by witness">${fb('wit',wits,AF.wit)}</div>
+  <div class="filters" role="group" aria-label="Filter by location">${fb('loc',locs,AF.loc)}</div>
+  <div class="filters" role="group" aria-label="Filter by evidence channel">${fb('chan',chans,AF.chan)}</div>`;
+  let list=allFrags().filter(x=>(!AF.wit||x.wit===AF.wit)&&(!AF.loc||x.loc===AF.loc)&&(!AF.chan||(x.f.ch&&x.f.ch[AF.chan])));
+  if(!list.length)h+=`<div class="gapline">NO FRAGMENTS MATCH THESE FILTERS.</div>`;
+  list.forEach(x=>{h+=fragHTML(x.f);});
+  panel.innerHTML=h;
+}
+
+/* ============ DOSSIERS / DOCTRINE / ACCESS ============ */
+function renderDossiers(){
+  panel.innerHTML=`<p class="intro-copy">Audience dossiers. Following a figure's route or signal deepens their entry. Provenance is collapsed. Further figures are held in the Canon Ledger until they act in this episode.</p>`+
+  CHARS.map(c=>{
+    const deep=c.deep&&S.dossierDeep.includes(c.deep);
+    return `<div class="card"><h3>${esc(c.name)}</h3><div class="role">${esc(c.role)}</div><p>${esc(c.copy)}</p>
+    ${deep?`<p class="note" style="letter-spacing:.04em">DEEPENED BY YOUR INVESTIGATION — you followed this figure's evidence directly.</p>`:''}
+    <details><summary>PROVENANCE / EDITOR NOTES</summary><p>${esc(c.prov)}</p></details></div>`;
+  }).join('');
+}
+function renderDoctrine(){
+  panel.innerHTML=`<h2 class="act">RESCUE DOCTRINE</h2>
+  <p class="intro-copy">The doctrine is revealed by the rescue itself — follow the signal that enacts each step. Definitions are draft language, not locked canon.</p>`+
+  DOCTRINE.map(d=>{const open=S.doctrineUnlocked.includes(d.n);
+    return `<div class="step"><div class="head"><span class="n">${d.n}</span><span class="nm">${esc(d.name)}</span><span class="lock">${open?'REVEALED — via '+esc(d.via):'SEALED — revealed by: '+esc(d.via)}</span></div>${open?`<div class="d">${esc(d.d)}</div>`:''}</div>`;}).join('')+
+  `<h2 class="act" style="margin-top:44px">ADA-1 ETHICS</h2>
+  <ul style="margin-top:14px"><li style="font-style:italic;margin:10px 0 10px 18px">Trust Body Before Record.</li><li style="font-style:italic;margin:10px 0 10px 18px">Trust Witness Before Narrative.</li><li style="font-style:italic;margin:10px 0 10px 18px">Trust Survival Before Authority.</li></ul>
+  <div class="note" style="margin-top:16px">OPEN QUESTION — what ADA-1 is (AI, doctrine, person, or designation) is unspecified.</div>`;
+}
+function renderAccess(){
+  const cur=document.documentElement;
+  panel.innerHTML=`<h2 class="act">ACCESS</h2><div class="access">
+    <label>TEXT SIZE <button id="szBtn" aria-pressed="${cur.dataset.size==='lg'}">${cur.dataset.size==='lg'?'LARGE ●':'STANDARD'}</button></label>
+    <label>HIGH CONTRAST <button id="ctBtn" aria-pressed="${cur.dataset.contrast==='high'}">${cur.dataset.contrast==='high'?'ON ●':'OFF'}</button></label>
+    <label>REPLAY INTRO <button id="riBtn">REPLAY</button></label>
+    <label>REVIEW MY PATH <button data-act="goto-ledger">OPEN LEDGER</button></label>
+    <label>RESTART EPISODE <button data-act="restart">RESTART</button></label>
+    <label>CLEAR WITNESS LEDGER <button data-act="clear-ledger">CLEAR</button></label>
+  </div>
+  <p class="intro-copy" style="margin-top:20px">Everything is keyboard operable; route and signal cards are buttons; new fragments receive focus; unlocks and contradictions are announced. No sound, hover, or drag is required. Environmental and device signals have textual equivalents. Preferences and progress persist between visits.</p>`;
+  document.getElementById('szBtn').onclick=()=>{cur.dataset.size=cur.dataset.size==='lg'?'':'lg';pref('size',cur.dataset.size||undefined);renderAccess();};
+  document.getElementById('ctBtn').onclick=()=>{cur.dataset.contrast=cur.dataset.contrast==='high'?'':'high';pref('contrast',cur.dataset.contrast||undefined);renderAccess();};
+  document.getElementById('riBtn').onclick=()=>{showIntro();};
+}
+
+/* ============ NAV + EVENTS ============ */
+let DF={phase:null,role:null,loc:null};
+function renderUxdocs(){
+  const phases=[...new Set(Object.values(FRAMES).map(f=>f.phase))];
+  const roles=[...new Set(Object.values(FRAMES).map(f=>f.role))];
+  const locs=[...new Set(Object.values(FRAMES).map(f=>f.loc))];
+  const fb=(g,list,cur)=>`<div class="filters" role="group" aria-label="Filter frames by ${g}">`+list.map(v=>`<button data-df="${g}:${v}" aria-pressed="${cur===v}">${esc(v)}${cur===v?' ●':''}</button>`).join('')+`</div>`;
+  let list=Object.values(FRAMES).filter(f=>(!DF.phase||f.phase===DF.phase)&&(!DF.role||f.role===DF.role)&&(!DF.loc||f.loc===DF.loc));
+  panel.innerHTML=`<h2 class="act">STORYBOARD AS UX DOCUMENTATION</h2>
+  <div class="canonflag" style="margin-top:14px">DESIGN DOCUMENT — NOT THE PRIMARY STORY READER. Board-generated signage, device text, emblems, timestamps, protocol names, and rescue destination are draft annotation, not locked canon, unless separately locked in the Canon Ledger.</div>
+  <div class="docboard"><img src="../00_BOARD/UMADA_EP01_REVISED_STORYBOARD.png" alt="Full revised Episode 1 storyboard: sixteen frames mapping fixed anchors, route hubs, investigative branches, convergence points, and the rescue hub." loading="lazy" width="1536" height="1024"></div>
+  <div class="doclegend" aria-label="Legend"><span>■ FIXED ANCHOR</span><span>■ ROUTE HUB</span><span>■ INVESTIGATIVE BRANCH</span><span>■ CONVERGENCE</span><span>■ RESCUE HUB</span></div>
+  ${fb('phase',phases,DF.phase)}${fb('role',roles,DF.role)}${fb('loc',locs,DF.loc)}
+  <div class="docgrid">${list.map(f=>`<div class="doccard">
+    <button class="frame-expand" data-expand="${f.id}" aria-label="Enlarge image: ${esc(f.alt)}"><img src="${f.src}" alt="${esc(f.alt)}" width="${f.w}" height="${f.h}" loading="lazy"></button>
+    <div class="meta"><span class="fid">${f.id}</span> · ${esc(ROLE_LABEL[f.role]||f.role)}<br>${esc(f.title)}<br>PHASE: ${esc(f.phase)} · LOCATION: ${esc(f.loc)}<br>${esc(f.use)}<br>SEEN IN YOUR RECORD: ${S.framesSeen.includes(f.id)?'YES':'NOT YET'}</div>
+  </div>`).join('')}</div>
+  <details style="margin-top:18px"><summary>TEXTUAL FRAME LIST (SCREEN-READER EQUIVALENT OF THE FULL BOARD)</summary><ul>${Object.values(FRAMES).map(f=>`<li>${f.id} — ${esc(f.title)} — ${esc(ROLE_LABEL[f.role]||f.role)} — ${esc(f.alt)}</li>`).join('')}</ul></details>`;
+}
+document.addEventListener('click',e=>{
+  const d=e.target.closest('[data-df]');if(!d)return;
+  const[g,v]=d.dataset.df.split(':');DF[g]=DF[g]===v?null:v;say('Frame filter '+(DF[g]?'set: '+v:'cleared'));renderUxdocs();
+});
+const modal=document.getElementById('frameModal'),fmImg=document.getElementById('fmImg'),fmCap=document.getElementById('fmCap');
+let lastFocus=null;
+function openModal(fid){const f=FRAMES[fid];if(!f)return;lastFocus=document.activeElement;fmImg.src=f.src;fmImg.alt=f.alt;fmCap.textContent=f.id+' — '+f.alt;modal.dataset.open='1';document.getElementById('fmClose').focus();}
+function closeModal(){modal.dataset.open='0';fmImg.src='';if(lastFocus)lastFocus.focus();}
+document.getElementById('fmClose').addEventListener('click',closeModal);
+modal.addEventListener('click',e=>{if(e.target===modal)closeModal();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.dataset.open==='1')closeModal();});
+document.addEventListener('click',e=>{const x=e.target.closest('[data-expand]');if(x){openModal(x.dataset.expand);}});
+const renderers={story:renderStory,ledger:renderLedger,archive:renderArchive,dossiers:renderDossiers,doctrine:renderDoctrine,access:renderAccess,uxdocs:renderUxdocs};
+let tab='story';
+function switchTab(t){tab=t;document.querySelectorAll('[role=tab]').forEach(x=>x.setAttribute('aria-selected',x.dataset.t===t?'true':'false'));panel.setAttribute('aria-labelledby','tab-'+t);renderers[t]();panel.focus();}
+document.querySelectorAll('[role=tab]').forEach(t=>t.addEventListener('click',()=>switchTab(t.dataset.t)));
+
+function focusFirstNew(){const a=panel.querySelector('article[tabindex]');const arts=panel.querySelectorAll('article[tabindex]');if(arts.length){arts[arts.length-1].focus();}}
+
+document.addEventListener('click',e=>{
+  const chBtn=e.target.closest('[data-ch]');
+  if(chBtn){const[id,c]=chBtn.dataset.ch.split(':');S.chan[id]=c||null;if(c){add('channelsOpened',c);say((c==='RECORD'?'Official record channel.':c.charAt(0)+c.slice(1).toLowerCase()+' channel.'));}persist();renderers[tab]();const el=panel.querySelector(`[data-ch="${id}:${c}"]`);el&&el.focus();return;}
+  const rBtn=e.target.closest('[data-route]');
+  if(rBtn){S.route=rBtn.dataset.route;S.routeFrag=0;S.anchor='route';add('routesVisited',S.route);const r=ROUTES[S.route];say(r.title+' selected. '+r.frags.length+' fragments.');if(DEEPEN[S.route])add('dossierDeep',DEEPEN[S.route]);persist();renderStory();panel.focus();return;}
+  const sBtn=e.target.closest('[data-signal]');
+  if(sBtn){S.signal=sBtn.dataset.signal;S.anchor='signal';const s=SIGNALS[S.signal];add('signalsDone',S.signal);const witName={q:'Q',quartz:'Quartz',tallai:'Tallai',adaS:'Ada',record:'Official record',reporterS:'The Reporter'}[S.signal];add('witnessesFollowed',witName);if(DEEPEN[S.signal])add('dossierDeep',DEEPEN[S.signal]);seeFrag({id:'sig-'+S.signal,contra:s.contra,unresolved:s.unresolved});s.doct.forEach(unlockDoct);say(s.title+' — signal followed.');persist();renderStory();focusFirstNew();return;}
+  const t4=e.target.closest('[data-t4]');
+  if(t4){const o=TICK4.examine.find(x=>x.k===t4.dataset.t4);S.tick4Choice=o.k;if(o.contra)foundContra(o.contra);if(o.unresolved)add('unresolvedQuestions',o.unresolved);if(o.trust)add('trustDecisions',o.trust);persist();renderStory();document.getElementById('t4out')?.focus();return;}
+  const rd=e.target.closest('[data-rd]');
+  if(rd){const o=RESCUE_DECISION.opts.find(x=>x.k===rd.dataset.rd);S.rescueChoice=o.k;if(o.unresolved)add('unresolvedQuestions',o.unresolved);if(o.trust)add('trustDecisions',o.trust);persist();renderStory();document.getElementById('rdout')?.focus();return;}
+  const act=e.target.closest('[data-act]');
+  if(!act)return;
+  const a=act.dataset.act;
+  if(a==='council-next'){const f=COUNCIL[S.councilIdx];seeFrag(f,'Council','Reporter');S.councilIdx++;say('Council. '+f.t);}
+  else if(a==='to-hub1'){S.anchor='hub1';say('Friedmandorstrop route hub. Four channels open.');}
+  else if(a==='route-next'){const r=ROUTES[S.route];const f=r.frags[S.routeFrag];seeFrag(f,S.route,{tallai:'Tallai',garden:'Q',ada:'Ada',reporter:'The Reporter'}[S.route]);S.routeFrag++;if(S.routeFrag>=r.frags.length)add('routesDone',S.route);say(r.title+'. Fragment '+S.routeFrag+' of '+r.frags.length+' opened.');}
+  else if(a==='route-hub'){S.anchor='hub1';say('Route hub.');}
+  else if(a==='converge'){S.anchor='ticks';S.tickIdx=0;say('The five ticks begin.');}
+  else if(a==='tick-next'){seeFrag(TICKS[S.tickIdx]);say(TICKS[S.tickIdx].t);S.tickIdx++;}
+  else if(a==='to-tick4'){S.anchor='tick4';seeFrag(TICK4);say('Tick four. Ada sees the premature KIA record.');}
+  else if(a==='to-tick5'){S.anchor='tick5';seeFrag(TICK5);say('Tick five.');}
+  else if(a==='boom'){S.anchor='boom';seeFrag(BOOM);foundContra('Post-blast: record KIA, body responsive.');say('The blast.');}
+  else if(a==='to-hub2'){S.anchor='hub2';say('Rescue signals. Choose which to follow.');}
+  else if(a==='signal-hub'){S.anchor='hub2';say('Signals.');}
+  else if(a==='rescue-decision'){S.anchor='decision';say('Choice under contradiction.');}
+  else if(a==='to-anchor4'){S.anchor='anchor4';S.anchor4Idx=0;say('Fixed anchor. Ada is carried out.');}
+  else if(a==='a4-next'){seeFrag(ANCHOR4[S.anchor4Idx]);S.anchor4Idx++;say(ANCHOR4[Math.max(0,S.anchor4Idx-1)].t);}
+  else if(a==='file-ledger'){S.firstReadingComplete=true;unlockDoct(6);say('Witness ledger filed. Archive mode unlocked.');persist();switchTab('ledger');return;}
+  else if(a==='restart'){if(confirm('Restart the episode and begin a new investigation? Your ledger will be cleared.')){S=structuredClone(DEFAULT);persist();switchTab('story');}return;}
+  else if(a==='clear-ledger'){if(confirm('Clear the witness ledger?')){['fragmentsSeen','witnessesFollowed','channelsOpened','contradictionsFound','unresolvedQuestions','trustDecisions'].forEach(k=>S[k]=[]);persist();say('Ledger cleared.');renderers[tab]();}return;}
+  else if(a==='goto-ledger'){switchTab('ledger');return;}
+  persist();renderStory();focusFirstNew();
+});
+document.addEventListener('click',e=>{
+  const f=e.target.closest('[data-af]');if(!f)return;
+  const[g,v]=f.dataset.af.split(':');AF[g]=AF[g]===v?null:v;say('Filter '+(AF[g]?'set: '+v:'cleared'));renderArchive();
+});
+
+/* ============ INTRO ============ */
+const intro=document.getElementById('intro'),tickEl=document.getElementById('tick'),enterBtn=document.getElementById('enterBtn'),resumeBtn=document.getElementById('resumeBtn');
+function closeIntro(resume){intro.style.display='none';if(resume&&window.__saved){S=Object.assign(structuredClone(DEFAULT),window.__saved);}else if(!resume){S=structuredClone(DEFAULT);persist();}switchTab('story');}
+function showIntro(){intro.style.display='flex';runTick();enterBtn.focus();}
+function runTick(){if(matchMedia('(prefers-reduced-motion: reduce)').matches){tickEl.textContent='';return;}tickEl.textContent='';setTimeout(()=>{tickEl.textContent='tick.';},700);}
+if(window.__saved&&(window.__saved.fragmentsSeen||[]).length){resumeBtn.hidden=false;}
+enterBtn.addEventListener('click',()=>closeIntro(false));
+resumeBtn.addEventListener('click',()=>closeIntro(true));
+intro.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){if(e.target===enterBtn||e.target===resumeBtn)return;e.preventDefault();closeIntro(!!window.__saved);}});
+runTick();enterBtn.focus();
+renderStory();
+</script></body></html>

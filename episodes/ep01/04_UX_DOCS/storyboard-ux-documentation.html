@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UMADA EP01 — Storyboard UX Documentation</title>
+<style>
+:root{--paper:#eee9de;--ink:#181714;--muted:#5b564c;--line:#9f9788;--signal:#743515}
+*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 Georgia,serif}
+header,main,footer{max-width:1240px;margin:auto;padding:24px} h1,h2,h3{line-height:1.15} .mono,.meta,button,dt{font-family:"Courier New",monospace}
+.kicker{letter-spacing:.18em;text-transform:uppercase;color:var(--signal)} .notice{border:2px solid var(--signal);padding:14px 18px}
+.board{width:100%;height:auto;border:1px solid var(--ink);display:block} .legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;padding:0;list-style:none}
+.legend li{border:1px solid var(--line);padding:10px} .filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+button{background:transparent;border:2px solid var(--ink);padding:8px 12px;color:var(--ink);cursor:pointer} button[aria-pressed=true]{background:var(--ink);color:var(--paper)} button:focus-visible,summary:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px} .frame-card{border:1px solid var(--line);background:#f7f3e9}
+.frame-card[hidden]{display:none} .frame-card img{width:100%;height:auto;display:block;aspect-ratio:2/1;object-fit:cover;background:#ddd}
+.card-body{padding:14px} .meta{font-size:.78rem;letter-spacing:.08em;color:var(--signal)} dl{margin:0} dl div{display:grid;grid-template-columns:90px 1fr;gap:8px;border-top:1px solid var(--line);padding:8px 0} dt{font-size:.78rem;text-transform:uppercase} dd{margin:0}
+.flow{white-space:pre-wrap;background:#191816;color:#eee9de;padding:18px;overflow:auto} .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media(max-width:600px){header,main,footer{padding:16px}}
+</style></head><body>
+<header>
+<p class="kicker mono">UMADA · Cape Wipeout, Pt. 1</p><h1>Storyboard as UX Documentation</h1>
+<p class="notice"><strong>Design document — not the primary story reader.</strong> The complete board explains fixed history, audience-choice hubs, investigative branches, convergence points, rescue perspectives, and closure.</p>
+</header><main>
+<section aria-labelledby="overview"><h2 id="overview">Complete revised board</h2>
+<figure><img class="board" src="../00_BOARD/UMADA_EP01_REVISED_STORYBOARD.png" alt="Complete sixteen-frame Episode 1 storyboard. A semantic frame list follows."><figcaption>The board remains intact for design review while clean crops are used inside the story.</figcaption></figure></section>
+<section aria-labelledby="legend"><h2 id="legend">UX role legend</h2><ul class="legend">
+<li><strong>Fixed anchor</strong><br>Locked event; outcome cannot change.</li><li><strong>Hub</strong><br>Opens route selection.</li><li><strong>Branch</strong><br>Optional evidence or witness route.</li><li><strong>Convergence</strong><br>Required history reached through different contexts.</li><li><strong>Rescue hub</strong><br>Post-blast witness selection.</li></ul></section>
+<section aria-labelledby="flow"><h2 id="flow">Episode flow</h2><pre class="flow">Council → Dispatch → Activation → Friedmandorstrop Hub
+                                  ├─ Garden
+                                  ├─ Tallai / Bread Route
+                                  └─ Ada / KC
+                                          ↓
+                              Tick Four / KIA Record
+                                          ↓
+                             Tick Five → BOOM
+                                          ↓
+                                  Rescue Hub
+                         ├─ Tallai Care / Stabilization
+                         ├─ Quartz / Teddy Bear
+                         ├─ Ada Memory
+                         ├─ Q Detection
+                         └─ Official Record / Reporter Feed
+                                          ↓
+                              Ada Carried to Safety
+                                          ↓
+                              Close / Part Two Tease</pre></section>
+<section aria-labelledby="frames"><h2 id="frames">Frame documentation</h2>
+<div class="filters" role="group" aria-label="Filter frames by UX role"><button data-filter="all" aria-pressed="true">All</button><button data-filter="branch">Branch</button><button data-filter="convergence">Convergence</button><button data-filter="fixed-anchor">Fixed Anchor</button><button data-filter="hub">Hub</button><button data-filter="rescue-hub">Rescue Hub</button></div>
+<p id="resultCount" class="mono" aria-live="polite">Showing all 16 frames.</p><div class="grid"><article class="frame-card" data-role="fixed-anchor" data-phase="Council Era">
+      <img src="../01_FRAMES/ep01-frame-01-council-era.png" alt="Council representatives gather in a circular chamber to dispute leadership of Umada and Tisetan." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F01 · FIXED-ANCHOR</p>
+        <h3>1. COLD OPEN — +200 YEARS (COUNCIL ERA)</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Council Era</dd></div>
+          <div><dt>Location</dt><dd>Council chamber</dd></div>
+          <div><dt>Interaction</dt><dd>Required canon event; audience may inspect evidence but cannot alter outcome.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Council representatives gather in a circular chamber to dispute leadership of Umada and Tisetan.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="fixed-anchor" data-phase="Council Era">
+      <img src="../01_FRAMES/ep01-frame-02-dispatch.png" alt="A council elder transfers the Omoluabi device to the hooded Reporter, whose face remains unseen." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F02 · FIXED-ANCHOR</p>
+        <h3>1b. THE DISPATCH</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Council Era</dd></div>
+          <div><dt>Location</dt><dd>Council chamber</dd></div>
+          <div><dt>Interaction</dt><dd>Required canon event; audience may inspect evidence but cannot alter outcome.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>A council elder transfers the Omoluabi device to the hooded Reporter, whose face remains unseen.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="fixed-anchor" data-phase="Council Era">
+      <img src="../01_FRAMES/ep01-frame-03-activation.png" alt="The hooded Reporter activates the Omoluabi device before a luminous circular temporal field." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F03 · FIXED-ANCHOR</p>
+        <h3>1c. ACTIVATION</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Council Era</dd></div>
+          <div><dt>Location</dt><dd>Temporal threshold</dd></div>
+          <div><dt>Interaction</dt><dd>Required canon event; audience may inspect evidence but cannot alter outcome.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>The hooded Reporter activates the Omoluabi device before a luminous circular temporal field.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="hub" data-phase="Before the Wipeout">
+      <img src="../01_FRAMES/ep01-frame-04-arrival-friedmandorstrop.png" alt="A coastal research settlement sits beneath mountains near Cape Agulhas, one hour before the Wipeout." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F04 · HUB</p>
+        <h3>2. ARRIVAL — FRIEDMANDORSTROP</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Before the Wipeout</dd></div>
+          <div><dt>Location</dt><dd>Friedmandorstrop</dd></div>
+          <div><dt>Interaction</dt><dd>Route-selection hub opening multiple witness or location branches.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>A coastal research settlement sits beneath mountains near Cape Agulhas, one hour before the Wipeout.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="branch" data-phase="Before the Wipeout">
+      <img src="../01_FRAMES/ep01-frame-05-garden-at-lab.png" alt="A vast living laboratory garden contains experimental ecosystems, water channels, researchers, and civilians." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F05 · BRANCH</p>
+        <h3>3. THE GARDEN AT THE LAB</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Before the Wipeout</dd></div>
+          <div><dt>Location</dt><dd>Laboratory garden</dd></div>
+          <div><dt>Interaction</dt><dd>Optional investigative route that changes knowledge and witness-ledger state.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>A vast living laboratory garden contains experimental ecosystems, water channels, researchers, and civilians.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="branch" data-phase="Before the Wipeout">
+      <img src="../01_FRAMES/ep01-frame-06-going-for-bread.png" alt="Tallai, a visibly nonhuman chimera care specialist in pale layered garments, walks with small Q and massive Quartz." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F06 · BRANCH</p>
+        <h3>3b. GOING FOR BREAD</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Before the Wipeout</dd></div>
+          <div><dt>Location</dt><dd>Bread route</dd></div>
+          <div><dt>Interaction</dt><dd>Optional investigative route that changes knowledge and witness-ledger state.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Tallai, a visibly nonhuman chimera care specialist in pale layered garments, walks with small Q and massive Quartz.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="branch" data-phase="Before the Wipeout">
+      <img src="../01_FRAMES/ep01-frame-07-ada-arrives-early.png" alt="Ada, an adult Nigerian field commander, checks the time while waiting for KC." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F07 · BRANCH</p>
+        <h3>3c. ADA ARRIVES EARLY</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Before the Wipeout</dd></div>
+          <div><dt>Location</dt><dd>Friedmandorstrop overlook</dd></div>
+          <div><dt>Interaction</dt><dd>Optional investigative route that changes knowledge and witness-ledger state.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Ada, an adult Nigerian field commander, checks the time while waiting for KC.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="convergence" data-phase="The Five Ticks">
+      <img src="../01_FRAMES/ep01-frame-08-tick-four-record.png" alt="Ada studies a military device displaying her premature status as killed in action." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F08 · CONVERGENCE</p>
+        <h3>4. TICK FOUR — THE RECORD</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>The Five Ticks</dd></div>
+          <div><dt>Location</dt><dd>Ada military feed</dd></div>
+          <div><dt>Interaction</dt><dd>Required event where prior branches converge and context changes interpretation.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Ada studies a military device displaying her premature status as killed in action.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="fixed-anchor" data-phase="The Five Ticks">
+      <img src="../01_FRAMES/ep01-frame-09-tick-five-recognition.png" alt="Q reacts to a disturbance and looks toward the approaching catastrophe." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F09 · FIXED-ANCHOR</p>
+        <h3>5. TICK FIVE — RECOGNITION</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>The Five Ticks</dd></div>
+          <div><dt>Location</dt><dd>Bread market</dd></div>
+          <div><dt>Interaction</dt><dd>Required canon event; audience may inspect evidence but cannot alter outcome.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Q reacts to a disturbance and looks toward the approaching catastrophe.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="fixed-anchor" data-phase="The Wipeout">
+      <img src="../01_FRAMES/ep01-frame-10-boom.png" alt="A black title frame reads five ticks followed by BOOM." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F10 · FIXED-ANCHOR</p>
+        <h3>6. BOOM</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>The Wipeout</dd></div>
+          <div><dt>Location</dt><dd>Cape Wipeout</dd></div>
+          <div><dt>Interaction</dt><dd>Required canon event; audience may inspect evidence but cannot alter outcome.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>A black title frame reads five ticks followed by BOOM.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="rescue-hub" data-phase="Rescue">
+      <img src="../01_FRAMES/ep01-frame-11-rescue-begins.png" alt="Tallai reaches injured Ada and begins care while Q detects and Quartz prepares to clear the path." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F11 · RESCUE-HUB</p>
+        <h3>7. RESCUE BEGINS</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Rescue</dd></div>
+          <div><dt>Location</dt><dd>Blast zone</dd></div>
+          <div><dt>Interaction</dt><dd>Post-blast signal hub where the audience selects a rescue perspective.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Tallai reaches injured Ada and begins care while Q detects and Quartz prepares to clear the path.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="branch" data-phase="Rescue">
+      <img src="../01_FRAMES/ep01-frame-12-quartz-finds-something.png" alt="Quartz, the massive gentle rescue anchor, discovers a dusty teddy bear among the ruins." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F12 · BRANCH</p>
+        <h3>8. QUARTZ FINDS SOMETHING</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Rescue</dd></div>
+          <div><dt>Location</dt><dd>Blast rubble</dd></div>
+          <div><dt>Interaction</dt><dd>Optional investigative route that changes knowledge and witness-ledger state.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Quartz, the massive gentle rescue anchor, discovers a dusty teddy bear among the ruins.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="convergence" data-phase="Rescue">
+      <img src="../01_FRAMES/ep01-frame-13-to-safety.png" alt="Tallai, Q, and Quartz carry Ada away from the destroyed Cape site." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F13 · CONVERGENCE</p>
+        <h3>9. TO SAFETY</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Rescue</dd></div>
+          <div><dt>Location</dt><dd>Evacuation route</dd></div>
+          <div><dt>Interaction</dt><dd>Required event where prior branches converge and context changes interpretation.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Tallai, Q, and Quartz carry Ada away from the destroyed Cape site.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="branch" data-phase="Rescue">
+      <img src="../01_FRAMES/ep01-frame-14-stabilization.png" alt="Tallai stabilizes Ada in an intact care environment, preserving her personhood despite the record." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F14 · BRANCH</p>
+        <h3>10. STABILIZATION</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Rescue</dd></div>
+          <div><dt>Location</dt><dd>Care facility</dd></div>
+          <div><dt>Interaction</dt><dd>Optional investigative route that changes knowledge and witness-ledger state.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Tallai stabilizes Ada in an intact care environment, preserving her personhood despite the record.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="branch" data-phase="Rescue">
+      <img src="../01_FRAMES/ep01-frame-15-ada-remembers.png" alt="Ada regains fragmented awareness while Tallai remains close and Ada asks for KC." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F15 · BRANCH</p>
+        <h3>11. ADA REMEMBERS</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Rescue</dd></div>
+          <div><dt>Location</dt><dd>Care encounter</dd></div>
+          <div><dt>Interaction</dt><dd>Optional investigative route that changes knowledge and witness-ledger state.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>Ada regains fragmented awareness while Tallai remains close and Ada asks for KC.</p></details>
+      </div>
+    </article><article class="frame-card" data-role="fixed-anchor" data-phase="Closing">
+      <img src="../01_FRAMES/ep01-frame-16-close-part-two-tease.png" alt="The hooded Reporter overlooks the ruined coast while the Omoluabi device continues recording." loading="lazy">
+      <div class="card-body">
+        <p class="meta">EP01-F16 · FIXED-ANCHOR</p>
+        <h3>12. CLOSE / PT. 2 TEASE</h3>
+        <dl>
+          <div><dt>Phase</dt><dd>Closing</dd></div>
+          <div><dt>Location</dt><dd>Friedmandorstrop aftermath</dd></div>
+          <div><dt>Interaction</dt><dd>Required canon event; audience may inspect evidence but cannot alter outcome.</dd></div>
+        </dl>
+        <details><summary>Accessibility description</summary><p>The hooded Reporter overlooks the ruined coast while the Omoluabi device continues recording.</p></details>
+      </div>
+    </article></div></section>
+</main><footer><p>Source of truth: <code>04_DOCS/FRAME_MANIFEST.json</code>. Tallai reference: <code>02_REFERENCES/TALLAI_CANONICAL_VISUAL_REFERENCE.png</code>.</p></footer>
+<script>
+const buttons=[...document.querySelectorAll('[data-filter]')],cards=[...document.querySelectorAll('.frame-card')],count=document.getElementById('resultCount');
+buttons.forEach(button=>button.addEventListener('click',()=>{const f=button.dataset.filter;buttons.forEach(b=>b.setAttribute('aria-pressed',String(b===button)));let shown=0;cards.forEach(card=>{const visible=f==='all'||card.dataset.role===f;card.hidden=!visible;if(visible)shown++;});count.textContent=f==='all'?`Showing all ${shown} frames.`:`Showing ${shown} ${f.replaceAll('-',' ')} frame${shown===1?'':'s'}.`;}));
+</script></body></html>
