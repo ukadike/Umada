@@ -91,7 +91,50 @@ footer{margin-top:54px;border-top:1px solid var(--line);padding-top:14px;font-fa
 .doccard .meta .fid{color:var(--sig);letter-spacing:.15em}
 
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-</style></head><body>
+.skip-link{position:absolute;left:-999px;top:0;background:var(--ink);color:var(--paper);padding:10px 16px;font-family:"Courier New",monospace;z-index:100}
+.skip-link:focus{left:8px;top:8px}
+.ssl-header{border-bottom:1px solid var(--line);background:var(--paper)}
+.ssl-header__row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 18px}
+.ssl-brand{font-weight:700;text-decoration:none;color:var(--ink)}
+.ssl-header .nav-toggle{display:none;font-family:"Courier New",monospace;font-weight:700;background:var(--paper);color:var(--ink);border:1px solid var(--line);padding:6px 10px;cursor:pointer}
+.ssl-global-nav ul{list-style:none;margin:0;padding:0 18px 12px;display:flex;flex-wrap:wrap;gap:6px 16px}
+.ssl-global-nav a{font-family:"Courier New",monospace;font-size:12.5px;text-transform:uppercase;letter-spacing:.05em;text-decoration:underline;text-underline-offset:.18em;padding:3px 0;display:inline-block;color:var(--ink)}
+.ssl-global-nav a[aria-current="page"]{font-weight:700;text-decoration:none;border-bottom:2px solid var(--ink)}
+.ssl-global-nav a:focus-visible,.ssl-header .nav-toggle:focus-visible,.footer-links a:focus-visible{outline:3px solid var(--sig);outline-offset:2px}
+@media (max-width:720px){.ssl-header .nav-toggle{display:inline-block}.ssl-global-nav[hidden]{display:none}.ssl-global-nav ul{flex-direction:column;gap:8px;padding-bottom:16px}}
+.footer-links{list-style:none;display:flex;flex-wrap:wrap;gap:16px;padding:0;margin:8px 0 0;font-family:"Courier New",monospace;font-size:12.5px;text-transform:uppercase;letter-spacing:.05em}
+</style>
+<script>
+window.addEventListener("DOMContentLoaded",function(){
+  var toggle=document.querySelector(".ssl-header .nav-toggle");
+  var nav=document.getElementById("ssl-global-nav");
+  if(!toggle||!nav)return;
+  var mq=window.matchMedia("(max-width: 720px)");
+  function sync(){if(mq.matches){nav.hidden=true;toggle.setAttribute("aria-expanded","false");}else{nav.hidden=false;toggle.setAttribute("aria-expanded","true");}}
+  toggle.addEventListener("click",function(){var open=toggle.getAttribute("aria-expanded")==="true";toggle.setAttribute("aria-expanded",String(!open));nav.hidden=open;});
+  mq.addEventListener("change",sync);sync();
+});
+</script>
+</head><body>
+<a class="skip-link" href="#panel">Skip to main content</a>
+<header class="ssl-header">
+  <div class="ssl-header__row">
+    <a class="ssl-brand" href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="ssl-global-nav">Menu</button>
+  </div>
+  <nav id="ssl-global-nav" class="ssl-global-nav" aria-label="Primary navigation">
+    <ul>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a></li>
+      <li><a href="https://ukadike.github.io/omoluabi/">Omoluabi</a></li>
+      <li><a href="https://ukadike.github.io/Umada/" aria-current="page">UMADA</a></li>
+      <li><a href="https://ukadike.github.io/accessible-by-design-prototyping/">Accessible by Design</a></li>
+      <li><a href="https://ukadike.github.io/Earth-Sensors-Lab/">Earth Sensors Lab</a></li>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/schema-cards/">Schema Cards</a></li>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/site-map/">Site Map</a></li>
+      <li><a href="https://github.com/ukadike">GitHub</a></li>
+    </ul>
+  </nav>
+</header>
 
 <div id="intro" role="dialog" aria-label="Episode entry">
   <div class="eyebrow">UMADA — EP01 — PUBLIC PROTOTYPE v0.1</div>
@@ -128,7 +171,16 @@ footer{margin-top:54px;border-top:1px solid var(--line);padding-top:14px;font-fa
 
   <footer>ADA-1: TRUST BODY BEFORE RECORD · TRUST WITNESS BEFORE NARRATIVE · TRUST SURVIVAL BEFORE AUTHORITY<br>
   WHEN THE RECORD AND THE LIVING BODY DISAGREE, HOW DO YOU DECIDE WHAT DESERVES TO BE BELIEVED?<br>
-  UNATTESTED MATERIAL IS MARKED DRAFT OR AWAITING FRAGMENT.</footer>
+  UNATTESTED MATERIAL IS MARKED DRAFT OR AWAITING FRAGMENT.
+  <nav aria-label="Footer" style="margin-top:10px">
+    <ul class="footer-links">
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/site-map/">Site Map</a></li>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/accessibility/">Accessibility</a></li>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/schema-cards/">Schema Cards</a></li>
+      <li><a href="https://github.com/ukadike">GitHub</a></li>
+    </ul>
+  </nav>
+  </footer>
 </div>
 
 <div id="frameModal" role="dialog" aria-modal="true" aria-label="Enlarged story frame">
@@ -573,4 +625,22 @@ resumeBtn.addEventListener('click',()=>closeIntro(true));
 intro.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){if(e.target===enterBtn||e.target===resumeBtn)return;e.preventDefault();closeIntro(!!window.__saved);}});
 runTick();enterBtn.focus();
 renderStory();
-</script></body></html>
+</script>
+<script type="application/json" data-schema="page.schema.v1">
+{
+  "title": "Cape Wipeout, Pt. 1: An Omoluabi Witness Record",
+  "project": "UMADA",
+  "canonicalUrl": "https://ukadike.github.io/Umada/episodes/ep01/03_PROTOTYPE/episode-cape-wipeout-pt1-interactive.html",
+  "status": "draft",
+  "nav": { "globalNav": true, "localNav": true, "siteMapEntry": true },
+  "accessibility": {
+    "skipLink": true,
+    "mainLandmark": false,
+    "keyboardTested": true,
+    "screenReaderLabeling": true,
+    "focusVisible": true
+  },
+  "lastUpdated": "2026-07-20"
+}
+</script>
+</body></html>

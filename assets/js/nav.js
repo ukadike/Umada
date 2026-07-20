@@ -16,4 +16,30 @@ document.addEventListener("DOMContentLoaded", () => {
       main.focus();
     });
   }
+
+  // SSL canonical global navigation — mobile toggle
+  const toggle = document.querySelector(".ssl-header .nav-toggle");
+  const globalNav = document.querySelector("#ssl-global-nav");
+  if (toggle && globalNav) {
+    const mobileQuery = window.matchMedia("(max-width: 720px)");
+
+    const syncNavState = () => {
+      if (mobileQuery.matches) {
+        globalNav.hidden = true;
+        toggle.setAttribute("aria-expanded", "false");
+      } else {
+        globalNav.hidden = false;
+        toggle.setAttribute("aria-expanded", "true");
+      }
+    };
+
+    toggle.addEventListener("click", () => {
+      const isOpen = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+      globalNav.hidden = isOpen;
+    });
+
+    mobileQuery.addEventListener("change", syncNavState);
+    syncNavState();
+  }
 });
