@@ -10,13 +10,20 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 
 ## Locked spellings
 
-- **Friedmandostorp** — canonical settlement spelling (with an "o" in the middle syllable:
-  "...mand**o**storp"). The variant **"Friedmandestorp"** (an "e" in that syllable) is
-  RETIRED and must not be reintroduced — it has now resurfaced three times: a 2026-06-22
-  repository-restructuring brief, the 2026-06-25 "UMADA Book One" canon package, and the
-  2026-06-25 `UMADA_CANON_INDEX.md` directive itself. Each time it has been corrected back
-  to the locked spelling. Kemi confirmed directly on 2026-06-25 that "Friedmandestorp" is
-  a typo in all three sources, including her own Canon Index, and is not a canon change.
+- **Friedmandorstrop** — canonical settlement spelling, superseding the prior locked
+  spelling **Friedmandostorp** as of 2026-07-17. The Episode 1 Draft 1 · Public Prototype
+  v0.1 package (`episodes/ep01/`) uses "Friedmandorstrop" throughout — required public
+  title, prototype interactive text, and publication brief all specify it as "the only
+  correct public spelling." Kemi confirmed directly on 2026-07-17 to publish the episode
+  as delivered and to make this the new locked spelling rather than editing the episode's
+  canon strings. **Friedmandostorp** (with an "o" in the middle syllable, the prior lock)
+  and **"Friedmandestorp"** (an "e" in that syllable, previously RETIRED after resurfacing
+  three times — a 2026-06-22 repository-restructuring brief, the 2026-06-25 "UMADA Book
+  One" canon package, and the 2026-06-25 `UMADA_CANON_INDEX.md` directive) are now both
+  RETIRED variants and must not be reintroduced. Global find-and-replace of the old
+  "Friedmandostorp" spelling across `data/*.json` and the rest of the site is explicitly
+  OUT OF SCOPE for the Episode 1 Draft 1 publish — logged as a follow-up migration, not
+  done silently mid-publish.
 - **Jackal Peoples** — canonical faction-layer name. The variant **"Jackal Tribes"** is
   RETIRED for the same reason (2026-06-22 brief). See Open Question #34 for its
   relationship, if any, to the new **Jaguar House** (below) — the two are NOT treated as
@@ -29,7 +36,7 @@ Status legend: **LOCKED** / **PROBABLE** / **EMERGING** / **OPEN QUESTION** / **
 ## Locked geography
 
 - The world is **southern-African coastal** — Southern Cape corridor, near Cape Agulhas.
-- Friedmandostorp is a colorful, weather-rich harbor settlement with Nigerian-diaspora
+- Friedmandorstrop is a colorful, weather-rich harbor settlement with Nigerian-diaspora
   Agege-bread influence.
 - **Never Arctic.** Any "Ilulissat-inspired" or Greenland framing is RETIRED — it was a
   reintroduced error in a prior revision and has been removed. This is a permanent

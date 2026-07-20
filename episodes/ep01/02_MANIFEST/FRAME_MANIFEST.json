@@ -1,0 +1,290 @@
+[
+  {
+    "frame_id": "EP01-F01",
+    "sequence": 1,
+    "title": "1. COLD OPEN \u2014 +200 YEARS (COUNCIL ERA)",
+    "slug": "council-era",
+    "filename": "01_FRAMES/ep01-frame-01-council-era.png",
+    "crop_box_px": {
+      "left": 16,
+      "top": 51,
+      "right": 395,
+      "bottom": 252
+    },
+    "ux_role": "fixed-anchor",
+    "location": "Council chamber",
+    "phase": "Council Era",
+    "alt_text": "Council representatives gather in a circular chamber to dispute leadership of Umada and Tisetan.",
+    "interaction_use": "Required canon event; audience may inspect evidence but cannot alter outcome."
+  },
+  {
+    "frame_id": "EP01-F02",
+    "sequence": 2,
+    "title": "1b. THE DISPATCH",
+    "slug": "dispatch",
+    "filename": "01_FRAMES/ep01-frame-02-dispatch.png",
+    "crop_box_px": {
+      "left": 400,
+      "top": 51,
+      "right": 765,
+      "bottom": 252
+    },
+    "ux_role": "fixed-anchor",
+    "location": "Council chamber",
+    "phase": "Council Era",
+    "alt_text": "A council elder transfers the Omoluabi device to the hooded Reporter, whose face remains unseen.",
+    "interaction_use": "Required canon event; audience may inspect evidence but cannot alter outcome."
+  },
+  {
+    "frame_id": "EP01-F03",
+    "sequence": 3,
+    "title": "1c. ACTIVATION",
+    "slug": "activation",
+    "filename": "01_FRAMES/ep01-frame-03-activation.png",
+    "crop_box_px": {
+      "left": 770,
+      "top": 51,
+      "right": 1106,
+      "bottom": 252
+    },
+    "ux_role": "fixed-anchor",
+    "location": "Temporal threshold",
+    "phase": "Council Era",
+    "alt_text": "The hooded Reporter activates the Omoluabi device before a luminous circular temporal field.",
+    "interaction_use": "Required canon event; audience may inspect evidence but cannot alter outcome."
+  },
+  {
+    "frame_id": "EP01-F04",
+    "sequence": 4,
+    "title": "2. ARRIVAL \u2014 FRIEDMANDORSTROP",
+    "slug": "arrival-friedmandorstrop",
+    "filename": "01_FRAMES/ep01-frame-04-arrival-friedmandorstrop.png",
+    "crop_box_px": {
+      "left": 1111,
+      "top": 51,
+      "right": 1519,
+      "bottom": 252
+    },
+    "ux_role": "hub",
+    "location": "Friedmandorstrop",
+    "phase": "Before the Wipeout",
+    "alt_text": "A coastal research settlement sits beneath mountains near Cape Agulhas, one hour before the Wipeout.",
+    "interaction_use": "Route-selection hub opening multiple witness or location branches."
+  },
+  {
+    "frame_id": "EP01-F05",
+    "sequence": 5,
+    "title": "3. THE GARDEN AT THE LAB",
+    "slug": "garden-at-lab",
+    "filename": "01_FRAMES/ep01-frame-05-garden-at-lab.png",
+    "crop_box_px": {
+      "left": 16,
+      "top": 324,
+      "right": 395,
+      "bottom": 505
+    },
+    "ux_role": "branch",
+    "location": "Laboratory garden",
+    "phase": "Before the Wipeout",
+    "alt_text": "A vast living laboratory garden contains experimental ecosystems, water channels, researchers, and civilians.",
+    "interaction_use": "Optional investigative route that changes knowledge and witness-ledger state."
+  },
+  {
+    "frame_id": "EP01-F06",
+    "sequence": 6,
+    "title": "3b. GOING FOR BREAD",
+    "slug": "going-for-bread",
+    "filename": "01_FRAMES/ep01-frame-06-going-for-bread.png",
+    "crop_box_px": {
+      "left": 400,
+      "top": 324,
+      "right": 765,
+      "bottom": 505
+    },
+    "ux_role": "branch",
+    "location": "Bread route",
+    "phase": "Before the Wipeout",
+    "alt_text": "Tallai, a visibly nonhuman chimera care specialist in pale layered garments, walks with small Q and massive Quartz.",
+    "interaction_use": "Optional investigative route that changes knowledge and witness-ledger state."
+  },
+  {
+    "frame_id": "EP01-F07",
+    "sequence": 7,
+    "title": "3c. ADA ARRIVES EARLY",
+    "slug": "ada-arrives-early",
+    "filename": "01_FRAMES/ep01-frame-07-ada-arrives-early.png",
+    "crop_box_px": {
+      "left": 770,
+      "top": 324,
+      "right": 1106,
+      "bottom": 505
+    },
+    "ux_role": "branch",
+    "location": "Friedmandorstrop overlook",
+    "phase": "Before the Wipeout",
+    "alt_text": "Ada, an adult Nigerian field commander, checks the time while waiting for KC.",
+    "interaction_use": "Optional investigative route that changes knowledge and witness-ledger state."
+  },
+  {
+    "frame_id": "EP01-F08",
+    "sequence": 8,
+    "title": "4. TICK FOUR \u2014 THE RECORD",
+    "slug": "tick-four-record",
+    "filename": "01_FRAMES/ep01-frame-08-tick-four-record.png",
+    "crop_box_px": {
+      "left": 1111,
+      "top": 324,
+      "right": 1519,
+      "bottom": 505
+    },
+    "ux_role": "convergence",
+    "location": "Ada military feed",
+    "phase": "The Five Ticks",
+    "alt_text": "Ada studies a military device displaying her premature status as killed in action.",
+    "interaction_use": "Required event where prior branches converge and context changes interpretation."
+  },
+  {
+    "frame_id": "EP01-F09",
+    "sequence": 9,
+    "title": "5. TICK FIVE \u2014 RECOGNITION",
+    "slug": "tick-five-recognition",
+    "filename": "01_FRAMES/ep01-frame-09-tick-five-recognition.png",
+    "crop_box_px": {
+      "left": 16,
+      "top": 569,
+      "right": 395,
+      "bottom": 729
+    },
+    "ux_role": "fixed-anchor",
+    "location": "Bread market",
+    "phase": "The Five Ticks",
+    "alt_text": "Q reacts to a disturbance and looks toward the approaching catastrophe.",
+    "interaction_use": "Required canon event; audience may inspect evidence but cannot alter outcome."
+  },
+  {
+    "frame_id": "EP01-F10",
+    "sequence": 10,
+    "title": "6. BOOM",
+    "slug": "boom",
+    "filename": "01_FRAMES/ep01-frame-10-boom.png",
+    "crop_box_px": {
+      "left": 400,
+      "top": 569,
+      "right": 765,
+      "bottom": 729
+    },
+    "ux_role": "fixed-anchor",
+    "location": "Cape Wipeout",
+    "phase": "The Wipeout",
+    "alt_text": "A black title frame reads five ticks followed by BOOM.",
+    "interaction_use": "Required canon event; audience may inspect evidence but cannot alter outcome."
+  },
+  {
+    "frame_id": "EP01-F11",
+    "sequence": 11,
+    "title": "7. RESCUE BEGINS",
+    "slug": "rescue-begins",
+    "filename": "01_FRAMES/ep01-frame-11-rescue-begins.png",
+    "crop_box_px": {
+      "left": 770,
+      "top": 569,
+      "right": 1106,
+      "bottom": 729
+    },
+    "ux_role": "rescue-hub",
+    "location": "Blast zone",
+    "phase": "Rescue",
+    "alt_text": "Tallai reaches injured Ada and begins care while Q detects and Quartz prepares to clear the path.",
+    "interaction_use": "Post-blast signal hub where the audience selects a rescue perspective."
+  },
+  {
+    "frame_id": "EP01-F12",
+    "sequence": 12,
+    "title": "8. QUARTZ FINDS SOMETHING",
+    "slug": "quartz-finds-something",
+    "filename": "01_FRAMES/ep01-frame-12-quartz-finds-something.png",
+    "crop_box_px": {
+      "left": 1111,
+      "top": 569,
+      "right": 1519,
+      "bottom": 729
+    },
+    "ux_role": "branch",
+    "location": "Blast rubble",
+    "phase": "Rescue",
+    "alt_text": "Quartz, the massive gentle rescue anchor, discovers a dusty teddy bear among the ruins.",
+    "interaction_use": "Optional investigative route that changes knowledge and witness-ledger state."
+  },
+  {
+    "frame_id": "EP01-F13",
+    "sequence": 13,
+    "title": "9. TO SAFETY",
+    "slug": "to-safety",
+    "filename": "01_FRAMES/ep01-frame-13-to-safety.png",
+    "crop_box_px": {
+      "left": 16,
+      "top": 791,
+      "right": 395,
+      "bottom": 947
+    },
+    "ux_role": "convergence",
+    "location": "Evacuation route",
+    "phase": "Rescue",
+    "alt_text": "Tallai, Q, and Quartz carry Ada away from the destroyed Cape site.",
+    "interaction_use": "Required event where prior branches converge and context changes interpretation."
+  },
+  {
+    "frame_id": "EP01-F14",
+    "sequence": 14,
+    "title": "10. STABILIZATION",
+    "slug": "stabilization",
+    "filename": "01_FRAMES/ep01-frame-14-stabilization.png",
+    "crop_box_px": {
+      "left": 400,
+      "top": 791,
+      "right": 765,
+      "bottom": 947
+    },
+    "ux_role": "branch",
+    "location": "Care facility",
+    "phase": "Rescue",
+    "alt_text": "Tallai stabilizes Ada in an intact care environment, preserving her personhood despite the record.",
+    "interaction_use": "Optional investigative route that changes knowledge and witness-ledger state."
+  },
+  {
+    "frame_id": "EP01-F15",
+    "sequence": 15,
+    "title": "11. ADA REMEMBERS",
+    "slug": "ada-remembers",
+    "filename": "01_FRAMES/ep01-frame-15-ada-remembers.png",
+    "crop_box_px": {
+      "left": 770,
+      "top": 791,
+      "right": 1106,
+      "bottom": 947
+    },
+    "ux_role": "branch",
+    "location": "Care encounter",
+    "phase": "Rescue",
+    "alt_text": "Ada regains fragmented awareness while Tallai remains close and Ada asks for KC.",
+    "interaction_use": "Optional investigative route that changes knowledge and witness-ledger state."
+  },
+  {
+    "frame_id": "EP01-F16",
+    "sequence": 16,
+    "title": "12. CLOSE / PT. 2 TEASE",
+    "slug": "close-part-two-tease",
+    "filename": "01_FRAMES/ep01-frame-16-close-part-two-tease.png",
+    "crop_box_px": {
+      "left": 1111,
+      "top": 791,
+      "right": 1519,
+      "bottom": 947
+    },
+    "ux_role": "fixed-anchor",
+    "location": "Friedmandorstrop aftermath",
+    "phase": "Closing",
+    "alt_text": "The hooded Reporter overlooks the ruined coast while the Omoluabi device continues recording.",
+    "interaction_use": "Required canon event; audience may inspect evidence but cannot alter outcome."
+  }
+]
