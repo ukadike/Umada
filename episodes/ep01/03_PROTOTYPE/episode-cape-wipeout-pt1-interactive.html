@@ -17,6 +17,7 @@ button:focus-visible{outline:3px solid var(--sig);outline-offset:2px}
 #intro .eyebrow{color:#b8b4a9}
 .wrap{max-width:700px;margin:0 auto;padding:40px 18px 90px}
 h1{font-weight:400;font-size:33px;margin:6px 0}
+#intro h2{font-weight:400;font-size:33px;margin:6px 0;color:inherit}
 [role=tablist]{display:flex;flex-wrap:wrap;margin:24px 0;border:1px solid var(--ink)}
 [role=tab]{flex:1;min-width:84px;padding:12px 4px;background:none;border:none;border-right:1px solid var(--ink);font-family:"Courier New",monospace;font-size:var(--label);letter-spacing:.12em}
 [role=tab]:last-child{border-right:none}
@@ -93,16 +94,16 @@ footer{margin-top:54px;border-top:1px solid var(--line);padding-top:14px;font-fa
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 </style></head><body>
 
-<div id="intro" role="dialog" aria-label="Episode entry">
+<div id="intro" role="dialog" aria-modal="true" aria-label="Episode entry">
   <div class="eyebrow">UMADA — EP01 — PUBLIC PROTOTYPE v0.1</div>
-  <h1 style="color:inherit">Cape Wipeout, <em>Pt. 1</em></h1>
+  <h2>Cape Wipeout, <em>Pt. 1</em></h2>
   <div id="tick" aria-hidden="true"></div>
   <p style="max-width:440px;font-size:15px;color:#b8b4a9;margin-bottom:22px">A single tick sounds in the distance. Text equivalent: five ticks precede the blast; one distant tick sounds on entry.</p>
   <button id="enterBtn">BEGIN A NEW INVESTIGATION</button>
   <button id="resumeBtn" hidden>CONTINUE PREVIOUS RECORD</button>
 </div>
 
-<div class="wrap">
+<div class="wrap" inert>
   <p class="eyebrow"><a href="../../../index.html" style="color:inherit">← UMADA</a> · <a href="../../../sections/episode-releases.html" style="color:inherit">Episode Releases</a></p>
   <div class="eyebrow">UMADA — A WORLD BEING REMEMBERED</div>
   <h1>UMADA — Cape Wipeout, <em>Pt. 1</em>: An Omoluabi Witness Record</h1>
@@ -510,8 +511,8 @@ document.addEventListener('click',e=>{
 });
 const modal=document.getElementById('frameModal'),fmImg=document.getElementById('fmImg'),fmCap=document.getElementById('fmCap');
 let lastFocus=null;
-function openModal(fid){const f=FRAMES[fid];if(!f)return;lastFocus=document.activeElement;fmImg.src=f.src;fmImg.alt=f.alt;fmCap.textContent=f.id+' — '+f.alt;modal.dataset.open='1';document.getElementById('fmClose').focus();}
-function closeModal(){modal.dataset.open='0';fmImg.src='';if(lastFocus)lastFocus.focus();}
+function openModal(fid){const f=FRAMES[fid];if(!f)return;lastFocus=document.activeElement;fmImg.src=f.src;fmImg.alt=f.alt;fmCap.textContent=f.id+' — '+f.alt;modal.dataset.open='1';wrapEl.setAttribute('inert','');document.getElementById('fmClose').focus();}
+function closeModal(){modal.dataset.open='0';fmImg.src='';wrapEl.removeAttribute('inert');if(lastFocus)lastFocus.focus();}
 document.getElementById('fmClose').addEventListener('click',closeModal);
 modal.addEventListener('click',e=>{if(e.target===modal)closeModal();});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.dataset.open==='1')closeModal();});
@@ -563,9 +564,9 @@ document.addEventListener('click',e=>{
 });
 
 /* ============ INTRO ============ */
-const intro=document.getElementById('intro'),tickEl=document.getElementById('tick'),enterBtn=document.getElementById('enterBtn'),resumeBtn=document.getElementById('resumeBtn');
-function closeIntro(resume){intro.style.display='none';if(resume&&window.__saved){S=Object.assign(structuredClone(DEFAULT),window.__saved);}else if(!resume){S=structuredClone(DEFAULT);persist();}switchTab('story');}
-function showIntro(){intro.style.display='flex';runTick();enterBtn.focus();}
+const intro=document.getElementById('intro'),tickEl=document.getElementById('tick'),enterBtn=document.getElementById('enterBtn'),resumeBtn=document.getElementById('resumeBtn'),wrapEl=document.querySelector('.wrap');
+function closeIntro(resume){intro.style.display='none';wrapEl.removeAttribute('inert');if(resume&&window.__saved){S=Object.assign(structuredClone(DEFAULT),window.__saved);}else if(!resume){S=structuredClone(DEFAULT);persist();}switchTab('story');}
+function showIntro(){intro.style.display='flex';wrapEl.setAttribute('inert','');runTick();enterBtn.focus();}
 function runTick(){if(matchMedia('(prefers-reduced-motion: reduce)').matches){tickEl.textContent='';return;}tickEl.textContent='';setTimeout(()=>{tickEl.textContent='tick.';},700);}
 if(window.__saved&&(window.__saved.fragmentsSeen||[]).length){resumeBtn.hidden=false;}
 enterBtn.addEventListener('click',()=>closeIntro(false));

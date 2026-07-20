@@ -10,7 +10,9 @@ the archive frame around everything. This layer reads as a monochrome graphite a
 - Paper: `#efece2`
 - Ink: `#1a1a1a`
 - Line: `#d0cdc6`
-- Muted: `#6f6f6f`
+- Muted: `#666666` (darkened from `#6f6f6f` on 2026-07-20 — the original measured 4.25:1
+  against paper, below the WCAG AA 4.5:1 floor for normal text; `#666666` measures
+  ~4.86:1. Same graphite intent, adjusted only for contrast; see `WCAG_AUDIT.md`.)
 - Type: Helvetica Neue (UI/sans), Georgia (long-form/serif reading), Courier Prime
   (annotations, metadata, status tags, code-like fragments).
 
