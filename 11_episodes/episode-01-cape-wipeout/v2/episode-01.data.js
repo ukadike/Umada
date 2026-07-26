@@ -9,8 +9,8 @@
    role: "art" (real image present) | "placeholder" (AWAITING FRAGMENT —
    no artifact physically present in the repository; index entry only). */
 const EP01_V2_FRAMES = {
-  "EP01-V2-F01": {id:"EP01-V2-F01", role:"placeholder", phase:"Prologue", title:"Tisetan balcony — Lion king in cybernetic wheelchair",
-    alt:"The Lion king sits in a sophisticated cybernetic wheelchair on a private balcony above Tisetan, the lit capital extending below him.", use:"Opens the episode; establishes the King and the city he governs."},
+  "EP01-V2-F01": {id:"EP01-V2-F01", role:"art", src:"assets/ep01-v2-f01-balcony-king.png", w:1672, h:941, phase:"Prologue", title:"Tisetan balcony — Lion king in cybernetic wheelchair",
+    alt:"The Lion king, older and grey-dreadlocked, sits in an ornate cybernetic wheelchair bearing a lion-crest medallion, flanked by two cybernetic attendants, on a balcony overlooking Tisetan's lit towers at night.", use:"Opens the episode; establishes the King and the city he governs."},
   "EP01-V2-F02": {id:"EP01-V2-F02", role:"placeholder", phase:"Prologue", title:"Wife enters — “It is time”",
     alt:"The king's wife steps onto the balcony behind him.", use:"Closes the prologue and cues the transition to Council."},
   "EP01-V2-F03": {id:"EP01-V2-F03", role:"art", src:"assets/ep01-v2-f03-council-chamber.png", w:379, h:201, phase:"Council Era", title:"Circular council chamber",

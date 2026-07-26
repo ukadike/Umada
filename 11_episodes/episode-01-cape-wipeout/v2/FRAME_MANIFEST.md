@@ -9,7 +9,7 @@ usable without the image.
 
 | Frame ID | Status | Title | Source |
 |---|---|---|---|
-| EP01-V2-F01 | AWAITING FRAGMENT | Tisetan balcony — Lion king in cybernetic wheelchair | new in v2, no v1 equivalent |
+| EP01-V2-F01 | WITNESS FRAME | Tisetan balcony — Lion king in cybernetic wheelchair | new v2 art, supplied 2026-07-26 |
 | EP01-V2-F02 | AWAITING FRAGMENT | Wife enters — "It is time" | new in v2, no v1 equivalent |
 | EP01-V2-F03 | WITNESS FRAME | Circular council chamber | v1 `ep01-frame-01-council-era.png` |
 | EP01-V2-F04 | AWAITING FRAGMENT | Ada refuses the assignment | new in v2, no v1 equivalent |
@@ -31,7 +31,7 @@ usable without the image.
 | EP01-V2-F20 | WITNESS FRAME | Tallai leads the rescue into smoke | v1 `ep01-frame-13-to-safety.png` |
 | EP01-V2-F21 | WITNESS FRAME | Luabi detects the wind-field shift | v1 `ep01-frame-16-close-part-two-tease.png` |
 
-**14 of 21 slots** carry a realized image; **7** are `AWAITING FRAGMENT`.
+**15 of 21 slots** carry a realized image; **6** are `AWAITING FRAGMENT`.
 
 ## v1 frames not carried forward
 
