@@ -1,0 +1,66 @@
+{
+  "discovery_id": "ep01-imaging-001",
+  "episode_id": "umada-ep01",
+  "scene_id": "boom-device-failure",
+  "trigger_type": "unlock",
+  "trigger_label": "Open field note",
+  "trigger_timing": "After the Cape Wipeout blast sequence",
+  "status": "proposed",
+  "fiction_layer": {
+    "device_name": "Luabi",
+    "narrative_condition": "The Reporter must document a catastrophic event while pressure, debris, low visibility, unstable orientation, damaged sensors, and contradictory official records compromise ordinary capture.",
+    "operational_problem": "A conventional image may be blurred, compressed, stripped of context, separated from sensor conditions, or dismissed because the scene cannot be reproduced.",
+    "required_capability": "Luabi must preserve original visual data, capture conditions, synchronized sensor context, uncertainty, and an auditable provenance chain even when image quality fails."
+  },
+  "real_world_layer": {
+    "system_name": "Omoluabi",
+    "research_question": "What minimum imaging and provenance specification allows a field capture to remain analytically useful without overstating what the image proves?",
+    "mvp_requirement": "Provide evidence-grade, offline-first image capture that preserves the original file, capture metadata, device orientation, environmental context, integrity history, and accessible textual interpretation.",
+    "technical_requirements": [
+      "Preserve an untouched original image and any derived or compressed versions separately.",
+      "Support lossless or RAW-capable capture where hardware permits.",
+      "Record precise timestamp with clock-confidence status.",
+      "Record location confidence rather than presenting uncertain coordinates as exact.",
+      "Record device orientation and motion through inertial sensor data.",
+      "Allow synchronized environmental sensor snapshots.",
+      "Support rapid burst capture around anomalous events.",
+      "Generate cryptographic hashes and a local chain-of-custody log.",
+      "Operate offline and synchronize later without replacing the original evidence.",
+      "Expose capture limitations, missing metadata, and processing history."
+    ],
+    "ethical_requirements": [
+      "Do not imply that image capture alone proves identity, cause, intent, or classification.",
+      "Preserve uncertainty and contradictory evidence.",
+      "Provide consent and risk controls when recording people.",
+      "Protect sensitive witness location and identity when disclosure creates danger.",
+      "Never silently enhance an evidentiary original."
+    ],
+    "accessibility_requirements": [
+      "Provide a text-first capture summary.",
+      "Support author-written and assisted alt text while preserving the distinction between observation and interpretation.",
+      "Make capture, review, and evidence-status controls keyboard and screen-reader accessible.",
+      "Provide nonvisual orientation and sensor summaries.",
+      "Never require color, sound, motion, or image inspection as the only way to understand evidence status."
+    ],
+    "evidence_requirements": [
+      "Preserve the original file.",
+      "Preserve provenance and transformation history.",
+      "Distinguish observed content from automated inference.",
+      "Display confidence and uncertainty.",
+      "Allow comparison between image, body, witness, record, environment, and device channels."
+    ],
+    "implementation_notes": [
+      "Do not hard-code a megapixel, frame-rate, or sensor-size claim until hardware testing establishes a defensible minimum.",
+      "Create a research test matrix for low light, motion, compression, distance, obstruction, weather, and device damage.",
+      "Index this discovery in the Speculative Requirements Ledger."
+    ]
+  },
+  "display": {
+    "eyebrow": "LUABI FIELD REQUIREMENT DISCOVERED",
+    "title": "Image evidence under failure",
+    "summary": "The fiction reveals a present-day requirement for evidence-grade capture that preserves context, limitations, and provenance.",
+    "cta_label": "Add to Omoluabi requirements",
+    "secondary_cta_label": "Return to episode",
+    "show_in_ledger": true
+  }
+}

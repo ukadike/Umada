@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UMADA — Cape Wipeout, Part One: A Luabi Witness Record</title>
+<meta name="description" content="UMADA Episode One — Cape Wipeout, Part One. A Luabi Witness Record. An interactive, accessible first episode.">
+<link rel="stylesheet" href="episode-01.css">
+</head>
+<body>
+<a class="skip-link" href="#panel">Skip to main content</a>
+
+<div id="entry" role="dialog" aria-modal="true" aria-label="Episode entry">
+  <div class="eyebrow">UMADA — EPISODE ONE — CAPE WIPEOUT, PART ONE</div>
+  <h1>A Luabi Witness Record</h1>
+  <div id="entryTick" aria-hidden="true"></div>
+  <div class="role-copy">
+    <p><strong>You are entering a witness record carried by the Reporter.</strong></p>
+    <p>The record contains images, bodily signals, official files, environmental traces, and testimony gathered across damaged time.</p>
+    <p>You may choose what to examine.</p>
+    <p>You may decide what you trust provisionally.</p>
+    <p>You may preserve contradictions.</p>
+    <p>You may not rewrite what occurred.</p>
+  </div>
+  <button id="entryEnter">ENTER THE RECORD</button>
+  <button id="entryResume" hidden>RESUME MY INVESTIGATION</button>
+  <p id="entryMigrationNote" class="migration-note" hidden></p>
+</div>
+
+<div class="wrap">
+  <p class="eyebrow"><a href="../../../index.html">← UMADA</a> · <a href="../../../sections/episode-releases.html">Episode Releases</a> · <a href="../v1-archive/03_PROTOTYPE/episode-cape-wipeout-pt1-interactive.html">v1 archive</a></p>
+  <div class="eyebrow">UMADA — A WORLD BEING REMEMBERED</div>
+  <h1>Cape Wipeout, <em>Part One</em></h1>
+  <p class="eyebrow" style="color:var(--sig)">A LUABI WITNESS RECORD · v2</p>
+  <p class="tagline">UMADA is the world. Luabi is the device that lets its history be witnessed. You may choose what to examine and what to trust provisionally. You may not rewrite what occurred.</p>
+
+  <div role="tablist" aria-label="Episode sections">
+    <button role="tab" aria-selected="true" id="tab-story" data-t="story">STORY</button>
+    <button role="tab" aria-selected="false" id="tab-ledger" data-t="ledger">WITNESS LEDGER</button>
+    <button role="tab" aria-selected="false" id="tab-archive" data-t="archive">ARCHIVE</button>
+    <button role="tab" aria-selected="false" id="tab-people" data-t="people">PEOPLE</button>
+    <button role="tab" aria-selected="false" id="tab-fieldnotes" data-t="fieldnotes">FIELD NOTES</button>
+    <button role="tab" aria-selected="false" id="tab-access" data-t="access">ACCESS</button>
+  </div>
+
+  <main id="panel" role="tabpanel" tabindex="-1" aria-labelledby="tab-story"></main>
+  <div id="live" aria-live="polite" class="visually-hidden"></div>
+
+  <footer class="site-footer-ep">
+    TRUST BODY BEFORE RECORD · TRUST WITNESS BEFORE NARRATIVE · TRUST SURVIVAL BEFORE AUTHORITY<br>
+    WHEN THE RECORD AND THE LIVING BODY DISAGREE, WHAT DESERVES TO BE BELIEVED?<br>
+    Unattested material is marked draft or awaiting fragment.
+  </footer>
+</div>
+
+<div id="frameModal" role="dialog" aria-modal="true" aria-label="Enlarged story frame">
+  <img id="fmImg" src="" alt=""><figcaption id="fmCap"></figcaption>
+  <button id="fmClose">CLOSE (ESC)</button>
+</div>
+
+<script src="episode-01.data.js"></script>
+<script src="episode-01.state.js"></script>
+<script src="episode-01.render.js"></script>
+</body>
+</html>
