@@ -1,0 +1,108 @@
+{
+  "_comment": "Canonical navigation definition for the UMADA static site. Consumed by scripts/sync_navigation.py to generate the GLOBAL NAV, BREADCRUMBS, LOCAL NAV, and PAGE SEQUENCE regions committed into index.html and sections/*.html. Edit this file, then run: python scripts/sync_navigation.py",
+
+  "home": {
+    "id": "home",
+    "label": "Home",
+    "file": "index.html",
+    "rootHref": "index.html",
+    "sectionHref": "../index.html"
+  },
+
+  "global": [
+    { "id": "home", "label": "Home", "groupId": null },
+    { "id": "start", "label": "Start Here", "groupId": "start-here" },
+    { "id": "world", "label": "World", "groupId": "world" },
+    { "id": "visuals", "label": "Visuals", "groupId": "visuals" },
+    { "id": "episodes", "label": "Episodes", "groupId": "episodes" },
+    { "id": "participate", "label": "Participate", "groupId": "participate" },
+    { "id": "archive", "label": "Archive", "groupId": "archive" }
+  ],
+
+  "utility": [
+    { "id": "accessibility", "label": "Accessibility", "groupId": "accessibility" }
+  ],
+
+  "groups": {
+    "start-here": {
+      "label": "Start Here",
+      "landingFile": "start-here.html",
+      "globalId": "start",
+      "pages": [
+        { "file": "start-here.html", "label": "Start Here" }
+      ]
+    },
+    "world": {
+      "label": "World",
+      "landingFile": "world.html",
+      "globalId": "world",
+      "pages": [
+        { "file": "world.html", "label": "Overview" },
+        { "file": "foundational-strata.html", "label": "Foundational Strata" },
+        { "file": "civilizational-ledger.html", "label": "Civilizational Ledger" },
+        { "file": "founding-myths.html", "label": "Founding Myths" },
+        { "file": "timeline.html", "label": "Timeline" },
+        { "file": "characters.html", "label": "Characters" },
+        { "file": "places.html", "label": "Places" },
+        { "file": "kingdoms-factions.html", "label": "Kingdoms & Factions" },
+        { "file": "language-signage.html", "label": "Language & Signage" },
+        { "file": "nago-symbology.html", "label": "Nago Symbology" }
+      ]
+    },
+    "visuals": {
+      "label": "Visuals",
+      "landingFile": "visuals.html",
+      "globalId": "visuals",
+      "pages": [
+        { "file": "visuals.html", "label": "Overview" },
+        { "file": "visual-archive.html", "label": "Visual Archive" },
+        { "file": "visual-canon.html", "label": "Visual Canon" },
+        { "file": "atlas.html", "label": "Atlas" }
+      ]
+    },
+    "episodes": {
+      "label": "Episodes",
+      "landingFile": "episode-releases.html",
+      "globalId": "episodes",
+      "pages": [
+        { "file": "episode-releases.html", "label": "Episode Releases" },
+        { "file": "research-archive.html", "label": "Research Archive" },
+        { "file": "creator-archive.html", "label": "Creator Archive" }
+      ]
+    },
+    "participate": {
+      "label": "Participate",
+      "landingFile": "participate.html",
+      "globalId": "participate",
+      "pages": [
+        { "file": "participate.html", "label": "Overview" },
+        { "file": "faraday-box.html", "label": "Faraday Box" },
+        { "file": "fan-explorer.html", "label": "Fan Explorer" },
+        { "file": "fan-archive.html", "label": "Fan Archive" }
+      ]
+    },
+    "accessibility": {
+      "label": "Accessibility",
+      "landingFile": "accessibility.html",
+      "globalId": "accessibility",
+      "pages": [
+        { "file": "accessibility.html", "label": "Accessibility" }
+      ]
+    },
+    "archive": {
+      "label": "Archive",
+      "landingFile": "archive.html",
+      "globalId": "archive",
+      "pages": [
+        { "file": "archive.html", "label": "Archive" }
+      ]
+    }
+  },
+
+  "footer": [
+    { "id": "home", "label": "Home" },
+    { "id": "start", "label": "Start Here" },
+    { "id": "accessibility", "label": "Accessibility" },
+    { "id": "archive", "label": "Complete archive index" }
+  ]
+}

@@ -96,22 +96,177 @@ summary:focus-visible,
   font-size: 0.95rem;
 }
 
-.primary-nav { max-width: var(--max); margin: 1rem auto 0; }
-.primary-nav details summary {
+/* Utility link: always-visible Accessibility entry point, separate from primary nav */
+.access-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--line);
   font-family: var(--sans);
-  font-weight: 700;
-  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.access-link:hover,
+.access-link:focus-visible { text-decoration: underline; border-color: var(--ink); }
+
+/* Persistent global navigation */
+.global-nav {
+  max-width: var(--max);
+  margin: 1rem auto 0;
+  border-top: 1px solid var(--line);
+  padding-top: 0.75rem;
+}
+.global-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.global-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0.35rem 0.15rem;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.global-nav a:hover,
+.global-nav a:focus-visible { text-decoration: underline; }
+.global-nav a[aria-current="page"],
+.global-nav a[aria-current="location"] {
+  font-weight: 800;
+  border-bottom-color: var(--ink);
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  max-width: var(--max);
+  margin: 0 0 1rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+}
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumbs a { text-decoration: none; }
+.breadcrumbs a:hover,
+.breadcrumbs a:focus-visible { text-decoration: underline; }
+.breadcrumbs li:not(:last-child)::after {
+  content: "/";
+  margin-left: 0.35rem;
+  color: var(--muted);
+}
+.breadcrumbs [aria-current="page"] { font-weight: 700; }
+
+/* Visible local (section) navigation */
+.section-nav {
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.section-nav__title {
+  margin: 0 0 0.4rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.section-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.section-nav a {
+  display: inline-block;
   padding: 0.25rem 0;
+  font-family: var(--sans);
+  text-decoration: none;
 }
-.primary-nav details summary::-webkit-details-marker { display: none; }
-.nav-groups {
+.section-nav a:hover,
+.section-nav a:focus-visible { text-decoration: underline; }
+.section-nav a[aria-current="page"] {
+  font-weight: 800;
+  border-bottom: 2px solid var(--ink);
+}
+
+/* Previous / next page navigation */
+.page-sequence {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-  gap: 1rem 1.5rem;
-  margin-top: 0.75rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
 }
-.nav-group h2 {
+.page-sequence a {
+  display: flex;
+  min-height: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.25);
+  font-family: var(--sans);
+  text-decoration: none;
+}
+.page-sequence__next { grid-column: 2; text-align: right; }
+.page-sequence__previous:only-child,
+.page-sequence__next:only-child { grid-column: 1 / -1; text-align: left; }
+.page-sequence__label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.page-sequence a:hover,
+.page-sequence a:focus-visible { text-decoration: underline; border-color: var(--ink); }
+
+@media (max-width: 36rem) {
+  .page-sequence { grid-template-columns: 1fr; }
+  .page-sequence__next { grid-column: 1; text-align: left; }
+}
+
+/* Directory / orientation pages (World, Visuals, Participate, and the complete index) */
+.directory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0;
+}
+.directory-item {
+  border: 1px solid var(--line);
+  padding: 1rem 1.1rem;
+  background: rgba(255, 255, 255, 0.25);
+}
+.directory-item h3 { margin: 0 0 0.4rem; font-size: 1rem; }
+.directory-item h3 a { text-decoration: none; }
+.directory-item h3 a:hover,
+.directory-item h3 a:focus-visible { text-decoration: underline; }
+.directory-item p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+.archive-index .directory-grid { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+.archive-index__group h2 {
   font-family: var(--mono);
   font-size: 0.7rem;
   letter-spacing: 0.08em;
@@ -121,19 +276,33 @@ summary:focus-visible,
   border-bottom: 1px solid var(--line);
   padding-bottom: 0.25rem;
 }
-.nav-group ul { list-style: none; margin: 0; padding: 0; }
-.nav-group li { margin: 0.15rem 0; }
-.nav-group a {
+.archive-index__group ul { list-style: none; margin: 0; padding: 0; }
+.archive-index__group li { margin: 0.15rem 0; }
+.archive-index__group a {
   font-family: var(--sans);
   font-size: 0.9rem;
   text-decoration: none;
 }
-.nav-group a:hover,
-.nav-group a:focus-visible { text-decoration: underline; }
-.nav-group a[aria-current="page"] {
+.archive-index__group a:hover,
+.archive-index__group a:focus-visible { text-decoration: underline; }
+.archive-index__group a[aria-current="page"] {
   font-weight: 700;
   border-bottom: 2px solid var(--ink);
 }
+
+/* Compact footer navigation */
+.footer-nav { margin-bottom: 0.75rem; }
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-nav a { text-decoration: none; }
+.footer-nav a:hover,
+.footer-nav a:focus-visible { text-decoration: underline; }
 
 main {
   max-width: var(--max);
