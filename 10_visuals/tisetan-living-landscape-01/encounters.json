@@ -1,0 +1,27 @@
+{
+  "source": "data/civilizational_ledger.json",
+  "purpose": "Structured encounter subset for Tisetan Living Landscape 01. No new canon is introduced here.",
+  "encounters": [
+    {
+      "id": "garden",
+      "title": "The Garden",
+      "era": 4,
+      "status": "LOCKED",
+      "summary": "Coexistence and care before catastrophe; Tallai explores."
+    },
+    {
+      "id": "dead-glass",
+      "title": "Dead Glass",
+      "era": 10,
+      "status": "LOCKED / EMERGING",
+      "summary": "Network, infrastructure, information collapse."
+    },
+    {
+      "id": "cape-wipeout",
+      "title": "Cape Wipeout",
+      "era": 5,
+      "status": "LOCKED",
+      "summary": "March 19, 2226 near Cape Agulhas; MIC destroys facility."
+    }
+  ]
+}
