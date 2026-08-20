@@ -1,0 +1,123 @@
+.experience-shell {
+  max-width: 92rem;
+}
+
+.experience-intro {
+  max-width: 48rem;
+}
+
+.landscape-stage {
+  margin: 1.5rem 0 1rem;
+  border: 1px solid var(--line);
+  background: var(--ink);
+}
+
+.canvas-frame {
+  min-height: 32rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.canvas-frame canvas {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.landscape-status {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+  padding: 0.65rem 0.8rem;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+}
+
+.experience-controls,
+.ledger-panel,
+.episode-gate,
+.textual-world {
+  max-width: 58rem;
+}
+
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1rem 0;
+}
+
+.control-row button,
+.episode-link {
+  appearance: none;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 700;
+  padding: 0.65rem 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.control-row button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.motion-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-family: var(--sans);
+  margin-top: 0.5rem;
+}
+
+.ledger-panel {
+  border: 1px solid var(--line);
+  margin-top: 2rem;
+  padding: 1.25rem;
+  background: rgba(255,255,255,0.25);
+}
+
+.ledger-panel h2 {
+  margin-top: 0.25rem;
+}
+
+.ledger-note {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.episode-gate {
+  margin-top: 3rem;
+  border-top: 2px solid var(--ink);
+  padding-top: 1.25rem;
+}
+
+.episode-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.textual-world {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+}
+
+.textual-world summary {
+  font-family: var(--sans);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .canvas-frame { min-height: 24rem; }
+  .control-row { flex-direction: column; }
+  .control-row button { width: 100%; text-align: left; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
