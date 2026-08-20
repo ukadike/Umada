@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tisetan: Living Landscape 01 — UMADA</title>
+  <link rel="stylesheet" href="../../../assets/css/main.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js" defer></script>
+  <script src="./sketch.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#experience-controls">Skip animated landscape</a>
+
+  <header class="site-header">
+    <div class="site-header__top">
+      <p class="site-title"><a href="../../../index.html">UMADA</a></p>
+      <p class="site-tagline">This is not a world that was built. It is a world being remembered.</p>
+    </div>
+  </header>
+
+  <main class="experience-shell">
+    <section class="experience-intro" aria-labelledby="landscape-title">
+      <p class="meta-line">Experience Layer / Prototype 01</p>
+      <h1 id="landscape-title">Tisetan: Living Landscape 01</h1>
+      <p class="lede">A civic memory surface. Move through the field, locate surviving signals, and open the ledger behind them.</p>
+    </section>
+
+    <section class="landscape-stage" aria-label="Animated landscape of Tisetan">
+      <div id="p5-mount" class="canvas-frame" aria-hidden="true"></div>
+      <div class="landscape-status" aria-live="polite" aria-atomic="true" id="landscape-status">Tisetan field ready. Three encounters are available.</div>
+    </section>
+
+    <section id="experience-controls" class="experience-controls" aria-labelledby="controls-title">
+      <h2 id="controls-title">Explore</h2>
+      <p>Use the buttons below, the number keys 1–3, or left/right arrows to move between encounters. Press Enter to open the selected ledger record.</p>
+
+      <div class="control-row" role="group" aria-label="Landscape encounters">
+        <button type="button" data-encounter="garden">1 — The Garden</button>
+        <button type="button" data-encounter="dead-glass">2 — Dead Glass</button>
+        <button type="button" data-encounter="cape-wipeout">3 — Cape Wipeout Signal</button>
+      </div>
+
+      <label class="motion-toggle">
+        <input id="motion-toggle" type="checkbox">
+        Reduce landscape motion
+      </label>
+    </section>
+
+    <aside class="ledger-panel" id="ledger-panel" aria-labelledby="ledger-title" tabindex="-1">
+      <p class="meta-line">Civilizational Ledger</p>
+      <h2 id="ledger-title">No record open</h2>
+      <p id="ledger-status" class="status-tag" data-status="OPEN QUESTION">Awaiting encounter</p>
+      <p id="ledger-summary">Select an encounter to reveal the surviving record attached to that location.</p>
+      <p id="ledger-note" class="ledger-note"></p>
+    </aside>
+
+    <section class="episode-gate" aria-labelledby="episode-gate-title">
+      <p class="meta-line">Narrative Gate</p>
+      <h2 id="episode-gate-title">March 19, 2226</h2>
+      <p>One signal in this landscape resolves into the event later remembered as Cape Wipeout.</p>
+      <a class="episode-link" href="../../../episodes/ep01/03_PROTOTYPE/episode-cape-wipeout-pt1-interactive.html">Enter Episode 1: Cape Wipeout</a>
+    </section>
+
+    <details class="textual-world">
+      <summary>Text description of this landscape</summary>
+      <p>Tisetan appears as a layered monochrome field: a low horizon, tower-like silhouettes, broken lines of civic infrastructure, drifting particulate traces, and three bright signal points. The scene changes slowly unless reduced motion is enabled. Every interactive encounter is also available as a standard HTML control above, so the canvas is never required to understand or operate the experience.</p>
+    </details>
+  </main>
+</body>
+</html>
