@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dead Glass: Transit Field 02 — UMADA</title>
+  <link rel="stylesheet" href="../../../assets/css/main.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js" defer></script>
+  <script src="./sketch.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#controls">Skip animated field</a>
+<header class="site-header">
+  <div class="site-header__top">
+    <p class="site-title"><a href="../../../index.html">UMADA</a></p>
+    <p class="site-tagline">A world being remembered.</p>
+  </div>
+</header>
+<main class="experience-shell">
+  <section class="experience-intro">
+    <p class="meta-line">Experience Layer / Landscape 02</p>
+    <h1>Dead Glass: Transit Field</h1>
+    <p class="lede">A non-literal study of broken civic signal: infrastructure remains visible, but information does not arrive intact.</p>
+    <p class="status-tag" data-status="LOCKED / EMERGING">LOCKED / EMERGING</p>
+  </section>
+
+  <section class="stage" aria-label="Animated abstract field representing network, infrastructure, and information collapse">
+    <div id="p5-mount" aria-hidden="true"></div>
+    <p id="field-status" class="field-status" aria-live="polite">Transit field active. Signal routes are unstable.</p>
+  </section>
+
+  <section id="controls" class="controls">
+    <h2>Inspect the field</h2>
+    <p>Use the controls below or keys 1–3. Each view describes a condition already present in the Civilizational Ledger; the visual treatment does not add new canon.</p>
+    <div class="control-row" role="group" aria-label="Dead Glass views">
+      <button type="button" data-view="network">1 — Network</button>
+      <button type="button" data-view="infrastructure">2 — Infrastructure</button>
+      <button type="button" data-view="information">3 — Information</button>
+    </div>
+    <label><input type="checkbox" id="motion-toggle"> Reduce motion</label>
+  </section>
+
+  <aside class="ledger-panel" id="ledger-panel" tabindex="-1">
+    <p class="meta-line">Civilizational Ledger / Era 10</p>
+    <h2 id="ledger-title">Dead Glass</h2>
+    <p id="ledger-copy">Network, infrastructure, information collapse.</p>
+    <p id="ledger-note">This landscape is an interpretive interface to that existing ledger entry, not a new narrative event.</p>
+  </aside>
+
+  <nav class="experience-nav" aria-label="Experience sequence">
+    <a href="../tisetan-living-landscape-01/index.html">← Landscape 01: Tisetan</a>
+    <a href="../../../episodes/ep01/03_PROTOTYPE/episode-cape-wipeout-pt1-interactive.html">Episode 1: Cape Wipeout →</a>
+  </nav>
+
+  <details>
+    <summary>Text description of this animated field</summary>
+    <p>The screen is monochrome. Thin routes connect block-like civic structures, then break, fade, or terminate before reaching their destinations. Small packets of light attempt to travel along the routes. Some stop abruptly; some fragment into noise; some never leave their source. Reduced-motion mode freezes the movement while preserving all three inspectable states in text and controls.</p>
+  </details>
+</main>
+</body>
+</html>
