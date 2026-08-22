@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Angel Dust: Florida Approach — UMADA</title>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js" defer></script>
+  <script src="./sketch.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#story-controls">Skip animated visualization</a>
+<header class="site-header"><div class="site-header__top"><p class="site-title"><a href="../../index.html">UMADA</a></p><p class="site-tagline">A world being remembered.</p></div></header>
+<main class="angel-shell">
+  <section aria-labelledby="angel-title">
+    <p class="meta-line">Landscape 03 / creator-memory visualization</p>
+    <h1 id="angel-title">Angel Dust: Florida Approach</h1>
+    <p class="lede">A p5 storyboard study of a beach community watching an Angel Dust atmospheric front approach Florida. This is a visual-memory prototype, not a claim of literal nuclear fallout.</p>
+  </section>
+
+  <section class="story-stage" aria-label="Animated storyboard visualization">
+    <div id="p5-mount" aria-hidden="true"></div>
+    <p id="story-status" class="visually-hidden" aria-live="polite">Panel one: ordinary beach afternoon before the sky changes.</p>
+  </section>
+
+  <section id="story-controls" class="story-controls" aria-labelledby="controls-title">
+    <h2 id="controls-title">Storyboard sequence</h2>
+    <p>Choose a panel or use left and right arrow keys while these controls are focused.</p>
+    <div class="panel-buttons" role="group" aria-label="Storyboard panels">
+      <button type="button" data-panel="0" aria-pressed="true">1 — Before</button>
+      <button type="button" data-panel="1" aria-pressed="false">2 — Horizon</button>
+      <button type="button" data-panel="2" aria-pressed="false">3 — Arrival</button>
+      <button type="button" data-panel="3" aria-pressed="false">4 — Shelter</button>
+    </div>
+    <label class="motion-toggle"><input id="motion-toggle" type="checkbox"> Reduce motion</label>
+  </section>
+
+  <section class="story-text" aria-labelledby="panel-title">
+    <p class="meta-line">Current frame</p>
+    <h2 id="panel-title">Before</h2>
+    <p id="panel-copy">A Florida beach under a pale afternoon sky. Children play near the water. Older adults sit beneath a shade structure. Nothing is yet identified as danger.</p>
+  </section>
+
+  <aside class="canon-note">
+    <h2>Canon boundary</h2>
+    <p><strong>Creator memory:</strong> Angel Dust should feel like nuclear winter. This visualization uses dimmed sunlight, particulate haze, loss of horizon clarity, ecological stress, and shelter behavior as visual language. It does not establish radiation, nuclear weapons, nuclear causation, exact weather values, or a specific Florida city.</p>
+  </aside>
+
+  <p><a href="../tisetan-living-landscape-01/index.html">Return to Tisetan Living Landscape 01</a></p>
+</main>
+</body>
+</html>
