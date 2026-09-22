@@ -18,6 +18,7 @@ Status legend: LOCKED / PROBABLE / EMERGING / OPEN QUESTION / RETIRED
 - Black Stars Tower hears first.
 - Super Hurricane Cindy carried the breach through water, air, and storm.
 - Monsters become care infrastructure.
+- **Ether Power has always existed on Earth. It is not created by lightning, human technology, or the atomic-bomb event. Technologies can only couple to, concentrate, redirect, store an induced state from, or release Ether.** See `08_technology/ETHER_POWER_COUPLING_MODEL.md`.
 
 ## Friedmandostorp (revised)
 
@@ -90,6 +91,14 @@ full detail, provenance, and the open questions these additions raise.
   `07_languages/NAGO_ROOT_GLYPHS_DRAFT.md`, kept separate from the function-family and
   motif-family axes above; the two-axes rule above is now read as three layers that
   must never be merged.
+
+## Canon addition (2026-09-22) — Ether Power coupling
+
+- Ether is a pre-existing Earth phenomenon in UMADA cosmology.
+- Lightning and other environmental phenomena are possible coupling triggers or observables, not sources of Ether.
+- The laboratory "Ether chamber" is a discovery instrument that first eliminates conventional electrical, magnetic, thermal, chemical, and mechanical explanations before treating a persistent residual as Ether.
+- Ancient monuments may function as narrative antecedents for environmental observation, but real-world claims about ancient energy technology remain research questions, not historical fact.
+- The atomic blast creates an extreme disturbance/coupling event that can be detected beyond Earth; it does not create Ether.
 
 ## Poetry
 
