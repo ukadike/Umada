@@ -30,6 +30,15 @@ Per `UMADA_CANON_INDEX.md`:
   songs. See `08_technology/MEMORY_TABLETS_AND_STONES.md` for register structure and
   educational use.
 
+## Ether Power canon lock (2026-09-22)
+
+- **Ether Power is ambient and pre-existing. It is not created by humans, lightning, or nuclear events.**
+- Technology can only couple to, concentrate, redirect, store an induced Ether state, or release it.
+- Lightning, minerals, groundwater, geometry, pressure, magnetism, and astronomical cycles may act as coupling conditions without themselves being Ether.
+- The atomic-bomb event creates an extreme coupling disturbance; it does not create Ether.
+- See [ETHER_POWER_COUPLING_MODEL.md](ETHER_POWER_COUPLING_MODEL.md).
+- Real-world analogues and evidence limits are tracked separately in [../14_research/ANCIENT_EARTH_ENERGY_ANALOGUES.md](../14_research/ANCIENT_EARTH_ENERGY_ANALOGUES.md).
+
 ## Related project (production note, not canon)
 
 The real-world [Omoluabi repository](https://github.com/ukadike/omoluabi) is the sister
