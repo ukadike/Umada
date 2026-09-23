@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+<title id="title">3I/ATLAS — The Control Sample</title><desc id="desc">Three-part UMADA research diagram showing Earth and Trinity as a reference point, 3I/ATLAS as an independent interstellar object, and comparative analysis, followed by its research role, misconceptions, and significance.</desc>
+<defs>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#1a1a1a"/></marker>
+ <marker id="garrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#38b982"/></marker>
+ <radialGradient id="field" cx="50%" cy="50%"><stop offset="0" stop-color="#38b982" stop-opacity=".42"/><stop offset="1" stop-color="#38b982" stop-opacity="0"/></radialGradient>
+ <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#38b982" stop-opacity=".5"/><stop offset="1" stop-color="#38b982" stop-opacity=".05"/></linearGradient>
+</defs>
+<rect width="1440" height="1080" fill="#efece2"/>
+<rect x="20" y="20" width="1400" height="1040" rx="6" fill="none" stroke="#c8c5bd" stroke-width="1.5"/>
+<text x="54" y="58" font-family="Arial,sans-serif" font-size="24" fill="#1a1a1a" text-anchor="start" font-weight="700" letter-spacing="5">UMADA</text>
+<text x="54" y="82" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700"><tspan x="54" dy="0">SMALL</tspan><tspan x="54" dy="14.5">SYSTEMS</tspan><tspan x="54" dy="14.5">LAB</tspan></text>
+<line x1="38" y1="36" x2="38" y2="112" stroke="#1a1a1a" stroke-width="1"/>
+<text x="720" y="76" font-family="Georgia,serif" font-size="46" fill="#1a1a1a" text-anchor="middle" font-weight="700" >3I/ATLAS — The Control Sample</text>
+<text x="720" y="112" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="400" >An interstellar object used for comparison, not the cause of the Trinity event.</text>
+<text x="1368" y="50" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="end" font-weight="700"><tspan x="1368" dy="0">REAL</tspan><tspan x="1368" dy="13.5">BOUNDARIES</tspan><tspan x="1368" dy="13.5">BOLDER</tspan><tspan x="1368" dy="13.5">QUESTIONS</tspan></text>
+<line x1="1376" y1="36" x2="1376" y2="112" stroke="#1a1a1a" stroke-width="1"/>
+<line x1="120" y1="136" x2="1320" y2="136" stroke="#c8c5bd" />
+<rect x="40" y="170" width="430" height="470" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+  <circle cx="70" cy="204" r="18" fill="#efece2" stroke="#1a1a1a"/>
+  <text x="70" y="210" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="700" >1</text>
+  <text x="98" y="208" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="start" font-weight="700" >Earth / Trinity event</text>
+  <text x="98" y="231" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.5">A KNOWN REFERENCE POINT</text><circle cx="120" cy="390" r="50" fill="#111416" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 85 382.5 C 100 357.5, 122.5 362.5, 127.5 380
+           C 137.5 387.5, 131 399, 119 396
+           C 111 412.5, 97.5 409, 92.5 396 Z" fill="#bfe7d5" opacity=".9"/>
+  <path d="M 127.5 362.5 C 147.5 367.5, 156 384, 142.5 392.5
+           C 151 407.5, 135 421, 124 407.5
+           C 117.5 395, 122.5 384, 127.5 362.5 Z" fill="#bfe7d5" opacity=".75"/>
+  <circle cx="120" cy="390" r="39" fill="none" stroke="#ffffff" opacity=".18"/><path d="M 246.36 453.2 C 239.64 426.8, 245.4 410, 250.2 398
+          L 260.76 398 C 267 416.24, 269.4 435.44, 263.64 453.2 Z" fill="#6f6f6f" opacity=".8"/>
+  <circle cx="255" cy="320" r="28.799999999999997" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="210" cy="335" r="21.599999999999998" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="300" cy="335" r="21.599999999999998" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="177" cy="360" r="16.32" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="333" cy="360" r="16.32" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="237" cy="280" r="18.24" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="280" cy="280" r="21.119999999999997" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="197.4" y1="470" x2="312.6" y2="470" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 202.2 470 q 25 -22 50 0 q 28 -28 58 0 q 30 -22 58 0 q 22 -18 48 0" fill="none" stroke="#6f6f6f" stroke-width="3"/><circle cx="390" cy="390" r="32" fill="#111416" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 367.6 385.2 C 377.2 369.2, 391.6 372.4, 394.8 383.6
+           C 401.2 388.4, 397.04 395.76, 389.36 393.84
+           C 384.24 404.4, 375.6 402.16, 372.4 393.84 Z" fill="#bfe7d5" opacity=".9"/>
+  <path d="M 394.8 372.4 C 407.6 375.6, 413.04 386.16, 404.4 391.6
+           C 409.84 401.2, 399.6 409.84, 392.56 401.2
+           C 388.4 393.2, 391.6 386.16, 394.8 372.4 Z" fill="#bfe7d5" opacity=".75"/>
+  <circle cx="390" cy="390" r="24.96" fill="none" stroke="#ffffff" opacity=".18"/><circle cx="390" cy="390" r="25" fill="none" stroke="#38b982" stroke-width="4" opacity="0.65"/><circle cx="390" cy="390" r="50" fill="none" stroke="#38b982" stroke-width="2" opacity="0.5900000000000001"/><circle cx="390" cy="390" r="75" fill="none" stroke="#38b982" stroke-width="2" opacity="0.53"/><circle cx="390" cy="390" r="100" fill="none" stroke="#38b982" stroke-width="2" opacity="0.47000000000000003"/><line x1="170" y1="390" x2="205" y2="390" stroke="#1a1a1a" marker-end="url(#arrow)"/><line x1="310" y1="390" x2="345" y2="390" stroke="#1a1a1a" marker-end="url(#arrow)"/><text x="120" y="548" font-family="Georgia,serif" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="700"><tspan x="120" dy="0">Earth</tspan><tspan x="120" dy="17.5">ambient field</tspan></text><text x="255" y="548" font-family="Georgia,serif" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="700"><tspan x="255" dy="0">Trinity</tspan><tspan x="255" dy="17.5">human event</tspan></text><text x="390" y="548" font-family="Georgia,serif" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="700"><tspan x="390" dy="0">Threshold Pulse</tspan><tspan x="390" dy="17.5">story mechanism</tspan></text><rect x="485" y="170" width="470" height="470" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+  <circle cx="515" cy="204" r="18" fill="#efece2" stroke="#1a1a1a"/>
+  <text x="515" y="210" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="700" >2</text>
+  <text x="543" y="208" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="start" font-weight="700" >3I/ATLAS</text>
+  <text x="543" y="231" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.5">AN INDEPENDENT INTERSTELLAR OBJECT</text><rect x="512" y="255" width="416" height="310" rx="6" fill="#111416"/>
+ <path d="M 610 450 C 650 380, 745 325, 825 355 C 855 370, 860 410, 824 435 C 770 475, 670 505, 610 450 Z" fill="#6f6f6f" stroke="#ffffff" opacity=".9"/>
+ <path d="M 820 355 C 865 340, 895 315, 918 290" fill="none" stroke="#38b982" stroke-width="18" opacity=".25"/>
+ <path d="M 820 355 C 870 338, 900 312, 920 284" fill="none" stroke="#38b982" stroke-width="3" marker-end="url(#garrow)"/>
+ <text x="694" y="302" font-family="Arial,sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700" letter-spacing="1.2">COMA / VOLATILES</text>
+ <text x="800" y="505" font-family="Arial,sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700" letter-spacing=".8">NUCLEUS · ICE + DUST + PRIMORDIAL MATERIAL</text>
+ <text x="873" y="330" font-family="Arial,sans-serif" font-size="9" fill="#bfe7d5" text-anchor="middle" font-weight="700" letter-spacing="1.1">INTERSTELLAR TRAJECTORY</text><rect x="970" y="170" width="430" height="470" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+  <circle cx="1000" cy="204" r="18" fill="#efece2" stroke="#1a1a1a"/>
+  <text x="1000" y="210" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="700" >3</text>
+  <text x="1028" y="208" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="start" font-weight="700" >Interstellar comparison</text>
+  <text x="1028" y="231" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.5">DIFFERENT ORIGINS · SHARED QUESTIONS</text><circle cx="1068" cy="335" r="48" fill="#111416" stroke="#1a1a1a"/><circle cx="1302" cy="335" r="48" fill="#6f6f6f" stroke="#1a1a1a"/>
+ <circle cx="1068" cy="455" r="58" fill="none" stroke="#38b982" stroke-width="2"/><circle cx="1302" cy="455" r="58" fill="none" stroke="#38b982" stroke-width="2"/>
+ <text x="1068" y="270" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="middle" font-weight="700" letter-spacing="1.2">EARTH-ORIGIN</text>
+ <text x="1302" y="270" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="middle" font-weight="700" letter-spacing="1.2">3I/ATLAS</text>
+ <text x="1185" y="395" font-family="Arial,sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="700" letter-spacing="1">←  COMPARE  →</text>
+ <line x1="1025" y1="455" x2="1111" y2="455" stroke="#38b982"/><line x1="1068" y1="412" x2="1068" y2="498" stroke="#38b982"/>
+ <line x1="1260" y1="455" x2="1344" y2="455" stroke="#38b982"/><line x1="1302" y1="412" x2="1302" y2="498" stroke="#38b982"/>
+ <text x="1185" y="560" font-family="Georgia,serif" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="400"><tspan x="1185" dy="0">Compare material, signals,</tspan><tspan x="1185" dy="17.5">patterns, and differences.</tspan></text><rect x="40" y="660" width="1360" height="150" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+ <text x="66" y="708" font-family="Georgia,serif" font-size="28" fill="#1a1a1a" text-anchor="start" font-weight="700" >The role of 3I/ATLAS</text>
+ <text x="66" y="734" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.6">A SIMPLE FLOW</text><circle cx="340" cy="704" r="18" fill="#efece2" stroke="#1a1a1a"/><text x="340" y="710" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="700" >1</text>
+   <text x="370" y="706" font-family="Georgia,serif" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="700"><tspan x="370" dy="0">Interstellar origin</tspan></text>
+   <text x="370" y="741" font-family="Arial,sans-serif" font-size="11" fill="#6f6f6f" text-anchor="start" font-weight="400"><tspan x="370" dy="0">formed beyond our solar system</tspan></text><line x1="530" y1="716" x2="560" y2="716" stroke="#1a1a1a" marker-end="url(#arrow)"/><circle cx="595" cy="704" r="18" fill="#efece2" stroke="#1a1a1a"/><text x="595" y="710" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="700" >2</text>
+   <text x="625" y="706" font-family="Georgia,serif" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="700"><tspan x="625" dy="0">passes through the solar system</tspan></text>
+   <text x="625" y="741" font-family="Arial,sans-serif" font-size="11" fill="#6f6f6f" text-anchor="start" font-weight="400"><tspan x="625" dy="0">follows an independent trajectory</tspan></text><line x1="785" y1="716" x2="815" y2="716" stroke="#1a1a1a" marker-end="url(#arrow)"/><circle cx="850" cy="704" r="18" fill="#efece2" stroke="#1a1a1a"/><text x="850" y="710" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="700" >3</text>
+   <text x="880" y="706" font-family="Georgia,serif" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="700"><tspan x="880" dy="0">preserves evidence from beyond Earth</tspan></text>
+   <text x="880" y="741" font-family="Arial,sans-serif" font-size="11" fill="#6f6f6f" text-anchor="start" font-weight="400"><tspan x="880" dy="0">carries a different environmental record</tspan></text><line x1="1040" y1="716" x2="1070" y2="716" stroke="#1a1a1a" marker-end="url(#arrow)"/><circle cx="1105" cy="704" r="18" fill="#efece2" stroke="#1a1a1a"/><text x="1105" y="710" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="700" >4</text>
+   <text x="1135" y="706" font-family="Georgia,serif" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="700"><tspan x="1135" dy="0">comparison sample for Ether research</tspan></text>
+   <text x="1135" y="741" font-family="Arial,sans-serif" font-size="11" fill="#6f6f6f" text-anchor="start" font-weight="400"><tspan x="1135" dy="0">tests what is and is not Earth-specific</tspan></text><rect x="40" y="830" width="660" height="150" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+ <text x="66" y="867" font-family="Georgia,serif" font-size="24" fill="#1a1a1a" text-anchor="start" font-weight="700" >What 3I/ATLAS is not</text>
+ <text x="66" y="898" font-family="Arial,sans-serif" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="400"><tspan x="66" dy="0">Not caused by Trinity · not redirected by Trinity</tspan><tspan x="66" dy="17.55">not locked as an alien spacecraft · not proof by itself</tspan></text>
+ <rect x="720" y="830" width="680" height="150" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+ <text x="746" y="867" font-family="Georgia,serif" font-size="24" fill="#1a1a1a" text-anchor="start" font-weight="700" >Why it matters</text>
+ <text x="746" y="898" font-family="Arial,sans-serif" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="400"><tspan x="746" dy="0">Offers non-Earth material for comparison · widens the theory</tspan><tspan x="746" dy="17.55">supports later understanding of whether Ether patterns recur</tspan></text>
+<line x1="42" y1="1016" x2="1398" y2="1016" stroke="#c8c5bd"/>
+<circle cx="54" cy="1040" r="10" fill="none" stroke="#1a1a1a"/><line x1="54" y1="1025" x2="54" y2="1055" stroke="#1a1a1a"/><line x1="39" y1="1040" x2="69" y2="1040" stroke="#1a1a1a"/>
+<text x="78" y="1046" font-family="Arial,sans-serif" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="700" letter-spacing="3">UMADA</text>
+<text x="720" y="1046" font-family="Arial,sans-serif" font-size="11" fill="#6f6f6f" text-anchor="middle" font-weight="700" letter-spacing="2">CONTROL SAMPLE LOGIC INSIDE THE UMADA RESEARCH ARCHIVE</text>
+<text x="1388" y="1046" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="end" font-weight="700" letter-spacing="1.5">PLATE 4 · 2026</text>
+</svg>
