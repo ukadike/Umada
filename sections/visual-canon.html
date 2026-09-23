@@ -66,6 +66,15 @@ with a plate, the plate wins and the document is corrected — never the reverse
         statusTag(a.status),
         dl,
       ]);
+      if (a.canon_status) {
+        block.appendChild(document.createTextNode(" "));
+        block.appendChild(statusTag(a.canon_status));
+      }
+      if (a.page) {
+        block.appendChild(el("p", {}, [
+          el("a", { href: "../" + a.page, text: "Open full visual canon plate →" })
+        ]));
+      }
       if (a.open_questions && a.open_questions.length) {
         block.appendChild(el("p", {}, [el("strong", { text: "Open: " }), document.createTextNode(a.open_questions.join(" "))]));
       }

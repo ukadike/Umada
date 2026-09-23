@@ -1,6 +1,29 @@
 {
   "present": [
     {
+      "artifact_id": "PLATE_ANCIENT_GEOMETRY_SYSTEM_VOL_I",
+      "status": "PRESENT",
+      "canon_status": "LOCKED",
+      "file": null,
+      "render": "assembled-webp",
+      "parts": [
+        "assets/concept-art/ancient-geometry-system/part-01.b64",
+        "assets/concept-art/ancient-geometry-system/part-02.b64",
+        "assets/concept-art/ancient-geometry-system/part-03.b64",
+        "assets/concept-art/ancient-geometry-system/part-04.b64",
+        "assets/concept-art/ancient-geometry-system/part-05.b64",
+        "assets/concept-art/ancient-geometry-system/part-06.b64"
+      ],
+      "page": "sections/ancient-geometry-system.html",
+      "provenance": "Visual canon plate supplied directly by the UMADA project creator on 2026-09-22.",
+      "title_on_plate": "UMADA Ancient Geometry System — Ancient architecture logic for ecology, memory, and ether power",
+      "canon_implications": "Locks five primary civic geometries — Circle, Spiral, Radial Field, Concentric Rings, and Axis + Threshold — and establishes geometry as a civic coupling and stewardship system for Ether, water, memory, access, ecology, and governance. Geometry does not create Ether; it shapes coupling conditions and civic pathways.",
+      "episode_usage": "Worldbuilding, civic-design, Ether Power, Tisetan/UMADA settlement planning, production design, and future architecture/technology scenes.",
+      "alt_text": "UMADA Ancient Geometry System poster. Across the top are five primary civic geometries: circle, spiral, radial field, concentric rings, and axis plus threshold. Below is a circular eco-civic district plan with water channels, Ether nodes, farms, archives, civic zones, council space, shade courtyards, and north-south ceremonial gates.",
+      "tactile_notes": "The artifact is a 2D plate. A full semantic transcription and structural description are published on its dedicated page so the canon is available without relying on visual inspection.",
+      "open_questions": []
+    },
+    {
       "artifact_id": "PLATE_PROTO_NAGO",
       "status": "PRESENT",
       "file": "assets/img/PLATE_PROTO_NAGO.png",
@@ -10,7 +33,9 @@
       "episode_usage": "Visual reference for origin-era / pre-standardization signage.",
       "alt_text": "Illustrated reference plate titled Proto-Nago: The First Signs of Survival, showing fourteen hand-scratched survival marks with their meanings, the materials and surfaces they were made with, and a closing quote about why they were made.",
       "tactile_notes": "No tactile form documented on this plate; tactile forms for proto marks are AWAITING FRAGMENT.",
-      "open_questions": ["Which proto marks persisted into refined Nago and which were dropped or absorbed — not stated on either plate."]
+      "open_questions": [
+        "Which proto marks persisted into refined Nago and which were dropped or absorbed — not stated on either plate."
+      ]
     },
     {
       "artifact_id": "PLATE_NAGO_SYMBOLOGY_OF_UMADA",
@@ -22,7 +47,9 @@
       "episode_usage": "Visual reference for Language & Signage and Nago Symbology sections; art direction reference for in-world signage.",
       "alt_text": "Illustrated reference plate titled Nago: Symbology of Umada, showing design principles, a five-symbol visual grammar, eight core survival signs with hand gestures and tactile forms, seven color-coded symbol families, examples of in-world signage, sign-combination phrase examples, a tactile-system explanation, and an honor and origin statement.",
       "tactile_notes": "Tactile form illustrated per core sign directly on the plate; source for written tactile-form descriptions.",
-      "open_questions": ["Vector/CSS-level shape spec for the Visual Grammar primitives is AWAITING a dedicated asset-extraction pass."]
+      "open_questions": [
+        "Vector/CSS-level shape spec for the Visual Grammar primitives is AWAITING a dedicated asset-extraction pass."
+      ]
     },
     {
       "artifact_id": "UMADA_Friedmandostorp_Rescue_Animatic",
@@ -35,17 +62,50 @@
       "alt_text": "Animatic video depicting the Friedmandostorp rescue sequence from Cape Wipeout, Pt. 1, dated March 19 2226, scored by yellowbirdbeats.",
       "tactile_notes": "Not applicable to video. An audio transcript for the score and any dialogue remains AWAITING FRAGMENT — no speech-to-text tooling was available to produce one without guessing at content.",
       "caption_transcript": [
-        { "time": "0:00–0:05", "text": "UMADA / Friedmandostorp / March 19, 2226 (title card over four comic-panel thumbnails; one names “Kassey”)." },
-        { "time": "0:05–0:10", "text": "The town is in shards." },
-        { "time": "0:10–0:12", "text": "The town is blown open." },
-        { "time": "0:12–0:15", "text": "Corrugated roofs. Cement dust. Clay. Sewage. Bread in the road." },
-        { "time": "0:15–0:21", "text": "A face first. Then the damage." },
-        { "time": "0:21–0:26", "text": "Not dead. Not yet. (a mark resembling “FFF” is etched near the figures, unexplained)" },
-        { "time": "0:26–0:30", "text": "And one name burning under all of it. (torn military record, stamped CLEARANCE DENIED: “...VENTER,” “...STED KIA,” “[C]HIMERA SURVIVOR. SCIENTIST. EMPATH.” — with “Kassey” burned across it in a different script)" },
-        { "time": "0:30–0:33", "text": "The road comes broken: paperwork, fire, betrayal — and Kassey." },
-        { "time": "0:33–0:37", "text": "The record says dead. The body says no." },
-        { "time": "0:37–0:45", "text": "Talla calls. Q questions the risk. Quartz moves to carry her. (credit line at frame bottom: ADANNA “ADA” VENTER — CARE SHOOTER, OFF T—, clipped by the source frame's right edge)" },
-        { "time": "0:45–0:49", "text": "ADA-1 / Trust body over record." }
+        {
+          "time": "0:00–0:05",
+          "text": "UMADA / Friedmandostorp / March 19, 2226 (title card over four comic-panel thumbnails; one names “Kassey”)."
+        },
+        {
+          "time": "0:05–0:10",
+          "text": "The town is in shards."
+        },
+        {
+          "time": "0:10–0:12",
+          "text": "The town is blown open."
+        },
+        {
+          "time": "0:12–0:15",
+          "text": "Corrugated roofs. Cement dust. Clay. Sewage. Bread in the road."
+        },
+        {
+          "time": "0:15–0:21",
+          "text": "A face first. Then the damage."
+        },
+        {
+          "time": "0:21–0:26",
+          "text": "Not dead. Not yet. (a mark resembling “FFF” is etched near the figures, unexplained)"
+        },
+        {
+          "time": "0:26–0:30",
+          "text": "And one name burning under all of it. (torn military record, stamped CLEARANCE DENIED: “...VENTER,” “...STED KIA,” “[C]HIMERA SURVIVOR. SCIENTIST. EMPATH.” — with “Kassey” burned across it in a different script)"
+        },
+        {
+          "time": "0:30–0:33",
+          "text": "The road comes broken: paperwork, fire, betrayal — and Kassey."
+        },
+        {
+          "time": "0:33–0:37",
+          "text": "The record says dead. The body says no."
+        },
+        {
+          "time": "0:37–0:45",
+          "text": "Talla calls. Q questions the risk. Quartz moves to carry her. (credit line at frame bottom: ADANNA “ADA” VENTER — CARE SHOOTER, OFF T—, clipped by the source frame's right edge)"
+        },
+        {
+          "time": "0:45–0:49",
+          "text": "ADA-1 / Trust body over record."
+        }
       ],
       "transcript_note": "Covers on-screen captions and document/credit text only, recovered by manual frame review (ffmpeg, 2fps sampling, plus targeted high-resolution crops) during the 2026-06-22 Phase C ingestion pass. The audio track has not been reviewed.",
       "open_questions": [
@@ -58,16 +118,49 @@
     }
   ],
   "awaiting_fragment": [
-    { "artifact_id": "Ada Character Dossier", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Tallai Character Dossier", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Q Character Dossier", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Quartz Character Dossier", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Friedmandostorp Bread Stop Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Nago Origin Gestures Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Cape Lab Blast Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "ADA-1 Emergence Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Rescue Doctrine Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Super Hurricane Cindy Board", "status": "AWAITING FRAGMENT" },
-    { "artifact_id": "Black Stars Tower Board", "status": "AWAITING FRAGMENT" }
+    {
+      "artifact_id": "Ada Character Dossier",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Tallai Character Dossier",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Q Character Dossier",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Quartz Character Dossier",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Friedmandostorp Bread Stop Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Nago Origin Gestures Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Cape Lab Blast Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "ADA-1 Emergence Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Rescue Doctrine Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Super Hurricane Cindy Board",
+      "status": "AWAITING FRAGMENT"
+    },
+    {
+      "artifact_id": "Black Stars Tower Board",
+      "status": "AWAITING FRAGMENT"
+    }
   ]
 }

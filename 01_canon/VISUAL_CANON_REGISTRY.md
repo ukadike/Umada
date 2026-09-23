@@ -12,6 +12,20 @@ of the present artifacts also lives in `data/visual_artifacts.json`.
 
 ## Artifacts present in this package
 
+### PLATE_ANCIENT_GEOMETRY_SYSTEM_VOL_I
+
+- **status:** PRESENT — LOCKED visual canon, civic design / Ether architecture layer
+- **provenance:** Visual plate supplied directly by the UMADA project creator on 2026-09-22. Published as a browser-assembled WebP from archived base64 fragments under `assets/concept-art/ancient-geometry-system/`, with a complete semantic transcription at `sections/ancient-geometry-system.html`.
+- **title on plate:** "UMADA ANCIENT GEOMETRY SYSTEM" / "Ancient architecture logic for ecology, memory, and ether power." / "Civic Design Manual · Volume I · Geometry is Law · Harmony is Power."
+- **description:** The plate defines five primary geometries and combines them into an Eco-Civic District Plan. Circle = witness/gathering/continuity. Spiral = memory/archive/healing. Radial Field = Ether distribution/observatory/routes. Concentric Rings = governance/layered access/protected knowledge. Axis + Threshold = authority/decision/transition. The district integrates radial Ether lines, a spiral archive house, water channels, shade courtyards, a northern ceremonial gate, terraced farms, four concentric civic access zones, a circular council plaza, Ether nodes/civic wells, and a southern threshold of return. Its Ether Flow Principle states that Ether is guided, stored, and shared through stone channels, civic wells, handrails and ramps, clinics and healing courts, nurseries and schools, archives and libraries, shade and cooling systems, farms and workshops.
+- **canon implications:** Locks the architectural grammar for Ether stewardship. Geometry does **not** create Ether; it shapes coupling conditions and civic pathways around a pre-existing field. This plate is the visual/civic extension of `08_technology/ETHER_POWER_COUPLING_MODEL.md`. It creates a deliberate contrast with the Trinity Threshold: Trinity is violent accidental coupling; mature UMADA design is controlled civic stewardship.
+- **governance doctrine on plate:** "Power is not hidden. It is civilized. Power is not owned. It is stewarded."
+- **design philosophy on plate:** "Geometry is memory. Geometry is ecology. Geometry is power. Geometry is Umada." / "Proportion · Balance · Flow · Purpose." / "Built to last. Built to heal. Built to remember."
+- **episode usage:** Production-design reference for UMADA settlements, Tisetan civic space, Ether infrastructure, archives, healing spaces, council scenes, agriculture/water systems, and future technology/architecture sequences.
+- **alt text:** "UMADA Ancient Geometry System poster. Across the top are five primary civic geometries: circle, spiral, radial field, concentric rings, and axis plus threshold. Below is a circular eco-civic district plan with water channels, Ether nodes, farms, archives, civic zones, council space, shade courtyards, and north-south ceremonial gates."
+- **tactile notes:** 2D visual plate. The dedicated page provides a semantic transcription and structural description; a physical tactile-map translation has not yet been designed.
+- **open questions:** Exact construction ratios, material specifications, Ether-node engineering dimensions, and buildable tactile/3D translations remain future technical-development work. These are not inferred from the plate.
+
 ### PLATE_PROTO_NAGO
 
 - **status:** PRESENT — visual source of truth, origin layer

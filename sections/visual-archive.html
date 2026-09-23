@@ -45,9 +45,26 @@ described or guessed at.</p>
   loadJSON("../data/visual_artifacts.json").then((data) => {
     data.present.forEach((a) => {
       const figure = el("figure", {});
-      if (a.file.endsWith(".mp4")) {
+      if (a.render === "assembled-webp" && Array.isArray(a.parts)) {
+        const note = el("p", { class: "meta-line", text: "Loading archived visual plate…" });
+        const img = el("img", { alt: a.alt_text, loading: "lazy" });
+        img.hidden = true;
+        figure.appendChild(note);
+        figure.appendChild(img);
+        Promise.all(a.parts.map(async (p) => {
+          const response = await fetch("../" + p);
+          if (!response.ok) throw new Error(p);
+          return (await response.text()).trim();
+        })).then((parts) => {
+          img.src = "data:image/webp;base64," + parts.join("");
+          img.hidden = false;
+          note.remove();
+        }).catch(() => {
+          note.textContent = "Plate preview unavailable. Open the full transcription below.";
+        });
+      } else if (a.file && a.file.endsWith(".mp4")) {
         figure.appendChild(el("video", { src: "../" + a.file, controls: "", preload: "none" }));
-      } else {
+      } else if (a.file) {
         figure.appendChild(el("img", { src: "../" + a.file, alt: a.alt_text, loading: "lazy" }));
       }
       const caption = el("figcaption", {});
@@ -55,6 +72,9 @@ described or guessed at.</p>
       caption.appendChild(document.createElement("br"));
       caption.appendChild(document.createTextNode(a.tactile_notes));
       figure.appendChild(caption);
+      if (a.page) {
+        figure.appendChild(el("p", {}, [el("a", { href: "../" + a.page, text: "Open full plate and semantic transcription →" })]));
+      }
       if (a.caption_transcript && a.caption_transcript.length) {
         const details = el("details", { class: "transcript" });
         details.appendChild(el("summary", { text: "On-screen caption transcript" }));

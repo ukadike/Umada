@@ -33,3 +33,15 @@ entries in this pass. The Visual Grammar vector/CSS shape-spec open question on 
 symbology plate (see that entry's "open questions," and `01_canon/OPEN_QUESTIONS.md` item
 6) remains open — see `15_archive_recovery/README.md`'s 2026-06-22 entry for why it was
 scoped but not closed.
+
+## 2026-09-22 — Ancient Geometry System — Volume I registered
+
+`PLATE_ANCIENT_GEOMETRY_SYSTEM_VOL_I` entered the registry as PRESENT and LOCKED visual
+canon. The plate establishes five primary civic geometries — Circle, Spiral, Radial Field,
+Concentric Rings, and Axis + Threshold — and an integrated Eco-Civic District Plan for
+memory, ecology, access, water, governance, and Ether stewardship. A semantic
+transcription is published at `sections/ancient-geometry-system.html`; the plate is stored
+as browser-assembled archived image fragments under
+`assets/concept-art/ancient-geometry-system/`. Cross-references were added to the Ether
+Power coupling model and Trinity Threshold so the artifact functions as a system-level
+canon source rather than a standalone image.

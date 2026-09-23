@@ -79,6 +79,27 @@ That disturbance briefly couples Earth to Ether strongly enough for the event to
 
 Again: **the bomb does not create Ether.**
 
+## Civic geometry doctrine
+
+The locked visual plate **UMADA Ancient Geometry System — Volume I** extends the coupling model into architecture and civic design.
+
+Five primary geometries carry distinct functions:
+
+- **Circle:** witness, gathering, continuity.
+- **Spiral:** memory, archive, healing.
+- **Radial Field:** Ether distribution, observatory, routes.
+- **Concentric Rings:** governance, layered access, protected knowledge.
+- **Axis + Threshold:** authority, decision, transition.
+
+The plate's central rule is not that geometry generates Ether. Geometry organizes **coupling, routing, storage, access, and stewardship** around a field that already exists. Ether infrastructure is integrated with water channels, farms, clinics, schools, archives, ramps and handrails, shade/cooling systems, workshops, public space, and governance.
+
+The civic doctrine is summarized on the plate:
+
+> Power is not hidden. It is civilized.  
+> Power is not owned. It is stewarded.
+
+See `sections/ancient-geometry-system.html` and `01_canon/VISUAL_CANON_REGISTRY.md`.
+
 ## Canon guardrails
 
 - Ether has always existed on Earth.
