@@ -115,6 +115,58 @@
         "What is past “OFF T—” on Ada's credit line? Clipped by the source file's frame edge.",
         "No transcript exists yet for the audio track (score and any dialogue)."
       ]
+    },
+    {
+      "artifact_id": "PLATE_TRINITY_THRESHOLD",
+      "status": "PRESENT",
+      "canon_status": "LOCKED",
+      "file": "10_visuals/trinity-threshold-unified/01-trinity-threshold.svg",
+      "provenance": "Unified UMADA research plate published 2026-09-23 from the locked Trinity Threshold canon mechanism.",
+      "title_on_plate": "The Trinity Threshold",
+      "canon_implications": "Visualizes the locked causal distinction: Ether predates Trinity; Trinity produces an artificial Threshold Pulse; extraterrestrial recognition follows; 3I/ATLAS is not caused by Trinity.",
+      "episode_usage": "Trinity Threshold research, alien-conference backstory, Ether Power explanation, and future episode exposition.",
+      "alt_text": "The Trinity Threshold diagram showing five stages: Ether already exists, the Trinity detonation, Threshold Pulse or Ether Shock, extraterrestrial recognition, and an alien conference. Four lower notes preserve the locked real-world and canon boundaries.",
+      "tactile_notes": "A 2D vector research plate. Sequence numbers, headings, arrows, captions, and boundary statements carry the information without requiring color perception.",
+      "open_questions": []
+    },
+    {
+      "artifact_id": "PLATE_ALIEN_DETECTION_CAUSAL_CHAIN",
+      "status": "PRESENT",
+      "canon_status": "LOCKED",
+      "file": "10_visuals/trinity-threshold-unified/02-alien-detection-causal-chain.svg",
+      "provenance": "Unified UMADA research plate published 2026-09-23 from the Trinity Threshold alien-detection hypothesis.",
+      "title_on_plate": "Alien Detection Causal Chain",
+      "canon_implications": "Shows the story logic from nuclear event to Ether coupling, anomalous signature, distant detection, multi-observer verification, and coordinated extraterrestrial response.",
+      "episode_usage": "Alien conference backstory and timing-based evidence explanation.",
+      "alt_text": "Six-stage Alien Detection Causal Chain from a nuclear event on Earth to Ether-field coupling, anomalous signal, distant detection, cross-civilizational verification, and coordinated response.",
+      "tactile_notes": "A 2D vector flow diagram. Numbered stages and directional arrows define the reading order.",
+      "open_questions": []
+    },
+    {
+      "artifact_id": "PLATE_LOCAL_BOOM_DEEPER_SIGNAL",
+      "status": "PRESENT",
+      "canon_status": "LOCKED",
+      "file": "10_visuals/trinity-threshold-unified/03-local-boom-vs-deeper-signal.svg",
+      "provenance": "Unified UMADA research plate published 2026-09-23 to distinguish local physical blast effects from the speculative Ether signal.",
+      "title_on_plate": "Local Boom vs. Deeper Signal",
+      "canon_implications": "Prevents ordinary sound from being used as the interstellar mechanism. Local sound, heat, blast, ground motion, radiation, and light remain distinct from the fictional Ether-coupled informational signal.",
+      "episode_usage": "Scientific-boundary explainer for Trinity Threshold scenes and research archive.",
+      "alt_text": "Two-column diagram. The left side labels local terrestrial blast effects including light, heat, sound, ground motion, blast pressure, and radiation. The right side shows the fictional Ether-coupled Threshold Pulse moving beyond Earth.",
+      "tactile_notes": "A 2D comparison diagram with two labeled columns and a three-point real-world boundary summary.",
+      "open_questions": []
+    },
+    {
+      "artifact_id": "PLATE_3I_ATLAS_CONTROL_SAMPLE",
+      "status": "PRESENT",
+      "canon_status": "LOCKED",
+      "file": "10_visuals/trinity-threshold-unified/04-3i-atlas-control-sample.svg",
+      "provenance": "Unified UMADA research plate published 2026-09-23 from the locked 3I/ATLAS control-sample distinction.",
+      "title_on_plate": "3I/ATLAS — The Control Sample",
+      "canon_implications": "Locks 3I/ATLAS as an independent interstellar comparison sample: not caused by Trinity, not redirected by Trinity, not locked as an alien spacecraft, and not proof by itself.",
+      "episode_usage": "Comparative Ether research and later scientific investigation inside UMADA.",
+      "alt_text": "Three-part diagram showing Earth and Trinity as a reference point, 3I/ATLAS as an independent interstellar object, and comparative analysis between Earth-origin and interstellar material and signals.",
+      "tactile_notes": "A 2D research comparison diagram with three main sections, a four-step role flow, and explicit misconception and significance panels.",
+      "open_questions": []
     }
   ],
   "awaiting_fragment": [
