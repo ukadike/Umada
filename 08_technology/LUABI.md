@@ -114,3 +114,32 @@ Locked as of 2026-09-01:
 5. Form follows usefulness.
 6. Capability may expand without interaction complexity expanding.
 7. Real-world Omoluabi research may inform Luabi, but cross-project material does not automatically become canon.
+
+
+## Locked event doctrine — LUABI-CHIMERA-001
+
+**Locked:** 2026-09-22  
+**Event:** *The Baboons Knew First*  
+**Research note:** `14_research/LUABI_CHIMERA_001_THE_BABOONS_KNEW_FIRST.md`
+
+This event locks a recurring Luabi reasoning behavior:
+
+> **Correlation before explanation.**
+
+Luabi first recognizes that baboon anomalies, cross-species biological signals, veterinary and pathogen data, weather, ocean-current information, animal movement, and MIC activity form a southward pattern converging on **Cape Agulhas**.
+
+At the moment of first detection, Luabi does **not** know that chimera flu is the cause. It identifies the relationship before the explanation is available.
+
+Canonical warning:
+
+> **LUABI: These are not separate incidents. Follow the animals south.**
+
+The resulting continuity chain is:
+
+**baboon anomalies → wider animal signals → Cape Agulhas → hidden MIC chimera research / containment breach → chimera-flu leakage → Cape Wipeout → Hurricane Cindy dispersal**
+
+Narrative principle:
+
+> **The animals were treated as the problem while they were transmitting evidence.**
+
+This event does not make Luabi an oracle. It strengthens the existing canon requirement that the system preserve uncertainty and distinguish evidence of relationship from unsupported certainty about cause.
