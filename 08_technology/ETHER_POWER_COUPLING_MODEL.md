@@ -117,3 +117,29 @@ This framework gives UMADA a continuum:
 **ancient observation → environmental pattern recognition → lost/fragmented knowledge → modern reconstruction → controlled Ether chamber → large-scale atomic disturbance → extraterrestrial detection → later Ether engineering**
 
 It allows Ether Power to feel discovered rather than invented.
+
+
+## Executable geometry grammar
+
+The civic geometry doctrine now has an executable reference implementation: **UMADA Geometry Language v0.1**.
+
+The locked computational mapping is:
+
+- **Circle →** shared state.
+- **Spiral →** persistent memory.
+- **Radial Field →** distributed network.
+- **Concentric Rings →** permission layers.
+- **Axis + Threshold →** state transition.
+
+Canonical design rule:
+
+```text
+EtherFlow = Geometry × Purpose × Access
+```
+
+This is a worldbuilding/computational design rule, not a real-world physics equation.
+
+See:
+- `08_technology/UMADA_GEOMETRY_LANGUAGE_V0_1.md`
+- `assets/js/umada-geometry-language.js`
+- `sections/geometry-language.html`
