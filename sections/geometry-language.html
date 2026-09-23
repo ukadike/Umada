@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UMADA Geometry Language v0.1</title>
+<meta name="description" content="Executable UMADA geometry grammar for civic architecture, memory, permissions, Ether routing, and state transitions.">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script src="../assets/js/accessibility.js" defer></script>
+<script src="../assets/js/nav.js" defer></script>
+<script src="../assets/js/umada-geometry-language.js" defer></script>
+<style>
+.geometry-demo{max-width:52rem;margin:1.5rem auto}
+.geometry-demo canvas{display:block;width:100%;height:auto;border:1px solid var(--line);background:var(--soft)}
+.geometry-controls{display:flex;gap:.75rem;flex-wrap:wrap;align-items:center;margin:1rem 0}
+.geometry-controls input{min-width:20rem;max-width:100%;padding:.55rem}
+.geometry-output{padding:1rem;border:1px solid var(--line);background:var(--soft)}
+.code-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:.75rem}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="site-header__top">
+    <p class="site-title"><a href="../index.html">UMADA</a></p>
+    <p class="site-tagline">A world being remembered.</p>
+  </div>
+</header>
+
+<main id="main">
+<p class="meta-line">Technology · Visual Canon · Executable system</p>
+<h1>UMADA Geometry Language v0.1</h1>
+<p><span class="status-tag" data-status="LOCKED">LOCKED</span></p>
+<p class="lede">A shared computational grammar for architecture, civic systems, Ether infrastructure, memory, access, and state transition.</p>
+
+<blockquote><p><strong>Ether follows civic geometry.</strong></p></blockquote>
+<p>This does not mean geometry creates Ether. In canon, geometry establishes coupling, routing, storage, access, and stewardship conditions around a field that already exists.</p>
+
+<section class="geometry-demo" aria-labelledby="demo-title">
+<h2 id="demo-title">Executable district</h2>
+<canvas id="district" width="900" height="900" aria-label="Animated schematic of the UMADA Ancient Geometry System: concentric civic rings, radial routes, Ether nodes, a north-south threshold axis, central witness circle, and spiral archive."></canvas>
+<p>The moving points visualize the canonical routing rule. They are a design-fiction representation, not a physical simulation.</p>
+</section>
+
+<h2>Five primitives</h2>
+<div class="code-map">
+  <article class="card"><h3>Circle</h3><p>Witness · gathering · continuity</p><p><code>shared_state</code></p></article>
+  <article class="card"><h3>Spiral</h3><p>Memory · archive · healing</p><p><code>persistent_memory</code></p></article>
+  <article class="card"><h3>Radial Field</h3><p>Ether distribution · observatory · routes</p><p><code>distributed_network</code></p></article>
+  <article class="card"><h3>Concentric Rings</h3><p>Governance · layered access · protected knowledge</p><p><code>permission_layers</code></p></article>
+  <article class="card"><h3>Axis + Threshold</h3><p>Authority · decision · transition</p><p><code>state_transition</code></p></article>
+</div>
+
+<h2>Geometry as a sentence</h2>
+<p>The same forms can be sequenced as machine-readable civic instructions.</p>
+<div class="geometry-controls">
+<label for="sequence"><strong>Sequence</strong></label>
+<input id="sequence" value="SPIRAL → CIRCLE → RADIAL" aria-describedby="sequence-help">
+<button id="interpret" type="button">Interpret</button>
+</div>
+<p id="sequence-help">Use CIRCLE, SPIRAL, RADIAL, RINGS, and THRESHOLD separated by arrows, commas, or spaces.</p>
+<div id="interpretation" class="geometry-output" aria-live="polite"></div>
+
+<h2>Canonical examples</h2>
+<pre><code>SPIRAL → CIRCLE → RADIAL
+retrieve memory
+→ bring into public witness
+→ distribute through the network</code></pre>
+
+<pre><code>RADIAL → RINGS → THRESHOLD
+receive / distribute information
+→ determine authorized access
+→ permit or reject transition</code></pre>
+
+<h2>Computational rule</h2>
+<pre><code>EtherFlow = Geometry × Purpose × Access</code></pre>
+<p>This is a design rule, not a real-world physics equation. The executable implementation makes architecture behave like a system: rings become permissions, radial lines become networks, spirals become persistent memory, circles become shared state, and thresholds become transitions.</p>
+
+<h2>Cross-system role</h2>
+<p>The grammar is available to <strong>Luabi</strong> as machine-readable civic state, to <strong>Nago</strong> as a possible symbolic/tactile substrate, to architecture as spatial organization, to Ether infrastructure as routing logic, and to governance as witness/access/decision logic.</p>
+
+<h2>Reality boundary</h2>
+<p>UMADA Geometry Language is speculative worldbuilding and executable design fiction. The software can generate layouts and simulate civic rules; it is not evidence that real-world geometry manipulates an undiscovered Ether field.</p>
+
+<div class="cross-refs">
+Visual source: <a href="ancient-geometry-system.html">Ancient Geometry System — Volume I</a>.
+Related: <a href="trinity-threshold.html">The Trinity Threshold</a>.
+Source specification: <code>08_technology/UMADA_GEOMETRY_LANGUAGE_V0_1.md</code>.
+</div>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+<p>Canon status: <span class="status-tag" data-status="LOCKED">LOCKED</span></p>
+<p class="home">Part of <a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a></p>
+</div></footer>
+
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  const canvas = document.getElementById("district");
+  const output = document.getElementById("interpretation");
+  const input = document.getElementById("sequence");
+  const button = document.getElementById("interpret");
+
+  if (window.UmadaGeometry) {
+    window.UmadaGeometry.animateDistrict(canvas);
+  }
+
+  function interpret() {
+    const tokens = input.value
+      .replace(/[→,]/g, " ")
+      .split(/\s+/)
+      .filter(Boolean);
+
+    const meanings = window.UmadaGeometry
+      ? window.UmadaGeometry.interpretSequence(tokens)
+      : [];
+
+    output.textContent = meanings.length
+      ? meanings.join(" → ")
+      : "No recognized geometry sequence.";
+  }
+
+  button.addEventListener("click", interpret);
+  interpret();
+});
+</script>
+</body>
+</html>
