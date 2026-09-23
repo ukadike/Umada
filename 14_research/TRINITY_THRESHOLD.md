@@ -2,7 +2,7 @@
 
 **Status:** LOCKED UMADA canon mechanism / research-backed speculative layer  
 **Historical anchor:** Trinity nuclear test, July 16, 1945  
-**Last updated:** 2026-09-22
+**Last updated:** 2026-09-23
 
 ## Core canon
 
@@ -158,6 +158,18 @@ UMADA later reveals that a second event happened at the same moment:
 **humanity accidentally announced itself through a physical layer it did not yet know existed.**
 
 That is the Trinity Threshold.
+
+
+## Unified visual research plates
+
+The Trinity Threshold is accompanied by a four-plate accessible SVG set:
+
+1. `10_visuals/trinity-threshold-unified/01-trinity-threshold.svg` — the complete five-stage causal model and locked canon boundaries.
+2. `10_visuals/trinity-threshold-unified/02-alien-detection-causal-chain.svg` — nuclear event → Threshold Pulse → anomalous signature → distant detection → cross-civilizational verification → coordinated response.
+3. `10_visuals/trinity-threshold-unified/03-local-boom-vs-deeper-signal.svg` — real terrestrial blast effects separated from the fictional Ether-field signal.
+4. `10_visuals/trinity-threshold-unified/04-3i-atlas-control-sample.svg` — 3I/ATLAS as an independent interstellar comparison sample, not a cause of Trinity.
+
+Each SVG contains its own `<title>` and `<desc>` accessibility metadata. The public HTML page also supplies alt text and captions.
 
 ## Research sources
 
