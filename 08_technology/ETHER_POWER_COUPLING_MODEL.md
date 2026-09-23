@@ -143,3 +143,22 @@ See:
 - `08_technology/UMADA_GEOMETRY_LANGUAGE_V0_1.md`
 - `assets/js/umada-geometry-language.js`
 - `sections/geometry-language.html`
+
+
+## Visual research plates
+
+The published visual set is maintained in `10_visuals/ether-research-plates/`.
+
+### Plate 01 — Ether Coupling Model
+
+![Ether Coupling Model](../10_visuals/ether-research-plates/01-ether-coupling-model.svg)
+
+### Plate 02 — Ether Chamber / Observation Box
+
+![Ether Chamber / Observation Box](../10_visuals/ether-research-plates/02-ether-chamber-observation-box.svg)
+
+### Plate 03 — Ancient Observation → Modern Discovery
+
+![Ancient Observation to Modern Discovery](../10_visuals/ether-research-plates/03-ancient-observation-modern-discovery.svg)
+
+Full captions and alt-text descriptions: [Ether Research Plates — Series 01](../10_visuals/ether-research-plates/README.md).
