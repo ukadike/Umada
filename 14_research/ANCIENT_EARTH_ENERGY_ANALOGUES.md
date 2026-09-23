@@ -126,3 +126,16 @@ The narrative proposition is therefore not "ancient people had Ether generators.
 > Ancient observers may have noticed environmental relationships that later researchers, with better instrumentation, finally recognize as conditions under which Ether can couple to matter.
 
 This keeps the worldbuilding anchored to measurable phenomena while preserving Ether as speculative fiction.
+
+
+## Visual research set
+
+The evidence-to-fiction distinction is visualized in **Ether Research Plates — Series 01**:
+
+![Ancient Observation to Modern Discovery](../10_visuals/ether-research-plates/03-ancient-observation-modern-discovery.svg)
+
+Additional plates:
+
+- [Ether Coupling Model](../10_visuals/ether-research-plates/01-ether-coupling-model.svg)
+- [Ether Chamber / Observation Box](../10_visuals/ether-research-plates/02-ether-chamber-observation-box.svg)
+- [Full visual series with accessibility descriptions](../10_visuals/ether-research-plates/README.md)
