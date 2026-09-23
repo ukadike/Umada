@@ -45,3 +45,18 @@ as browser-assembled archived image fragments under
 `assets/concept-art/ancient-geometry-system/`. Cross-references were added to the Ether
 Power coupling model and Trinity Threshold so the artifact functions as a system-level
 canon source rather than a standalone image.
+
+
+## 2026-09-22 — Geometry Language v0.1 locked and made executable
+
+The five forms established by `PLATE_ANCIENT_GEOMETRY_SYSTEM_VOL_I` were promoted from
+visual grammar to executable system canon as **UMADA Geometry Language v0.1**. The mapping
+is now locked: Circle → shared state; Spiral → persistent memory; Radial Field →
+distributed network; Concentric Rings → permission layers; Axis + Threshold → state
+transition. The canonical routing rule is **“Ether follows civic geometry.”** Geometry
+does not create Ether; it defines coupling, routing, storage, access, and stewardship
+conditions around the pre-existing field.
+
+Reference specification: `08_technology/UMADA_GEOMETRY_LANGUAGE_V0_1.md`. Browser runtime:
+`assets/js/umada-geometry-language.js`. Public executable page:
+`sections/geometry-language.html`.
