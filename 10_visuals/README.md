@@ -23,3 +23,16 @@ Earlier approved visual decisions whose binary source files are not yet present 
 ## Ingestion rule
 
 Production experiments, sketches, generated studies, references, and interactive visualizations stay distinct from locked visual canon until they have provenance, creator approval, accessibility description, and explicit registry status.
+
+
+## Ether Research Plates — Series 01
+
+`10_visuals/ether-research-plates/`
+
+A three-plate accessible SVG series connecting the locked Ether coupling canon, the Ether Chamber observation model, and the ancient-observation-to-modern-discovery research pathway. The series explicitly separates real-world analogues from UMADA speculative science.
+
+- Plate 01 — Ether Coupling Model
+- Plate 02 — Ether Chamber / Observation Box
+- Plate 03 — Ancient Observation → Modern Discovery
+
+See [the series index](ether-research-plates/README.md).
