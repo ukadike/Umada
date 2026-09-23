@@ -100,6 +100,18 @@ full detail, provenance, and the open questions these additions raise.
 - Ancient monuments may function as narrative antecedents for environmental observation, but real-world claims about ancient energy technology remain research questions, not historical fact.
 - The atomic blast creates an extreme disturbance/coupling event that can be detected beyond Earth; it does not create Ether.
 
+## Canon addition (2026-09-22) — The Trinity Threshold
+
+- The July 16, 1945 Trinity test is the historical anchor for the **Trinity Threshold**.
+- Trinity does not create Ether Power and its raw energy does not physically shift the Sun or solar system.
+- The rapid nuclear-state transition couples to the pre-existing Ether field, generating a **Threshold Pulse / Ether Shock**.
+- The audible blast and sonic boom are local terrestrial phenomena; ordinary sound does not propagate through interstellar vacuum.
+- The Threshold Pulse carries information through the fictional Ether field rather than conventional blast energy.
+- Extraterrestrial recognition of this pulse leads into the alien-conference arc. A response that occurs too quickly for light-speed signaling becomes story evidence for Ether coupling.
+- 3I/ATLAS is not caused by Trinity and is not locked as an alien spacecraft. Its canon role is an interstellar control sample whose material may later help establish that Ether interaction is not unique to Earth.
+- Canon shorthand: **Humanity did not create Ether. Humanity rang it.**
+- Detailed research/canon note: `14_research/TRINITY_THRESHOLD.md`.
+
 ## Poetry
 
 - Poetry is a first-class canon source. Preserve original lines verbatim; extract canon separately.
