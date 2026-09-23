@@ -6,3 +6,4 @@ Holds production research notes as they're recovered or contributed, filed throu
 ## Active research notes
 
 - [Ancient Earth-Energy Analogues for Ether Power](ANCIENT_EARTH_ENERGY_ANALOGUES.md) — documented geoelectric, lightning, mineral, nitrogen-chemistry, and Calanais evidence used as grounded analogues for UMADA's fictional Ether-coupling model. Clearly separates evidence, hypothesis, and fiction.
+- [The Trinity Threshold](TRINITY_THRESHOLD.md) — locks the 1945 Trinity event as an extreme artificial Ether-coupling event, not the creation of Ether; separates established nuclear/astronomical physics from the fictional Threshold Pulse, alien-detection mechanism, and 3I/ATLAS control-sample role.
