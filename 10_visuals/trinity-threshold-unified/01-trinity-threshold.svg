@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+<title id="title">The Trinity Threshold</title><desc id="desc">Five-stage UMADA causal diagram: Ether already exists, Trinity detonation, Threshold Pulse, extraterrestrial recognition, and alien conference, with four locked canon boundaries.</desc>
+<defs>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#1a1a1a"/></marker>
+ <marker id="garrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#38b982"/></marker>
+ <radialGradient id="field" cx="50%" cy="50%"><stop offset="0" stop-color="#38b982" stop-opacity=".42"/><stop offset="1" stop-color="#38b982" stop-opacity="0"/></radialGradient>
+ <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#38b982" stop-opacity=".5"/><stop offset="1" stop-color="#38b982" stop-opacity=".05"/></linearGradient>
+</defs>
+<rect width="1440" height="1080" fill="#efece2"/>
+<rect x="20" y="20" width="1400" height="1040" rx="6" fill="none" stroke="#c8c5bd" stroke-width="1.5"/>
+<text x="54" y="58" font-family="Arial,sans-serif" font-size="24" fill="#1a1a1a" text-anchor="start" font-weight="700" letter-spacing="5">UMADA</text>
+<text x="54" y="82" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700"><tspan x="54" dy="0">SMALL</tspan><tspan x="54" dy="14.5">SYSTEMS</tspan><tspan x="54" dy="14.5">LAB</tspan></text>
+<line x1="38" y1="36" x2="38" y2="112" stroke="#1a1a1a" stroke-width="1"/>
+<text x="720" y="76" font-family="Georgia,serif" font-size="46" fill="#1a1a1a" text-anchor="middle" font-weight="700" >The Trinity Threshold</text>
+<text x="720" y="112" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="middle" font-weight="400" >Humanity did not create Ether. Humanity rang it.</text>
+<text x="1368" y="50" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="end" font-weight="700"><tspan x="1368" dy="0">REAL</tspan><tspan x="1368" dy="13.5">BOUNDARIES</tspan><tspan x="1368" dy="13.5">BOLDER</tspan><tspan x="1368" dy="13.5">QUESTIONS</tspan></text>
+<line x1="1376" y1="36" x2="1376" y2="112" stroke="#1a1a1a" stroke-width="1"/>
+<line x1="120" y1="136" x2="1320" y2="136" stroke="#c8c5bd" />
+<rect x="40" y="170" width="260" height="600" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+  <circle cx="70" cy="204" r="18" fill="#efece2" stroke="#1a1a1a"/>
+  <text x="70" y="210" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="700" >1</text>
+  <text x="98" y="208" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="start" font-weight="700" >Ether already exists</text>
+  <text x="98" y="231" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.5">A PLANET IN A LARGER FIELD</text><ellipse cx="170" cy="420" rx="105" ry="150" fill="url(#field)"/><circle cx="170" cy="420" r="40" fill="none" stroke="#38b982" stroke-width="4" opacity="0.65"/><circle cx="170" cy="420" r="80" fill="none" stroke="#38b982" stroke-width="2" opacity="0.5900000000000001"/><circle cx="170" cy="420" r="120" fill="none" stroke="#38b982" stroke-width="2" opacity="0.53"/><circle cx="170" cy="420" r="160" fill="none" stroke="#38b982" stroke-width="2" opacity="0.47000000000000003"/><circle cx="170" cy="420" r="70" fill="#111416" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 121 409.5 C 142 374.5, 173.5 381.5, 180.5 406
+           C 194.5 416.5, 185.4 432.6, 168.6 428.4
+           C 157.4 451.5, 138.5 446.6, 131.5 428.4 Z" fill="#bfe7d5" opacity=".9"/>
+  <path d="M 180.5 381.5 C 208.5 388.5, 220.4 411.6, 201.5 423.5
+           C 213.4 444.5, 191 463.4, 175.6 444.5
+           C 166.5 427, 173.5 411.6, 180.5 381.5 Z" fill="#bfe7d5" opacity=".75"/>
+  <circle cx="170" cy="420" r="54.6" fill="none" stroke="#ffffff" opacity=".18"/>
+ <text x="170" y="675" font-family="Georgia,serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="400"><tspan x="170" dy="0">Earth sits inside a larger,</tspan><tspan x="170" dy="22.1">pre-existing Ether field.</tspan></text><rect x="312" y="170" width="260" height="600" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+  <circle cx="342" cy="204" r="18" fill="#efece2" stroke="#1a1a1a"/>
+  <text x="342" y="210" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="700" >2</text>
+  <text x="370" y="208" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="start" font-weight="700" >1945 Trinity detonation</text>
+  <text x="370" y="231" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.5">A HUMAN EVENT ON EARTH</text><path d="M 427.6 512 C 416.4 468, 426 440, 434 420
+          L 451.6 420 C 462 450.4, 466 482.4, 456.4 512 Z" fill="#6f6f6f" opacity=".8"/>
+  <circle cx="442" cy="390" r="48" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="397" cy="405" r="36" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="487" cy="405" r="36" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="364" cy="430" r="27.200000000000003" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="520" cy="430" r="27.200000000000003" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="424" cy="350" r="30.400000000000002" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/><circle cx="467" cy="350" r="35.2" fill="#6f6f6f" opacity=".82" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="346" y1="540" x2="538" y2="540" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 354 540 q 25 -22 50 0 q 28 -28 58 0 q 30 -22 58 0 q 22 -18 48 0" fill="none" stroke="#6f6f6f" stroke-width="3"/><text x="442" y="675" font-family="Georgia,serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="400"><tspan x="442" dy="0">A concentrated nuclear-state</tspan><tspan x="442" dy="22.1">transition occurs on Earth.</tspan></text><rect x="584" y="170" width="260" height="600" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+  <circle cx="614" cy="204" r="18" fill="#efece2" stroke="#1a1a1a"/>
+  <text x="614" y="210" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="700" >3</text>
+  <text x="642" y="208" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="start" font-weight="700" >Threshold Pulse / Ether Shock</text>
+  <text x="642" y="231" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.5">A FIELD DISTURBANCE EMERGES</text><circle cx="650" cy="430" r="45" fill="#111416" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 618.5 423.25 C 632 400.75, 652.25 405.25, 656.75 421
+           C 665.75 427.75, 659.9 438.1, 649.1 435.4
+           C 641.9 450.25, 629.75 447.1, 625.25 435.4 Z" fill="#bfe7d5" opacity=".9"/>
+  <path d="M 656.75 405.25 C 674.75 409.75, 682.4 424.6, 670.25 432.25
+           C 677.9 445.75, 663.5 457.9, 653.6 445.75
+           C 647.75 434.5, 652.25 424.6, 656.75 405.25 Z" fill="#bfe7d5" opacity=".75"/>
+  <circle cx="650" cy="430" r="35.1" fill="none" stroke="#ffffff" opacity=".18"/><circle cx="650" cy="430" r="34" fill="none" stroke="#38b982" stroke-width="4" opacity="0.65"/><circle cx="650" cy="430" r="68" fill="none" stroke="#38b982" stroke-width="2" opacity="0.5900000000000001"/><circle cx="650" cy="430" r="102" fill="none" stroke="#38b982" stroke-width="2" opacity="0.53"/><circle cx="650" cy="430" r="136" fill="none" stroke="#38b982" stroke-width="2" opacity="0.47000000000000003"/><circle cx="650" cy="430" r="170" fill="none" stroke="#38b982" stroke-width="2" opacity="0.41000000000000003"/><line x1="650" y1="430" x2="800" y2="430" stroke="#38b982" stroke-width="5" marker-end="url(#garrow)" filter="url(#glow)"/><text x="714" y="675" font-family="Georgia,serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="400"><tspan x="714" dy="0">The event couples to Ether,</tspan><tspan x="714" dy="22.1">creating a detectable pulse.</tspan></text><rect x="856" y="170" width="260" height="600" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+  <circle cx="886" cy="204" r="18" fill="#efece2" stroke="#1a1a1a"/>
+  <text x="886" y="210" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="700" >4</text>
+  <text x="914" y="208" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="start" font-weight="700" >Extraterrestrial recognition</text>
+  <text x="914" y="231" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.5">DISTANT OBSERVERS NOTICE</text><rect x="878" y="320" width="216" height="270" rx="5" fill="#111416"/>
+ <circle cx="924" cy="415" r="30" fill="none" stroke="#38b982" stroke-width="4" opacity="0.65"/><circle cx="924" cy="415" r="60" fill="none" stroke="#38b982" stroke-width="2" opacity="0.5900000000000001"/><circle cx="924" cy="415" r="90" fill="none" stroke="#38b982" stroke-width="2" opacity="0.53"/><line x1="900" y1="415" x2="1020" y2="415" stroke="#38b982" stroke-width="3" marker-end="url(#garrow)"/>
+ <circle cx="1040" cy="352" r="24" fill="none" stroke="#38b982"/><circle cx="1068" cy="400" r="12" fill="#38b982"/>
+ <path d="M 969 500.5 Q 1008 533 1047 500.5 Q 1008 516.75 969 500.5 Z" fill="#111416" stroke="#1a1a1a"/>
+  <line x1="1008" y1="516.1" x2="1032.7" y2="474.5" stroke="#1a1a1a" stroke-width="2.6"/>
+  <line x1="1008" y1="516.1" x2="991.75" y2="562.25" stroke="#1a1a1a" stroke-width="3.25"/>
+  <line x1="1008" y1="516.1" x2="1024.9" y2="562.25" stroke="#1a1a1a" stroke-width="3.25"/>
+  <line x1="982" y1="562.25" x2="1034" y2="562.25" stroke="#1a1a1a" stroke-width="2.6"/>
+ <text x="986" y="675" font-family="Georgia,serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="400"><tspan x="986" dy="0">Distant observers recognize</tspan><tspan x="986" dy="22.1">an anomalous shared signature.</tspan></text><rect x="1128" y="170" width="260" height="600" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+  <circle cx="1158" cy="204" r="18" fill="#efece2" stroke="#1a1a1a"/>
+  <text x="1158" y="210" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="700" >5</text>
+  <text x="1186" y="208" font-family="Georgia,serif" font-size="20" fill="#1a1a1a" text-anchor="start" font-weight="700" >Alien conference follows</text>
+  <text x="1186" y="231" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="1.5">A RESPONSE ACROSS CIVILIZATIONS</text><ellipse cx="1258" cy="497.3" rx="101.4" ry="37.44" fill="#111416" stroke="#38b982" stroke-width="2.34"/>
+  <ellipse cx="1258" cy="488.72" rx="54.6" ry="15.600000000000001" fill="none" stroke="#38b982" stroke-width="2.34" filter="url(#glow)"/>
+  <circle cx="1258" cy="485.6" r="14.040000000000001" fill="#111416" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 1248.172 483.494 C 1252.384 476.47400000000005, 1258.702 477.87800000000004, 1260.106 482.79200000000003
+           C 1262.914 484.898, 1261.0888 488.1272, 1257.7192 487.2848
+           C 1255.4728 491.918, 1251.682 490.9352, 1250.278 487.2848 Z" fill="#bfe7d5" opacity=".9"/>
+  <path d="M 1260.106 477.87800000000004 C 1265.722 479.28200000000004, 1268.1088 483.9152, 1264.318 486.302
+           C 1266.7048 490.514, 1262.212 494.3048, 1259.1232 490.514
+           C 1257.298 487.004, 1258.702 483.9152, 1260.106 477.87800000000004 Z" fill="#bfe7d5" opacity=".75"/>
+  <circle cx="1258" cy="485.6" r="10.951200000000002" fill="none" stroke="#ffffff" opacity=".18"/>
+  <ellipse cx="1176.1" cy="427.1" rx="13.26" ry="18.72" fill="#111416" stroke="#1a1a1a"/>
+  <path d="M 1162.06 444.26 q 14.040000000000001 18.72 28.080000000000002 0 l 7.800000000000001 42.9 h -43.68 z" fill="#6f6f6f" opacity=".75"/><ellipse cx="1217.44" cy="409.15999999999997" rx="13.26" ry="18.72" fill="#111416" stroke="#1a1a1a"/>
+  <path d="M 1203.4 426.32 q 14.040000000000001 18.72 28.080000000000002 0 l 7.800000000000001 42.9 h -43.68 z" fill="#6f6f6f" opacity=".75"/><ellipse cx="1258" cy="401.36" rx="13.26" ry="18.72" fill="#111416" stroke="#1a1a1a"/>
+  <path d="M 1243.96 418.52 q 14.040000000000001 18.72 28.080000000000002 0 l 7.800000000000001 42.9 h -43.68 z" fill="#6f6f6f" opacity=".75"/><ellipse cx="1298.56" cy="409.15999999999997" rx="13.26" ry="18.72" fill="#111416" stroke="#1a1a1a"/>
+  <path d="M 1284.52 426.32 q 14.040000000000001 18.72 28.080000000000002 0 l 7.800000000000001 42.9 h -43.68 z" fill="#6f6f6f" opacity=".75"/><ellipse cx="1339.9" cy="427.1" rx="13.26" ry="18.72" fill="#111416" stroke="#1a1a1a"/>
+  <path d="M 1325.86 444.26 q 14.040000000000001 18.72 28.080000000000002 0 l 7.800000000000001 42.9 h -43.68 z" fill="#6f6f6f" opacity=".75"/><text x="1258" y="675" font-family="Georgia,serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="400"><tspan x="1258" dy="0">Recognition becomes contact,</tspan><tspan x="1258" dy="22.1">coordination, and response.</tspan></text><line x1="300" y1="470" x2="312" y2="470" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/><line x1="572" y1="470" x2="584" y2="470" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/><line x1="844" y1="470" x2="856" y2="470" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/><line x1="1116" y1="470" x2="1128" y2="470" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/><rect x="40" y="792" width="1360" height="190" rx="8" fill="#f7f5ef" stroke="#c8c5bd"/>
+ <text x="66" y="842" font-family="Georgia,serif" font-size="32" fill="#1a1a1a" text-anchor="start" font-weight="700" >Locked canon</text>
+ <text x="66" y="870" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="start" font-weight="700" letter-spacing="2">KEY BOUNDARIES</text><line x1="297" y1="815" x2="297" y2="958" stroke="#c8c5bd"/>
+   <circle cx="321" cy="835" r="16" fill="#efece2" stroke="#1a1a1a"/><text x="321" y="841" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="700" >1</text>
+   <text x="351" y="840" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="700"><tspan x="351" dy="0">Ether Power already existed.</tspan></text>
+   <text x="351" y="875" font-family="Arial,sans-serif" font-size="12" fill="#6f6f6f" text-anchor="start" font-weight="400"><tspan x="351" dy="0">Humanity did not create Ether.</tspan></text><line x1="567" y1="815" x2="567" y2="958" stroke="#c8c5bd"/>
+   <circle cx="591" cy="835" r="16" fill="#efece2" stroke="#1a1a1a"/><text x="591" y="841" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="700" >2</text>
+   <text x="621" y="840" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="700"><tspan x="621" dy="0">Trinity did not move the Sun.</tspan></text>
+   <text x="621" y="875" font-family="Arial,sans-serif" font-size="12" fill="#6f6f6f" text-anchor="start" font-weight="400"><tspan x="621" dy="0">Not a solar-system-scale event.</tspan></text><line x1="837" y1="815" x2="837" y2="958" stroke="#c8c5bd"/>
+   <circle cx="861" cy="835" r="16" fill="#efece2" stroke="#1a1a1a"/><text x="861" y="841" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="700" >3</text>
+   <text x="891" y="840" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="700"><tspan x="891" dy="0">The signal is not ordinary sound.</tspan></text>
+   <text x="891" y="875" font-family="Arial,sans-serif" font-size="12" fill="#6f6f6f" text-anchor="start" font-weight="400"><tspan x="891" dy="0">It is fictional Ether-field coupling.</tspan></text><line x1="1107" y1="815" x2="1107" y2="958" stroke="#c8c5bd"/>
+   <circle cx="1131" cy="835" r="16" fill="#efece2" stroke="#1a1a1a"/><text x="1131" y="841" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="700" >4</text>
+   <text x="1161" y="840" font-family="Georgia,serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="700"><tspan x="1161" dy="0">3I/ATLAS is not caused by Trinity.</tspan></text>
+   <text x="1161" y="875" font-family="Arial,sans-serif" font-size="12" fill="#6f6f6f" text-anchor="start" font-weight="400"><tspan x="1161" dy="0">It remains an independent object.</tspan></text>
+<line x1="42" y1="1016" x2="1398" y2="1016" stroke="#c8c5bd"/>
+<circle cx="54" cy="1040" r="10" fill="none" stroke="#1a1a1a"/><line x1="54" y1="1025" x2="54" y2="1055" stroke="#1a1a1a"/><line x1="39" y1="1040" x2="69" y2="1040" stroke="#1a1a1a"/>
+<text x="78" y="1046" font-family="Arial,sans-serif" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="700" letter-spacing="3">UMADA</text>
+<text x="720" y="1046" font-family="Arial,sans-serif" font-size="11" fill="#6f6f6f" text-anchor="middle" font-weight="700" letter-spacing="2">UMADA SPECULATIVE PHYSICS · REAL-WORLD BOUNDARIES</text>
+<text x="1388" y="1046" font-family="Arial,sans-serif" font-size="10" fill="#6f6f6f" text-anchor="end" font-weight="700" letter-spacing="1.5">PLATE 1 · 2026</text>
+</svg>
