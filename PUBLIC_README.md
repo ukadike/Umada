@@ -14,8 +14,12 @@ contributor/build-process README instead, see [`README.md`](README.md).
 
 ## Start exploring
 
-The archive lives as a small, fast, no-build website — open
-[`index.html`](index.html) in a browser, or browse straight into:
+Start with the story, then follow its people, language, and world:
+
+- **[Episode One — Cape Wipeout, Part One](sections/episode-one.html)** — a canon-aligned guide to the Council Era, the Reporter’s journey, and the rescue at Friedmandorstorp.
+- **[Episode Arc](sections/episode-releases.html)** — the four-episode sequence from Cape Wipeout through Cybernetics.
+
+The archive lives as a small, fast, no-build website. Open [`index.html`](index.html) in a browser, or explore:
 
 - **[Start Here](sections/start-here.html)** — how to read this archive before reading
   anything else in it.
@@ -28,8 +32,7 @@ The archive lives as a small, fast, no-build website — open
   this whole world is checked against.
 - **[Faraday Box](sections/faraday-box.html)** — how audience signal gets in.
 
-Episode 1 has deliberately not been written yet. This archive comes first, so the episode
-can be generated precisely from what's actually been recovered — not guessed at.
+An interactive Episode One prototype is available as an earlier public version. The story guide presents current canon and keeps that prototype’s history clear. The fictional witness device is Lùabi; Omoluabi is the real-world project connected to the work, not an in-world device name.
 
 ## Canon status, at a glance
 
