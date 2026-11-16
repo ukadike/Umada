@@ -16,7 +16,7 @@
 [`PLATE_NAGO_SYMBOLOGY_OF_UMADA.png`](assets/img/PLATE_NAGO_SYMBOLOGY_OF_UMADA.png) for the
 complete signage, phrase, and tactile-system detail.*
 
-This repository is the living archive, canon engine, and (eventually) public site for
+This repository is the living archive, canon engine, and public site for
 UMADA — built and maintained under **Aderin / UMADA Steward** mode. See `CLAUDE.md` for
 the steward's role and operating rules.
 
@@ -33,8 +33,10 @@ This is the contributor/build-process README. For the fan/visitor-facing welcome
   fabrication and a full audit trail.
 - A living archive: source documents, governance rules, and structured data that the
   public site and future episodes are generated from.
-- Not yet a finished show. Episode 1 has deliberately not been written — this repository
-  builds the system that lets it be generated precisely from recovered canon.
+- Not yet a finished show. Episode One has an earlier public interactive prototype and a
+  canon-aligned story guide. The planned v2 experience preserves the prototype as history
+  while rebuilding the audience-facing story from the Council Era. The fictional device
+  is Lùabi; Omoluabi is not its in-world name.
 
 ## Where things live
 
