@@ -1,13 +1,20 @@
 {
-  "status_legend": ["LOCKED", "PROBABLE", "EMERGING", "OPEN QUESTION", "RETIRED"],
+  "status_legend": [
+    "LOCKED",
+    "PROBABLE",
+    "EMERGING",
+    "OPEN QUESTION",
+    "RETIRED",
+    "AWAITING FRAGMENT"
+  ],
   "locked": [
     "Cape Wipeout, Pt. 1 is the canonical public title.",
     "Southern Cape // Friedmandostorp Corridor is the corrected geography (near Cape Agulhas; African coastal).",
     "Rescue Cluster 7-South is a care-based survivor cluster.",
     "Ada is field commander / scapegoat.",
     "Ada is listed KIA before final blast confirmation.",
-    "Talla/Tallai is a chimera care specialist.",
-    "Talla/Tallai is known at the bread stop before the blast.",
+    "Tallai is a chimera care specialist; Tallai is the canonical spelling.",
+    "Tallai is known at the bread stop in Friedmandorstorp before the blast.",
     "Bread Sign is an early Nago market sign.",
     "Q detects. Quartz carries.",
     "Quartz is load-bearer / rescue anchor.",
@@ -17,8 +24,8 @@
     "Monsters become care infrastructure.",
     "Canonical settlement spelling is Friedmandostorp (with an 'o').",
     "The world is southern-African coastal, near Cape Agulhas — never Arctic.",
-    "UMADA opens through a future reporter / time traveler carrying an Omoluabi device.",
-    "Omoluabi is not the story; it is the device that lets the story be witnessed.",
+    "UMADA opens in the Council Era through the faceless, shrouded Reporter carrying Lùabi; the Reporter witnesses the past and does not alter it.",
+    "Lùabi is the fictional witness device; Omoluabi is the real-world project and is not an in-world device name.",
     "The future council dispute concerns leadership of Umada and Tisetan.",
     "Sisekong/Tishekong are transcription errors for Umada and Tisetan.",
     "Opening beat: tick, tick, tick, tick — BOOM.",
@@ -40,10 +47,31 @@
     "Trust Witness Before Narrative.",
     "Trust Survival Before Authority."
   ],
-  "rescue_doctrine_steps": ["Extraction", "Stabilization", "Care", "Analysis", "Transport", "Witness"],
+  "rescue_doctrine_steps": [
+    "Extraction",
+    "Stabilization",
+    "Care",
+    "Analysis",
+    "Transport",
+    "Witness"
+  ],
   "nago_axes": {
-    "function_families": ["Survival", "Care", "Signal", "Movement", "Civic", "Memory", "Environment"],
-    "motif_families": ["Wound", "Relay", "Archive", "Storm", "Visitor"]
+    "function_families": [
+      "Survival",
+      "Care",
+      "Signal",
+      "Movement",
+      "Civic",
+      "Memory",
+      "Environment"
+    ],
+    "motif_families": [
+      "Wound",
+      "Relay",
+      "Archive",
+      "Storm",
+      "Visitor"
+    ]
   },
   "emerging": [
     "Cindy as carrier event from Cape breach to Angel Dust.",
